@@ -101,7 +101,7 @@ def clear_workspace(bridge: FileBridge) -> None:
       try{ipc.options().setDisableAutoCabling(true);}catch(e){}
       reportResult('CLEARED:' + names.length + '|LEFT:' + net.getDeviceCount());
     }catch(e){reportResult('ERR:' + e);}})();"""
-    out = send_js(bridge, js, timeout=30.0)
+    out = send_js(bridge, js, timeout=90.0)
     print("  clear_workspace:", out)
 
 
@@ -117,7 +117,7 @@ def save_pkt(bridge: FileBridge, filename: str) -> str:
         "reportResult(fm.fileExists(full)?('OK:'+full+'|'+fm.getFileSize(full)):('ERR:not_saved:'+full));"
         "}catch(e){reportResult('ERR:'+e);}})();"
     )
-    out = send_js(bridge, js, timeout=30.0)
+    out = send_js(bridge, js, timeout=90.0)
     print(f"  save_pkt({filename}):", out)
     if not out.startswith("OK:"):
         raise RuntimeError(f"Failed saving {filename}: {out}")
@@ -207,7 +207,7 @@ def deploy_devices_and_links(bridge: FileBridge, devices: List[Dict], links: Lis
 
 
 def configure_servers_and_hosts(bridge: FileBridge, devices: List[Dict], plan: Dict) -> None:
-    # Configure static hosts + servers + DHCP clients
+    # Configure static hosts + servers + DHCP clients in batches of 25 (handles 100+ endpoints cleanly!)
     host_cfg = []
     for d in devices:
         if d["category"] in ("pc", "server", "printer"):
@@ -223,29 +223,37 @@ def configure_servers_and_hosts(bridge: FileBridge, devices: List[Dict], plan: D
                 "ipv6_gw": d.get("ipv6_gw", ""),
                 "dhcp": bool(d.get("dhcp", False)),
             })
-    js = (
-        "(function(){try{"
-        f"var hosts={json.dumps(host_cfg)};"
-        "var net=ipc.network();var ok=0;var errs=[];"
-        "for(var i=0;i<hosts.length;i++){var h=hosts[i];try{"
-        "var d=net.getDevice(h.name);if(!d){errs.push('nf:'+h.name);continue;}"
-        "var p=d.getPort('FastEthernet0');"
-        "if(h.ip){"
-        "try{d.setDhcpFlag(false);}catch(e){}"
-        "p.setIpSubnetMask(h.ip,h.mask);"
-        "if(h.gw){try{d.setDefaultGateway(h.gw);}catch(e){} try{p.setDefaultGateway(h.gw);}catch(e){}}"
-        "if(h.dns){try{p.setDnsServerIp(h.dns);}catch(e){} try{d.setDnsServerIp(h.dns);}catch(e){}}"
-        "if(h.ipv6){try{p.addIpv6Address(h.ipv6,h.ipv6_prefix,0,false);}catch(e){}}"
-        "if(h.ipv6_gw){try{p.setIpv6DefaultGateway(h.ipv6_gw);}catch(e){}}"
-        "}else if(h.dhcp){"
-        "try{d.setDhcpFlag(true);}catch(e){}"
-        "try{p.setDhcpClientFlag(true);}catch(e){}"
-        "}"
-        "ok++;}catch(e){errs.push(h.name+':'+e);}}"
-        "reportResult(JSON.stringify({hosts_cfg:ok,errs:errs}));"
-        "}catch(e){reportResult('ERR:'+e);}})();"
-    )
-    print("  hosts:", send_js(bridge, js, timeout=45.0))
+    total_ok = 0
+    for i in range(0, len(host_cfg), 25):
+        batch = host_cfg[i : i + 25]
+        js = (
+            "(function(){try{"
+            f"var hosts={json.dumps(batch)};"
+            "var net=ipc.network();var ok=0;var errs=[];"
+            "for(var i=0;i<hosts.length;i++){var h=hosts[i];try{"
+            "var d=net.getDevice(h.name);if(!d){errs.push('nf:'+h.name);continue;}"
+            "var p=d.getPort('FastEthernet0');"
+            "if(h.ip){"
+            "try{d.setDhcpFlag(false);}catch(e){}"
+            "p.setIpSubnetMask(h.ip,h.mask);"
+            "if(h.gw){try{d.setDefaultGateway(h.gw);}catch(e){} try{p.setDefaultGateway(h.gw);}catch(e){}}"
+            "if(h.dns){try{p.setDnsServerIp(h.dns);}catch(e){} try{d.setDnsServerIp(h.dns);}catch(e){}}"
+            "if(h.ipv6){try{p.addIpv6Address(h.ipv6,h.ipv6_prefix,0,false);}catch(e){}}"
+            "if(h.ipv6_gw){try{p.setIpv6DefaultGateway(h.ipv6_gw);}catch(e){}}"
+            "}else if(h.dhcp){"
+            "try{d.setDhcpFlag(true);}catch(e){}"
+            "try{p.setDhcpClientFlag(true);}catch(e){}"
+            "}"
+            "ok++;}catch(e){errs.push(h.name+':'+e);}}"
+            "reportResult(JSON.stringify({hosts_cfg:ok,errs:errs}));"
+            "}catch(e){reportResult('ERR:'+e);}})();"
+        )
+        out = send_js(bridge, js, timeout=60.0)
+        try:
+            total_ok += json.loads(out).get("hosts_cfg", 0)
+        except Exception:
+            pass
+    print(f"  hosts configured: {total_ok}/{len(host_cfg)}")
 
     # Configure SRV-1 DHCPv4 relay pools, DNS records, and FTP user if SRV-1 exists in this file
     if any(d["name"] == "SRV-1" for d in devices):
@@ -347,41 +355,50 @@ def push_router_cli(bridge: FileBridge, router_name: str) -> Dict:
 
 def renew_all_dhcp(bridge: FileBridge, devices: List[Dict]) -> Dict:
     dhcp_hosts = [d["name"] for d in devices if d.get("dhcp")]
-    js = (
-        "(function(){try{"
-        f"var names={json.dumps(dhcp_hosts)};"
-        "var net=ipc.network();"
-        "for(var i=0;i<names.length;i++){"
-        "var d=net.getDevice(names[i]);if(!d)continue;"
-        "try{var cl=d.getCommandLine();cl.enterCommand('ipconfig /renew');}catch(e){}"
-        "}"
-        "reportResult('RENEW_SENT:'+names.length);"
-        "}catch(e){reportResult('ERR:'+e);}})();"
-    )
-    send_js(bridge, js, timeout=30.0)
-    fast_forward(bridge, 4)
+    # Send renew in batches of 20 so PT DHCP servers don't drop bursts
+    for i in range(0, len(dhcp_hosts), 20):
+        batch = dhcp_hosts[i : i + 20]
+        js = (
+            "(function(){try{"
+            f"var names={json.dumps(batch)};"
+            "var net=ipc.network();"
+            "for(var i=0;i<names.length;i++){"
+            "var d=net.getDevice(names[i]);if(!d)continue;"
+            "try{var p=d.getPort('FastEthernet0');var cur=String(p.getIpAddress());"
+            "if(!cur||cur==='0.0.0.0'||cur.indexOf('169.254.')===0){d.getCommandLine().enterCommand('ipconfig /renew');}}"
+            "catch(e){}}"
+            "reportResult('RENEW_BATCH:'+names.length);"
+            "}catch(e){reportResult('ERR:'+e);}})();"
+        )
+        send_js(bridge, js, timeout=45.0)
+        fast_forward(bridge, 2)
     time.sleep(1.5)
     # Read back all host IPs
-    js_read = (
-        "(function(){try{"
-        f"var names={json.dumps(dhcp_hosts)};"
-        "var net=ipc.network();var out={};"
-        "for(var i=0;i<names.length;i++){"
-        "var d=net.getDevice(names[i]);if(!d)continue;"
-        "var p=d.getPort('FastEthernet0');"
-        "var ip='';var mask='';var gw='';"
-        "try{ip=String(p.getIpAddress());mask=String(p.getSubnetMask());}catch(e){}"
-        "try{gw=String(d.getProcess('HostIpProcess').getDefaultGateway());}catch(e){}"
-        "out[names[i]]={ip:ip,mask:mask,gw:gw};}"
-        "reportResult(JSON.stringify(out));"
-        "}catch(e){reportResult('ERR:'+e);}})();"
-    )
-    raw = send_js(bridge, js_read, timeout=30.0)
-    print("  DHCP leases:", raw)
-    try:
-        return json.loads(raw)
-    except Exception:
-        return {"raw": raw}
+    out: Dict = {}
+    for i in range(0, len(dhcp_hosts), 30):
+        batch = dhcp_hosts[i : i + 30]
+        js_read = (
+            "(function(){try{"
+            f"var names={json.dumps(batch)};"
+            "var net=ipc.network();var out={};"
+            "for(var i=0;i<names.length;i++){"
+            "var d=net.getDevice(names[i]);if(!d)continue;"
+            "var p=d.getPort('FastEthernet0');"
+            "var ip='';var mask='';var gw='';"
+            "try{ip=String(p.getIpAddress());mask=String(p.getSubnetMask());}catch(e){}"
+            "try{gw=String(d.getProcess('HostIpProcess').getDefaultGateway());}catch(e){}"
+            "out[names[i]]={ip:ip,mask:mask,gw:gw};}"
+            "reportResult(JSON.stringify(out));"
+            "}catch(e){reportResult('ERR:'+e);}})();"
+        )
+        raw = send_js(bridge, js_read, timeout=30.0)
+        try:
+            out.update(json.loads(raw))
+        except Exception:
+            pass
+    leased_ok = sum(1 for v in out.values() if isinstance(v, dict) and v.get("ip") not in ("", "0.0.0.0") and not str(v.get("ip", "")).startswith("169.254."))
+    print(f"  DHCP leases obtained: {leased_ok}/{len(dhcp_hosts)}")
+    return out
 
 
 def run_router_show(bridge: FileBridge, router_name: str, cmd: str) -> str:

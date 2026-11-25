@@ -1,5 +1,5 @@
 {
-  "saved": "OK:D:/Junior Year/first sem/COMPUTER NETWORKS AND SECURITY/RJ esports/pt/rj_network.pkt|172493",
+  "saved": "OK:D:/Junior Year/first sem/COMPUTER NETWORKS AND SECURITY/RJ esports/pt/rj_network.pkt|298298",
   "cli_results": {
     "ISP-CEBU": {
       "router": "ISP-CEBU",
@@ -28,62 +28,382 @@
   },
   "dhcp_leases": {
     "GAM-01": {
-      "ip": "10.10.0.16",
+      "ip": "10.10.0.29",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
     "GAM-02": {
-      "ip": "10.10.0.13",
+      "ip": "10.10.0.38",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
-    "VIP-01": {
-      "ip": "10.10.0.14",
+    "GAM-03": {
+      "ip": "10.10.0.43",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
-    "VIP-02": {
-      "ip": "10.10.0.15",
+    "GAM-04": {
+      "ip": "10.10.0.39",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
-    "STD-01": {
-      "ip": "10.10.0.11",
+    "GAM-05": {
+      "ip": "10.10.0.34",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
-    "BRW-01": {
+    "GAM-06": {
+      "ip": "10.10.0.36",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-07": {
+      "ip": "10.10.0.25",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-08": {
+      "ip": "10.10.0.26",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-09": {
+      "ip": "10.10.0.30",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-10": {
+      "ip": "10.10.0.31",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-11": {
+      "ip": "10.10.0.44",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-12": {
+      "ip": "10.10.0.32",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-13": {
       "ip": "10.10.0.12",
       "mask": "255.255.255.192",
       "gw": "10.10.0.1"
     },
+    "GAM-14": {
+      "ip": "10.10.0.27",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-15": {
+      "ip": "10.10.0.28",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-16": {
+      "ip": "10.10.0.33",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-17": {
+      "ip": "10.10.0.45",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-18": {
+      "ip": "10.10.0.46",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-19": {
+      "ip": "10.10.0.24",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "GAM-20": {
+      "ip": "10.10.0.35",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-01": {
+      "ip": "10.10.0.22",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-02": {
+      "ip": "10.10.0.11",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-03": {
+      "ip": "10.10.0.42",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-04": {
+      "ip": "10.10.0.41",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-05": {
+      "ip": "10.10.0.40",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-06": {
+      "ip": "10.10.0.37",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-07": {
+      "ip": "10.10.0.13",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-08": {
+      "ip": "10.10.0.15",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-09": {
+      "ip": "10.10.0.17",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "VIP-10": {
+      "ip": "10.10.0.19",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "STD-01": {
+      "ip": "10.10.0.12",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "STD-02": {
+      "ip": "10.10.0.14",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "STD-03": {
+      "ip": "10.10.0.16",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "STD-04": {
+      "ip": "10.10.0.18",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "BRW-01": {
+      "ip": "10.10.0.20",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "BRW-02": {
+      "ip": "10.10.0.21",
+      "mask": "255.255.255.192",
+      "gw": "10.10.0.1"
+    },
+    "STF-01": {
+      "ip": "10.10.0.76",
+      "mask": "255.255.255.224",
+      "gw": "10.10.0.65"
+    },
+    "STF-02": {
+      "ip": "10.10.0.77",
+      "mask": "255.255.255.224",
+      "gw": "10.10.0.65"
+    },
     "CLK-GAM-01": {
-      "ip": "10.10.1.12",
+      "ip": "10.10.1.26",
       "mask": "255.255.255.192",
       "gw": "10.10.1.1"
     },
     "CLK-GAM-02": {
+      "ip": "10.10.1.25",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-03": {
       "ip": "10.10.1.11",
       "mask": "255.255.255.192",
       "gw": "10.10.1.1"
+    },
+    "CLK-GAM-04": {
+      "ip": "10.10.1.12",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-05": {
+      "ip": "10.10.1.24",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-06": {
+      "ip": "10.10.1.13",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-07": {
+      "ip": "10.10.1.14",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-08": {
+      "ip": "10.10.1.15",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-09": {
+      "ip": "10.10.1.16",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-10": {
+      "ip": "10.10.1.17",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-11": {
+      "ip": "10.10.1.18",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-12": {
+      "ip": "10.10.1.19",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-13": {
+      "ip": "10.10.1.20",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-14": {
+      "ip": "10.10.1.21",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-15": {
+      "ip": "10.10.1.22",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-GAM-16": {
+      "ip": "10.10.1.23",
+      "mask": "255.255.255.192",
+      "gw": "10.10.1.1"
+    },
+    "CLK-MGR-PC": {
+      "ip": "10.10.1.74",
+      "mask": "255.255.255.240",
+      "gw": "10.10.1.65"
     },
     "CLK-POS-01": {
       "ip": "10.10.1.72",
       "mask": "255.255.255.240",
       "gw": "10.10.1.65"
     },
-    "DVO-GAM-01": {
-      "ip": "10.10.2.12",
-      "mask": "255.255.255.192",
-      "gw": "10.10.2.1"
+    "CLK-POS-02": {
+      "ip": "10.10.1.73",
+      "mask": "255.255.255.240",
+      "gw": "10.10.1.65"
     },
-    "DVO-GAM-02": {
+    "DVO-GAM-01": {
       "ip": "10.10.2.11",
       "mask": "255.255.255.192",
       "gw": "10.10.2.1"
     },
-    "DVO-POS-01": {
+    "DVO-GAM-02": {
+      "ip": "10.10.2.12",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-03": {
+      "ip": "10.10.2.13",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-04": {
+      "ip": "10.10.2.26",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-05": {
+      "ip": "10.10.2.14",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-06": {
+      "ip": "10.10.2.15",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-07": {
+      "ip": "10.10.2.16",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-08": {
+      "ip": "10.10.2.17",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-09": {
+      "ip": "10.10.2.18",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-10": {
+      "ip": "10.10.2.19",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-11": {
+      "ip": "10.10.2.20",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-12": {
+      "ip": "10.10.2.21",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-13": {
+      "ip": "10.10.2.22",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-14": {
+      "ip": "10.10.2.23",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-15": {
+      "ip": "10.10.2.24",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-GAM-16": {
+      "ip": "10.10.2.25",
+      "mask": "255.255.255.192",
+      "gw": "10.10.2.1"
+    },
+    "DVO-MGR-PC": {
       "ip": "10.10.2.72",
+      "mask": "255.255.255.240",
+      "gw": "10.10.2.65"
+    },
+    "DVO-POS-01": {
+      "ip": "10.10.2.74",
+      "mask": "255.255.255.240",
+      "gw": "10.10.2.65"
+    },
+    "DVO-POS-02": {
+      "ip": "10.10.2.73",
       "mask": "255.255.255.240",
       "gw": "10.10.2.65"
     }
@@ -97,7 +417,7 @@
       "desc": "HQ Gaming PC -> Simulated Internet Loopback0",
       "got_reply": true,
       "test_pass": true,
-      "output_tail": "13.1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 2ms, Average = 2ms\n\nC:\\>"
+      "output_tail": "1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=46ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 46ms, Average = 24ms\n\nC:\\>"
     },
     {
       "id": "T-02",
@@ -107,7 +427,7 @@
       "desc": "HQ Gaming PC -> SRV-1 (Web/DNS reachable)",
       "got_reply": true,
       "test_pass": true,
-      "output_tail": "10.0.98 with 32 bytes of data:\n\nReply from 10.10.0.98: bytes=32 time<1ms TTL=127\nReply from 10.10.0.98: bytes=32 time=1ms TTL=127\n\nPing statistics for 10.10.0.98:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 1ms, Average = 0ms\n\nC:\\>"
+      "output_tail": "10.0.98 with 32 bytes of data:\n\nReply from 10.10.0.98: bytes=32 time<1ms TTL=127\nReply from 10.10.0.98: bytes=32 time<1ms TTL=127\n\nPing statistics for 10.10.0.98:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>"
     },
     {
       "id": "T-03",
@@ -115,9 +435,9 @@
       "dst": "10.10.0.99",
       "expected": "DENY_EXPECTED",
       "desc": "Obj 2: HQ Gaming PC -> SRV-2 (Billing/POS blocked)",
-      "got_reply": true,
-      "test_pass": false,
-      "output_tail": "\n    Minimum = 0ms, Maximum = 1ms, Average = 0ms\n\nC:\\>ping -n 2 10.10.0.99\n\nPinging 10.10.0.99 with 32 bytes of data:\n\nReply from 10.10.0.1: Destination host unreachable.\nReply from 10.10.0.1: Destination host unreachable.\n\nPing statistics for 10.10.0.99:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
+      "got_reply": false,
+      "test_pass": true,
+      "output_tail": "\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>ping -n 2 10.10.0.99\n\nPinging 10.10.0.99 with 32 bytes of data:\n\nReply from 10.10.0.1: Destination host unreachable.\nReply from 10.10.0.1: Destination host unreachable.\n\nPing statistics for 10.10.0.99:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
     },
     {
       "id": "T-04",
@@ -137,7 +457,7 @@
       "desc": "Clark RIPv2 Gaming PC -> Simulated Internet Loopback0",
       "got_reply": true,
       "test_pass": true,
-      "output_tail": "13.1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=1ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 1ms, Maximum = 2ms, Average = 1ms\n\nC:\\>"
+      "output_tail": "13.1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=4ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 4ms, Average = 3ms\n\nC:\\>"
     },
     {
       "id": "T-06",
@@ -145,9 +465,9 @@
       "dst": "10.10.1.70",
       "expected": "DENY_EXPECTED",
       "desc": "Obj 3: Clark Gaming PC -> Clark Admin LAN (blocked)",
-      "got_reply": true,
-      "test_pass": false,
-      "output_tail": "\n    Minimum = 1ms, Maximum = 2ms, Average = 1ms\n\nC:\\>ping -n 2 10.10.1.70\n\nPinging 10.10.1.70 with 32 bytes of data:\n\nReply from 10.10.1.1: Destination host unreachable.\nReply from 10.10.1.1: Destination host unreachable.\n\nPing statistics for 10.10.1.70:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
+      "got_reply": false,
+      "test_pass": true,
+      "output_tail": "\n    Minimum = 2ms, Maximum = 4ms, Average = 3ms\n\nC:\\>ping -n 2 10.10.1.70\n\nPinging 10.10.1.70 with 32 bytes of data:\n\nReply from 10.10.1.1: Destination host unreachable.\nReply from 10.10.1.1: Destination host unreachable.\n\nPing statistics for 10.10.1.70:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
     },
     {
       "id": "T-07",
@@ -155,8 +475,8 @@
       "dst": "10.10.0.99",
       "expected": "DENY_EXPECTED",
       "desc": "Obj 2: Clark Branch Admin -> HQ SRV-2 (blocked)",
-      "got_reply": true,
-      "test_pass": false,
+      "got_reply": false,
+      "test_pass": true,
       "output_tail": "\nCisco Packet Tracer PC Command Line 1.0\nC:\\>ping -n 2 10.10.0.99\n\nPinging 10.10.0.99 with 32 bytes of data:\n\nReply from 10.10.1.65: Destination host unreachable.\nReply from 10.10.1.65: Destination host unreachable.\n\nPing statistics for 10.10.0.99:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
     },
     {
@@ -167,7 +487,7 @@
       "desc": "Davao EIGRP Gaming PC -> Simulated Internet Loopback0",
       "got_reply": true,
       "test_pass": true,
-      "output_tail": "1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=19ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 19ms, Average = 10ms\n\nC:\\>"
+      "output_tail": "13.1 with 32 bytes of data:\n\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\nReply from 203.0.113.1: bytes=32 time=2ms TTL=254\n\nPing statistics for 203.0.113.1:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 2ms, Average = 2ms\n\nC:\\>"
     },
     {
       "id": "T-09",
@@ -175,9 +495,9 @@
       "dst": "10.10.2.70",
       "expected": "DENY_EXPECTED",
       "desc": "Obj 3: Davao Gaming PC -> Davao Admin LAN (blocked)",
-      "got_reply": true,
-      "test_pass": false,
-      "output_tail": "   Minimum = 2ms, Maximum = 19ms, Average = 10ms\n\nC:\\>ping -n 2 10.10.2.70\n\nPinging 10.10.2.70 with 32 bytes of data:\n\nReply from 10.10.2.1: Destination host unreachable.\nReply from 10.10.2.1: Destination host unreachable.\n\nPing statistics for 10.10.2.70:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
+      "got_reply": false,
+      "test_pass": true,
+      "output_tail": "\n    Minimum = 2ms, Maximum = 2ms, Average = 2ms\n\nC:\\>ping -n 2 10.10.2.70\n\nPinging 10.10.2.70 with 32 bytes of data:\n\nReply from 10.10.2.1: Destination host unreachable.\nReply from 10.10.2.1: Destination host unreachable.\n\nPing statistics for 10.10.2.70:\n    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),\n\nC:\\>"
     },
     {
       "id": "T-10",
@@ -187,42 +507,42 @@
       "desc": "EIGRP <-> RIPv2 Redistribution: Davao IT-PC -> Clark IT-PC",
       "got_reply": true,
       "test_pass": true,
-      "output_tail": "10.1.70 with 32 bytes of data:\n\nReply from 10.10.1.70: bytes=32 time=2ms TTL=125\nReply from 10.10.1.70: bytes=32 time=4ms TTL=125\n\nPing statistics for 10.10.1.70:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 2ms, Maximum = 4ms, Average = 3ms\n\nC:\\>"
+      "output_tail": "10.1.70 with 32 bytes of data:\n\nReply from 10.10.1.70: bytes=32 time=5ms TTL=125\nReply from 10.10.1.70: bytes=32 time=4ms TTL=125\n\nPing statistics for 10.10.1.70:\n    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 4ms, Maximum = 5ms, Average = 4ms\n\nC:\\>"
     }
   ],
   "shows": {
     "ISP-CEBU": {
       "ip_int_br": "Interface              IP-Address      OK? Method Status                Protocol \nGigabitEthernet0/0     unassigned      YES unset  administratively down down \nGigabitEthernet0/1     unassigned      YES unset  administratively down down \nGigabitEthernet0/2     unassigned      YES unset  administratively down down \nSerial0/0/0            10.10.3.1       YES manual up                    up \nSerial0/0/1            10.10.3.5       YES manual up                    up \nSerial0/1/0            10.10.3.9       YES manual up                    up \nSerial0/1/1            10.10.3.13      YES manual up                    up \nSerial0/2/0            10.10.3.17      YES manual up                    up \nSerial0/2/1            unassigned      YES unset  administratively down down \nLoopback0              203.0.113.1     YES manual up                    up \nVlan1                  unassigned      YES unset  administratively down down\n\n",
-      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 0.0.0.0 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 15 subnets, 5 masks\nS       10.10.0.0/24 [1/0] via 10.10.3.2\nR       10.10.1.0/26 [120/1] via 10.10.3.6, 00:00:15, Serial0/0/1\nR       10.10.1.64/28 [120/1] via 10.10.3.6, 00:00:15, Serial0/0/1\nD       10.10.2.0/26 [90/2170112] via 10.10.3.10, 00:02:01, Serial0/1/0\nD       10.10.2.64/28 [90/2170112] via 10.10.3.10, 00:02:01, Serial0/1/0\nC       10.10.3.0/30 is directly connected, Serial0/0/0\nL       10.10.3.1/32 is directly connected, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/1\nL       10.10.3.5/32 is directly connected, Serial0/0/1\nC       10.10.3.8/30 is directly connected, Serial0/1/0\nL       10.10.3.9/32 is directly connected, Serial0/1/0\nC       10.10.3.12/30 is directly connected, Serial0/1/1\nL       10.10.3.13/32 is directly connected, Serial0/1/1\nC       10.10.3.16/30 is directly connected, Serial0/2/0\nL       10.10.3.17/32 is directly connected, Serial0/2/0\n     203.0.113.0/24 is variably subnetted, 2 subnets, 2 masks\nC       203.0.113.0/24 is directly connected, Loopback0\nL       203.0.113.1/32 is directly connected, Loopback0\nS*   0.0.0.0/0 is directly connected, Loopback0\n\n\n",
+      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 0.0.0.0 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 15 subnets, 5 masks\nS       10.10.0.0/24 [1/0] via 10.10.3.2\nR       10.10.1.0/26 [120/1] via 10.10.3.6, 00:00:00, Serial0/0/1\nR       10.10.1.64/28 [120/1] via 10.10.3.6, 00:00:00, Serial0/0/1\nD       10.10.2.0/26 [90/2170112] via 10.10.3.10, 00:01:19, Serial0/1/0\nD       10.10.2.64/28 [90/2170112] via 10.10.3.10, 00:01:19, Serial0/1/0\nC       10.10.3.0/30 is directly connected, Serial0/0/0\nL       10.10.3.1/32 is directly connected, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/1\nL       10.10.3.5/32 is directly connected, Serial0/0/1\nC       10.10.3.8/30 is directly connected, Serial0/1/0\nL       10.10.3.9/32 is directly connected, Serial0/1/0\nC       10.10.3.12/30 is directly connected, Serial0/1/1\nL       10.10.3.13/32 is directly connected, Serial0/1/1\nC       10.10.3.16/30 is directly connected, Serial0/2/0\nL       10.10.3.17/32 is directly connected, Serial0/2/0\n     203.0.113.0/24 is variably subnetted, 2 subnets, 2 masks\nC       203.0.113.0/24 is directly connected, Loopback0\nL       203.0.113.1/32 is directly connected, Loopback0\nS*   0.0.0.0/0 is directly connected, Loopback0\n\n\n",
       "ipv6_route": "IPv6 Routing Table - 19 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nS   ::/0 [1/0]\n     via Loopback0, directly connected\nS   2001:DB8:ACAD:1000::/52 [1/0]\n     via 2001:DB8:ACAD:F001::2\nR   2001:DB8:ACAD:2001::/64 [120/2]\n     via FE80::1, Serial0/0/1\nR   2001:DB8:ACAD:2002::/64 [120/2]\n     via FE80::1, Serial0/0/1\nD   2001:DB8:ACAD:3001::/64 [90/2170112]\n     via FE80::1, Serial0/1/0\nD   2001:DB8:ACAD:3002::/64 [90/2170112]\n     via FE80::1, Serial0/1/0\nC   2001:DB8:ACAD:F001::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F001::1/128 [0/0]\n     via Serial0/0/0, receive\nC   2001:DB8:ACAD:F002::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F002::1/128 [0/0]\n     via Serial0/0/1, receive\nC   2001:DB8:ACAD:F003::/64 [0/0]\n     via Serial0/1/0, directly connected\nL   2001:DB8:ACAD:F003::1/128 [0/0]\n     via Serial0/1/0, receive\nC   2001:DB8:ACAD:F004::/64 [0/0]\n     via Serial0/1/1, directly connected\nL   2001:DB8:ACAD:F004::1/128 [0/0]\n     via Serial0/1/1, receive\nC   2001:DB8:ACAD:F005::/64 [0/0]\n     via Serial0/2/0, directly connected\nL   2001:DB8:ACAD:F005::1/128 [0/0]\n     via Serial0/2/0, receive\nC   2001:DB8:FFFF::/64 [0/0]\n     via Loopback0, directly connected\nL   2001:DB8:FFFF::1/128 [0/0]\n     via Loopback0, receive\nL   FF00::/8 [0/0]\n     via Null0, receive\n\n",
       "access_lists": "Standard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-      "running_redacted": "Building configuration...\n\nCurrent configuration : 4998 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname ISP-CEBU\n!\n!\n!\nenable secret <redacted>\n!\n!\n!\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX15244X1W-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n description Simulated Internet Endpoint (203.0.113.1/24 & 2001:DB8:FFFF::1/64)\n ip address 203.0.113.1 255.255.255.0\n ipv6 address 2001:DB8:FFFF::1/64\n!\ninterface GigabitEthernet0/0\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface GigabitEthernet0/1\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to R-CEBU Se0/0/0 (Static Summary)\n ip address 10.10.3.1 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F001::1/64\n clock rate 64000\n!\ninterface Serial0/0/1\n description WAN-CLARK-PRI to R-CLARK Se0/0/0 (RIPv2 / RIPng)\n ip address 10.10.3.5 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F002::1/64\n ipv6 rip RJ_RIP enable \n ipv6 rip RJ_RIP default-information originate\n clock rate 64000\n!\ninterface Serial0/1/0\n description WAN-DAVAO-PRI to R-DAVAO Se0/0/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.9 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F003::1/64\n ipv6 eigrp 100\n clock rate 64000\n!\ninterface Serial0/1/1\n description WAN-CLARK-BAK to R-CLARK Se0/0/1 (Floating Static AD 130)\n ip address 10.10.3.13 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F004::1/64\n clock rate 64000\n!\ninterface Serial0/2/0\n description WAN-DAVAO-BAK to R-DAVAO Se0/0/1 (Floating Static AD 180)\n ip address 10.10.3.17 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F005::1/64\n clock rate 64000\n!\ninterface Serial0/2/1\n no ip address\n clock rate 2000000\n shutdown\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter eigrp 100\n eigrp router-id 1.1.1.1\n redistribute rip metric 10000 10 255 1 1500 \n redistribute static metric 10000 100 255 1 1500 \n redistribute connected metric 10000 100 255 1 1500 \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n network 10.10.3.8 0.0.0.3\n!\nrouter rip\n version 2\n redistribute eigrp 100 metric 2 \n redistribute static metric 2 \n redistribute connected metric 2 \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Serial0/0/0\n passive-interface Serial0/1/0\n passive-interface Serial0/1/1\n passive-interface Serial0/2/0\n passive-interface Loopback0\n network 10.0.0.0\n default-information originate\n no auto-summary\n!\nipv6 router eigrp 100\n eigrp router-id 1.1.1.1\n no shutdown \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n redistribute rip RJ_RIP  metric 10000 100 255 1 1500 \n redistribute static metric 10000 100 255 1 1500 \n redistribute connected metric 10000 100 255 1 1500 \n!\nipv6 router rip RJ_RIP\n redistribute eigrp 100 metric 2 \n redistribute static metric 2 \n redistribute connected metric 2 \n!\nip classless\nip route 10.10.0.0 255.255.255.0 10.10.3.2 \nip route 0.0.0.0 0.0.0.0 Loopback0 \nip route 10.10.1.0 255.255.255.192 10.10.3.14 130\nip route 10.10.1.64 255.255.255.240 10.10.3.14 130\nip route 10.10.2.0 255.255.255.192 10.10.3.18 180\nip route 10.10.2.64 255.255.255.240 10.10.3.18 180\n!\nip flow-export version 9\n!\nipv6 route 2001:DB8:ACAD:1000::/52 2001:DB8:ACAD:F001::2\nipv6 route ::/0 Loopback0\nipv6 route 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:F004::2 130\nipv6 route 2001:DB8:ACAD:2002::/64 2001:DB8:ACAD:F004::2 130\nipv6 route 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:F005::2 180\nipv6 route 2001:DB8:ACAD:3002::/64 2001:DB8:ACAD:F005::2 180\n!\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
+      "running_redacted": "Building configuration...\n\nCurrent configuration : 4998 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname ISP-CEBU\n!\n!\n!\nenable secret <redacted>\n!\n!\n!\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX1524ZE4D-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n description Simulated Internet Endpoint (203.0.113.1/24 & 2001:DB8:FFFF::1/64)\n ip address 203.0.113.1 255.255.255.0\n ipv6 address 2001:DB8:FFFF::1/64\n!\ninterface GigabitEthernet0/0\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface GigabitEthernet0/1\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to R-CEBU Se0/0/0 (Static Summary)\n ip address 10.10.3.1 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F001::1/64\n clock rate 64000\n!\ninterface Serial0/0/1\n description WAN-CLARK-PRI to R-CLARK Se0/0/0 (RIPv2 / RIPng)\n ip address 10.10.3.5 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F002::1/64\n ipv6 rip RJ_RIP enable \n ipv6 rip RJ_RIP default-information originate\n clock rate 64000\n!\ninterface Serial0/1/0\n description WAN-DAVAO-PRI to R-DAVAO Se0/0/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.9 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F003::1/64\n ipv6 eigrp 100\n clock rate 64000\n!\ninterface Serial0/1/1\n description WAN-CLARK-BAK to R-CLARK Se0/0/1 (Floating Static AD 130)\n ip address 10.10.3.13 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F004::1/64\n clock rate 64000\n!\ninterface Serial0/2/0\n description WAN-DAVAO-BAK to R-DAVAO Se0/0/1 (Floating Static AD 180)\n ip address 10.10.3.17 255.255.255.252\n ipv6 address FE80::4 link-local\n ipv6 address 2001:DB8:ACAD:F005::1/64\n clock rate 64000\n!\ninterface Serial0/2/1\n no ip address\n clock rate 2000000\n shutdown\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter eigrp 100\n eigrp router-id 1.1.1.1\n redistribute rip metric 10000 10 255 1 1500 \n redistribute static metric 10000 100 255 1 1500 \n redistribute connected metric 10000 100 255 1 1500 \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n network 10.10.3.8 0.0.0.3\n!\nrouter rip\n version 2\n redistribute eigrp 100 metric 2 \n redistribute static metric 2 \n redistribute connected metric 2 \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Serial0/0/0\n passive-interface Serial0/1/0\n passive-interface Serial0/1/1\n passive-interface Serial0/2/0\n passive-interface Loopback0\n network 10.0.0.0\n default-information originate\n no auto-summary\n!\nipv6 router eigrp 100\n eigrp router-id 1.1.1.1\n no shutdown \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n redistribute rip RJ_RIP  metric 10000 100 255 1 1500 \n redistribute static metric 10000 100 255 1 1500 \n redistribute connected metric 10000 100 255 1 1500 \n!\nipv6 router rip RJ_RIP\n redistribute eigrp 100 metric 2 \n redistribute static metric 2 \n redistribute connected metric 2 \n!\nip classless\nip route 10.10.0.0 255.255.255.0 10.10.3.2 \nip route 0.0.0.0 0.0.0.0 Loopback0 \nip route 10.10.1.0 255.255.255.192 10.10.3.14 130\nip route 10.10.1.64 255.255.255.240 10.10.3.14 130\nip route 10.10.2.0 255.255.255.192 10.10.3.18 180\nip route 10.10.2.64 255.255.255.240 10.10.3.18 180\n!\nip flow-export version 9\n!\nipv6 route 2001:DB8:ACAD:1000::/52 2001:DB8:ACAD:F001::2\nipv6 route ::/0 Loopback0\nipv6 route 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:F004::2 130\nipv6 route 2001:DB8:ACAD:2002::/64 2001:DB8:ACAD:F004::2 130\nipv6 route 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:F005::2 180\nipv6 route 2001:DB8:ACAD:3002::/64 2001:DB8:ACAD:F005::2 180\n!\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
     },
     "R-CEBU": {
       "ip_int_br": "Interface              IP-Address      OK? Method Status                Protocol \nGigabitEthernet0/0     10.10.0.1       YES manual up                    up \nGigabitEthernet0/1     10.10.0.65      YES manual up                    up \nGigabitEthernet0/2     10.10.0.97      YES manual up                    up \nSerial0/0/0            10.10.3.2       YES manual up                    up \nSerial0/0/1            unassigned      YES unset  administratively down down \nVlan1                  unassigned      YES unset  administratively down down\n\n",
       "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.1 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 8 subnets, 5 masks\nC       10.10.0.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.0.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.0.64/27 is directly connected, GigabitEthernet0/1\nL       10.10.0.65/32 is directly connected, GigabitEthernet0/1\nC       10.10.0.96/28 is directly connected, GigabitEthernet0/2\nL       10.10.0.97/32 is directly connected, GigabitEthernet0/2\nC       10.10.3.0/30 is directly connected, Serial0/0/0\nL       10.10.3.2/32 is directly connected, Serial0/0/0\nS*   0.0.0.0/0 [1/0] via 10.10.3.1\n\n\n",
       "ipv6_route": "IPv6 Routing Table - 10 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nS   ::/0 [1/0]\n     via 2001:DB8:ACAD:F001::1\nC   2001:DB8:ACAD:1001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:1001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:1002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:1002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nC   2001:DB8:ACAD:1003::/64 [0/0]\n     via GigabitEthernet0/2, directly connected\nL   2001:DB8:ACAD:1003::1/128 [0/0]\n     via GigabitEthernet0/2, receive\nC   2001:DB8:ACAD:F001::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F001::2/128 [0/0]\n     via Serial0/0/0, receive\nL   FF00::/8 [0/0]\n     via Null0, receive\n\n",
-      "access_lists": "Extended IP access list HQ-GAMING-IN\n    10 deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99\n    20 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n    30 permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    40 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n    60 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n    70 permit ip any any (27 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list HQ-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-      "running_redacted": "Building configuration...\n\nCurrent configuration : 4304 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-CEBU\n!\n!\n!\nenable secret <redacted>\n!\n!\n!\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool HQ-GAMING-V6\n address prefix 2001:DB8:ACAD:1001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool HQ-ADMIN-V6\n address prefix 2001:DB8:ACAD:1002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX1524KKDF-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description HQ-GAMING-LAN (Std Gaming, VIP Arena, Study Pods, Browsing, Cust Wi-Fi AP-01..07)\n ip address 10.10.0.1 255.255.255.192\n ip helper-address 10.10.0.98\n ip access-group HQ-GAMING-IN in\n ipv6 traffic-filter HQ-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1001::1/64\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description HQ-ADMIN-LAN (Admin/IT, Cashier POS, Printers, Staff AP-08)\n ip address 10.10.0.65 255.255.255.224\n ip helper-address 10.10.0.98\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1002::1/64\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n description HQ-SERVER-LAN (MDF Core Servers SRV-1 .98 & SRV-2 .99)\n ip address 10.10.0.97 255.255.255.240\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1003::1/64\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to ISP-CEBU Se0/0/0\n ip address 10.10.3.2 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F001::2/64\n!\ninterface Serial0/0/1\n no ip address\n clock rate 2000000\n shutdown\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.1 \n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F001::1\n!\nip access-list extended HQ-GAMING-IN\n remark Obj2-Block Gaming/VIP/Study/Customer Wi-Fi from Billing/POS Server SRV-2\n deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP control (21) and data (20) to SRV-1\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n remark Permit all other legitimate customer & gaming traffic\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list HQ-GAMING-IN6\n remark Obj2-IPv6 Block Gaming/VIP/Study/Customer Wi-Fi from SRV-2\n deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
+      "access_lists": "Extended IP access list HQ-GAMING-IN\n    10 deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99\n    20 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n    30 permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    40 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n    60 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n    70 permit ip any any (100 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list HQ-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
+      "running_redacted": "Building configuration...\n\nCurrent configuration : 4304 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-CEBU\n!\n!\n!\nenable secret <redacted>\n!\n!\n!\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool HQ-GAMING-V6\n address prefix 2001:DB8:ACAD:1001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool HQ-ADMIN-V6\n address prefix 2001:DB8:ACAD:1002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX1524IT72-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description HQ-GAMING-LAN (Std Gaming, VIP Arena, Study Pods, Browsing, Cust Wi-Fi AP-01..07)\n ip address 10.10.0.1 255.255.255.192\n ip helper-address 10.10.0.98\n ip access-group HQ-GAMING-IN in\n ipv6 traffic-filter HQ-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1001::1/64\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description HQ-ADMIN-LAN (Admin/IT, Cashier POS, Printers, Staff AP-08)\n ip address 10.10.0.65 255.255.255.224\n ip helper-address 10.10.0.98\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1002::1/64\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n description HQ-SERVER-LAN (MDF Core Servers SRV-1 .98 & SRV-2 .99)\n ip address 10.10.0.97 255.255.255.240\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:1003::1/64\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to ISP-CEBU Se0/0/0\n ip address 10.10.3.2 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F001::2/64\n!\ninterface Serial0/0/1\n no ip address\n clock rate 2000000\n shutdown\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.1 \n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F001::1\n!\nip access-list extended HQ-GAMING-IN\n remark Obj2-Block Gaming/VIP/Study/Customer Wi-Fi from Billing/POS Server SRV-2\n deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP control (21) and data (20) to SRV-1\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n remark Permit all other legitimate customer & gaming traffic\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list HQ-GAMING-IN6\n remark Obj2-IPv6 Block Gaming/VIP/Study/Customer Wi-Fi from SRV-2\n deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
     },
     "R-CLARK": {
       "ip_int_br": "Interface              IP-Address      OK? Method Status                Protocol \nGigabitEthernet0/0     10.10.1.1       YES manual up                    up \nGigabitEthernet0/1     10.10.1.65      YES manual up                    up \nGigabitEthernet0/2     unassigned      YES unset  administratively down down \nSerial0/0/0            10.10.3.6       YES manual up                    up \nSerial0/0/1            10.10.3.14      YES manual up                    up \nVlan1                  unassigned      YES unset  administratively down down\n\n",
-      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.5 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nR       10.10.0.0/24 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.1.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.1.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.1.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.1.65/32 is directly connected, GigabitEthernet0/1\nR       10.10.2.0/26 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR       10.10.2.64/28 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR       10.10.3.0/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/0\nL       10.10.3.6/32 is directly connected, Serial0/0/0\nR       10.10.3.8/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.3.12/30 is directly connected, Serial0/0/1\nL       10.10.3.14/32 is directly connected, Serial0/0/1\nR       10.10.3.16/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nR    203.0.113.0/24 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR*   0.0.0.0/0 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\n\n\n",
+      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.5 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nR       10.10.0.0/24 [120/2] via 10.10.3.5, 00:00:05, Serial0/0/0\nC       10.10.1.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.1.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.1.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.1.65/32 is directly connected, GigabitEthernet0/1\nR       10.10.2.0/26 [120/2] via 10.10.3.5, 00:00:05, Serial0/0/0\nR       10.10.2.64/28 [120/2] via 10.10.3.5, 00:00:05, Serial0/0/0\nR       10.10.3.0/30 [120/1] via 10.10.3.5, 00:00:05, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/0\nL       10.10.3.6/32 is directly connected, Serial0/0/0\nR       10.10.3.8/30 [120/1] via 10.10.3.5, 00:00:05, Serial0/0/0\nC       10.10.3.12/30 is directly connected, Serial0/0/1\nL       10.10.3.14/32 is directly connected, Serial0/0/1\nR       10.10.3.16/30 [120/1] via 10.10.3.5, 00:00:05, Serial0/0/0\nR    203.0.113.0/24 [120/2] via 10.10.3.5, 00:00:05, Serial0/0/0\nR*   0.0.0.0/0 [120/1] via 10.10.3.5, 00:00:05, Serial0/0/0\n\n\n",
       "ipv6_route": "IPv6 Routing Table - 17 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nR   ::/0 [120/1]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:1000::/52 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:2001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:2001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:2002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:2002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nR   2001:DB8:ACAD:3001::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:3002::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:F001::/64 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F002::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F002::2/128 [0/0]\n     via Serial0/0/0, receive\nR   2001:DB8:ACAD:F003::/64 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F004::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F004::2/128 [0/0]\n     via Serial0/0/1, receive\nR   2001:DB8:ACAD:F005::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:FFFF::/64 [120/2]\n     via FE80::4, Serial0/0/0\nL   FF00::/8 [0/0]\n     via Null0, receive\n\n",
-      "access_lists": "Extended IP access list CLK-GAMING-IN\n    10 deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15\n    20 deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (8 match(es))\nExtended IP access list CLK-ADMIN-IN\n    10 deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (4 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list CLK-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n    deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list CLK-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-      "running_redacted": "Building configuration...\n\nCurrent configuration : 5378 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-CLARK\n!\n!\n!\nenable secret <redacted>\n!\n!\nip dhcp excluded-address 10.10.1.1 10.10.1.10\nip dhcp excluded-address 10.10.1.65 10.10.1.71\n!\nip dhcp pool CLK-GAMING-POOL\n network 10.10.1.0 255.255.255.192\n default-router 10.10.1.1\n dns-server 10.10.0.98\n domain-name rjesports.local\nip dhcp pool CLK-ADMIN-POOL\n network 10.10.1.64 255.255.255.240\n default-router 10.10.1.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool CLK-GAMING-V6\n address prefix 2001:DB8:ACAD:2001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool CLK-ADMIN-V6\n address prefix 2001:DB8:ACAD:2002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX1524X9D1-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description CLK-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.1.1 255.255.255.192\n ip access-group CLK-GAMING-IN in\n ipv6 traffic-filter CLK-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:2001::1/64\n ipv6 nd managed-config-flag\n ipv6 rip RJ_RIP enable \n ipv6 dhcp server CLK-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description CLK-ADMIN-LAN (CLK-IT-PC .70 + Staff/POS)\n ip address 10.10.1.65 255.255.255.240\n ip access-group CLK-ADMIN-IN in\n ipv6 traffic-filter CLK-ADMIN-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:2002::1/64\n ipv6 nd managed-config-flag\n ipv6 rip RJ_RIP enable \n ipv6 dhcp server CLK-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-CLARK-PRI to ISP-CEBU Se0/0/1 (RIPv2 / RIPng)\n ip address 10.10.3.6 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F002::2/64\n ipv6 rip RJ_RIP enable \n!\ninterface Serial0/0/1\n description WAN-CLARK-BAK to ISP-CEBU Se0/1/1 (Floating Static AD 130)\n ip address 10.10.3.14 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F004::2/64\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter rip\n version 2\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface Serial0/0/1\n network 10.0.0.0\n no auto-summary\n!\nipv6 router rip RJ_RIP\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.13 130\n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F004::1 130\n!\nip access-list extended CLK-GAMING-IN\n remark Obj3-Block Clark Gaming PCs from Clark Admin/Staff LAN\n deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15\n remark Obj2-Block Clark Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\nip access-list extended CLK-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list CLK-GAMING-IN6\n remark Obj3-IPv6 Block Clark Gaming from Clark Admin LAN\n deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n remark Obj2-IPv6 Block Clark Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list CLK-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
+      "access_lists": "Extended IP access list CLK-GAMING-IN\n    10 deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15\n    20 deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (32 match(es))\nExtended IP access list CLK-ADMIN-IN\n    10 deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list CLK-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n    deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list CLK-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
+      "running_redacted": "Building configuration...\n\nCurrent configuration : 5378 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-CLARK\n!\n!\n!\nenable secret <redacted>\n!\n!\nip dhcp excluded-address 10.10.1.1 10.10.1.10\nip dhcp excluded-address 10.10.1.65 10.10.1.71\n!\nip dhcp pool CLK-GAMING-POOL\n network 10.10.1.0 255.255.255.192\n default-router 10.10.1.1\n dns-server 10.10.0.98\n domain-name rjesports.local\nip dhcp pool CLK-ADMIN-POOL\n network 10.10.1.64 255.255.255.240\n default-router 10.10.1.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool CLK-GAMING-V6\n address prefix 2001:DB8:ACAD:2001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool CLK-ADMIN-V6\n address prefix 2001:DB8:ACAD:2002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX15240XYB-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description CLK-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.1.1 255.255.255.192\n ip access-group CLK-GAMING-IN in\n ipv6 traffic-filter CLK-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:2001::1/64\n ipv6 nd managed-config-flag\n ipv6 rip RJ_RIP enable \n ipv6 dhcp server CLK-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description CLK-ADMIN-LAN (CLK-IT-PC .70 + Staff/POS)\n ip address 10.10.1.65 255.255.255.240\n ip access-group CLK-ADMIN-IN in\n ipv6 traffic-filter CLK-ADMIN-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:2002::1/64\n ipv6 nd managed-config-flag\n ipv6 rip RJ_RIP enable \n ipv6 dhcp server CLK-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-CLARK-PRI to ISP-CEBU Se0/0/1 (RIPv2 / RIPng)\n ip address 10.10.3.6 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F002::2/64\n ipv6 rip RJ_RIP enable \n!\ninterface Serial0/0/1\n description WAN-CLARK-BAK to ISP-CEBU Se0/1/1 (Floating Static AD 130)\n ip address 10.10.3.14 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F004::2/64\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter rip\n version 2\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface Serial0/0/1\n network 10.0.0.0\n no auto-summary\n!\nipv6 router rip RJ_RIP\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.13 130\n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F004::1 130\n!\nip access-list extended CLK-GAMING-IN\n remark Obj3-Block Clark Gaming PCs from Clark Admin/Staff LAN\n deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15\n remark Obj2-Block Clark Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\nip access-list extended CLK-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list CLK-GAMING-IN6\n remark Obj3-IPv6 Block Clark Gaming from Clark Admin LAN\n deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n remark Obj2-IPv6 Block Clark Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list CLK-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
     },
     "R-DAVAO": {
       "ip_int_br": "Interface              IP-Address      OK? Method Status                Protocol \nGigabitEthernet0/0     10.10.2.1       YES manual up                    up \nGigabitEthernet0/1     10.10.2.65      YES manual up                    up \nGigabitEthernet0/2     unassigned      YES unset  administratively down down \nSerial0/0/0            10.10.3.10      YES manual up                    up \nSerial0/0/1            10.10.3.18      YES manual up                    up \nVlan1                  unassigned      YES unset  administratively down down\n\n",
-      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.9 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nD EX    10.10.0.0/24 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.1.0/26 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.1.64/28 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.2.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.2.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.2.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.2.65/32 is directly connected, GigabitEthernet0/1\nD EX    10.10.3.0/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.3.4/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.3.8/30 is directly connected, Serial0/0/0\nL       10.10.3.10/32 is directly connected, Serial0/0/0\nD EX    10.10.3.12/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.3.16/30 is directly connected, Serial0/0/1\nL       10.10.3.18/32 is directly connected, Serial0/0/1\nD EX 203.0.113.0/24 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD*EX 0.0.0.0/0 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\n\n\n",
-      "ipv6_route": "IPv6 Routing Table - 17 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nEX  ::/0 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:1000::/52 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2001::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2002::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:3001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:3001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:3002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:3002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nEX  2001:DB8:ACAD:F001::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:F002::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F003::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F003::2/128 [0/0]\n     via Serial0/0/0, receive\nEX  2001:DB8:ACAD:F004::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F005::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F005::2/128 [0/0]\n     via Serial0/0/1, receive\nEX  2001:DB8:FFFF::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nL   FF00::/8 [0/0]\n     via Null0, receive\n\n",
-      "access_lists": "Extended IP access list DVO-GAMING-IN\n    10 deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15\n    20 deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (8 match(es))\nExtended IP access list DVO-ADMIN-IN\n    10 deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (4 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list DVO-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n    deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list DVO-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-      "running_redacted": "Building configuration...\n\nCurrent configuration : 5513 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-DAVAO\n!\n!\n!\nenable secret <redacted>\n!\n!\nip dhcp excluded-address 10.10.2.1 10.10.2.10\nip dhcp excluded-address 10.10.2.65 10.10.2.71\n!\nip dhcp pool DVO-GAMING-POOL\n network 10.10.2.0 255.255.255.192\n default-router 10.10.2.1\n dns-server 10.10.0.98\n domain-name rjesports.local\nip dhcp pool DVO-ADMIN-POOL\n network 10.10.2.64 255.255.255.240\n default-router 10.10.2.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool DVO-GAMING-V6\n address prefix 2001:DB8:ACAD:3001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool DVO-ADMIN-V6\n address prefix 2001:DB8:ACAD:3002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX1524D9K8-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description DVO-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.2.1 255.255.255.192\n ip access-group DVO-GAMING-IN in\n ipv6 traffic-filter DVO-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:3001::1/64\n ipv6 nd managed-config-flag\n ipv6 eigrp 100\n ipv6 dhcp server DVO-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description DVO-ADMIN-LAN (DVO-IT-PC .70 + Staff/POS)\n ip address 10.10.2.65 255.255.255.240\n ip access-group DVO-ADMIN-IN in\n ipv6 traffic-filter DVO-ADMIN-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:3002::1/64\n ipv6 nd managed-config-flag\n ipv6 eigrp 100\n ipv6 dhcp server DVO-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-DAVAO-PRI to ISP-CEBU Se0/1/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.10 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F003::2/64\n ipv6 eigrp 100\n!\ninterface Serial0/0/1\n description WAN-DAVAO-BAK to ISP-CEBU Se0/2/0 (Floating Static AD 180)\n ip address 10.10.3.18 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F005::2/64\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter eigrp 100\n eigrp router-id 3.3.3.3\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n network 10.10.2.0 0.0.0.63\n network 10.10.2.64 0.0.0.15\n network 10.10.3.8 0.0.0.3\n!\nipv6 router eigrp 100\n eigrp router-id 3.3.3.3\n no shutdown \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.17 180\n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F005::1 180\n!\nip access-list extended DVO-GAMING-IN\n remark Obj3-Block Davao Gaming PCs from Davao Admin/Staff LAN\n deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15\n remark Obj2-Block Davao Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\nip access-list extended DVO-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list DVO-GAMING-IN6\n remark Obj3-IPv6 Block Davao Gaming from Davao Admin LAN\n deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n remark Obj2-IPv6 Block Davao Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list DVO-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
+      "ip_route": "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.9 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nD EX    10.10.0.0/24 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nD EX    10.10.1.0/26 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nD EX    10.10.1.64/28 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nC       10.10.2.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.2.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.2.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.2.65/32 is directly connected, GigabitEthernet0/1\nD EX    10.10.3.0/30 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nD EX    10.10.3.4/30 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nC       10.10.3.8/30 is directly connected, Serial0/0/0\nL       10.10.3.10/32 is directly connected, Serial0/0/0\nD EX    10.10.3.12/30 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nC       10.10.3.16/30 is directly connected, Serial0/0/1\nL       10.10.3.18/32 is directly connected, Serial0/0/1\nD EX 203.0.113.0/24 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\nD*EX 0.0.0.0/0 [170/2195456] via 10.10.3.9, 00:01:22, Serial0/0/0\n\n\n",
+      "ipv6_route": "IPv6 Routing Table - 17 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nEX  ::/0 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:1000::/52 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2001::/64 [170/2425856]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2002::/64 [170/2425856]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:3001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:3001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:3002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:3002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nEX  2001:DB8:ACAD:F001::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:F002::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F003::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F003::2/128 [0/0]\n     via Serial0/0/0, receive\nEX  2001:DB8:ACAD:F004::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F005::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F005::2/128 [0/0]\n     via Serial0/0/1, receive\nEX  2001:DB8:FFFF::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nL   FF00::/8 [0/0]\n     via Null0, receive\n\n",
+      "access_lists": "Extended IP access list DVO-GAMING-IN\n    10 deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15\n    20 deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (36 match(es))\nExtended IP access list DVO-ADMIN-IN\n    10 deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list DVO-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n    deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list DVO-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
+      "running_redacted": "Building configuration...\n\nCurrent configuration : 5513 bytes\n!\nversion 15.1\nno service timestamps log datetime msec\nno service timestamps debug datetime msec\nservice password-encryption\n!\nhostname R-DAVAO\n!\n!\n!\nenable secret <redacted>\n!\n!\nip dhcp excluded-address 10.10.2.1 10.10.2.10\nip dhcp excluded-address 10.10.2.65 10.10.2.71\n!\nip dhcp pool DVO-GAMING-POOL\n network 10.10.2.0 255.255.255.192\n default-router 10.10.2.1\n dns-server 10.10.0.98\n domain-name rjesports.local\nip dhcp pool DVO-ADMIN-POOL\n network 10.10.2.64 255.255.255.240\n default-router 10.10.2.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n!\n!\n!\nno ip cef\nipv6 unicast-routing\n!\nno ipv6 cef\n!\nipv6 dhcp pool DVO-GAMING-V6\n address prefix 2001:DB8:ACAD:3001::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\nipv6 dhcp pool DVO-ADMIN-V6\n address prefix 2001:DB8:ACAD:3002::/64 lifetime 172800 86400\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n!\n!\n!\nusername admin secret <redacted>\n!\n!\nlicense udi pid CISCO2911/K9 sn FTX15245MEH-\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip ssh version 2\nno ip domain-lookup\nip domain-name rjesports.local\n!\n!\nspanning-tree mode pvst\n!\n!\n!\n!\n!\n!\ninterface GigabitEthernet0/0\n description DVO-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.2.1 255.255.255.192\n ip access-group DVO-GAMING-IN in\n ipv6 traffic-filter DVO-GAMING-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:3001::1/64\n ipv6 nd managed-config-flag\n ipv6 eigrp 100\n ipv6 dhcp server DVO-GAMING-V6\n!\ninterface GigabitEthernet0/1\n description DVO-ADMIN-LAN (DVO-IT-PC .70 + Staff/POS)\n ip address 10.10.2.65 255.255.255.240\n ip access-group DVO-ADMIN-IN in\n ipv6 traffic-filter DVO-ADMIN-IN6 in\n duplex auto\n speed auto\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:3002::1/64\n ipv6 nd managed-config-flag\n ipv6 eigrp 100\n ipv6 dhcp server DVO-ADMIN-V6\n!\ninterface GigabitEthernet0/2\n no ip address\n duplex auto\n speed auto\n shutdown\n!\ninterface Serial0/0/0\n description WAN-DAVAO-PRI to ISP-CEBU Se0/1/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.10 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F003::2/64\n ipv6 eigrp 100\n!\ninterface Serial0/0/1\n description WAN-DAVAO-BAK to ISP-CEBU Se0/2/0 (Floating Static AD 180)\n ip address 10.10.3.18 255.255.255.252\n ipv6 address FE80::1 link-local\n ipv6 address 2001:DB8:ACAD:F005::2/64\n!\ninterface Vlan1\n no ip address\n shutdown\n!\nrouter eigrp 100\n eigrp router-id 3.3.3.3\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n network 10.10.2.0 0.0.0.63\n network 10.10.2.64 0.0.0.15\n network 10.10.3.8 0.0.0.3\n!\nipv6 router eigrp 100\n eigrp router-id 3.3.3.3\n no shutdown \n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n!\nip classless\nip route 0.0.0.0 0.0.0.0 10.10.3.17 180\n!\nip flow-export version 9\n!\nipv6 route ::/0 2001:DB8:ACAD:F005::1 180\n!\nip access-list extended DVO-GAMING-IN\n remark Obj3-Block Davao Gaming PCs from Davao Admin/Staff LAN\n deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15\n remark Obj2-Block Davao Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\nip access-list extended DVO-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n permit ip any any\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\nipv6 access-list DVO-GAMING-IN6\n remark Obj3-IPv6 Block Davao Gaming from Davao Admin LAN\n deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n remark Obj2-IPv6 Block Davao Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\nipv6 access-list DVO-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n!\nbanner motd ^CAUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.^C\n!\n!\n!\n!\nline con 0\n password <redacted>\n logging synchronous\n login\n!\nline aux 0\n!\nline vty 0 4\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\nline vty 5 15\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n login local\n transport input ssh\n!\n!\n!\nend\n\n\n\n"
     }
   },
   "acl_after_tests": {
-    "R-CEBU": "Extended IP access list HQ-GAMING-IN\n    10 deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99 (2 match(es))\n    20 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n    30 permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    40 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n    60 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n    70 permit ip any any (31 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list HQ-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-    "R-CLARK": "Extended IP access list CLK-GAMING-IN\n    10 deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (10 match(es))\nExtended IP access list CLK-ADMIN-IN\n    10 deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99 (2 match(es))\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list CLK-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n    deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list CLK-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
-    "R-DAVAO": "Extended IP access list DVO-GAMING-IN\n    10 deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (10 match(es))\nExtended IP access list DVO-ADMIN-IN\n    10 deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list DVO-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n    deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list DVO-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n"
+    "R-CEBU": "Extended IP access list HQ-GAMING-IN\n    10 deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99 (2 match(es))\n    20 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n    30 permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    40 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n    60 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n    70 permit ip any any (104 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list HQ-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
+    "R-CLARK": "Extended IP access list CLK-GAMING-IN\n    10 deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (34 match(es))\nExtended IP access list CLK-ADMIN-IN\n    10 deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99 (2 match(es))\n    20 permit ip any any (8 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list CLK-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n    deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list CLK-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n",
+    "R-DAVAO": "Extended IP access list DVO-GAMING-IN\n    10 deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (38 match(es))\nExtended IP access list DVO-ADMIN-IN\n    10 deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (8 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list DVO-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n    deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list DVO-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n\n"
   }
 }

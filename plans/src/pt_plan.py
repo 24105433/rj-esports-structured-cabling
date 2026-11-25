@@ -1,11 +1,12 @@
-"""Packet Tracer Deployment Plan JSON (pt/rj_plan.json) + Manual Physical Workspace Guide (pt/PT_MANUAL_PHYSICAL_GUIDE.md).
+"""Packet Tracer Deployment Plan JSON (pt/rj_plan.json) + Manual Physical Workspace Guide.
 
-Builds a validated structured topology plan covering:
-- Master 3-site + ISP-CEBU topology (`rj_network.pkt`) with full 3-tier Cebu HQ hierarchy
-  (MDF Core -> IDF-1/IDF-2 Distribution -> Zone Access switches) and mandatory physical path
-  `PC -> Copper Wall Mount (Jack/PunchDown) -> Copper Patch Panel (PunchDown/Jack) -> Switch -> Router`.
-- Three separate Multiuser-ready site sub-plans (`rj_cebu_hq_visayas.pkt`, `rj_clark_luzon.pkt`, `rj_davao_mindanao.pkt`).
-- Asserts programmatically that EVERY host IP is strictly between network+1 and broadcast-1.
+100% 1-to-1 parity across EVERY PC, Network Printer, Ceiling AP, and Server:
+- Building 2 (Cebu Flagship HQ): ALL 42 PCs + 2 Printers + 8 APs (= all 52 horizontal drops from
+  drop_schedule.csv) + 2 MDF Rack Servers (SRV-1, SRV-2), full 3-tier hierarchy, every horizontal drop
+  wired PC/Printer/AP -> Copper Wall Mount (Jack1/PunchDown1) -> Copper Patch Panel (PunchDownN/JackN) -> Access Switch.
+- Building 1 (Clark Branch, Luzon): ALL 16 Gaming PCs + 3 Customer APs + 4 Admin/POS PCs + 1 Printer + 1 Staff AP (25 drops).
+- Building 3 (Davao Branch, Mindanao): ALL 16 Gaming PCs + 3 Customer APs + 4 Admin/POS PCs + 1 Printer + 1 Staff AP (25 drops).
+- Master (rj_network.pkt): All 3 sites + ISP-CEBU (82 PCs, 4 Printers, 16 APs, 2 Servers, 102 Wall Mounts, 8 Patch Panels).
 """
 
 from __future__ import annotations
@@ -15,18 +16,13 @@ import json
 from typing import Dict, List
 
 from cabling import compute_switch_ports
-from model import CABINETS, DROPS, PT_DIR, SERVERS, drop_length_m
-from vlsm import STATIC_HOSTS, SUBNET_BY_NAME, validate_addressing
+from model import DROPS, PT_DIR
+from vlsm import SUBNET_BY_NAME, validate_addressing
 
 
 def build_master_plan() -> Dict:
     validate_addressing()
 
-    # Master logical topology: all 4 routers, full Cebu HQ 3-tier hierarchy + Copper Wall Mounts & Patch Panels,
-    # plus Clark & Davao branches with their Patch Panels, Wall Mounts, switches, APs, and representative/full hosts.
-    # For PT performance & clean logical/physical readability while maintaining full 3-tier & physical path fidelity:
-    # Cebu HQ includes core/distribution/access switches + MDF servers + representative PCs per zone + static IT/POS/Printers + APs,
-    # all routed through Copper Patch Panels and Copper Wall Mounts!
     devices: List[Dict] = []
     links: List[Dict] = []
 
@@ -38,51 +34,41 @@ def build_master_plan() -> Dict:
     def add_link(a: str, pa: str, b: str, pb: str, cable: str = "straight"):
         links.append({"a": a, "port_a": pa, "b": b, "port_b": pb, "cable": cable})
 
-    # --- Central ISP in Cebu ---
-    add_dev("ISP-CEBU", "2911", "router", "ISP", "ISP-RACK", 680, 90, modules=[("0/0", "HWIC-2T"), ("0/1", "HWIC-2T"), ("0/2", "HWIC-2T")])
+    # =========================================================================
+    # CENTRAL ISP IN CEBU
+    # =========================================================================
+    add_dev("ISP-CEBU", "2911", "router", "ISP", "ISP-RACK", 1600, 90,
+            modules=[("0/0", "HWIC-2T"), ("0/1", "HWIC-2T"), ("0/2", "HWIC-2T")])
 
-    # --- Building 2: Cebu Flagship HQ (3-Tier Hierarchy + Physical Path PC -> WM -> PP -> SW -> DSW -> CORE -> R-CEBU) ---
-    add_dev("R-CEBU",   "2911",      "router",            "CEBU", "MDF",   680, 240, modules=[("0/0", "HWIC-2T")])
-    add_dev("SW-CORE",  "3560-24PS", "multilayer_switch", "CEBU", "MDF",   540, 350)
-    add_dev("SW-SRV",   "2960-24TT", "switch",            "CEBU", "MDF",   820, 350)
-    add_dev("DSW-1",    "3560-24PS", "multilayer_switch", "CEBU", "IDF-1", 400, 460)
-    add_dev("DSW-2",    "3560-24PS", "multilayer_switch", "CEBU", "IDF-2", 620, 460)
-    add_dev("SW-GAM1",  "2960-24TT", "switch",            "CEBU", "CAB-G", 300, 570)
-    add_dev("SW-VIP",   "2960-24TT", "switch",            "CEBU", "CAB-V", 460, 570)
-    add_dev("SW-STU",   "2960-24TT", "switch",            "CEBU", "CAB-S", 620, 570)
-    add_dev("SW-ADM",   "2960-24TT", "switch",            "CEBU", "IDF-2", 780, 460)
+    # =========================================================================
+    # BUILDING 2: CEBU FLAGSHIP HQ (100% of all 52 drops from DROPS + 2 Servers)
+    # =========================================================================
+    add_dev("R-CEBU",  "2911",      "router",            "CEBU", "MDF",   1600, 260, modules=[("0/0", "HWIC-2T")])
+    add_dev("SW-CORE", "3560-24PS", "multilayer_switch", "CEBU", "MDF",   1320, 390)
+    add_dev("SW-SRV",  "2960-24TT", "switch",            "CEBU", "MDF",   2160, 390)
+    add_dev("DSW-1",   "3560-24PS", "multilayer_switch", "CEBU", "IDF-1", 1120, 510)
+    add_dev("DSW-2",   "3560-24PS", "multilayer_switch", "CEBU", "IDF-2", 1640, 510)
 
-    # Patch Panels in Cebu HQ cabinets
-    add_dev("PP-G",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-G", 300, 650)
-    add_dev("PP-V",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-V", 460, 650)
-    add_dev("PP-S",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-S", 620, 650)
-    add_dev("PP-ADM", "Copper Patch Panel", "patch_panel", "CEBU", "IDF-2", 780, 560)
+    add_dev("SW-GAM1", "2960-24TT", "switch", "CEBU", "CAB-G", 920,  640)
+    add_dev("SW-VIP",  "2960-24TT", "switch", "CEBU", "CAB-V", 1360, 640)
+    add_dev("SW-STU",  "2960-24TT", "switch", "CEBU", "CAB-S", 1680, 640)
+    add_dev("SW-ADM",  "2960-24TT", "switch", "CEBU", "IDF-2", 1960, 510)
 
-    # MDF Servers (Static on HQ-SERVER-LAN 10.10.0.96/28)
-    add_dev("SRV-1", "Server-PT", "server", "CEBU", "MDF", 900, 440,
+    # 4 Patch Panels (24-port Copper Patch Panel matching CAB-G, CAB-V, CAB-S, IDF-2)
+    add_dev("PP-G",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-G", 920,  730)
+    add_dev("PP-V",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-V", 1360, 730)
+    add_dev("PP-S",   "Copper Patch Panel", "patch_panel", "CEBU", "CAB-S", 1680, 730)
+    add_dev("PP-ADM", "Copper Patch Panel", "patch_panel", "CEBU", "IDF-2", 1960, 620)
+
+    # MDF Rack Servers (Static on HQ-SERVER-LAN 10.10.0.96/28)
+    add_dev("SRV-1", "Server-PT", "server", "CEBU", "MDF", 2120, 510,
             lan="HQ-SERVER-LAN", ip="10.10.0.98", mask="255.255.255.240", gw="10.10.0.97", dns="10.10.0.98",
             ipv6="2001:DB8:ACAD:1003::98", ipv6_prefix=64, ipv6_gw="FE80::1", services=["DHCP", "DNS", "HTTP", "FTP"])
-    add_dev("SRV-2", "Server-PT", "server", "CEBU", "MDF", 980, 440,
+    add_dev("SRV-2", "Server-PT", "server", "CEBU", "MDF", 2220, 510,
             lan="HQ-SERVER-LAN", ip="10.10.0.99", mask="255.255.255.240", gw="10.10.0.97", dns="10.10.0.98",
             ipv6="2001:DB8:ACAD:1003::99", ipv6_prefix=64, ipv6_gw="FE80::1", services=["HTTP"])
 
-    # Cebu HQ End Hosts + Wall Mounts (mandatory path PC -> WM -> PP -> Access Switch!)
-    hq_hosts = [
-        # (host, model, cat, lan, sw, pp, port_idx, wm_name, x, y, static_ip, ipv6)
-        ("GAM-01", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-GAM1", "PP-G", 1, "WM-G01", 230, 770, None, None),
-        ("GAM-02", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-GAM1", "PP-G", 2, "WM-G02", 310, 770, None, None),
-        ("AP-01",  "AccessPoint-PT", "accesspoint", "HQ-GAMING-LAN", "SW-GAM1", "PP-G", 3, "WM-AP1", 370, 770, None, None),
-        ("VIP-01", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-VIP",  "PP-V", 1, "WM-V01", 440, 770, None, None),
-        ("VIP-02", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-VIP",  "PP-V", 2, "WM-V02", 510, 770, None, None),
-        ("STD-01", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-STU",  "PP-S", 1, "WM-S01", 590, 770, None, None),
-        ("BRW-01", "PC-PT", "pc", "HQ-GAMING-LAN", "SW-STU",  "PP-S", 2, "WM-B01", 660, 770, None, None),
-        ("IT-PC",  "PC-PT", "pc", "HQ-ADMIN-LAN",  "SW-ADM",  "PP-ADM", 1, "WM-IT",  750, 690, "10.10.0.70", "2001:DB8:ACAD:1002::70"),
-        ("POS-01", "PC-PT", "pc", "HQ-ADMIN-LAN",  "SW-ADM",  "PP-ADM", 2, "WM-POS", 830, 690, "10.10.0.72", "2001:DB8:ACAD:1002::72"),
-        ("PRT-01", "Printer-PT", "printer", "HQ-ADMIN-LAN", "SW-ADM", "PP-ADM", 3, "WM-PRT", 900, 690, "10.10.0.74", "2001:DB8:ACAD:1002::74"),
-        ("AP-08",  "AccessPoint-PT", "accesspoint", "HQ-ADMIN-LAN", "SW-ADM", "PP-ADM", 4, "WM-AP8", 970, 690, None, None),
-    ]
-
-    # WAN Links (ISP-CEBU <-> 3 Site Routers: Primary + Floating Backup)
+    # WAN Links (ISP-CEBU <-> 3 Site Routers)
     add_link("ISP-CEBU", "Serial0/0/0", "R-CEBU",  "Serial0/0/0", "serial")
     add_link("ISP-CEBU", "Serial0/0/1", "R-CLARK", "Serial0/0/0", "serial")
     add_link("ISP-CEBU", "Serial0/1/0", "R-DAVAO", "Serial0/0/0", "serial")
@@ -101,79 +87,122 @@ def build_master_plan() -> Dict:
     add_link("SW-SRV",  "FastEthernet0/1",    "SRV-1",   "FastEthernet0",      "straight")
     add_link("SW-SRV",  "FastEthernet0/2",    "SRV-2",   "FastEthernet0",      "straight")
 
-    for hname, hmod, hcat, lan, sw, pp, pidx, wm, hx, hy, sip, sip6 in hq_hosts:
-        spec = SUBNET_BY_NAME[lan]
-        add_dev(wm, "Copper Wall Mount", "wall_mount", "CEBU", f"ZONE-{sw}", hx, hy - 55)
-        extra = {"lan": lan}
-        if sip:
-            extra.update({"ip": sip, "mask": str(spec.net4.netmask), "gw": spec.gateway_v4, "dns": "10.10.0.98",
-                          "ipv6": sip6, "ipv6_prefix": 64, "ipv6_gw": "FE80::1"})
+    # ALL 52 Cebu HQ horizontal drops directly from model.DROPS!
+    # Neatly laid out in clean logical rows below each patch panel so nothing piles up on the canvas
+    sw_grid_origin = {
+        "SW-GAM1": (680,  840, 6),  # 22 drops -> 4 rows x 6 cols
+        "SW-VIP":  (1180, 840, 4),  # 12 drops -> 3 rows x 4 cols
+        "SW-STU":  (1540, 840, 3),  # 9 drops  -> 3 rows x 3 cols
+        "SW-ADM":  (1860, 740, 3),  # 9 drops  -> 3 rows x 3 cols
+    }
+    sw_counter = {k: 0 for k in sw_grid_origin}
+
+    for dr in DROPS:
+        idx = sw_counter[dr.switch]
+        sw_counter[dr.switch] += 1
+        ox, oy, cols = sw_grid_origin[dr.switch]
+        r_i, c_i = divmod(idx, cols)
+        hx = ox + c_i * 78
+        hy = oy + r_i * 125
+
+        if dr.kind == "AP":
+            hmod, hcat, hport = "AccessPoint-PT", "accesspoint", "Port 0"
+        elif dr.kind == "Printer":
+            hmod, hcat, hport = "Printer-PT", "printer", "FastEthernet0"
+        else:
+            hmod, hcat, hport = "PC-PT", "pc", "FastEthernet0"
+
+        wm_name = f"WM-{dr.drop_id}"
+        add_dev(wm_name, "Copper Wall Mount", "wall_mount", "CEBU", f"ZONE-{dr.room}", hx, hy - 48)
+
+        spec = SUBNET_BY_NAME[dr.lan]
+        extra: Dict = {"lan": dr.lan, "room": dr.room, "drop_id": dr.drop_id}
+        if dr.ip_mode == "Static" and dr.static_ip:
+            extra.update({
+                "ip": dr.static_ip, "mask": str(spec.net4.netmask), "gw": spec.gateway_v4, "dns": "10.10.0.98",
+                "ipv6": dr.static_ipv6, "ipv6_prefix": 64, "ipv6_gw": "FE80::1",
+            })
         elif hcat in ("pc", "printer"):
             extra.update({"dhcp": True, "ipv6_dhcp": True})
-        add_dev(hname, hmod, hcat, "CEBU", f"ZONE-{sw}", hx, hy, **extra)
-        # Physical path: Switch Fa0/i -> Patch Panel Jack{i} -> PunchDown{i} -> Wall Mount PunchDown1 -> Jack1 -> Host
-        host_port = "Port 0" if hcat == "accesspoint" else "FastEthernet0"
-        add_link(sw, f"FastEthernet0/{pidx}", pp, f"Jack{pidx}", "straight")
-        add_link(pp, f"PunchDown{pidx}", wm, "PunchDown1", "straight")
-        add_link(wm, "Jack1", hname, host_port, "straight")
 
-    # --- Building 1: Clark Branch (Luzon — RIPv2 / RIPng + Floating AD 130) ---
-    add_dev("R-CLARK",    "2911",               "router",      "CLARK", "CLK-MDF", 160, 240, modules=[("0/0", "HWIC-2T")])
-    add_dev("SW-CLK-GAM", "2960-24TT",          "switch",      "CLARK", "CLK-MDF", 80,  380)
-    add_dev("SW-CLK-ADM", "2960-24TT",          "switch",      "CLARK", "CLK-MDF", 220, 380)
-    add_dev("PP-CLK",     "Copper Patch Panel", "patch_panel", "CLARK", "CLK-MDF", 150, 460)
-    add_link("R-CLARK", "GigabitEthernet0/0", "SW-CLK-GAM", "GigabitEthernet0/1", "straight")
-    add_link("R-CLARK", "GigabitEthernet0/1", "SW-CLK-ADM", "GigabitEthernet0/1", "straight")
+        add_dev(dr.device, hmod, hcat, "CEBU", f"ZONE-{dr.room}", hx, hy, **extra)
+        # Mandatory physical path: Switch Fa0/p -> Patch Panel Jack{p} -> PunchDown{p} -> WM PunchDown1 -> WM Jack1 -> Host
+        add_link(dr.switch, dr.sw_port, dr.pp_id, f"Jack{dr.pp_port}", "straight")
+        add_link(dr.pp_id, f"PunchDown{dr.pp_port}", wm_name, "PunchDown1", "straight")
+        add_link(wm_name, "Jack1", dr.device, hport, "straight")
 
-    clk_hosts = [
-        ("CLK-GAM-01", "PC-PT", "pc", "CLK-GAMING-LAN", "SW-CLK-GAM", 1, 0, "WM-CG1", 40,  580, None, None),
-        ("CLK-GAM-02", "PC-PT", "pc", "CLK-GAMING-LAN", "SW-CLK-GAM", 2, 1, "WM-CG2", 110, 580, None, None),
-        ("CLK-IT-PC",  "PC-PT", "pc", "CLK-ADMIN-LAN",  "SW-CLK-ADM", 1, 2, "WM-CI1", 190, 580, "10.10.1.70", "2001:DB8:ACAD:2002::70"),
-        ("CLK-POS-01", "PC-PT", "pc", "CLK-ADMIN-LAN",  "SW-CLK-ADM", 2, 3, "WM-CP1", 260, 580, None, None),
-    ]
-    for hname, hmod, hcat, lan, sw, swp, ppp, wm, hx, hy, sip, sip6 in clk_hosts:
-        spec = SUBNET_BY_NAME[lan]
-        add_dev(wm, "Copper Wall Mount", "wall_mount", "CLARK", "CLK-FLOOR", hx, hy - 55)
-        extra = {"lan": lan}
-        if sip:
-            extra.update({"ip": sip, "mask": str(spec.net4.netmask), "gw": spec.gateway_v4, "dns": "10.10.0.98",
-                          "ipv6": sip6, "ipv6_prefix": 64, "ipv6_gw": "FE80::1"})
-        else:
-            extra.update({"dhcp": True, "ipv6_dhcp": True})
-        add_dev(hname, hmod, hcat, "CLARK", "CLK-FLOOR", hx, hy, **extra)
-        add_link(sw, f"FastEthernet0/{swp}", "PP-CLK", f"Jack{ppp + 1}", "straight")
-        add_link("PP-CLK", f"PunchDown{ppp + 1}", wm, "PunchDown1", "straight")
-        add_link(wm, "Jack1", hname, "FastEthernet0", "straight")
+    # =========================================================================
+    # HELPER FOR FULL BRANCH SITES (Clark = 25 drops, Davao = 25 drops)
+    # =========================================================================
+    def add_branch(site_code: str, prefix: str, rname: str, gam_lan: str, adm_lan: str, base_x: int):
+        sw_g = f"SW-{prefix}-GAM"
+        sw_a = f"SW-{prefix}-ADM"
+        pp_g = f"PP-{prefix}-G"
+        pp_a = f"PP-{prefix}-A"
 
-    # --- Building 3: Davao Branch (Mindanao — EIGRP AS 100 / EIGRPv6 + Floating AD 180) ---
-    add_dev("R-DAVAO",    "2911",               "router",      "DAVAO", "DVO-MDF", 1180, 240, modules=[("0/0", "HWIC-2T")])
-    add_dev("SW-DVO-GAM", "2960-24TT",          "switch",      "DAVAO", "DVO-MDF", 1110, 380)
-    add_dev("SW-DVO-ADM", "2960-24TT",          "switch",      "DAVAO", "DVO-MDF", 1250, 380)
-    add_dev("PP-DVO",     "Copper Patch Panel", "patch_panel", "DAVAO", "DVO-MDF", 1180, 460)
-    add_link("R-DAVAO", "GigabitEthernet0/0", "SW-DVO-GAM", "GigabitEthernet0/1", "straight")
-    add_link("R-DAVAO", "GigabitEthernet0/1", "SW-DVO-ADM", "GigabitEthernet0/1", "straight")
+        add_dev(rname, "2911",               "router",      site_code, f"{prefix}-MDF", base_x + 240, 260, modules=[("0/0", "HWIC-2T")])
+        add_dev(sw_g,  "2960-24TT",          "switch",      site_code, f"{prefix}-MDF", base_x + 120, 420)
+        add_dev(sw_a,  "2960-24TT",          "switch",      site_code, f"{prefix}-MDF", base_x + 420, 420)
+        add_dev(pp_g,  "Copper Patch Panel", "patch_panel", site_code, f"{prefix}-MDF", base_x + 120, 520)
+        add_dev(pp_a,  "Copper Patch Panel", "patch_panel", site_code, f"{prefix}-MDF", base_x + 420, 520)
 
-    dvo_hosts = [
-        ("DVO-GAM-01", "PC-PT", "pc", "DVO-GAMING-LAN", "SW-DVO-GAM", 1, 0, "WM-DG1", 1070, 580, None, None),
-        ("DVO-GAM-02", "PC-PT", "pc", "DVO-GAMING-LAN", "SW-DVO-GAM", 2, 1, "WM-DG2", 1140, 580, None, None),
-        ("DVO-IT-PC",  "PC-PT", "pc", "DVO-ADMIN-LAN",  "SW-DVO-ADM", 1, 2, "WM-DI1", 1220, 580, "10.10.2.70", "2001:DB8:ACAD:3002::70"),
-        ("DVO-POS-01", "PC-PT", "pc", "DVO-ADMIN-LAN",  "SW-DVO-ADM", 2, 3, "WM-DP1", 1290, 580, None, None),
-    ]
-    for hname, hmod, hcat, lan, sw, swp, ppp, wm, hx, hy, sip, sip6 in dvo_hosts:
-        spec = SUBNET_BY_NAME[lan]
-        add_dev(wm, "Copper Wall Mount", "wall_mount", "DAVAO", "DVO-FLOOR", hx, hy - 55)
-        extra = {"lan": lan}
-        if sip:
-            extra.update({"ip": sip, "mask": str(spec.net4.netmask), "gw": spec.gateway_v4, "dns": "10.10.0.98",
-                          "ipv6": sip6, "ipv6_prefix": 64, "ipv6_gw": "FE80::1"})
-        else:
-            extra.update({"dhcp": True, "ipv6_dhcp": True})
-        add_dev(hname, hmod, hcat, "DAVAO", "DVO-FLOOR", hx, hy, **extra)
-        add_link(sw, f"FastEthernet0/{swp}", "PP-DVO", f"Jack{ppp + 1}", "straight")
-        add_link("PP-DVO", f"PunchDown{ppp + 1}", wm, "PunchDown1", "straight")
-        add_link(wm, "Jack1", hname, "FastEthernet0", "straight")
+        add_link(rname, "GigabitEthernet0/0", sw_g, "GigabitEthernet0/1", "straight")
+        add_link(rname, "GigabitEthernet0/1", sw_a, "GigabitEthernet0/1", "straight")
 
-    # Programmatic assertion: EVERY static host IP in plan is strictly network+1 .. broadcast-1
+        # 16 Gaming PCs + 3 Customer APs = 19 drops on Gaming Switch / Patch Panel
+        gam_endpoints = [(f"{prefix}-GAM-{i:02d}", "PC-PT", "pc", "FastEthernet0") for i in range(1, 17)] + [
+            (f"{prefix}-AP-{i:02d}", "AccessPoint-PT", "accesspoint", "Port 0") for i in range(1, 4)
+        ]
+        for idx, (hname, hmod, hcat, hport) in enumerate(gam_endpoints, 1):
+            r_i, c_i = divmod(idx - 1, 5)
+            hx = base_x + c_i * 74
+            hy = 660 + r_i * 125
+            wm = f"WM-{prefix}-G{idx:02d}"
+            add_dev(wm, "Copper Wall Mount", "wall_mount", site_code, f"{prefix}-GAMING", hx, hy - 48)
+            extra = {"lan": gam_lan}
+            if hcat == "pc":
+                extra.update({"dhcp": True, "ipv6_dhcp": True})
+            add_dev(hname, hmod, hcat, site_code, f"{prefix}-GAMING", hx, hy, **extra)
+            add_link(sw_g, f"FastEthernet0/{idx}", pp_g, f"Jack{idx}", "straight")
+            add_link(pp_g, f"PunchDown{idx}", wm, "PunchDown1", "straight")
+            add_link(wm, "Jack1", hname, hport, "straight")
+
+        # 4 Admin/POS PCs + 1 Network Printer + 1 Staff AP = 6 drops on Admin Switch / Patch Panel
+        adm_spec = SUBNET_BY_NAME[adm_lan]
+        oct3 = "1" if prefix == "CLK" else "2"
+        v6_sub = "2002" if prefix == "CLK" else "3002"
+        adm_endpoints = [
+            (f"{prefix}-IT-PC",  "PC-PT",          "pc",          "FastEthernet0", f"10.10.{oct3}.70", f"2001:DB8:ACAD:{v6_sub}::70"),
+            (f"{prefix}-PRT-01", "Printer-PT",     "printer",     "FastEthernet0", f"10.10.{oct3}.71", f"2001:DB8:ACAD:{v6_sub}::71"),
+            (f"{prefix}-MGR-PC", "PC-PT",          "pc",          "FastEthernet0", None, None),
+            (f"{prefix}-POS-01", "PC-PT",          "pc",          "FastEthernet0", None, None),
+            (f"{prefix}-POS-02", "PC-PT",          "pc",          "FastEthernet0", None, None),
+            (f"{prefix}-AP-04",  "AccessPoint-PT", "accesspoint", "Port 0",        None, None),
+        ]
+        for idx, (hname, hmod, hcat, hport, sip, sip6) in enumerate(adm_endpoints, 1):
+            r_i, c_i = divmod(idx - 1, 2)
+            hx = base_x + 390 + c_i * 78
+            hy = 660 + r_i * 125
+            wm = f"WM-{prefix}-A{idx:02d}"
+            add_dev(wm, "Copper Wall Mount", "wall_mount", site_code, f"{prefix}-ADMIN", hx, hy - 48)
+            extra = {"lan": adm_lan}
+            if sip:
+                extra.update({
+                    "ip": sip, "mask": str(adm_spec.net4.netmask), "gw": adm_spec.gateway_v4, "dns": "10.10.0.98",
+                    "ipv6": sip6, "ipv6_prefix": 64, "ipv6_gw": "FE80::1",
+                })
+            elif hcat in ("pc", "printer"):
+                extra.update({"dhcp": True, "ipv6_dhcp": True})
+            add_dev(hname, hmod, hcat, site_code, f"{prefix}-ADMIN", hx, hy, **extra)
+            add_link(sw_a, f"FastEthernet0/{idx}", pp_a, f"Jack{idx}", "straight")
+            add_link(pp_a, f"PunchDown{idx}", wm, "PunchDown1", "straight")
+            add_link(wm, "Jack1", hname, hport, "straight")
+
+    # Building 1 (Clark — Luzon) & Building 3 (Davao — Mindanao)
+    add_branch("CLARK", "CLK", "R-CLARK", "CLK-GAMING-LAN", "CLK-ADMIN-LAN", base_x=60)
+    add_branch("DAVAO", "DVO", "R-DAVAO", "DVO-GAMING-LAN", "DVO-ADMIN-LAN", base_x=2360)
+
+    # Programmatic assertion: EVERY static host IP strictly between network+1 and broadcast-1
     for d in devices:
         if "ip" in d and "lan" in d:
             net = SUBNET_BY_NAME[d["lan"]].net4
@@ -181,14 +210,31 @@ def build_master_plan() -> Dict:
             assert net.network_address < addr < net.broadcast_address, f"Invalid host IP {d['ip']} on {d['name']}"
             assert d["ip"] != SUBNET_BY_NAME[d["lan"]].gateway_v4, f"{d['name']} collides with gateway"
 
-    # SRV-1 DHCPv4 relay pools (for HQ-GAMING-LAN & HQ-ADMIN-LAN + HQ-SERVER-LAN default)
+    # Parity count assertions
+    assert sum(1 for d in devices if d["site"] == "CEBU" and d["category"] == "pc") == 42
+    assert sum(1 for d in devices if d["site"] == "CEBU" and d["category"] == "printer") == 2
+    assert sum(1 for d in devices if d["site"] == "CEBU" and d["category"] == "accesspoint") == 8
+    assert sum(1 for d in devices if d["site"] == "CEBU" and d["category"] == "server") == 2
+    assert sum(1 for d in devices if d["site"] == "CLARK" and d["category"] == "pc") == 20
+    assert sum(1 for d in devices if d["site"] == "CLARK" and d["category"] == "printer") == 1
+    assert sum(1 for d in devices if d["site"] == "CLARK" and d["category"] == "accesspoint") == 4
+    assert sum(1 for d in devices if d["site"] == "DAVAO" and d["category"] == "pc") == 20
+    assert sum(1 for d in devices if d["site"] == "DAVAO" and d["category"] == "printer") == 1
+    assert sum(1 for d in devices if d["site"] == "DAVAO" and d["category"] == "accesspoint") == 4
+
     srv1_dhcp_pools = [
         {"name": "HQ-GAMING-POOL", "gw": "10.10.0.1",  "dns": "10.10.0.98", "start": "10.10.0.11", "mask": "255.255.255.192", "max_users": 50},
         {"name": "HQ-ADMIN-POOL",  "gw": "10.10.0.65", "dns": "10.10.0.98", "start": "10.10.0.76", "mask": "255.255.255.224", "max_users": 18},
     ]
 
-    plan = {
-        "project": "RJ Internet Cafe & Esports Inc. — Multi-Branch Network (Group1)",
+    return {
+        "project": "RJ Internet Cafe & Esports Inc. — Full 1-to-1 Multi-Branch Network (Group1)",
+        "parity": {
+            "cebu_hq": {"pcs": 42, "printers": 2, "aps": 8, "servers": 2, "horizontal_drops": 52},
+            "clark_branch": {"pcs": 20, "printers": 1, "aps": 4, "horizontal_drops": 25},
+            "davao_branch": {"pcs": 20, "printers": 1, "aps": 4, "horizontal_drops": 25},
+            "total_endpoints": 104,
+        },
         "pkt_files": {
             "master": "pt/rj_network.pkt",
             "cebu_hq": "pt/rj_cebu_hq_visayas.pkt",
@@ -204,7 +250,6 @@ def build_master_plan() -> Dict:
         "devices": devices,
         "links": links,
     }
-    return plan
 
 
 def write_manual_physical_guide() -> None:
@@ -216,13 +261,13 @@ def write_manual_physical_guide() -> None:
         "",
         "---",
         "",
-        "## 1. Packet Tracer Files Included (`pt/`)",
-        "| File | Scope | Role |",
+        "## 1. Packet Tracer Files Included (`pt/` — Full 1-to-1 Endpoint Parity)",
+        "| File | Scope | Endpoints Included (100% Parity w/ Plans & BOQ) |",
         "|---|---|---|",
-        "| `pt/rj_network.pkt` | All 3 Buildings + `ISP-CEBU` | Master end-to-end simulation & verification topology |",
-        "| `pt/rj_cebu_hq_visayas.pkt` | Building 2 — Cebu Flagship HQ + `ISP-CEBU` | Multiuser Host (listens on **TCP 38000**, password `rjesports`) |",
-        "| `pt/rj_clark_luzon.pkt` | Building 1 — Clark Branch Café (Luzon) | Multiuser Peer connecting to HQ WAN `WAN-CLARK-PRI` / `BAK` |",
-        "| `pt/rj_davao_mindanao.pkt` | Building 3 — Davao Branch Café (Mindanao) | Multiuser Peer connecting to HQ WAN `WAN-DAVAO-PRI` / `BAK` |",
+        "| `pt/rj_network.pkt` | All 3 Buildings + `ISP-CEBU` | **82 PCs, 4 Printers, 16 APs, 2 Servers** (102 horizontal drops + 2 rack servers) |",
+        "| `pt/rj_cebu_hq_visayas.pkt` | Building 2 — Cebu Flagship HQ + `ISP-CEBU` (Multiuser TCP 38000 Host) | **42 PCs, 2 Printers (`PRT-01..02`), 8 APs (`AP-01..08`), 2 Servers (`SRV-1..2`)** |",
+        "| `pt/rj_clark_luzon.pkt` | Building 1 — Clark Branch Café (Luzon) | **20 PCs (`CLK-GAM-01..16`, `CLK-IT-PC`, `CLK-MGR-PC`, `CLK-POS-01..02`), 1 Printer (`CLK-PRT-01`), 4 APs** |",
+        "| `pt/rj_davao_mindanao.pkt` | Building 3 — Davao Branch Café (Mindanao) | **20 PCs (`DVO-GAM-01..16`, `DVO-IT-PC`, `DVO-MGR-PC`, `DVO-POS-01..02`), 1 Printer (`DVO-PRT-01`), 4 APs** |",
         "",
         "---",
         "",
@@ -234,29 +279,29 @@ def write_manual_physical_guide() -> None:
         "| Intercity | `Philippines Intercity` | `intercity_3_sites.png` |",
         "| City 1 | `Clark_Luzon` | `city_clark.png` |",
         "| Building 1 | `RJ_Clark_Branch` | `floor_clark.png` (40 × 26 m = 1,040 sqm) |",
-        "| Closet 1A | `CLK-MDF` | Main rack inside Clark MDF Room |",
+        "| Closet 1A | `CLK-MDF` | Main rack inside Clark MDF Room (`R-CLARK`, `SW-CLK-GAM/ADM`, `PP-CLK-G/A`) |",
         "| City 2 | `Cebu_Visayas` | `city_cebu.png` |",
         "| Building 2 | `RJ_Cebu_Flagship_HQ` | `floor_hq.png` (40 × 26 m = 1,040 sqm) |",
         "| Building 2B | `Cebu_ISP_POP` | Central ISP node (`ISP-CEBU`) in Cebu City |",
         "| Closets 2A–2F | `MDF`, `IDF-1`, `IDF-2`, `CAB-G`, `CAB-V`, `CAB-S` | Placed on exact cabinet markers on `floor_hq.png` |",
         "| City 3 | `Davao_Mindanao` | `city_davao.png` |",
         "| Building 3 | `RJ_Davao_Branch` | `floor_davao.png` (40 × 26 m = 1,040 sqm) |",
-        "| Closet 3A | `DVO-MDF` | Main rack inside Davao MDF Room |",
+        "| Closet 3A | `DVO-MDF` | Main rack inside Davao MDF Room (`R-DAVAO`, `SW-DVO-GAM/ADM`, `PP-DVO-G/A`) |",
         "",
         "---",
         "",
-        "## 3. Exact Device-to-Closet & Drop Placement Table (Cebu Flagship HQ)",
-        "Drag each device in **Physical Workspace** directly onto its labeled blue/green drop marker on `floor_hq.png`:",
+        "## 3. Exact Device-to-Closet & Drop Placement Table (Cebu Flagship HQ — All 52 Drops)",
+        "Drag each device + its matching Copper Wall Mount (`WM-<DropID>`) in **Physical Workspace** directly onto its labeled marker on `floor_hq.png`:",
         "",
-        "| Device(s) | Exact Closet / Room | Coordinates on Floor Plate | Mandatory Physical Path |",
+        "| Device(s) | Exact Closet / Room | Coordinates | Mandatory Physical Path |",
         "|---|---|---|---|",
         "| `R-CEBU`, `SW-CORE`, `SW-SRV`, `SRV-1`, `SRV-2` | `MDF` (`MDF-ROOM`) | (20.5 m, 15.5 m) | Rack-mounted in 42U MDF cabinet |",
-        "| `DSW-1` (3560-24PS) | `IDF-1` (`FUT-GAME` corner) | (18.6 m, 11.4 m) | OM3 fiber to `MDF` `SW-CORE`; **zero PCs directly on `DSW-1`** |",
-        "| `DSW-2` (3560-24PS), `SW-ADM` (2960-24TT), `PP-ADM` | `IDF-2` (`ADMIN-OFC`) | (27.6 m, 14.6 m) | OM3 fiber to `MDF` `SW-CORE`; `SW-ADM` feeds Admin/POS drops |",
-        "| `SW-GAM1` (2960-24TT), `PP-G` | `CAB-G` (`STD-GAME`) | (17.4 m, 6.0 m) | `GAM-01..20` & `AP-01..02` → Wall Mount → `PP-G` → `SW-GAM1` |",
-        "| `SW-VIP` (2960-24TT), `PP-V` | `CAB-V` (`VIP-ARENA`) | (26.6 m, 6.0 m) | `VIP-01..10` & `AP-03..04` → Wall Mount → `PP-V` → `SW-VIP` |",
-        "| `SW-STU` (2960-24TT), `PP-S` | `CAB-S` (`STUDY-PODS`) | (17.4 m, 18.0 m) | `STD-01..04`, `BRW-01..02`, `AP-05..07` → Wall Mount → `PP-S` → `SW-STU` |",
-        "| `IT-PC`, `POS-01`, `PRT-01`, `AP-08` | `ADMIN-OFC` / `CASH-LOBBY` | See Sheet `C-1` markers | Host → Wall Mount → `PP-ADM` → `SW-ADM` → `R-CEBU Gi0/1` |",
+        "| `DSW-1` (3560-24PS) | `IDF-1` (`FUT-GAME`) | (18.6 m, 11.4 m) | OM3 fiber to `MDF` `SW-CORE`; **zero PCs directly on `DSW-1`** |",
+        "| `DSW-2` (3560-24PS), `SW-ADM` (2960-24TT), `PP-ADM` | `IDF-2` (`ADMIN-OFC`) | (27.6 m, 14.6 m) | OM3 fiber to `MDF` `SW-CORE`; `SW-ADM` serves Admin/POS/Printers |",
+        "| `SW-GAM1`, `PP-G` + `GAM-01..20`, `AP-01..02` | `CAB-G` (`STD-GAME`) | (17.4 m, 6.0 m) | 22 drops: Host → `WM-G01..20`/`WM-AP-01..02` → `PP-G` → `SW-GAM1` |",
+        "| `SW-VIP`, `PP-V` + `VIP-01..10`, `AP-03..04` | `CAB-V` (`VIP-ARENA`) | (26.6 m, 6.0 m) | 12 drops: Host → `WM-V01..10`/`WM-AP-03..04` → `PP-V` → `SW-VIP` |",
+        "| `SW-STU`, `PP-S` + `STD-01..04`, `BRW-01..02`, `AP-05..07` | `CAB-S` (`STUDY-PODS`) | (17.4 m, 18.0 m) | 9 drops: Host → `WM-S01..04`/`B01..02`/`AP-05..07` → `PP-S` → `SW-STU` |",
+        "| `IT-PC`, `MGR-PC`, `STF-01..02`, `POS-01..02`, `PRT-01..02`, `AP-08` | `ADMIN-OFC` / `CASH-LOBBY` | See Sheet `C-1` | 9 drops: Host → `WM-A01..08`/`WM-AP-08` → `PP-ADM` → `SW-ADM` |",
         "",
         "### Access Switch Spare Port Check (`2960-24TT`: `24 - Used Fa`, uplink on `Gi0/1`)",
         "| Switch | Cabinet | Used Fa Ports | Spare Fa Ports | Uplink |",
@@ -272,15 +317,15 @@ def write_manual_physical_guide() -> None:
         "## 4. Wall Cabling, Bend Points & Cable Length Verification Checklist",
         "1. Enable **Options → Preferences → Miscellaneous → Enable Cable Length Effects** (checked **ON**).",
         "2. Verify every host follows the mandatory structured cabling path:",
-        "   `PC -> Copper Wall Mount (Jack 0 / PunchDown 0) -> Copper Patch Panel (PunchDown N / Jack N) -> Access Switch -> Distribution Switch -> Core Switch -> Router`.",
+        "   `PC/Printer/AP -> Copper Wall Mount (Jack1 / PunchDown1) -> Copper Patch Panel (PunchDownN / JackN) -> Access Switch -> Distribution Switch -> Core Switch -> Router`.",
         "3. **No diagonal cables:** Right-click any copper wire running across a room → select **Create Bend Point** and drag the vertex along room perimeter walls and the central 2.0 m corridor (`Y = 12.45 m` north tray).",
         "4. Hover over each horizontal cable run to confirm length **≤ 90 m permanent link** (**≤ 100 m total channel**). All designed Cebu HQ drops measure **12.7 m – 39.3 m** (zero repeaters required).",
-        "5. **Multiuser Linking (optional live split demo):** On `rj_cebu_hq_visayas.pkt`, open **Extensions → Multiuser → Listen** on **TCP port `38000`** (`Allow New Remote Networks: Always Allow`, password `rjesports`). On `rj_clark_luzon.pkt` and `rj_davao_mindanao.pkt`, connect their Multiuser Cloud (`Peer0`) to `127.0.0.1:38000`.",
+        "5. **Multiuser Linking:** On `rj_cebu_hq_visayas.pkt`, open **Extensions → Multiuser → Listen** on **TCP port `38000`** (`Allow New Remote Networks: Always Allow`, password `rjesports`). On `rj_clark_luzon.pkt` and `rj_davao_mindanao.pkt`, connect their Multiuser Cloud (`Peer0`) to `127.0.0.1:38000`.",
         "",
         "---",
         "",
         "## 5. Exact 6-Screenshot Capture Checklist (Auto-Embed Pipeline)",
-        "Save screenshots using these **exact filenames** inside `report/screenshots/`, then run ONE rebuild command to regenerate the `.docx` and `.pdf` with updated TOC, List of Figures, and List of Tables:",
+        "Save screenshots using these **exact filenames** inside `report/screenshots/`, then run ONE rebuild command to regenerate `.docx` and `.pdf` with updated TOC/LOF/LOT:",
         "",
         "| Filename (`report/screenshots/`) | Report Section | What Must Be Visible |",
         "|---|---|---|",
@@ -304,7 +349,7 @@ def main() -> None:
     PT_DIR.mkdir(parents=True, exist_ok=True)
     (PT_DIR / "rj_plan.json").write_text(json.dumps(plan, indent=2), encoding="utf-8")
     write_manual_physical_guide()
-    print(f"Generated pt/rj_plan.json ({len(plan['devices'])} devices, {len(plan['links'])} links) & pt/PT_MANUAL_PHYSICAL_GUIDE.md")
+    print(f"Generated FULL 1-to-1 pt/rj_plan.json ({len(plan['devices'])} devices, {len(plan['links'])} links) & pt/PT_MANUAL_PHYSICAL_GUIDE.md")
 
 
 if __name__ == "__main__":

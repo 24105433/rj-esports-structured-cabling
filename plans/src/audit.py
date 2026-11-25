@@ -159,6 +159,12 @@ def run_audit() -> None:
     em = compute_electrical_model()
     check(em["acp_demand_va"] == round(em["acp_connected_va"] + 0.25 * em["largest_ac_va"]), f"PEC 2017 ACP single-pass 125% ({em['acp_demand_va']:,} VA, no double-count)")
     check(len(APPLIANCES) == 9 and len(AC_UNITS) == 11, "1-to-1 parity: 9 dedicated appliances + 11 AC units + 42 PCs")
+    pt_plan = json.loads((PT_DIR / "rj_plan.json").read_text(encoding="utf-8"))
+    pt_devs = pt_plan["devices"]
+    check(sum(1 for d in pt_devs if d["site"] == "CEBU" and d["category"] == "pc") == 42, "PT Cebu HQ has ALL 42 PCs (1-to-1 parity)")
+    check(sum(1 for d in pt_devs if d["site"] == "CEBU" and d["category"] == "printer") == 2, "PT Cebu HQ has ALL 2 Printers (1-to-1 parity)")
+    check(sum(1 for d in pt_devs if d["site"] == "CEBU" and d["category"] == "accesspoint") == 8, "PT Cebu HQ has ALL 8 APs (1-to-1 parity)")
+    check(sum(1 for d in pt_devs if d["category"] == "pc") == 82 and sum(1 for d in pt_devs if d["category"] == "printer") == 4, "PT Master has ALL 82 PCs & 4 Printers across all 3 sites")
 
     # --- GATE 5: Strict APA 7th 1-to-1 Match & Table/Figure Number Citations ---
     print("\n[Gate 5] Strict APA 7th Citation/Reference Match & Table/Figure Citations")

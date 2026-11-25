@@ -4,13 +4,13 @@
 
 ---
 
-## 1. Packet Tracer Files Included (`pt/`)
-| File | Scope | Role |
+## 1. Packet Tracer Files Included (`pt/` — Full 1-to-1 Endpoint Parity)
+| File | Scope | Endpoints Included (100% Parity w/ Plans & BOQ) |
 |---|---|---|
-| `pt/rj_network.pkt` | All 3 Buildings + `ISP-CEBU` | Master end-to-end simulation & verification topology |
-| `pt/rj_cebu_hq_visayas.pkt` | Building 2 — Cebu Flagship HQ + `ISP-CEBU` | Multiuser Host (listens on **TCP 38000**, password `rjesports`) |
-| `pt/rj_clark_luzon.pkt` | Building 1 — Clark Branch Café (Luzon) | Multiuser Peer connecting to HQ WAN `WAN-CLARK-PRI` / `BAK` |
-| `pt/rj_davao_mindanao.pkt` | Building 3 — Davao Branch Café (Mindanao) | Multiuser Peer connecting to HQ WAN `WAN-DAVAO-PRI` / `BAK` |
+| `pt/rj_network.pkt` | All 3 Buildings + `ISP-CEBU` | **82 PCs, 4 Printers, 16 APs, 2 Servers** (102 horizontal drops + 2 rack servers) |
+| `pt/rj_cebu_hq_visayas.pkt` | Building 2 — Cebu Flagship HQ + `ISP-CEBU` (Multiuser TCP 38000 Host) | **42 PCs, 2 Printers (`PRT-01..02`), 8 APs (`AP-01..08`), 2 Servers (`SRV-1..2`)** |
+| `pt/rj_clark_luzon.pkt` | Building 1 — Clark Branch Café (Luzon) | **20 PCs (`CLK-GAM-01..16`, `CLK-IT-PC`, `CLK-MGR-PC`, `CLK-POS-01..02`), 1 Printer (`CLK-PRT-01`), 4 APs** |
+| `pt/rj_davao_mindanao.pkt` | Building 3 — Davao Branch Café (Mindanao) | **20 PCs (`DVO-GAM-01..16`, `DVO-IT-PC`, `DVO-MGR-PC`, `DVO-POS-01..02`), 1 Printer (`DVO-PRT-01`), 4 APs** |
 
 ---
 
@@ -22,29 +22,29 @@ Switch to **Physical Workspace (`Shift+P`)** and set the scaled background image
 | Intercity | `Philippines Intercity` | `intercity_3_sites.png` |
 | City 1 | `Clark_Luzon` | `city_clark.png` |
 | Building 1 | `RJ_Clark_Branch` | `floor_clark.png` (40 × 26 m = 1,040 sqm) |
-| Closet 1A | `CLK-MDF` | Main rack inside Clark MDF Room |
+| Closet 1A | `CLK-MDF` | Main rack inside Clark MDF Room (`R-CLARK`, `SW-CLK-GAM/ADM`, `PP-CLK-G/A`) |
 | City 2 | `Cebu_Visayas` | `city_cebu.png` |
 | Building 2 | `RJ_Cebu_Flagship_HQ` | `floor_hq.png` (40 × 26 m = 1,040 sqm) |
 | Building 2B | `Cebu_ISP_POP` | Central ISP node (`ISP-CEBU`) in Cebu City |
 | Closets 2A–2F | `MDF`, `IDF-1`, `IDF-2`, `CAB-G`, `CAB-V`, `CAB-S` | Placed on exact cabinet markers on `floor_hq.png` |
 | City 3 | `Davao_Mindanao` | `city_davao.png` |
 | Building 3 | `RJ_Davao_Branch` | `floor_davao.png` (40 × 26 m = 1,040 sqm) |
-| Closet 3A | `DVO-MDF` | Main rack inside Davao MDF Room |
+| Closet 3A | `DVO-MDF` | Main rack inside Davao MDF Room (`R-DAVAO`, `SW-DVO-GAM/ADM`, `PP-DVO-G/A`) |
 
 ---
 
-## 3. Exact Device-to-Closet & Drop Placement Table (Cebu Flagship HQ)
-Drag each device in **Physical Workspace** directly onto its labeled blue/green drop marker on `floor_hq.png`:
+## 3. Exact Device-to-Closet & Drop Placement Table (Cebu Flagship HQ — All 52 Drops)
+Drag each device + its matching Copper Wall Mount (`WM-<DropID>`) in **Physical Workspace** directly onto its labeled marker on `floor_hq.png`:
 
-| Device(s) | Exact Closet / Room | Coordinates on Floor Plate | Mandatory Physical Path |
+| Device(s) | Exact Closet / Room | Coordinates | Mandatory Physical Path |
 |---|---|---|---|
 | `R-CEBU`, `SW-CORE`, `SW-SRV`, `SRV-1`, `SRV-2` | `MDF` (`MDF-ROOM`) | (20.5 m, 15.5 m) | Rack-mounted in 42U MDF cabinet |
-| `DSW-1` (3560-24PS) | `IDF-1` (`FUT-GAME` corner) | (18.6 m, 11.4 m) | OM3 fiber to `MDF` `SW-CORE`; **zero PCs directly on `DSW-1`** |
-| `DSW-2` (3560-24PS), `SW-ADM` (2960-24TT), `PP-ADM` | `IDF-2` (`ADMIN-OFC`) | (27.6 m, 14.6 m) | OM3 fiber to `MDF` `SW-CORE`; `SW-ADM` feeds Admin/POS drops |
-| `SW-GAM1` (2960-24TT), `PP-G` | `CAB-G` (`STD-GAME`) | (17.4 m, 6.0 m) | `GAM-01..20` & `AP-01..02` → Wall Mount → `PP-G` → `SW-GAM1` |
-| `SW-VIP` (2960-24TT), `PP-V` | `CAB-V` (`VIP-ARENA`) | (26.6 m, 6.0 m) | `VIP-01..10` & `AP-03..04` → Wall Mount → `PP-V` → `SW-VIP` |
-| `SW-STU` (2960-24TT), `PP-S` | `CAB-S` (`STUDY-PODS`) | (17.4 m, 18.0 m) | `STD-01..04`, `BRW-01..02`, `AP-05..07` → Wall Mount → `PP-S` → `SW-STU` |
-| `IT-PC`, `POS-01`, `PRT-01`, `AP-08` | `ADMIN-OFC` / `CASH-LOBBY` | See Sheet `C-1` markers | Host → Wall Mount → `PP-ADM` → `SW-ADM` → `R-CEBU Gi0/1` |
+| `DSW-1` (3560-24PS) | `IDF-1` (`FUT-GAME`) | (18.6 m, 11.4 m) | OM3 fiber to `MDF` `SW-CORE`; **zero PCs directly on `DSW-1`** |
+| `DSW-2` (3560-24PS), `SW-ADM` (2960-24TT), `PP-ADM` | `IDF-2` (`ADMIN-OFC`) | (27.6 m, 14.6 m) | OM3 fiber to `MDF` `SW-CORE`; `SW-ADM` serves Admin/POS/Printers |
+| `SW-GAM1`, `PP-G` + `GAM-01..20`, `AP-01..02` | `CAB-G` (`STD-GAME`) | (17.4 m, 6.0 m) | 22 drops: Host → `WM-G01..20`/`WM-AP-01..02` → `PP-G` → `SW-GAM1` |
+| `SW-VIP`, `PP-V` + `VIP-01..10`, `AP-03..04` | `CAB-V` (`VIP-ARENA`) | (26.6 m, 6.0 m) | 12 drops: Host → `WM-V01..10`/`WM-AP-03..04` → `PP-V` → `SW-VIP` |
+| `SW-STU`, `PP-S` + `STD-01..04`, `BRW-01..02`, `AP-05..07` | `CAB-S` (`STUDY-PODS`) | (17.4 m, 18.0 m) | 9 drops: Host → `WM-S01..04`/`B01..02`/`AP-05..07` → `PP-S` → `SW-STU` |
+| `IT-PC`, `MGR-PC`, `STF-01..02`, `POS-01..02`, `PRT-01..02`, `AP-08` | `ADMIN-OFC` / `CASH-LOBBY` | See Sheet `C-1` | 9 drops: Host → `WM-A01..08`/`WM-AP-08` → `PP-ADM` → `SW-ADM` |
 
 ### Access Switch Spare Port Check (`2960-24TT`: `24 - Used Fa`, uplink on `Gi0/1`)
 | Switch | Cabinet | Used Fa Ports | Spare Fa Ports | Uplink |
@@ -60,15 +60,15 @@ Drag each device in **Physical Workspace** directly onto its labeled blue/green 
 ## 4. Wall Cabling, Bend Points & Cable Length Verification Checklist
 1. Enable **Options → Preferences → Miscellaneous → Enable Cable Length Effects** (checked **ON**).
 2. Verify every host follows the mandatory structured cabling path:
-   `PC -> Copper Wall Mount (Jack 0 / PunchDown 0) -> Copper Patch Panel (PunchDown N / Jack N) -> Access Switch -> Distribution Switch -> Core Switch -> Router`.
+   `PC/Printer/AP -> Copper Wall Mount (Jack1 / PunchDown1) -> Copper Patch Panel (PunchDownN / JackN) -> Access Switch -> Distribution Switch -> Core Switch -> Router`.
 3. **No diagonal cables:** Right-click any copper wire running across a room → select **Create Bend Point** and drag the vertex along room perimeter walls and the central 2.0 m corridor (`Y = 12.45 m` north tray).
 4. Hover over each horizontal cable run to confirm length **≤ 90 m permanent link** (**≤ 100 m total channel**). All designed Cebu HQ drops measure **12.7 m – 39.3 m** (zero repeaters required).
-5. **Multiuser Linking (optional live split demo):** On `rj_cebu_hq_visayas.pkt`, open **Extensions → Multiuser → Listen** on **TCP port `38000`** (`Allow New Remote Networks: Always Allow`, password `rjesports`). On `rj_clark_luzon.pkt` and `rj_davao_mindanao.pkt`, connect their Multiuser Cloud (`Peer0`) to `127.0.0.1:38000`.
+5. **Multiuser Linking:** On `rj_cebu_hq_visayas.pkt`, open **Extensions → Multiuser → Listen** on **TCP port `38000`** (`Allow New Remote Networks: Always Allow`, password `rjesports`). On `rj_clark_luzon.pkt` and `rj_davao_mindanao.pkt`, connect their Multiuser Cloud (`Peer0`) to `127.0.0.1:38000`.
 
 ---
 
 ## 5. Exact 6-Screenshot Capture Checklist (Auto-Embed Pipeline)
-Save screenshots using these **exact filenames** inside `report/screenshots/`, then run ONE rebuild command to regenerate the `.docx` and `.pdf` with updated TOC, List of Figures, and List of Tables:
+Save screenshots using these **exact filenames** inside `report/screenshots/`, then run ONE rebuild command to regenerate `.docx` and `.pdf` with updated TOC/LOF/LOT:
 
 | Filename (`report/screenshots/`) | Report Section | What Must Be Visible |
 |---|---|---|

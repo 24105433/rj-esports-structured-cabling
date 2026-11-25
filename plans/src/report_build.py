@@ -692,20 +692,23 @@ def build_report_data() -> Dict:
     p(
         "Simulation and verification were performed in Cisco Packet Tracer 9.0.1 (Cisco Systems, 2023b) running on "
         "Windows 11, paired with Python 3.14 engineering generators, native draw.io XML / SVG CAD sheets, formula-"
-        "driven openpyxl Excel workbooks, and live Packet Tracer Script Engine deployment. Simulated hardware comprises "
-        "four Cisco 2911 routers (HWIC-2T modules), three Cisco 3560-24PS core/distribution switches, nine Cisco "
-        "2960-24TT access switches, Copper Patch Panels, Copper Wall Mounts, two Server-PT servers (SRV-1, SRV-2), "
-        "AccessPoint-PT units, Printer-PT units, and PC-PT workstations. Four saved Packet Tracer topologies were "
-        "generated: pt/rj_network.pkt (full master network) plus three separate Multiuser-ready building files "
-        "(rj_cebu_hq_visayas.pkt, rj_clark_luzon.pkt, rj_davao_mindanao.pkt)."
+        "driven openpyxl Excel workbooks, and live Packet Tracer Script Engine deployment. Simulated hardware achieves "
+        "100% 1-to-1 parity with the engineering plans: four Cisco 2911 routers (HWIC-2T modules), three Cisco "
+        "3560-24PS core/distribution switches, nine Cisco 2960-24TT access switches, eight 24-port Copper Patch "
+        "Panels, 102 Copper Wall Mounts, two Server-PT servers (SRV-1, SRV-2), 16 AccessPoint-PT units, four "
+        "Printer-PT network printers, and 82 PC-PT workstations (42 PCs + 2 Printers + 8 APs + 2 Servers at Cebu HQ; "
+        "20 PCs + 1 Printer + 4 APs each at Clark and Davao). Four saved Packet Tracer topologies were generated: "
+        "pt/rj_network.pkt (full master network, 230 devices / 325 links) plus three separate Multiuser-ready "
+        "building files (rj_cebu_hq_visayas.pkt, rj_clark_luzon.pkt, rj_davao_mindanao.pkt)."
     )
 
     h2("4.2 Physical Workspace Representation of Building 1 (Clark Branch — Luzon)")
     p(
         "Building 1 (Clark Branch Café) mounts floor_clark.png (40 × 26 m = 1,040 sqm) inside city Clark_Luzon with "
-        "central telecom closet CLK-MDF housing R-CLARK, SW-CLK-GAM, SW-CLK-ADM, and PP-CLK. Every gaming and admin "
-        "host connects through a Copper Wall Mount and Copper Patch Panel with wall-following bend points keeping all "
-        "copper runs well below 90 m. Figure 11 displays the Building 1 Physical Workspace view."
+        "central telecom closet CLK-MDF housing R-CLARK, SW-CLK-GAM, SW-CLK-ADM, PP-CLK-G, and PP-CLK-A. All 20 PCs, "
+        "1 network printer (CLK-PRT-01), and 4 ceiling APs connect through dedicated Copper Wall Mounts and Patch "
+        "Panels with wall-following bend points keeping all copper runs well below 90 m. Figure 11 displays the "
+        "Building 1 Physical Workspace view."
     )
     add_fig(
         "Building 1 (Clark Branch — Luzon) Packet Tracer Physical Workspace Representation.",
@@ -733,9 +736,9 @@ def build_report_data() -> Dict:
     h2("4.4 Physical Workspace Representation of Building 3 (Davao Branch — Mindanao)")
     p(
         "Building 3 (Davao Branch Café) mounts floor_davao.png inside city Davao_Mindanao with wiring closet DVO-MDF "
-        "housing R-DAVAO, SW-DVO-GAM, SW-DVO-ADM, and PP-DVO. Gaming and Admin endpoints terminate on Copper Wall "
-        "Mounts routed orthogonally via bend points back to PP-DVO. Figure 13 presents the Building 3 Physical "
-        "Workspace."
+        "housing R-DAVAO, SW-DVO-GAM, SW-DVO-ADM, PP-DVO-G, and PP-DVO-A. All 20 PCs, 1 network printer (DVO-PRT-01), "
+        "and 4 ceiling APs terminate on Copper Wall Mounts routed orthogonally via bend points back to the patch "
+        "panels. Figure 13 presents the Building 3 Physical Workspace."
     )
     add_fig(
         "Building 3 (Davao Branch — Mindanao) Packet Tracer Physical Workspace Representation.",
