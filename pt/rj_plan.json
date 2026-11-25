@@ -1,0 +1,1270 @@
+{
+  "project": "RJ Internet Cafe & Esports Inc. \u2014 Multi-Branch Network (Group1)",
+  "pkt_files": {
+    "master": "pt/rj_network.pkt",
+    "cebu_hq": "pt/rj_cebu_hq_visayas.pkt",
+    "clark_branch": "pt/rj_clark_luzon.pkt",
+    "davao_branch": "pt/rj_davao_mindanao.pkt"
+  },
+  "srv1_dhcp_pools": [
+    {
+      "name": "HQ-GAMING-POOL",
+      "gw": "10.10.0.1",
+      "dns": "10.10.0.98",
+      "start": "10.10.0.11",
+      "mask": "255.255.255.192",
+      "max_users": 50
+    },
+    {
+      "name": "HQ-ADMIN-POOL",
+      "gw": "10.10.0.65",
+      "dns": "10.10.0.98",
+      "start": "10.10.0.76",
+      "mask": "255.255.255.224",
+      "max_users": 18
+    }
+  ],
+  "srv1_dns_records": [
+    [
+      "portal.rjesports.local",
+      "10.10.0.98"
+    ],
+    [
+      "billing.rjesports.local",
+      "10.10.0.99"
+    ],
+    [
+      "isp.rjesports.local",
+      "203.0.113.1"
+    ]
+  ],
+  "devices": [
+    {
+      "name": "ISP-CEBU",
+      "model": "2911",
+      "category": "router",
+      "site": "ISP",
+      "closet": "ISP-RACK",
+      "x": 680,
+      "y": 90,
+      "modules": [
+        [
+          "0/0",
+          "HWIC-2T"
+        ],
+        [
+          "0/1",
+          "HWIC-2T"
+        ],
+        [
+          "0/2",
+          "HWIC-2T"
+        ]
+      ]
+    },
+    {
+      "name": "R-CEBU",
+      "model": "2911",
+      "category": "router",
+      "site": "CEBU",
+      "closet": "MDF",
+      "x": 680,
+      "y": 240,
+      "modules": [
+        [
+          "0/0",
+          "HWIC-2T"
+        ]
+      ]
+    },
+    {
+      "name": "SW-CORE",
+      "model": "3560-24PS",
+      "category": "multilayer_switch",
+      "site": "CEBU",
+      "closet": "MDF",
+      "x": 540,
+      "y": 350
+    },
+    {
+      "name": "SW-SRV",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CEBU",
+      "closet": "MDF",
+      "x": 820,
+      "y": 350
+    },
+    {
+      "name": "DSW-1",
+      "model": "3560-24PS",
+      "category": "multilayer_switch",
+      "site": "CEBU",
+      "closet": "IDF-1",
+      "x": 400,
+      "y": 460
+    },
+    {
+      "name": "DSW-2",
+      "model": "3560-24PS",
+      "category": "multilayer_switch",
+      "site": "CEBU",
+      "closet": "IDF-2",
+      "x": 620,
+      "y": 460
+    },
+    {
+      "name": "SW-GAM1",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CEBU",
+      "closet": "CAB-G",
+      "x": 300,
+      "y": 570
+    },
+    {
+      "name": "SW-VIP",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CEBU",
+      "closet": "CAB-V",
+      "x": 460,
+      "y": 570
+    },
+    {
+      "name": "SW-STU",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CEBU",
+      "closet": "CAB-S",
+      "x": 620,
+      "y": 570
+    },
+    {
+      "name": "SW-ADM",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CEBU",
+      "closet": "IDF-2",
+      "x": 780,
+      "y": 460
+    },
+    {
+      "name": "PP-G",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "CEBU",
+      "closet": "CAB-G",
+      "x": 300,
+      "y": 650
+    },
+    {
+      "name": "PP-V",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "CEBU",
+      "closet": "CAB-V",
+      "x": 460,
+      "y": 650
+    },
+    {
+      "name": "PP-S",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "CEBU",
+      "closet": "CAB-S",
+      "x": 620,
+      "y": 650
+    },
+    {
+      "name": "PP-ADM",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "CEBU",
+      "closet": "IDF-2",
+      "x": 780,
+      "y": 560
+    },
+    {
+      "name": "SRV-1",
+      "model": "Server-PT",
+      "category": "server",
+      "site": "CEBU",
+      "closet": "MDF",
+      "x": 900,
+      "y": 440,
+      "lan": "HQ-SERVER-LAN",
+      "ip": "10.10.0.98",
+      "mask": "255.255.255.240",
+      "gw": "10.10.0.97",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:1003::98",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1",
+      "services": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "FTP"
+      ]
+    },
+    {
+      "name": "SRV-2",
+      "model": "Server-PT",
+      "category": "server",
+      "site": "CEBU",
+      "closet": "MDF",
+      "x": 980,
+      "y": 440,
+      "lan": "HQ-SERVER-LAN",
+      "ip": "10.10.0.99",
+      "mask": "255.255.255.240",
+      "gw": "10.10.0.97",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:1003::99",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1",
+      "services": [
+        "HTTP"
+      ]
+    },
+    {
+      "name": "WM-G01",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 230,
+      "y": 715
+    },
+    {
+      "name": "GAM-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 230,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-G02",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 310,
+      "y": 715
+    },
+    {
+      "name": "GAM-02",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 310,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-AP1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 370,
+      "y": 715
+    },
+    {
+      "name": "AP-01",
+      "model": "AccessPoint-PT",
+      "category": "accesspoint",
+      "site": "CEBU",
+      "closet": "ZONE-SW-GAM1",
+      "x": 370,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN"
+    },
+    {
+      "name": "WM-V01",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-VIP",
+      "x": 440,
+      "y": 715
+    },
+    {
+      "name": "VIP-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-VIP",
+      "x": 440,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-V02",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-VIP",
+      "x": 510,
+      "y": 715
+    },
+    {
+      "name": "VIP-02",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-VIP",
+      "x": 510,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-S01",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-STU",
+      "x": 590,
+      "y": 715
+    },
+    {
+      "name": "STD-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-STU",
+      "x": 590,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-B01",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-STU",
+      "x": 660,
+      "y": 715
+    },
+    {
+      "name": "BRW-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-STU",
+      "x": 660,
+      "y": 770,
+      "lan": "HQ-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-IT",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 750,
+      "y": 635
+    },
+    {
+      "name": "IT-PC",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 750,
+      "y": 690,
+      "lan": "HQ-ADMIN-LAN",
+      "ip": "10.10.0.70",
+      "mask": "255.255.255.224",
+      "gw": "10.10.0.65",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:1002::70",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1"
+    },
+    {
+      "name": "WM-POS",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 830,
+      "y": 635
+    },
+    {
+      "name": "POS-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 830,
+      "y": 690,
+      "lan": "HQ-ADMIN-LAN",
+      "ip": "10.10.0.72",
+      "mask": "255.255.255.224",
+      "gw": "10.10.0.65",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:1002::72",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1"
+    },
+    {
+      "name": "WM-PRT",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 900,
+      "y": 635
+    },
+    {
+      "name": "PRT-01",
+      "model": "Printer-PT",
+      "category": "printer",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 900,
+      "y": 690,
+      "lan": "HQ-ADMIN-LAN",
+      "ip": "10.10.0.74",
+      "mask": "255.255.255.224",
+      "gw": "10.10.0.65",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:1002::74",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1"
+    },
+    {
+      "name": "WM-AP8",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 970,
+      "y": 635
+    },
+    {
+      "name": "AP-08",
+      "model": "AccessPoint-PT",
+      "category": "accesspoint",
+      "site": "CEBU",
+      "closet": "ZONE-SW-ADM",
+      "x": 970,
+      "y": 690,
+      "lan": "HQ-ADMIN-LAN"
+    },
+    {
+      "name": "R-CLARK",
+      "model": "2911",
+      "category": "router",
+      "site": "CLARK",
+      "closet": "CLK-MDF",
+      "x": 160,
+      "y": 240,
+      "modules": [
+        [
+          "0/0",
+          "HWIC-2T"
+        ]
+      ]
+    },
+    {
+      "name": "SW-CLK-GAM",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CLARK",
+      "closet": "CLK-MDF",
+      "x": 80,
+      "y": 380
+    },
+    {
+      "name": "SW-CLK-ADM",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "CLARK",
+      "closet": "CLK-MDF",
+      "x": 220,
+      "y": 380
+    },
+    {
+      "name": "PP-CLK",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "CLARK",
+      "closet": "CLK-MDF",
+      "x": 150,
+      "y": 460
+    },
+    {
+      "name": "WM-CG1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 40,
+      "y": 525
+    },
+    {
+      "name": "CLK-GAM-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 40,
+      "y": 580,
+      "lan": "CLK-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-CG2",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 110,
+      "y": 525
+    },
+    {
+      "name": "CLK-GAM-02",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 110,
+      "y": 580,
+      "lan": "CLK-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-CI1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 190,
+      "y": 525
+    },
+    {
+      "name": "CLK-IT-PC",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 190,
+      "y": 580,
+      "lan": "CLK-ADMIN-LAN",
+      "ip": "10.10.1.70",
+      "mask": "255.255.255.240",
+      "gw": "10.10.1.65",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:2002::70",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1"
+    },
+    {
+      "name": "WM-CP1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 260,
+      "y": 525
+    },
+    {
+      "name": "CLK-POS-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "CLARK",
+      "closet": "CLK-FLOOR",
+      "x": 260,
+      "y": 580,
+      "lan": "CLK-ADMIN-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "R-DAVAO",
+      "model": "2911",
+      "category": "router",
+      "site": "DAVAO",
+      "closet": "DVO-MDF",
+      "x": 1180,
+      "y": 240,
+      "modules": [
+        [
+          "0/0",
+          "HWIC-2T"
+        ]
+      ]
+    },
+    {
+      "name": "SW-DVO-GAM",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "DAVAO",
+      "closet": "DVO-MDF",
+      "x": 1110,
+      "y": 380
+    },
+    {
+      "name": "SW-DVO-ADM",
+      "model": "2960-24TT",
+      "category": "switch",
+      "site": "DAVAO",
+      "closet": "DVO-MDF",
+      "x": 1250,
+      "y": 380
+    },
+    {
+      "name": "PP-DVO",
+      "model": "Copper Patch Panel",
+      "category": "patch_panel",
+      "site": "DAVAO",
+      "closet": "DVO-MDF",
+      "x": 1180,
+      "y": 460
+    },
+    {
+      "name": "WM-DG1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1070,
+      "y": 525
+    },
+    {
+      "name": "DVO-GAM-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1070,
+      "y": 580,
+      "lan": "DVO-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-DG2",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1140,
+      "y": 525
+    },
+    {
+      "name": "DVO-GAM-02",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1140,
+      "y": 580,
+      "lan": "DVO-GAMING-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    },
+    {
+      "name": "WM-DI1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1220,
+      "y": 525
+    },
+    {
+      "name": "DVO-IT-PC",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1220,
+      "y": 580,
+      "lan": "DVO-ADMIN-LAN",
+      "ip": "10.10.2.70",
+      "mask": "255.255.255.240",
+      "gw": "10.10.2.65",
+      "dns": "10.10.0.98",
+      "ipv6": "2001:DB8:ACAD:3002::70",
+      "ipv6_prefix": 64,
+      "ipv6_gw": "FE80::1"
+    },
+    {
+      "name": "WM-DP1",
+      "model": "Copper Wall Mount",
+      "category": "wall_mount",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1290,
+      "y": 525
+    },
+    {
+      "name": "DVO-POS-01",
+      "model": "PC-PT",
+      "category": "pc",
+      "site": "DAVAO",
+      "closet": "DVO-FLOOR",
+      "x": 1290,
+      "y": 580,
+      "lan": "DVO-ADMIN-LAN",
+      "dhcp": true,
+      "ipv6_dhcp": true
+    }
+  ],
+  "links": [
+    {
+      "a": "ISP-CEBU",
+      "port_a": "Serial0/0/0",
+      "b": "R-CEBU",
+      "port_b": "Serial0/0/0",
+      "cable": "serial"
+    },
+    {
+      "a": "ISP-CEBU",
+      "port_a": "Serial0/0/1",
+      "b": "R-CLARK",
+      "port_b": "Serial0/0/0",
+      "cable": "serial"
+    },
+    {
+      "a": "ISP-CEBU",
+      "port_a": "Serial0/1/0",
+      "b": "R-DAVAO",
+      "port_b": "Serial0/0/0",
+      "cable": "serial"
+    },
+    {
+      "a": "ISP-CEBU",
+      "port_a": "Serial0/1/1",
+      "b": "R-CLARK",
+      "port_b": "Serial0/0/1",
+      "cable": "serial"
+    },
+    {
+      "a": "ISP-CEBU",
+      "port_a": "Serial0/2/0",
+      "b": "R-DAVAO",
+      "port_b": "Serial0/0/1",
+      "cable": "serial"
+    },
+    {
+      "a": "R-CEBU",
+      "port_a": "GigabitEthernet0/0",
+      "b": "SW-CORE",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "R-CEBU",
+      "port_a": "GigabitEthernet0/1",
+      "b": "SW-ADM",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "R-CEBU",
+      "port_a": "GigabitEthernet0/2",
+      "b": "SW-SRV",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-CORE",
+      "port_a": "FastEthernet0/1",
+      "b": "DSW-1",
+      "port_b": "FastEthernet0/1",
+      "cable": "crossover"
+    },
+    {
+      "a": "SW-CORE",
+      "port_a": "FastEthernet0/2",
+      "b": "DSW-2",
+      "port_b": "FastEthernet0/1",
+      "cable": "crossover"
+    },
+    {
+      "a": "DSW-1",
+      "port_a": "FastEthernet0/2",
+      "b": "SW-GAM1",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "crossover"
+    },
+    {
+      "a": "DSW-1",
+      "port_a": "FastEthernet0/3",
+      "b": "SW-VIP",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "crossover"
+    },
+    {
+      "a": "DSW-2",
+      "port_a": "FastEthernet0/2",
+      "b": "SW-STU",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "crossover"
+    },
+    {
+      "a": "SW-SRV",
+      "port_a": "FastEthernet0/1",
+      "b": "SRV-1",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-SRV",
+      "port_a": "FastEthernet0/2",
+      "b": "SRV-2",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-GAM1",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-G",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-G",
+      "port_a": "PunchDown1",
+      "b": "WM-G01",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-G01",
+      "port_a": "Jack1",
+      "b": "GAM-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-GAM1",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-G",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-G",
+      "port_a": "PunchDown2",
+      "b": "WM-G02",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-G02",
+      "port_a": "Jack1",
+      "b": "GAM-02",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-GAM1",
+      "port_a": "FastEthernet0/3",
+      "b": "PP-G",
+      "port_b": "Jack3",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-G",
+      "port_a": "PunchDown3",
+      "b": "WM-AP1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-AP1",
+      "port_a": "Jack1",
+      "b": "AP-01",
+      "port_b": "Port 0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-VIP",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-V",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-V",
+      "port_a": "PunchDown1",
+      "b": "WM-V01",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-V01",
+      "port_a": "Jack1",
+      "b": "VIP-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-VIP",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-V",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-V",
+      "port_a": "PunchDown2",
+      "b": "WM-V02",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-V02",
+      "port_a": "Jack1",
+      "b": "VIP-02",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-STU",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-S",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-S",
+      "port_a": "PunchDown1",
+      "b": "WM-S01",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-S01",
+      "port_a": "Jack1",
+      "b": "STD-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-STU",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-S",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-S",
+      "port_a": "PunchDown2",
+      "b": "WM-B01",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-B01",
+      "port_a": "Jack1",
+      "b": "BRW-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-ADM",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-ADM",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-ADM",
+      "port_a": "PunchDown1",
+      "b": "WM-IT",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-IT",
+      "port_a": "Jack1",
+      "b": "IT-PC",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-ADM",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-ADM",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-ADM",
+      "port_a": "PunchDown2",
+      "b": "WM-POS",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-POS",
+      "port_a": "Jack1",
+      "b": "POS-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-ADM",
+      "port_a": "FastEthernet0/3",
+      "b": "PP-ADM",
+      "port_b": "Jack3",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-ADM",
+      "port_a": "PunchDown3",
+      "b": "WM-PRT",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-PRT",
+      "port_a": "Jack1",
+      "b": "PRT-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-ADM",
+      "port_a": "FastEthernet0/4",
+      "b": "PP-ADM",
+      "port_b": "Jack4",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-ADM",
+      "port_a": "PunchDown4",
+      "b": "WM-AP8",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-AP8",
+      "port_a": "Jack1",
+      "b": "AP-08",
+      "port_b": "Port 0",
+      "cable": "straight"
+    },
+    {
+      "a": "R-CLARK",
+      "port_a": "GigabitEthernet0/0",
+      "b": "SW-CLK-GAM",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "R-CLARK",
+      "port_a": "GigabitEthernet0/1",
+      "b": "SW-CLK-ADM",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-CLK-GAM",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-CLK",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-CLK",
+      "port_a": "PunchDown1",
+      "b": "WM-CG1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-CG1",
+      "port_a": "Jack1",
+      "b": "CLK-GAM-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-CLK-GAM",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-CLK",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-CLK",
+      "port_a": "PunchDown2",
+      "b": "WM-CG2",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-CG2",
+      "port_a": "Jack1",
+      "b": "CLK-GAM-02",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-CLK-ADM",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-CLK",
+      "port_b": "Jack3",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-CLK",
+      "port_a": "PunchDown3",
+      "b": "WM-CI1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-CI1",
+      "port_a": "Jack1",
+      "b": "CLK-IT-PC",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-CLK-ADM",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-CLK",
+      "port_b": "Jack4",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-CLK",
+      "port_a": "PunchDown4",
+      "b": "WM-CP1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-CP1",
+      "port_a": "Jack1",
+      "b": "CLK-POS-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "R-DAVAO",
+      "port_a": "GigabitEthernet0/0",
+      "b": "SW-DVO-GAM",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "R-DAVAO",
+      "port_a": "GigabitEthernet0/1",
+      "b": "SW-DVO-ADM",
+      "port_b": "GigabitEthernet0/1",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-DVO-GAM",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-DVO",
+      "port_b": "Jack1",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-DVO",
+      "port_a": "PunchDown1",
+      "b": "WM-DG1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-DG1",
+      "port_a": "Jack1",
+      "b": "DVO-GAM-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-DVO-GAM",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-DVO",
+      "port_b": "Jack2",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-DVO",
+      "port_a": "PunchDown2",
+      "b": "WM-DG2",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-DG2",
+      "port_a": "Jack1",
+      "b": "DVO-GAM-02",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-DVO-ADM",
+      "port_a": "FastEthernet0/1",
+      "b": "PP-DVO",
+      "port_b": "Jack3",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-DVO",
+      "port_a": "PunchDown3",
+      "b": "WM-DI1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-DI1",
+      "port_a": "Jack1",
+      "b": "DVO-IT-PC",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "SW-DVO-ADM",
+      "port_a": "FastEthernet0/2",
+      "b": "PP-DVO",
+      "port_b": "Jack4",
+      "cable": "straight"
+    },
+    {
+      "a": "PP-DVO",
+      "port_a": "PunchDown4",
+      "b": "WM-DP1",
+      "port_b": "PunchDown1",
+      "cable": "straight"
+    },
+    {
+      "a": "WM-DP1",
+      "port_a": "Jack1",
+      "b": "DVO-POS-01",
+      "port_b": "FastEthernet0",
+      "cable": "straight"
+    }
+  ]
+}

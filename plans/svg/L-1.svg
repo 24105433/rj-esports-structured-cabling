@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1120" viewBox="0 0 1680 1120">
+<defs></defs>
+<rect x="0.0" y="0.0" width="1680.0" height="1120.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<rect x="22.0" y="22.0" width="1636.0" height="1076.0" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="2.4"/>
+<rect x="27.0" y="27.0" width="1626.0" height="1066.0" fill="none" stroke="#1B2A4A" stroke-width="0.8"/>
+<line x1="92.0" y1="82.0" x2="92.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="92.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="72.0">A</tspan></text>
+<line x1="308.0" y1="82.0" x2="308.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="308.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="72.0">B</tspan></text>
+<line x1="524.0" y1="82.0" x2="524.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="524.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="524.0" y="72.0">C</tspan></text>
+<line x1="740.0" y1="82.0" x2="740.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="740.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="740.0" y="72.0">D</tspan></text>
+<line x1="956.0" y1="82.0" x2="956.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="956.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="956.0" y="72.0">E</tspan></text>
+<line x1="1172.0" y1="82.0" x2="1172.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="1172.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1172.0" y="72.0">F</tspan></text>
+<line x1="78.0" y1="96.0" x2="88.0" y2="96.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="96.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="96.0">1</tspan></text>
+<line x1="78.0" y1="271.5" x2="88.0" y2="271.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="271.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="271.5">2</tspan></text>
+<line x1="78.0" y1="447.0" x2="88.0" y2="447.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="447.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="447.0">3</tspan></text>
+<line x1="78.0" y1="622.5" x2="88.0" y2="622.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="622.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="622.5">4</tspan></text>
+<line x1="78.0" y1="798.0" x2="88.0" y2="798.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="798.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="798.0">5</tspan></text>
+<line x1="92.0" y1="50.0" x2="1172.0" y2="50.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="92.0" y1="44.0" x2="92.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="1172.0" y1="44.0" x2="1172.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="574.0" y="41.0" width="116.0" height="18.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="632.0" y="50.0">40.00 m (1,040.0 sqm)</tspan></text>
+<line x1="44.0" y1="96.0" x2="44.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="96.0" x2="50.0" y2="96.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="798.0" x2="50.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="28.0" y="433.0" width="32.0" height="28.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="44.0" y="441.2">26.0</tspan><tspan x="44.0" y="452.8">m</tspan></text>
+<line x1="92.0" y1="824.0" x2="1172.0" y2="824.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="92.0" y1="819.0" x2="92.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="227.0" y="837.0">10.0 m</tspan></text>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="470.0" y="837.0">8.0 m</tspan></text>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="837.0">5.0 m</tspan></text>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="767.0" y="837.0">4.0 m</tspan></text>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="837.0">6.0 m</tspan></text>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="1172.0" y1="819.0" x2="1172.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1077.5" y="837.0">7.0 m</tspan></text>
+<rect x="159.5" y="795.0" width="108.0" height="7.0" fill="#0EA5E9" stroke="#0369A1" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0369A1" text-anchor="middle" dominant-baseline="central"><tspan x="213.5" y="850.0">MAIN GLASS ENTRANCE (SOUTH)</tspan></text>
+<rect x="88.0" y="425.4" width="7.0" height="43.2" fill="#EF4444" stroke="#991B1B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="154.0" y="447.0">FIRE EXIT W</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="92.0" y="864.0">GRAPHIC SCALE (METERS)</tspan></text>
+<rect x="92.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="894.0">0</tspan></text>
+<rect x="146.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="146.0" y="894.0">2</tspan></text>
+<rect x="200.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="200.0" y="894.0">4</tspan></text>
+<rect x="254.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="254.0" y="894.0">6</tspan></text>
+<rect x="308.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="894.0">8</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="362.0" y="894.0">10 m</tspan></text>
+<circle cx="1127.0" cy="870.0" r="22.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.2"/>
+<polygon points="1127.0,852.0 1120.0,874.0 1127.0,868.0 1134.0,874.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="middle" dominant-baseline="central"><tspan x="1127.0" y="882.0">N</tspan></text>
+<rect x="92.0" y="96.0" width="486.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="96.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="794.0" y="96.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="96.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="258.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="420.0" width="972.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="420.0" width="108.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="474.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="362.0" y="474.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="474.0" width="135.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="713.0" y="474.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="474.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1077.5" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="636.0" width="243.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="636.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1050.5" y="636.0" width="54.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1104.5" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="96.0" width="1080.0" height="702.0" fill="none" stroke="#0F172A" stroke-width="3.2"/>
+<line x1="303.9" y1="420.0" x2="339.1" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="303.9" y1="420.0" x2="303.9" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="690.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="655.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="933.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="898.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="244.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="209.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="487.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="452.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="649.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="614.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="779.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="744.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="914.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="879.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1041.0" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1006.0" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1135.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1100.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="125.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="125.0" y1="120.9" x2="140.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="206.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="206.0" y1="120.9" x2="221.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="287.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="287.0" y1="120.9" x2="302.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="368.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="368.0" y1="120.9" x2="383.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="449.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="449.0" y1="120.9" x2="464.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="530.0" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="530.0" y1="120.9" x2="545.0" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="125.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="125.0" y1="185.7" x2="140.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="206.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="206.0" y1="185.7" x2="221.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="287.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="287.0" y1="185.7" x2="302.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="368.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="368.0" y1="185.7" x2="383.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="449.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="449.0" y1="185.7" x2="464.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="530.0" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="530.0" y1="185.7" x2="545.0" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="125.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="125.0" y1="250.5" x2="140.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="206.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="206.0" y1="250.5" x2="221.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="287.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="287.0" y1="250.5" x2="302.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="368.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="368.0" y1="250.5" x2="383.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="449.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="449.0" y1="250.5" x2="464.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="530.0" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="530.0" y1="250.5" x2="545.0" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="125.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="125.0" y1="315.3" x2="140.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="206.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="206.0" y1="315.3" x2="221.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="287.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="287.0" y1="315.3" x2="302.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="368.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="368.0" y1="315.3" x2="383.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="449.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="449.0" y1="315.3" x2="464.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="530.0" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="530.0" y1="315.3" x2="545.0" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="125.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="125.0" y1="380.1" x2="140.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="206.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="206.0" y1="380.1" x2="221.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="287.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="287.0" y1="380.1" x2="302.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="368.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="368.0" y1="380.1" x2="383.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="449.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="449.0" y1="380.1" x2="464.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="530.0" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="530.0" y1="380.1" x2="545.0" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="132.5,128.4 213.5,128.4 294.5,128.4 375.5,128.4 456.5,128.4 537.5,128.4" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="97.4" y="110.8">STD-GAME (303lx)</tspan></text>
+<rect x="606.5" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="606.5" y1="120.9" x2="621.5" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="678.5" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="678.5" y1="120.9" x2="693.5" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="750.5" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="750.5" y1="120.9" x2="765.5" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="606.5" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="606.5" y1="185.7" x2="621.5" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="678.5" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="678.5" y1="185.7" x2="693.5" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="750.5" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="750.5" y1="185.7" x2="765.5" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="606.5" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="606.5" y1="250.5" x2="621.5" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="678.5" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="678.5" y1="250.5" x2="693.5" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="750.5" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="750.5" y1="250.5" x2="765.5" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="606.5" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="606.5" y1="315.3" x2="621.5" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="678.5" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="678.5" y1="315.3" x2="693.5" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="750.5" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="750.5" y1="315.3" x2="765.5" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="606.5" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="606.5" y1="380.1" x2="621.5" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="678.5" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="678.5" y1="380.1" x2="693.5" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="750.5" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="750.5" y1="380.1" x2="765.5" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="614.0,128.4 686.0,128.4 758.0,128.4" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="583.4" y="110.8">FUT-GAME (341lx)</tspan></text>
+<rect x="820.2" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="820.2" y1="120.9" x2="835.2" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="887.8" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="887.8" y1="120.9" x2="902.8" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="955.2" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="955.2" y1="120.9" x2="970.2" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="1022.8" y="120.9" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="1022.8" y1="120.9" x2="1037.8" y2="135.9" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="820.2" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="820.2" y1="185.7" x2="835.2" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="887.8" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="887.8" y1="185.7" x2="902.8" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="955.2" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="955.2" y1="185.7" x2="970.2" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="1022.8" y="185.7" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="1022.8" y1="185.7" x2="1037.8" y2="200.7" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="820.2" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="820.2" y1="250.5" x2="835.2" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="887.8" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="887.8" y1="250.5" x2="902.8" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="955.2" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="955.2" y1="250.5" x2="970.2" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="1022.8" y="250.5" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="1022.8" y1="250.5" x2="1037.8" y2="265.5" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="820.2" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="820.2" y1="315.3" x2="835.2" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="887.8" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="887.8" y1="315.3" x2="902.8" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="955.2" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="955.2" y1="315.3" x2="970.2" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="1022.8" y="315.3" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="1022.8" y1="315.3" x2="1037.8" y2="330.3" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="820.2" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="820.2" y1="380.1" x2="835.2" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="887.8" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="887.8" y1="380.1" x2="902.8" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="955.2" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="955.2" y1="380.1" x2="970.2" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="1022.8" y="380.1" width="15.0" height="15.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<line x1="1022.8" y1="380.1" x2="1037.8" y2="395.1" stroke="#B45309" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="827.8,128.4 895.2,128.4 962.8,128.4 1030.2,128.4" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="799.4" y="110.8">VIP-ARENA (364lx)</tspan></text>
+<circle cx="1091.0" cy="136.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1091.0" cy="136.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1145.0" cy="136.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1145.0" cy="136.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1091.0" cy="217.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1091.0" cy="217.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1145.0" cy="217.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1145.0" cy="217.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1091.0,136.5 1145.0,136.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1069.4" y="110.8">STAIR-NE (156lx)</tspan></text>
+<circle cx="1091.0" cy="298.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1091.0" cy="298.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1145.0" cy="298.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1145.0" cy="298.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1091.0" cy="379.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1091.0" cy="379.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1145.0" cy="379.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1145.0" cy="379.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1091.0,298.5 1145.0,298.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1069.4" y="272.9">ELEV-CORE (156lx)</tspan></text>
+<rect x="165.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="439.5" x2="180.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="439.5" x2="342.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="439.5" x2="504.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="651.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="651.5" y1="439.5" x2="666.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="813.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="813.5" y1="439.5" x2="828.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="975.5" y="439.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="975.5" y1="439.5" x2="990.5" y2="454.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="173.0,447.0 335.0,447.0 497.0,447.0 659.0,447.0 821.0,447.0 983.0,447.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="97.4" y="434.9">COR-MAIN (182lx)</tspan></text>
+<circle cx="1091.0" cy="447.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1091.0" cy="447.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1145.0" cy="447.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1145.0" cy="447.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1091.0,447.0 1145.0,447.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1069.4" y="434.9">COR-EAST (234lx)</tspan></text>
+<rect x="111.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="493.5" x2="126.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="493.5" x2="180.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="493.5" x2="234.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="493.5" x2="288.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="493.5" x2="342.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="111.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="547.5" x2="126.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="547.5" x2="180.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="547.5" x2="234.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="547.5" x2="288.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="547.5" x2="342.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="111.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="601.5" x2="126.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="601.5" x2="180.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="601.5" x2="234.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="601.5" x2="288.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="601.5" x2="342.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="111.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="655.5" x2="126.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="655.5" x2="180.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="655.5" x2="234.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="655.5" x2="288.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="655.5" x2="342.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="111.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="709.5" x2="126.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="709.5" x2="180.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="709.5" x2="234.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="709.5" x2="288.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="709.5" x2="342.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="111.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="111.5" y1="763.5" x2="126.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="165.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="165.5" y1="763.5" x2="180.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="219.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="219.5" y1="763.5" x2="234.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="273.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="273.5" y1="763.5" x2="288.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="327.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="327.5" y1="763.5" x2="342.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="119.0,501.0 173.0,501.0 227.0,501.0 281.0,501.0 335.0,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="97.4" y="488.9">CASH-LOBBY (546lx)</tspan></text>
+<rect x="381.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="493.5" x2="396.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="493.5" x2="450.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="493.5" x2="504.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="493.5" x2="558.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="381.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="547.5" x2="396.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="547.5" x2="450.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="547.5" x2="504.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="547.5" x2="558.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="381.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="601.5" x2="396.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="601.5" x2="450.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="601.5" x2="504.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="601.5" x2="558.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="381.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="655.5" x2="396.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="655.5" x2="450.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="655.5" x2="504.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="655.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="655.5" x2="558.5" y2="670.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="381.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="709.5" x2="396.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="709.5" x2="450.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="709.5" x2="504.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="709.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="709.5" x2="558.5" y2="724.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="381.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="381.5" y1="763.5" x2="396.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="435.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="435.5" y1="763.5" x2="450.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="489.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="489.5" y1="763.5" x2="504.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="543.5" y="763.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="543.5" y1="763.5" x2="558.5" y2="778.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="389.0,501.0 443.0,501.0 497.0,501.0 551.0,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="367.4" y="488.9">STUDY-PODS (546lx)</tspan></text>
+<rect x="593.0" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="593.0" y1="493.5" x2="608.0" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="638.0" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="638.0" y1="493.5" x2="653.0" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="683.0" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="683.0" y1="493.5" x2="698.0" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="593.0" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="593.0" y1="547.5" x2="608.0" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="638.0" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="638.0" y1="547.5" x2="653.0" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="683.0" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="683.0" y1="547.5" x2="698.0" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="593.0" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="593.0" y1="601.5" x2="608.0" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="638.0" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="638.0" y1="601.5" x2="653.0" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="683.0" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="683.0" y1="601.5" x2="698.0" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="600.5,501.0 645.5,501.0 690.5,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="583.4" y="488.9">MDF-ROOM (655lx)</tspan></text>
+<rect x="732.5" y="507.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="732.5" y1="507.0" x2="747.5" y2="522.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="786.5" y="507.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="786.5" y1="507.0" x2="801.5" y2="522.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="732.5" y="588.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="732.5" y1="588.0" x2="747.5" y2="603.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="786.5" y="588.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="786.5" y1="588.0" x2="801.5" y2="603.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="740.0,514.5 794.0,514.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="718.4" y="488.9">ELEC-ROOM (364lx)</tspan></text>
+<rect x="840.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="840.5" y1="493.5" x2="855.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="894.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="894.5" y1="493.5" x2="909.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="948.5" y="493.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="948.5" y1="493.5" x2="963.5" y2="508.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="840.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="840.5" y1="547.5" x2="855.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="894.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="894.5" y1="547.5" x2="909.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="948.5" y="547.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="948.5" y1="547.5" x2="963.5" y2="562.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="840.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="840.5" y1="601.5" x2="855.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="894.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="894.5" y1="601.5" x2="909.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="948.5" y="601.5" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="948.5" y1="601.5" x2="963.5" y2="616.5" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="848.0,501.0 902.0,501.0 956.0,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="826.4" y="488.9">ADMIN-OFC (546lx)</tspan></text>
+<circle cx="1006.6" cy="501.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1006.6" cy="501.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1053.9" cy="501.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1053.9" cy="501.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1006.6" cy="555.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1006.6" cy="555.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1053.9" cy="555.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1053.9" cy="555.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1006.6" cy="609.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1006.6" cy="609.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1053.9" cy="609.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1053.9" cy="609.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1006.6,501.0 1053.9,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="988.4" y="488.9">RR-M (267lx)</tspan></text>
+<circle cx="1101.1" cy="501.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1101.1" cy="501.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1148.4" cy="501.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1148.4" cy="501.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1101.1" cy="555.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1101.1" cy="555.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1148.4" cy="555.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1148.4" cy="555.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1101.1" cy="609.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1101.1" cy="609.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1148.4" cy="609.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1148.4" cy="609.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1101.1,501.0 1148.4,501.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1082.9" y="488.9">RR-F (267lx)</tspan></text>
+<rect x="600.9" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="600.9" y1="669.0" x2="615.9" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="661.6" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="661.6" y1="669.0" x2="676.6" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="722.4" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="722.4" y1="669.0" x2="737.4" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="783.1" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="783.1" y1="669.0" x2="798.1" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="600.9" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="600.9" y1="750.0" x2="615.9" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="661.6" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="661.6" y1="750.0" x2="676.6" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="722.4" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="722.4" y1="750.0" x2="737.4" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="783.1" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="783.1" y1="750.0" x2="798.1" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="608.4,676.5 669.1,676.5 729.9,676.5 790.6,676.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="583.4" y="650.9">CAFE-PNT (324lx)</tspan></text>
+<rect x="854.0" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="854.0" y1="669.0" x2="869.0" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="935.0" y="669.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="935.0" y1="669.0" x2="950.0" y2="684.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="854.0" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="854.0" y1="750.0" x2="869.0" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="935.0" y="750.0" width="15.0" height="15.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<line x1="935.0" y1="750.0" x2="950.0" y2="765.0" stroke="#CA8A04" stroke-width="0.6" stroke-linecap="round"/>
+<polyline points="861.5,676.5 942.5,676.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="826.4" y="650.9">STAFF-LNG (243lx)</tspan></text>
+<circle cx="999.9" cy="676.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="999.9" cy="676.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1033.6" cy="676.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1033.6" cy="676.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="999.9" cy="757.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="999.9" cy="757.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1033.6" cy="757.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1033.6" cy="757.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="999.9,676.5 1033.6,676.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="988.4" y="650.9">PWD (250lx)</tspan></text>
+<circle cx="1077.5" cy="663.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1077.5" cy="663.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1077.5" cy="717.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1077.5" cy="717.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1077.5" cy="771.0" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1077.5" cy="771.0" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1055.9" y="650.9">JAN (234lx)</tspan></text>
+<circle cx="1121.4" cy="676.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1121.4" cy="676.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1155.1" cy="676.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1155.1" cy="676.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1121.4" cy="757.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1121.4" cy="757.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<circle cx="1155.1" cy="757.5" r="6.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<circle cx="1155.1" cy="757.5" r="2.2" fill="#0284C7" stroke="none" stroke-width="1.2"/>
+<polyline points="1121.4,676.5 1155.1,676.5" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3,3" stroke-linejoin="round" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#78350F" text-anchor="start" dominant-baseline="central"><tspan x="1109.9" y="650.9">STOR (250lx)</tspan></text>
+<circle cx="119.0" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="119.0" y="447.0">E</tspan></text>
+<circle cx="362.0" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="362.0" y="447.0">E</tspan></text>
+<circle cx="605.0" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="605.0" y="447.0">E</tspan></text>
+<circle cx="848.0" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="848.0" y="447.0">E</tspan></text>
+<circle cx="1042.4" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="1042.4" y="447.0">E</tspan></text>
+<circle cx="1118.0" cy="447.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="1118.0" y="447.0">E</tspan></text>
+<circle cx="213.5" cy="779.1" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="213.5" y="779.1">E</tspan></text>
+<circle cx="1118.0" cy="177.0" r="6.5" fill="#DCFCE7" stroke="#15803D" stroke-width="1.4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.0" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="1118.0" y="177.0">E</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="403.8">SD1</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="659.0" y="403.8">SD2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="403.8">SD3</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="210.8" y="490.2">SL</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="453.8" y="490.2">SS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="615.8" y="490.2">SM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="880.4" y="490.2">SA</tspan></text>
+<rect x="1208.0" y="38.0" width="434.0" height="898.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.4"/>
+<rect x="1208.0" y="38.0" width="434.0" height="34.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1425.0" y="55.0">EN 12464-1 ILLUMINATION SCHEDULE (100% PASS)</tspan></text>
+<rect x="1224.0" y="84.0" width="402.0" height="21.0" fill="#E2E8F0" stroke="#94A3B8" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="94.5">Room</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="94.5">m²</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="94.5">Fixt</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="94.5">W</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="94.5">Target</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="94.5">Calc lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="94.5">Status</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="114.0">STD-GAME</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="114.0">216</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="114.0">30P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="114.0">1200</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="114.0">300 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="114.0">303 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="114.0">PASS</tspan></text>
+<rect x="1224.0" y="123.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="131.5">FUT-GAME</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="131.5">96</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="131.5">15P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="131.5">600</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="131.5">300 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="131.5">341 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="131.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="149.0">VIP-ARENA</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="149.0">120</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="149.0">20P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="149.0">800</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="149.0">300 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="149.0">364 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="149.0">PASS</tspan></text>
+<rect x="1224.0" y="158.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="166.5">STAIR-NE*</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="166.5">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="166.5">4D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="166.5">72</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="166.5">150 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="166.5">156 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="166.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="184.0">ELEV-CORE*</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="184.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="184.0">4D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="184.0">72</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="184.0">150 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="184.0">156 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="184.0">PASS</tspan></text>
+<rect x="1224.0" y="193.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="201.5">COR-MAIN</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="201.5">72</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="201.5">6P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="201.5">240</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="201.5">150 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="201.5">182 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="201.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="219.0">COR-EAST</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="219.0">8</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="219.0">2D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="219.0">36</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="219.0">150 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="219.0">234 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="219.0">PASS</tspan></text>
+<rect x="1224.0" y="228.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="236.5">CASH-LOBBY</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="236.5">120</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="236.5">30P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="236.5">1200</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="236.5">500 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="236.5">546 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="236.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="254.0">STUDY-PODS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="254.0">96</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="254.0">24P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="254.0">960</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="254.0">500 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="254.0">546 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="254.0">PASS</tspan></text>
+<rect x="1224.0" y="263.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="271.5">MDF-ROOM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="271.5">30</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="271.5">9P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="271.5">360</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="271.5">500 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="271.5">655 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="271.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="289.0">ELEC-ROOM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="289.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="289.0">4P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="289.0">160</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="289.0">300 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="289.0">364 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="289.0">PASS</tspan></text>
+<rect x="1224.0" y="298.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="306.5">ADMIN-OFC</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="306.5">36</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="306.5">9P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="306.5">360</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="306.5">500 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="306.5">546 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="306.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="324.0">RR-M</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="324.0">21</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="324.0">6D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="324.0">108</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="324.0">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="324.0">267 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="324.0">PASS</tspan></text>
+<rect x="1224.0" y="333.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="341.5">RR-F</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="341.5">21</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="341.5">6D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="341.5">108</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="341.5">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="341.5">267 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="341.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="359.0">CAFE-PNT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="359.0">54</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="359.0">8P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="359.0">320</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="359.0">300 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="359.0">324 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="359.0">PASS</tspan></text>
+<rect x="1224.0" y="368.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="376.5">STAFF-LNG</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="376.5">36</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="376.5">4P</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="376.5">160</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="376.5">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="376.5">243 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="376.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="394.0">RR-PWD</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="394.0">15</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="394.0">4D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="394.0">72</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="394.0">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="394.0">250 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="394.0">PASS</tspan></text>
+<rect x="1224.0" y="403.5" width="402.0" height="17.5" fill="#F1F5F9" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="411.5">JANITOR</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="411.5">12</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="411.5">3D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="411.5">54</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="411.5">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="411.5">234 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="411.5">PASS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1228.0" y="429.0">STORAGE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1308.0" y="429.0">15</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1354.0" y="429.0">4D</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="end" dominant-baseline="central"><tspan x="1402.0" y="429.0">72</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="400" font-style="normal" fill="#475569" text-anchor="end" dominant-baseline="central"><tspan x="1460.0" y="429.0">200 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.6" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1524.0" y="429.0">250 lx</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="700" font-style="normal" fill="#15803D" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="429.0">PASS</tspan></text>
+<rect x="1224.0" y="444.5" width="402.0" height="24.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="start" dominant-baseline="central"><tspan x="1230.0" y="456.5">TOTAL: 159P + 33D + 12 Em.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="700" font-style="normal" fill="#FDE047" text-anchor="end" dominant-baseline="central"><tspan x="1620.0" y="456.5">7,026 W (6.76 W/m²)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="482.5">LIGHTING LEGEND &amp; DESIGN BASIS</tspan></text>
+<rect x="1224.0" y="494.5" width="16.0" height="12.0" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1248.0" y="500.5">40 W / 4,200 lm LED Panel — Dimmable Gaming/VIP Zone</tspan></text>
+<rect x="1224.0" y="514.5" width="16.0" height="12.0" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.1"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1248.0" y="520.5">40 W / 4,200 lm LED Panel — Standard Zoned Switching</tspan></text>
+<rect x="1224.0" y="534.5" width="16.0" height="12.0" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1248.0" y="540.5">18 W / 1,800 lm LED Downlight — Wet/Utility/Base Core</tspan></text>
+<rect x="1224.0" y="554.5" width="16.0" height="12.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1248.0" y="560.5">6 W Battery-Backup Emergency / Exit Luminaire (12 units)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="588.5">• Formula: E_avg = (N × Φ × UF × MF) / A, with UF = 0.65, MF = 0.80.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="604.0">• 100% of 19 rooms (1,040 sqm) meet or exceed EN 12464-1 targets.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="619.5">• Gaming/VIP zones include 0–10 V dimmers to reduce screen glare</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="635.0">  during esports tournaments while maintaining full 300+ lx for cleaning.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="650.5">• *Base-building Stairwell &amp; Elevator (48 m²) verified to ≥150 lx.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="666.0">• Overall Lighting Power Density (LPD) = 6.76 W/m² (≤ 9.0 W/m²</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="681.5">  ASHRAE 90.1 / Philippine Green Building Code benchmark).</tspan></text>
+<rect x="22.0" y="954.0" width="1636.0" height="144.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.8"/>
+<line x1="500.0" y1="954.0" x2="500.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1020.0" y1="954.0" x2="1020.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1340.0" y1="954.0" x2="1340.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1510.0" y1="954.0" x2="1510.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="500.0" y1="1026.0" x2="1510.0" y2="1026.0" stroke="#94A3B8" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="22.0" y="954.0" width="478.0" height="32.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="261.0" y="970.0">PROPOSED STRUCTURED CABLING &amp; NETWORK INFRASTRUCTURE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1010.0">RJ Internet Café &amp; Esports Inc.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1038.0">Building 2 (Visayas — Flagship HQ): Cebu IT Park, Cebu City</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1060.0">Floor Plate: 40.0 m × 26.0 m = 1,040.0 sqm (Single Floor, 24/7 Operations)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="400" font-style="italic" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1081.0">University of San Carlos — Dept. of Computer Engineering (CPE 3105)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="972.0">SHEET TITLE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.8" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1000.0">LIGHTING LAYOUT, SWITCHING ZONES &amp; EN 12464-1 ILLUMINATION PLAN</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1044.0">DISCIPLINE / STANDARD COMPLIANCE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1071.0">Illumination Engineering | EN 12464-1 (100% Compliant, 40 W / 4,200 lm LED)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="972.0">DESIGN TEAM / GROUP</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1000.0">Group1  (CPE 3105 — Dr. G. S. Monserate)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1044.0">RESPONSIBLE MEMBER</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1071.0">Marianito Roble</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="972.0">SCALE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="999.0">1:100 (A3) / 1:150 (1/8 Board)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1044.0">DATE / REV</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1071.0">Nov 2026 | Rev 1.0</tspan></text>
+<rect x="1510.0" y="954.0" width="148.0" height="144.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#CBD5E1" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="988.0">SHEET NO.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="32.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="1040.0">L-1</tspan></text>
+</svg>

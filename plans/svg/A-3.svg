@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1120" viewBox="0 0 1680 1120">
+<defs></defs>
+<rect x="0.0" y="0.0" width="1680.0" height="1120.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<rect x="22.0" y="22.0" width="1636.0" height="1076.0" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="2.4"/>
+<rect x="27.0" y="27.0" width="1626.0" height="1066.0" fill="none" stroke="#1B2A4A" stroke-width="0.8"/>
+<line x1="92.0" y1="82.0" x2="92.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="92.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="72.0">A</tspan></text>
+<line x1="308.0" y1="82.0" x2="308.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="308.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="72.0">B</tspan></text>
+<line x1="524.0" y1="82.0" x2="524.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="524.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="524.0" y="72.0">C</tspan></text>
+<line x1="740.0" y1="82.0" x2="740.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="740.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="740.0" y="72.0">D</tspan></text>
+<line x1="956.0" y1="82.0" x2="956.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="956.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="956.0" y="72.0">E</tspan></text>
+<line x1="1172.0" y1="82.0" x2="1172.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="1172.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1172.0" y="72.0">F</tspan></text>
+<line x1="78.0" y1="96.0" x2="88.0" y2="96.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="96.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="96.0">1</tspan></text>
+<line x1="78.0" y1="271.5" x2="88.0" y2="271.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="271.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="271.5">2</tspan></text>
+<line x1="78.0" y1="447.0" x2="88.0" y2="447.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="447.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="447.0">3</tspan></text>
+<line x1="78.0" y1="622.5" x2="88.0" y2="622.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="622.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="622.5">4</tspan></text>
+<line x1="78.0" y1="798.0" x2="88.0" y2="798.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="798.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="798.0">5</tspan></text>
+<line x1="92.0" y1="50.0" x2="1172.0" y2="50.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="92.0" y1="44.0" x2="92.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="1172.0" y1="44.0" x2="1172.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="574.0" y="41.0" width="116.0" height="18.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="632.0" y="50.0">40.00 m (1,040.0 sqm)</tspan></text>
+<line x1="44.0" y1="96.0" x2="44.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="96.0" x2="50.0" y2="96.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="798.0" x2="50.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="28.0" y="433.0" width="32.0" height="28.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="44.0" y="441.2">26.0</tspan><tspan x="44.0" y="452.8">m</tspan></text>
+<line x1="92.0" y1="824.0" x2="1172.0" y2="824.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="92.0" y1="819.0" x2="92.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="227.0" y="837.0">10.0 m</tspan></text>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="470.0" y="837.0">8.0 m</tspan></text>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="837.0">5.0 m</tspan></text>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="767.0" y="837.0">4.0 m</tspan></text>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="837.0">6.0 m</tspan></text>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="1172.0" y1="819.0" x2="1172.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1077.5" y="837.0">7.0 m</tspan></text>
+<rect x="159.5" y="795.0" width="108.0" height="7.0" fill="#0EA5E9" stroke="#0369A1" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0369A1" text-anchor="middle" dominant-baseline="central"><tspan x="213.5" y="850.0">MAIN GLASS ENTRANCE (SOUTH)</tspan></text>
+<rect x="88.0" y="425.4" width="7.0" height="43.2" fill="#EF4444" stroke="#991B1B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="154.0" y="447.0">FIRE EXIT W</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="92.0" y="864.0">GRAPHIC SCALE (METERS)</tspan></text>
+<rect x="92.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="894.0">0</tspan></text>
+<rect x="146.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="146.0" y="894.0">2</tspan></text>
+<rect x="200.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="200.0" y="894.0">4</tspan></text>
+<rect x="254.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="254.0" y="894.0">6</tspan></text>
+<rect x="308.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="894.0">8</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="362.0" y="894.0">10 m</tspan></text>
+<circle cx="1127.0" cy="870.0" r="22.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.2"/>
+<polygon points="1127.0,852.0 1120.0,874.0 1127.0,868.0 1134.0,874.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="middle" dominant-baseline="central"><tspan x="1127.0" y="882.0">N</tspan></text>
+<rect x="92.0" y="96.0" width="486.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="96.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="794.0" y="96.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="96.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="258.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="420.0" width="972.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="420.0" width="108.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="474.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="362.0" y="474.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="474.0" width="135.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="713.0" y="474.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="474.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1077.5" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="636.0" width="243.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="636.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1050.5" y="636.0" width="54.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1104.5" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="96.0" width="1080.0" height="702.0" fill="none" stroke="#0F172A" stroke-width="3.2"/>
+<line x1="303.9" y1="420.0" x2="339.1" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="303.9" y1="420.0" x2="303.9" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="690.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="655.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="933.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="898.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="244.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="209.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="487.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="452.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="649.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="614.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="779.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="744.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="914.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="879.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1041.0" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1006.0" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1135.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1100.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="173.0" y="110.8">STD-GAME</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="586.1" y="110.8">FUT-GAME</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="802.1" y="110.8">VIP-ARENA</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1072.1" y="110.8">STAIR-NE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1072.1" y="272.9">ELEV-CORE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="700" font-style="normal" fill="#64748B" text-anchor="middle" dominant-baseline="central"><tspan x="578.0" y="447.0">MAIN CIRCULATION CORRIDOR (2.0 m CLEAR)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1072.1" y="434.9">COR-EAST</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="100.1" y="488.9">CASH-LOBBY</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="370.1" y="488.9">STUDY-PODS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="586.1" y="488.9">MDF-ROOM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="721.1" y="488.9">ELEC-ROOM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="829.1" y="488.9">ADMIN-OFC</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="991.1" y="488.9">RR-M</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1085.6" y="488.9">RR-F</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="586.1" y="650.9">CAFE-PNT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="829.1" y="650.9">STAFF-LNG</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="991.1" y="650.9">RR-PWD</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1058.6" y="650.9">JANITOR</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1112.6" y="650.9">STORAGE</tspan></text>
+<rect x="134.4" y="146.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="151.4" cy="167.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="153.9">GAM-01</tspan></text>
+<rect x="215.4" y="146.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="232.4" cy="167.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="232.4" y="153.9">GAM-02</tspan></text>
+<rect x="296.4" y="146.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="313.4" cy="167.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="313.4" y="153.9">GAM-03</tspan></text>
+<rect x="377.4" y="146.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="394.4" cy="167.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="394.4" y="153.9">GAM-04</tspan></text>
+<rect x="458.4" y="146.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="475.4" cy="167.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="475.4" y="153.9">GAM-05</tspan></text>
+<rect x="134.4" y="211.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="151.4" cy="232.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="218.7">GAM-06</tspan></text>
+<rect x="215.4" y="211.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="232.4" cy="232.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="232.4" y="218.7">GAM-07</tspan></text>
+<rect x="296.4" y="211.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="313.4" cy="232.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="313.4" y="218.7">GAM-08</tspan></text>
+<rect x="377.4" y="211.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="394.4" cy="232.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="394.4" y="218.7">GAM-09</tspan></text>
+<rect x="458.4" y="211.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="475.4" cy="232.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="475.4" y="218.7">GAM-10</tspan></text>
+<rect x="134.4" y="281.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="151.4" cy="302.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="288.9">GAM-11</tspan></text>
+<rect x="215.4" y="281.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="232.4" cy="302.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="232.4" y="288.9">GAM-12</tspan></text>
+<rect x="296.4" y="281.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="313.4" cy="302.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="313.4" y="288.9">GAM-13</tspan></text>
+<rect x="377.4" y="281.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="394.4" cy="302.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="394.4" y="288.9">GAM-14</tspan></text>
+<rect x="458.4" y="281.4" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="475.4" cy="302.4" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="475.4" y="288.9">GAM-15</tspan></text>
+<rect x="134.4" y="346.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="151.4" cy="367.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="353.7">GAM-16</tspan></text>
+<rect x="215.4" y="346.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="232.4" cy="367.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="232.4" y="353.7">GAM-17</tspan></text>
+<rect x="296.4" y="346.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="313.4" cy="367.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="313.4" y="353.7">GAM-18</tspan></text>
+<rect x="377.4" y="346.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="394.4" cy="367.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="394.4" y="353.7">GAM-19</tspan></text>
+<rect x="458.4" y="346.2" width="34.0" height="15.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="475.4" cy="367.2" r="6.0" fill="#93C5FD" stroke="#1E40AF" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#1E3A8A" text-anchor="middle" dominant-baseline="central"><tspan x="475.4" y="353.7">GAM-20</tspan></text>
+<rect x="845.2" y="146.4" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="891.2" cy="155.4" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="864.2" y="154.4">VIP-01</tspan></text>
+<rect x="845.2" y="195.0" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="891.2" cy="204.0" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="864.2" y="203.0">VIP-02</tspan></text>
+<rect x="845.2" y="243.6" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="891.2" cy="252.6" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="864.2" y="251.6">VIP-03</tspan></text>
+<rect x="845.2" y="292.2" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="891.2" cy="301.2" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="864.2" y="300.2">VIP-04</tspan></text>
+<rect x="845.2" y="340.8" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="891.2" cy="349.8" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="864.2" y="348.8">VIP-05</tspan></text>
+<rect x="974.8" y="146.4" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="966.8" cy="155.4" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="993.8" y="154.4">VIP-06</tspan></text>
+<rect x="974.8" y="195.0" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="966.8" cy="204.0" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="993.8" y="203.0">VIP-07</tspan></text>
+<rect x="974.8" y="243.6" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="966.8" cy="252.6" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="993.8" y="251.6">VIP-08</tspan></text>
+<rect x="974.8" y="292.2" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="966.8" cy="301.2" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="993.8" y="300.2">VIP-09</tspan></text>
+<rect x="974.8" y="340.8" width="38.0" height="16.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="966.8" cy="349.8" r="6.0" fill="#C4B5FD" stroke="#5B21B6" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#4C1D95" text-anchor="middle" dominant-baseline="central"><tspan x="993.8" y="348.8">VIP-10</tspan></text>
+<rect x="399.4" y="527.5" width="44.0" height="24.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1" rx="3" ry="3"/>
+<circle cx="421.4" cy="557.5" r="6.0" fill="#86EFAC" stroke="#166534" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#14532D" text-anchor="middle" dominant-baseline="central"><tspan x="421.4" y="539.5">STD-01</tspan></text>
+<rect x="488.5" y="527.5" width="44.0" height="24.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1" rx="3" ry="3"/>
+<circle cx="510.5" cy="557.5" r="6.0" fill="#86EFAC" stroke="#166534" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#14532D" text-anchor="middle" dominant-baseline="central"><tspan x="510.5" y="539.5">STD-02</tspan></text>
+<rect x="399.4" y="676.0" width="44.0" height="24.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1" rx="3" ry="3"/>
+<circle cx="421.4" cy="706.0" r="6.0" fill="#86EFAC" stroke="#166534" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#14532D" text-anchor="middle" dominant-baseline="central"><tspan x="421.4" y="688.0">STD-03</tspan></text>
+<rect x="488.5" y="676.0" width="44.0" height="24.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1" rx="3" ry="3"/>
+<circle cx="510.5" cy="706.0" r="6.0" fill="#86EFAC" stroke="#166534" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#14532D" text-anchor="middle" dominant-baseline="central"><tspan x="510.5" y="688.0">STD-04</tspan></text>
+<rect x="260.6" y="532.5" width="30.0" height="15.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="275.6" cy="553.5" r="5.5" fill="#FDE68A" stroke="#92400E" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.0" font-weight="700" font-style="normal" fill="#78350F" text-anchor="middle" dominant-baseline="central"><tspan x="275.6" y="540.0">BRW-01</tspan></text>
+<rect x="309.2" y="532.5" width="30.0" height="15.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.0" rx="2" ry="2"/>
+<circle cx="324.2" cy="553.5" r="5.5" fill="#FDE68A" stroke="#92400E" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.0" font-weight="700" font-style="normal" fill="#78350F" text-anchor="middle" dominant-baseline="central"><tspan x="324.2" y="540.0">BRW-02</tspan></text>
+<rect x="843.5" y="523.4" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="861.5" cy="546.4" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="861.5" y="531.9">IT-PC</tspan></text>
+<rect x="924.5" y="523.4" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="942.5" cy="546.4" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="942.5" y="531.9">MGR-PC</tspan></text>
+<rect x="843.5" y="588.2" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="861.5" cy="611.2" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="861.5" y="596.7">STF-01</tspan></text>
+<rect x="924.5" y="588.2" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="942.5" cy="611.2" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="942.5" y="596.7">STF-02</tspan></text>
+<rect x="133.4" y="523.4" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="151.4" cy="546.4" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="531.9">POS-01</tspan></text>
+<rect x="187.4" y="523.4" width="36.0" height="17.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<circle cx="205.4" cy="546.4" r="6.0" fill="#99F6E4" stroke="#115E59" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#134E4A" text-anchor="middle" dominant-baseline="central"><tspan x="205.4" y="531.9">POS-02</tspan></text>
+<rect x="137.4" y="599.0" width="28.0" height="20.0" fill="#F1F5F9" stroke="#334155" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="151.4" y="609.0">PRT-01</tspan></text>
+<rect x="191.4" y="599.0" width="28.0" height="20.0" fill="#F1F5F9" stroke="#334155" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="205.4" y="609.0">PRT-02</tspan></text>
+<rect x="612.6" y="156.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="677.4" y="156.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="736.8" y="156.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="612.6" y="237.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="677.4" y="237.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="736.8" y="237.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="612.6" y="318.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="677.4" y="318.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<rect x="736.8" y="318.5" width="28.0" height="13.0" fill="none" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="3,2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="400" font-style="italic" fill="#64748B" text-anchor="middle" dominant-baseline="central"><tspan x="686.0" y="377.4">FUTURE 10-SEAT BAY</tspan><tspan x="686.0" y="387.0">(CONDUIT STUBBED)</tspan></text>
+<rect x="615.6" y="724.2" width="22.0" height="18.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="0.9" rx="2" ry="2"/>
+<rect x="664.2" y="724.2" width="22.0" height="18.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="0.9" rx="2" ry="2"/>
+<rect x="712.8" y="724.2" width="22.0" height="18.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="0.9" rx="2" ry="2"/>
+<rect x="756.0" y="724.2" width="22.0" height="18.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="0.9" rx="2" ry="2"/>
+<rect x="664.2" y="762.0" width="22.0" height="18.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="0.9" rx="2" ry="2"/>
+<rect x="842.6" y="668.4" width="68.0" height="26.0" fill="#F3E8FF" stroke="#7E22CE" stroke-width="1.0" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.8" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="875.0" y="681.9">SOFA</tspan></text>
+<rect x="848.0" y="730.5" width="54.0" height="24.0" fill="#F3E8FF" stroke="#7E22CE" stroke-width="1.0" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.4" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="875.0" y="742.6">BREAK TBL</tspan></text>
+<rect x="124.4" y="703.5" width="76.0" height="16.0" fill="#E2E8F0" stroke="#475569" stroke-width="1.0" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="162.2" y="711.6">WAITING BENCH</tspan></text>
+<rect x="1112.6" y="676.5" width="48.0" height="86.0" fill="#E7E5E4" stroke="#57534E" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.5" font-weight="700" font-style="normal" fill="#44403C" text-anchor="middle" dominant-baseline="central"><tspan x="1136.9" y="719.7">RACKS</tspan></text>
+<rect x="604.5" y="660.4" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="618.5" y="668.4">MW1</tspan></text>
+<rect x="666.6" y="660.4" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="680.6" y="668.4">RF1</tspan></text>
+<rect x="715.2" y="660.4" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="729.2" y="668.4">RF2</tspan></text>
+<rect x="763.8" y="660.4" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="777.8" y="668.4">ESP</tspan></text>
+<rect x="785.4" y="749.5" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="799.4" y="757.5">WTR1</tspan></text>
+<rect x="942.0" y="660.4" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="956.0" y="668.4">WTR2</tspan></text>
+<rect x="915.0" y="104.2" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="929.0" y="112.2">TV1</tspan></text>
+<rect x="915.0" y="395.8" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="929.0" y="403.8">TV2</tspan></text>
+<rect x="213.0" y="479.5" width="28.0" height="16.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#713F12" text-anchor="middle" dominant-baseline="central"><tspan x="227.0" y="487.5">TV3</tspan></text>
+<rect x="102.0" y="108.6" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="119.0" y="117.6">AC-01</tspan></text>
+<rect x="520.5" y="108.6" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="537.5" y="117.6">AC-02</tspan></text>
+<rect x="669.0" y="108.6" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="686.0" y="117.6">AC-03</tspan></text>
+<rect x="1020.0" y="108.6" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="1037.0" y="117.6">AC-04</tspan></text>
+<rect x="96.6" y="756.6" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="113.6" y="765.6">AC-05</tspan></text>
+<rect x="453.0" y="767.4" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="470.0" y="776.4">AC-06</tspan></text>
+<rect x="628.5" y="610.8" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="619.8">AC-07</tspan></text>
+<rect x="669.0" y="610.8" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="686.0" y="619.8">AC-08</tspan></text>
+<rect x="885.0" y="610.8" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="619.8">AC-09</tspan></text>
+<rect x="682.5" y="767.4" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="699.5" y="776.4">AC-10</tspan></text>
+<rect x="885.0" y="767.4" width="34.0" height="18.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.6" font-weight="700" font-style="normal" fill="#155E75" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="776.4">AC-11</tspan></text>
+<rect x="1208.0" y="38.0" width="434.0" height="898.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.4"/>
+<rect x="1208.0" y="38.0" width="434.0" height="34.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1425.0" y="55.0">FF&amp;E AND HVAC LEGEND &amp; PARITY CHECK</tspan></text>
+<rect x="1224.0" y="83.0" width="22.0" height="14.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="90.0">Standard Gaming Desk + Chair (20 sets: GAM-01..20)</tspan></text>
+<rect x="1224.0" y="107.0" width="22.0" height="14.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="114.0">VIP Pro Esports Desk + Chair (10 sets: VIP-01..10)</tspan></text>
+<rect x="1224.0" y="131.0" width="22.0" height="14.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="138.0">Acoustic Study Pod Desk + Chair (4 sets: STD-01..04)</tspan></text>
+<rect x="1224.0" y="155.0" width="22.0" height="14.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="162.0">Quick-Browsing Desk + Chair (2 sets: BRW-01..02)</tspan></text>
+<rect x="1224.0" y="179.0" width="22.0" height="14.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="186.0">Admin/IT &amp; Cashier/POS Desks + Chairs (6 sets)</tspan></text>
+<rect x="1224.0" y="203.0" width="22.0" height="14.0" fill="#F1F5F9" stroke="#334155" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="210.0">Network Multifunction Printers (2 units: PRT-01..02)</tspan></text>
+<rect x="1224.0" y="227.0" width="22.0" height="14.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="234.0">Dedicated Appliances (9 units — 1:1 w/ Electrical E-1/E-2)</tspan></text>
+<rect x="1224.0" y="251.0" width="22.0" height="14.0" fill="#CFFAFE" stroke="#0E7490" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1254.0" y="258.0">Inverter AC Units (11 units: AC-01..11 — 1:1 w/ Panel ACP)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.6" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="296.0">AIR-CONDITIONING SCHEDULE (11 INVERTER UNITS)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="314.0">AC-01 (STD-GAME): 5.0 HP — 4,600 VA (20 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="330.0">AC-02 (STD-GAME): 5.0 HP — 4,600 VA (20 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="346.0">AC-03 (FUT-GAME): 3.0 HP — 3,220 VA (14 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="362.0">AC-04 (VIP-ARENA): 5.0 HP — 4,600 VA (20 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="378.0">AC-05 (CASH-LOBBY): 3.0 HP — 3,220 VA (14 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="394.0">AC-06 (STUDY-PODS): 2.5 HP — 2,530 VA (11 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="410.0">AC-07 (MDF-ROOM): 2.0 HP — 2,070 VA (9 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="426.0">AC-08 (MDF-ROOM): 2.0 HP — 2,070 VA (9 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="442.0">AC-09 (ADMIN-OFC): 2.0 HP — 2,070 VA (9 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="458.0">AC-10 (CAFE-PNT): 2.5 HP — 2,530 VA (11 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="474.0">AC-11 (STAFF-LNG): 1.5 HP — 1,610 VA (7 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.6" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="504.0">DEDICATED APPLIANCES (9 UNITS — 1:1 W/ E-2)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="522.0">MW1: Commercial Microwave Oven (1,200 W) (1200 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="537.5">RF1: Commercial Glass-Door Beverage Chiller… (380 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="553.0">RF2: Two-Door Inverter Pantry Refrigerator … (220 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="568.5">ESP: Commercial Espresso &amp; Coffee Maker (1,… (1450 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="584.0">WTR1: Hot &amp; Cold Water Dispenser (Café Pantr… (550 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="599.5">WTR2: Hot &amp; Cold Water Dispenser (Staff Loun… (550 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="615.0">TV1: 65&quot; 4K Smart Spectator Display TV (VIP… (180 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="630.5">TV2: 65&quot; 4K Smart Spectator Display TV (VIP… (180 W)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="646.0">TV3: 55&quot; 4K Digital Rate-Board &amp; Menu TV (L… (140 W)</tspan></text>
+<rect x="1224.0" y="675.5" width="402.0" height="82.0" fill="#F0FDF4" stroke="#15803D" stroke-width="1.1" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="1425.0" y="693.5">1-TO-1 WORKSTATION &amp; APPLIANCE PARITY</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1236.0" y="715.5">• 42 Desks &amp; 42 Chairs = 42 PCs in drop_schedule.csv &amp; PT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1236.0" y="733.5">• 9 Appliances + 11 ACs = exact match in Panel PP-1 &amp; ACP</tspan></text>
+<rect x="22.0" y="954.0" width="1636.0" height="144.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.8"/>
+<line x1="500.0" y1="954.0" x2="500.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1020.0" y1="954.0" x2="1020.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1340.0" y1="954.0" x2="1340.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1510.0" y1="954.0" x2="1510.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="500.0" y1="1026.0" x2="1510.0" y2="1026.0" stroke="#94A3B8" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="22.0" y="954.0" width="478.0" height="32.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="261.0" y="970.0">PROPOSED STRUCTURED CABLING &amp; NETWORK INFRASTRUCTURE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1010.0">RJ Internet Café &amp; Esports Inc.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1038.0">Building 2 (Visayas — Flagship HQ): Cebu IT Park, Cebu City</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1060.0">Floor Plate: 40.0 m × 26.0 m = 1,040.0 sqm (Single Floor, 24/7 Operations)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="400" font-style="italic" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1081.0">University of San Carlos — Dept. of Computer Engineering (CPE 3105)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="972.0">SHEET TITLE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.8" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1000.0">FURNITURE, FIXTURES, APPLIANCES &amp; HVAC EQUIPMENT PLAN</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1044.0">DISCIPLINE / STANDARD COMPLIANCE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1071.0">Interior FF&amp;E &amp; HVAC | 1-to-1 Parity w/ Cabling &amp; Electrical Plans</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="972.0">DESIGN TEAM / GROUP</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1000.0">Group1  (CPE 3105 — Dr. G. S. Monserate)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1044.0">RESPONSIBLE MEMBER</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1071.0">Armanpreet Talwar</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="972.0">SCALE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="999.0">1:100 (A3) / 1:150 (1/8 Board)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1044.0">DATE / REV</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1071.0">Nov 2026 | Rev 1.0</tspan></text>
+<rect x="1510.0" y="954.0" width="148.0" height="144.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#CBD5E1" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="988.0">SHEET NO.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="32.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="1040.0">A-3</tspan></text>
+</svg>

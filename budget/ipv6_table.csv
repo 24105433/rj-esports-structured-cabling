@@ -1,0 +1,14 @@
+Building / LAN,Router Interface,IPv6 Prefix,Gateway (Global),Gateway (Link-Local),DHCPv6 / Addressing Mode
+Cebu HQ (Visayas) — HQ-GAMING-LAN,R-CEBU GigabitEthernet0/0,2001:DB8:ACAD:1001::/64,2001:DB8:ACAD:1001::1,FE80::1,SRV-1 DHCPv4 Relay + Stateful DHCPv6
+Cebu HQ (Visayas) — HQ-ADMIN-LAN,R-CEBU GigabitEthernet0/1,2001:DB8:ACAD:1002::/64,2001:DB8:ACAD:1002::1,FE80::1,SRV-1 DHCPv4 Relay + Stateful DHCPv6 (Static IT/POS/Prt)
+Cebu HQ (Visayas) — HQ-SERVER-LAN,R-CEBU GigabitEthernet0/2,2001:DB8:ACAD:1003::/64,2001:DB8:ACAD:1003::1,FE80::1,Static Server Allocation
+Clark Branch (Luzon) — CLK-GAMING-LAN,R-CLARK GigabitEthernet0/0,2001:DB8:ACAD:2001::/64,2001:DB8:ACAD:2001::1,FE80::1,R-CLARK DHCPv4 Pool + Stateful DHCPv6
+Clark Branch (Luzon) — CLK-ADMIN-LAN,R-CLARK GigabitEthernet0/1,2001:DB8:ACAD:2002::/64,2001:DB8:ACAD:2002::1,FE80::1,R-CLARK DHCPv4 Pool + Stateful DHCPv6 (Static CLK-IT-PC)
+Davao Branch (Mindanao) — DVO-GAMING-LAN,R-DAVAO GigabitEthernet0/0,2001:DB8:ACAD:3001::/64,2001:DB8:ACAD:3001::1,FE80::1,R-DAVAO DHCPv4 Pool + Stateful DHCPv6
+Davao Branch (Mindanao) — DVO-ADMIN-LAN,R-DAVAO GigabitEthernet0/1,2001:DB8:ACAD:3002::/64,2001:DB8:ACAD:3002::1,FE80::1,R-DAVAO DHCPv4 Pool + Stateful DHCPv6 (Static DVO-IT-PC)
+WAN (ISP ↔ Cebu HQ) — WAN-CEBU-PRI,ISP-CEBU / R-CEBU Se0/0/0 ↔ Se0/0/0,2001:DB8:ACAD:F001::/64,::1 (ISP) / ::2 (HQ),FE80::4 / FE80::1,Static Point-to-Point
+WAN (ISP ↔ Clark Pri) — WAN-CLARK-PRI,ISP-CEBU / R-CLARK Se0/0/1 ↔ Se0/0/0,2001:DB8:ACAD:F002::/64,::1 (ISP) / ::2 (CLK),FE80::4 / FE80::1,Static Point-to-Point
+WAN (ISP ↔ Davao Pri) — WAN-DAVAO-PRI,ISP-CEBU / R-DAVAO Se0/1/0 ↔ Se0/0/0,2001:DB8:ACAD:F003::/64,::1 (ISP) / ::2 (DVO),FE80::4 / FE80::1,Static Point-to-Point
+WAN (ISP ↔ Clark Bak) — WAN-CLARK-BAK,ISP-CEBU / R-CLARK Se0/1/1 ↔ Se0/0/1,2001:DB8:ACAD:F004::/64,::1 (ISP) / ::2 (CLK),FE80::4 / FE80::1,Static Point-to-Point
+WAN (ISP ↔ Davao Bak) — WAN-DAVAO-BAK,ISP-CEBU / R-DAVAO Se0/2/0 ↔ Se0/0/1,2001:DB8:ACAD:F005::/64,::1 (ISP) / ::2 (DVO),FE80::4 / FE80::1,Static Point-to-Point
+Simulated Internet,ISP-CEBU Loopback0,2001:DB8:FFFF::/64,2001:DB8:FFFF::1,—,Static Internet Test Loopback (203.0.113.1/24)

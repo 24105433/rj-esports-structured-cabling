@@ -1,0 +1,47 @@
+{
+  "workbook": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\budget\\Group1_RJ_Esports_Budget.xlsx",
+  "sections": [
+    {
+      "sheet": "Floor_Plan",
+      "label": "Floor Plan (Interior Fit-Out)",
+      "csv": "floor_boq.csv",
+      "subtotal": "3686790.00",
+      "item_count": 16
+    },
+    {
+      "sheet": "Electrical",
+      "label": "Electrical Plan (Power, Panels & UPS)",
+      "csv": "electrical_boq.csv",
+      "subtotal": "1015115.00",
+      "item_count": 19
+    },
+    {
+      "sheet": "Lighting",
+      "label": "Lighting Plan (EN 12464-1 LED System)",
+      "csv": "lighting_boq.csv",
+      "subtotal": "463440.00",
+      "item_count": 10
+    },
+    {
+      "sheet": "Structured_Cabling",
+      "label": "Structured Cabling, Active Network & IT",
+      "csv": "cabling_boq.csv",
+      "subtotal": "3529000.00",
+      "item_count": 28
+    },
+    {
+      "sheet": "Furniture_Fixtures",
+      "label": "Furniture, Fixtures, Appliances & HVAC",
+      "csv": "furniture_boq.csv",
+      "subtotal": "2029665.00",
+      "item_count": 36
+    }
+  ],
+  "direct_subtotal": "10724010.00",
+  "contingency_rate_pct": "5.00",
+  "contingency": "536200.50",
+  "grand_total": "11260210.50",
+  "client_target_budget": "11800000.00",
+  "variance_under_target": "539789.50",
+  "variance_pct": "4.57"
+}

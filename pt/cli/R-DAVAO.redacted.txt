@@ -1,0 +1,196 @@
+! ============================================================================
+! R-DAVAO — RJ Internet Cafe & Esports Inc. (Cisco 2911, IOS 15.x)
+! ============================================================================
+enable
+configure terminal
+hostname R-DAVAO
+no ip domain-lookup
+service password-encryption
+enable secret <redacted>
+banner motd #AUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.#
+ipv6 unicast-routing
+ip domain-name rjesports.local
+username admin secret <redacted>
+crypto key generate rsa general-keys modulus 2048
+ip ssh version 2
+!
+line console 0
+ password <redacted>
+ login
+ logging synchronous
+ exec-timeout 10 0
+ exit
+! --- Router DHCPv4 Pools (Davao Branch — Mindanao) ---
+ip dhcp excluded-address 10.10.2.1 10.10.2.10
+ip dhcp excluded-address 10.10.2.65 10.10.2.71
+!
+ip dhcp pool DVO-GAMING-POOL
+ network 10.10.2.0 255.255.255.192
+ default-router 10.10.2.1
+ dns-server 10.10.0.98
+ domain-name rjesports.local
+ exit
+!
+ip dhcp pool DVO-ADMIN-POOL
+ network 10.10.2.64 255.255.255.240
+ default-router 10.10.2.65
+ dns-server 10.10.0.98
+ domain-name rjesports.local
+ exit
+!
+! --- Stateful DHCPv6 Pools (Davao Branch) ---
+ipv6 dhcp pool DVO-GAMING-V6
+ address prefix 2001:DB8:ACAD:3001::/64
+ dns-server 2001:DB8:ACAD:1003::98
+ domain-name rjesports.local
+ exit
+!
+ipv6 dhcp pool DVO-ADMIN-V6
+ address prefix 2001:DB8:ACAD:3002::/64
+ dns-server 2001:DB8:ACAD:1003::98
+ domain-name rjesports.local
+ exit
+!
+! --- Interfaces ---
+interface GigabitEthernet0/0
+ description DVO-GAMING-LAN (16 Gaming PCs + 3 Cust APs)
+ ip address 10.10.2.1 255.255.255.192
+ ipv6 address 2001:DB8:ACAD:3001::1/64
+ ipv6 address FE80::1 link-local
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server DVO-GAMING-V6
+ ipv6 eigrp 100
+ no shutdown
+ exit
+!
+interface GigabitEthernet0/1
+ description DVO-ADMIN-LAN (DVO-IT-PC .70 + Staff/POS)
+ ip address 10.10.2.65 255.255.255.240
+ ipv6 address 2001:DB8:ACAD:3002::1/64
+ ipv6 address FE80::1 link-local
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server DVO-ADMIN-V6
+ ipv6 eigrp 100
+ no shutdown
+ exit
+!
+interface Serial0/0/0
+ description WAN-DAVAO-PRI to ISP-CEBU Se0/1/0 (EIGRP AS 100 / EIGRPv6)
+ ip address 10.10.3.10 255.255.255.252
+ ipv6 address 2001:DB8:ACAD:F003::2/64
+ ipv6 address FE80::1 link-local
+ ipv6 eigrp 100
+ no shutdown
+ exit
+!
+interface Serial0/0/1
+ description WAN-DAVAO-BAK to ISP-CEBU Se0/2/0 (Floating Static AD 180)
+ ip address 10.10.3.18 255.255.255.252
+ ipv6 address 2001:DB8:ACAD:F005::2/64
+ ipv6 address FE80::1 link-local
+ no shutdown
+ exit
+!
+! --- Dynamic Routing: EIGRP AS 100 (IPv4) & EIGRPv6 AS 100 with Passive LANs ---
+router eigrp 100
+ eigrp router-id 3.3.3.3
+ no auto-summary
+ network 10.10.2.0 0.0.0.63
+ network 10.10.2.64 0.0.0.15
+ network 10.10.3.8 0.0.0.3
+ passive-interface GigabitEthernet0/0
+ passive-interface GigabitEthernet0/1
+ exit
+!
+ipv6 router eigrp 100
+ eigrp router-id 3.3.3.3
+ no shutdown
+ passive-interface GigabitEthernet0/0
+ passive-interface GigabitEthernet0/1
+ exit
+!
+! --- Floating Static Backup Default Route (AD 180 > EIGRP Ext AD 170) ---
+ip route 0.0.0.0 0.0.0.0 10.10.3.17 180
+ipv6 route ::/0 2001:DB8:ACAD:F005::1 180
+!
+! --- Inbound Extended ACLs — Objectives 2, 3, and 4 (IPv4 + IPv6 Mirror) ---
+no ip access-list extended DVO-GAMING-IN
+ip access-list extended DVO-GAMING-IN
+ remark Obj3-Block Davao Gaming PCs from Davao Admin/Staff LAN
+ deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15
+ remark Obj2-Block Davao Gaming PCs from HQ Billing/POS Server SRV-2
+ deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99
+ remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1
+ permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 80
+ permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 53
+ permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 53
+ remark Obj4-Block FTP (21 & 20) to SRV-1
+ deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 21
+ deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20
+ permit ip any any
+ exit
+!
+no ip access-list extended DVO-ADMIN-IN
+ip access-list extended DVO-ADMIN-IN
+ remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2
+ deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99
+ permit ip any any
+ exit
+!
+no ipv6 access-list DVO-GAMING-IN6
+ipv6 access-list DVO-GAMING-IN6
+ remark Obj3-IPv6 Block Davao Gaming from Davao Admin LAN
+ deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64
+ remark Obj2-IPv6 Block Davao Gaming from HQ SRV-2
+ deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99
+ remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1
+ permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 80
+ permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 53
+ permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 53
+ remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1
+ deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 21
+ deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20
+ permit ipv6 any any
+ exit
+!
+no ipv6 access-list DVO-ADMIN-IN6
+ipv6 access-list DVO-ADMIN-IN6
+ remark Obj2-IPv6 Block Branch Admin from HQ SRV-2
+ deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99
+ permit ipv6 any any
+ exit
+!
+interface GigabitEthernet0/0
+ ip access-group DVO-GAMING-IN in
+ ipv6 traffic-filter DVO-GAMING-IN6 in
+ exit
+!
+interface GigabitEthernet0/1
+ ip access-group DVO-ADMIN-IN in
+ ipv6 traffic-filter DVO-ADMIN-IN6 in
+ exit
+!
+! --- Objective 1: Restrict SSH (VTY 0 15) strictly to static IT Admin PCs ---
+no access-list 10
+access-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)
+access-list 10 permit host 10.10.0.70
+access-list 10 permit host 10.10.1.70
+access-list 10 permit host 10.10.2.70
+!
+no ipv6 access-list SSH-IT6
+ipv6 access-list SSH-IT6
+ remark Obj1-IPv6 Allow only static IT Admin PCs
+ permit ipv6 host 2001:DB8:ACAD:1002::70 any
+ permit ipv6 host 2001:DB8:ACAD:2002::70 any
+ permit ipv6 host 2001:DB8:ACAD:3002::70 any
+ exit
+!
+line vty 0 15
+ login local
+ transport input ssh
+ access-class 10 in
+ ipv6 access-class SSH-IT6 in
+ exec-timeout 10 0
+ exit
+end
+write memory

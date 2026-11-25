@@ -1,0 +1,13 @@
+Building / VLAN,Required hosts,Network / prefix,Subnet mask,Usable host range,Gateway,Broadcast (IPv4),Usable capacity,Wildcard,Notes
+Cebu HQ (Visayas) — HQ-GAMING-LAN,55,10.10.0.0/26,255.255.255.192,10.10.0.1 – 10.10.0.62,10.10.0.1,10.10.0.63,62,0.0.0.63,20 Std Gaming + 10 VIP + 4 Study + 2 Browsing + 7 Cust APs + 10 Future Bay + 2 spare (62 usable)
+Cebu HQ (Visayas) — HQ-ADMIN-LAN,20,10.10.0.64/27,255.255.255.224,10.10.0.65 – 10.10.0.94,10.10.0.65,10.10.0.95,30,0.0.0.31,"IT-PC (.70), MGR-PC (.71), POS-01/02 (.72-.73), PRT-01/02 (.74-.75), STF-01/02, Staff AP-08 + 11 spare (30 usable)"
+Cebu HQ (Visayas) — HQ-SERVER-LAN,8,10.10.0.96/28,255.255.255.240,10.10.0.97 – 10.10.0.110,10.10.0.97,10.10.0.111,14,0.0.0.15,"SRV-1 (.98 DNS/Web/DHCPv4), SRV-2 (.99 Billing/POS/Cache) + switch mgmt/growth (14 usable)"
+Clark Branch (Luzon) — CLK-GAMING-LAN,35,10.10.1.0/26,255.255.255.192,10.10.1.1 – 10.10.1.62,10.10.1.1,10.10.1.63,62,0.0.0.63,16 Branch Gaming PCs + 3 Customer APs + 16 expansion seats (62 usable)
+Clark Branch (Luzon) — CLK-ADMIN-LAN,12,10.10.1.64/28,255.255.255.240,10.10.1.65 – 10.10.1.78,10.10.1.65,10.10.1.79,14,0.0.0.15,"CLK-IT-PC (.70 static), 3 Staff/POS PCs, 1 Printer, 1 Staff AP + 6 spare (14 usable)"
+Davao Branch (Mindanao) — DVO-GAMING-LAN,35,10.10.2.0/26,255.255.255.192,10.10.2.1 – 10.10.2.62,10.10.2.1,10.10.2.63,62,0.0.0.63,16 Branch Gaming PCs + 3 Customer APs + 16 expansion seats (62 usable)
+Davao Branch (Mindanao) — DVO-ADMIN-LAN,12,10.10.2.64/28,255.255.255.240,10.10.2.65 – 10.10.2.78,10.10.2.65,10.10.2.79,14,0.0.0.15,"DVO-IT-PC (.70 static), 3 Staff/POS PCs, 1 Printer, 1 Staff AP + 6 spare (14 usable)"
+WAN (ISP ↔ Cebu HQ) — WAN-CEBU-PRI,2,10.10.3.0/30,255.255.255.252,10.10.3.1 – 10.10.3.2,10.10.3.1 (ISP) / .2 (HQ),10.10.3.3,2,0.0.0.3,Primary Fiber/Serial Link — Static Summary (ISP) + Default Static (R-CEBU)
+WAN (ISP ↔ Clark Pri) — WAN-CLARK-PRI,2,10.10.3.4/30,255.255.255.252,10.10.3.5 – 10.10.3.6,10.10.3.5 (ISP) / .6 (CLK),10.10.3.7,2,0.0.0.3,Primary Luzon WAN Link — RIPv2 (IPv4) + RIPng (IPv6)
+WAN (ISP ↔ Davao Pri) — WAN-DAVAO-PRI,2,10.10.3.8/30,255.255.255.252,10.10.3.9 – 10.10.3.10,10.10.3.9 (ISP) / .10 (DVO),10.10.3.11,2,0.0.0.3,Primary Mindanao WAN Link — EIGRP AS 100 (IPv4) + EIGRPv6 AS 100
+WAN (ISP ↔ Clark Bak) — WAN-CLARK-BAK,2,10.10.3.12/30,255.255.255.252,10.10.3.13 – 10.10.3.14,10.10.3.13 (ISP) / .14 (CLK),10.10.3.15,2,0.0.0.3,Backup Luzon WAN Link — Floating Static Failover (AD 130)
+WAN (ISP ↔ Davao Bak) — WAN-DAVAO-BAK,2,10.10.3.16/30,255.255.255.252,10.10.3.17 – 10.10.3.18,10.10.3.17 (ISP) / .18 (DVO),10.10.3.19,2,0.0.0.3,Backup Mindanao WAN Link — Floating Static Failover (AD 180)

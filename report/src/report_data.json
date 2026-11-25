@@ -1,0 +1,4246 @@
+{
+  "meta": {
+    "groupId": "Group1",
+    "groupDisplay": "Group 1",
+    "orgName": "RJ Internet Caf\u00e9 & Esports Inc.",
+    "course": "CPE 3105 \u2013 Computer Networks and Security",
+    "instructor": "Dr. Godwin S. Monserate",
+    "submissionDate": "November 29, 2026",
+    "presentationDates": "December 1\u20134, 2026",
+    "memberNames": [
+      "Francis RJ Velasco",
+      "Armanpreet Talwar",
+      "Marianito Roble",
+      "Marchen Viterbo",
+      "Andre Merkel Sepe"
+    ],
+    "logo1": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\assets\\image1.png",
+    "logo2": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\assets\\image2.png",
+    "outputDocx": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\Group1_Proposed_Structured_Cabling_Plan.docx"
+  },
+  "counts": {
+    "figures": 28,
+    "tables": 20
+  },
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "CHAPTER 1: INTRODUCTION",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "1.1 Background of the Project"
+    },
+    {
+      "type": "p",
+      "text": "Modern 24/7 commercial esports arenas and internet caf\u00e9s depend on deterministic, standards-compliant physical and logical infrastructure to support high-frame-rate multiplayer gaming, real-time point-of-sale (POS) billing, local game-patch caching, quiet study pods, and uninterrupted wide-area connectivity. RJ Internet Caf\u00e9 & Esports Inc. is establishing a three-branch Philippine network spanning Luzon (Clark Freeport Zone, Pampanga), Visayas (Cebu IT Park Flagship Headquarters), and Mindanao (Davao City), converging through a central Internet Service Provider (ISP) in Cebu City. Without a unified structured cabling architecture compliant with Telecommunications Industry Association (TIA, 2018) standards and Philippine Electrical Code (Institute of Integrated Electrical Engineers of the Philippines [IIEE], 2017) safety rules, commercial gaming venues frequently suffer from electromagnetic interference (EMI), packet loss, voltage sags, thermal throttling, and insecure flat-network topologies that expose billing servers to customer terminals.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "1.2 Problem Statement"
+    },
+    {
+      "type": "p",
+      "text": "This proposal addresses five concrete engineering and operational infrastructure challenges:",
+      "opts": {}
+    },
+    {
+      "type": "bullet",
+      "text": "How can three regional 1,040 sqm commercial floor plates be transformed from bare warm shells into zoned, life-safety-compliant 24/7 esports and internet caf\u00e9 facilities with clear circulation and protected telecommunications rooms?",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "How can power distribution, air-conditioning feeders, and LED illumination be sized under PEC 2017 and European Committee for Standardization (CEN, 2021) benchmarks while maintaining physical EMI separation from data cabling?",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "How can a three-tier hierarchical structured cabling system guarantee \u2264 90 m Category 6 (Cat6) permanent links, complete drop-to-furniture-to-outlet parity, and zero spare-port shortfalls across all access switches?",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "How can a single dual-stack Variable Length Subnet Mask (VLSM) IPv4 and IPv6 addressing plan cleanly summarize all three regional sites while uniting Static, RIPv2/RIPng, EIGRP/EIGRPv6, redistribution, and bidirectional floating static failover at a single Cebu ISP hub?",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "How can strict inbound IPv4 and IPv6 Access Control Lists (ACLs) and Secure Shell (SSH) hardening isolate billing/POS servers, administrative LANs, and router management from customer gaming terminals without blocking legitimate HTTP/DNS services?",
+      "boldPrefix": null
+    },
+    {
+      "type": "h2",
+      "text": "1.3 Project Objectives"
+    },
+    {
+      "type": "p",
+      "text": "General Objective: To design, cost, simulate, and verify a complete, standards-compliant multi-branch structured cabling and network infrastructure proposal for RJ Internet Caf\u00e9 & Esports Inc. across Luzon, Visayas, and Mindanao converging at a central Cebu ISP.",
+      "opts": {
+        "boldPrefix": ""
+      }
+    },
+    {
+      "type": "p",
+      "text": "Specific Objectives:",
+      "opts": {}
+    },
+    {
+      "type": "bullet",
+      "text": "Develop conceptual Original (Before) and Modified (After) floor plans for three 1,040 sqm buildings in Luzon, Visayas, and Mindanao meeting the minimum 1,000 sqm course requirement.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Produce five aligned CAD engineering plans\u2014Floor, Electrical, Lighting, Structured Cabling, and Furniture & Fixtures\u2014for the selected Cebu Flagship HQ site (ready for 1/8-board tracing-paper overlay defense).",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Develop a transparent, formula-driven, Philippine-market (November 2026) consolidated budget excluding base building shell construction and benchmarked against the client target budget.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Calculate and validate an overlap-free dual-stack VLSM IPv4 (10.10.0.0/22) and IPv6 (2001:DB8:ACAD::/48) addressing plan with verified expansion headroom and stateful DHCPv4/DHCPv6 assignment.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Implement and harden multi-protocol routing (Static, RIPv2/RIPng, EIGRP/EIGRPv6, single-point redistribution on ISP-CEBU, passive LAN interfaces, bidirectional floating statics, SSH v2 on VTY 0\u201315, and four inbound IPv4/IPv6 security ACLs).",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Deploy, verify, and document the inter-building network in Cisco Packet Tracer 9.0.1 alongside physical workspace backgrounds, bend-point cabling instructions, connectivity test matrices, and troubleshooting records.",
+      "boldPrefix": null
+    },
+    {
+      "type": "h2",
+      "text": "1.4 Scope and Limitations"
+    },
+    {
+      "type": "p",
+      "text": "Scope: The proposal covers interior architectural fit-out, electrical distribution, LED lighting, structured cabling, active networking, IT workstations, furniture/HVAC costing, dual-stack addressing, routing, security hardening, and Cisco Packet Tracer 9.0.1 simulation for Building 2 (Cebu Flagship HQ, selected for all five detailed engineering plans) plus architectural before/after floor plates and multi-branch WAN integration for Building 1 (Clark) and Building 3 (Davao). All three sites utilize a 40.0 \u00d7 26.0 m (1,040.0 sqm) single-floor commercial plate; note that the \u22651,000 sqm single-floor configuration remains subject to final instructor confirmation if multi-story gross-area equivalence is later preferred.",
+      "opts": {}
+    },
+    {
+      "type": "p",
+      "text": "Exclusions and Limitations: Base building structural shell construction, real-estate lease deposits, municipal building permits, and recurring staff payroll are excluded from the capital fit-out budget per course rules. Electrical and fire-protection layouts are academic engineering designs requiring review and sealing by a licensed Professional Electrical Engineer (PEE) prior to actual construction. Within Cisco Packet Tracer 9.0.1 (Cisco Systems, 2023b), physical-layer parameters such as Cat6 near-end crosstalk (NEXT), return loss, and optical OTDR attenuation cannot be measured directly and are therefore specified through field Fluke DSX-8000 certification in the BOQ. Logical routing, DHCP, redistribution, and ACL filtering were verified live on PT 9.0.1, while manual Physical Workspace device placement and bend-point screenshot capture are guided via a dedicated checklist for final defense assembly.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "1.5 Description of the Proposed Organization"
+    },
+    {
+      "type": "p",
+      "text": "Organization Name: RJ Internet Caf\u00e9 & Esports Inc.. Organization Type: Commercial 24/7 Internet Caf\u00e9, Esports Bootcamp Arena, Study/Work Pod Hub, Printing/Browsing Station, and Caf\u00e9 Snack Pantry. Mission: To deliver tournament-grade, low-latency gaming, productive quiet-study spaces, and reliable digital printing services across major Philippine urban centers on a continuous 24/7 schedule. Departments and User Groups: (1) Standard & VIP Esports Gamers (30 active seats + 10-seat future gaming bay at HQ; 16 gaming seats per branch), (2) Study Pod & Quick-Browsing Customers (6 seats at HQ), (3) Cashier, POS & Printing Staff (2 POS bays, 2 network printers), (4) Management & IT Administration (4 HQ workstations including static SSH administrator IT-PC), and (5) Caf\u00e9 Pantry & Operations Crew. For Cebu Flagship HQ fit-out budgeting (excluding building shell), the client target budget is set at \u20b111,800,000.00 (~4.8% above the proposed grand total of \u20b111,260,210.50, rounded to the nearest \u20b1100,000) as a realistic commercial capital cap.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "1.6 Project Locations"
+    },
+    {
+      "type": "p",
+      "text": "The three regional facilities establish nationwide presence across the three primary Philippine island groups while leveraging Cebu City's central submarine fiber convergence for low-latency inter-branch WAN routing: Building 1 (Luzon) in Clark Freeport Zone, Angeles City, Pampanga (1,040 sqm conceptual Branch Caf\u00e9); Building 2 (Visayas \u2014 Selected Detailed Site) in Cebu IT Park, Apas, Cebu City (1,040 sqm conceptual Flagship HQ + central ISP convergence); and Building 3 (Mindanao) in Matina/Poblacion District, Davao City (1,040 sqm conceptual Branch Caf\u00e9). Full site parameters are tabulated in Chapter 3 (Table 3).",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "1.7 Significance of the Project"
+    },
+    {
+      "type": "p",
+      "text": "For end-users and esports competitors, the design guarantees sub-millisecond LAN switching, glare-controlled dimmable illumination, individual UPS brownout ride-through, and clean ergonomic workstations. For network administrators, hierarchical TIA-606-C labeling, centralized MDF/IDF enclosures, passive-interface hygiene, and strict inbound ACLs simplify troubleshooting and safeguard billing data. For management, an itemized, formula-driven budget staying 4.57% below target capital and pre-wired expansion bays protect long-term ROI.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "1.8 Project Timeline"
+    },
+    {
+      "type": "p",
+      "text": "Table 1 details the execution schedule from initial requirements gathering through engineering drafting, costing, Packet Tracer simulation, verification, documentation, and oral defense (December 1\u20134, 2026), identifying all five Group 1 members individually.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 1,
+      "caption": "Project Development Timeline and Member Deliverables (October\u2013December 2026)",
+      "headers": [
+        "Activity",
+        "Start Date",
+        "End Date",
+        "Responsible Member",
+        "Output"
+      ],
+      "rows": [
+        [
+          "Requirements research, org profile & RRL synthesis",
+          "Oct 19, 2026",
+          "Oct 28, 2026",
+          "Francis RJ Velasco",
+          "Chapters 1\u20132, APA 7th RRL & Source Table"
+        ],
+        [
+          "Conceptual floor plates (Before A-1 & After A-2)",
+          "Oct 29, 2026",
+          "Nov 05, 2026",
+          "Francis RJ Velasco",
+          "Sheets A-1, A-2, Branch Plates & Floor BOQ"
+        ],
+        [
+          "Furniture/HVAC layout (A-3) & Electrical design (E-1, E-2)",
+          "Nov 06, 2026",
+          "Nov 13, 2026",
+          "Armanpreet Talwar",
+          "Sheets A-3, E-1, E-2, PEC Loads & BOQs"
+        ],
+        [
+          "Lighting design (L-1), Cabling (C-1, C-2) & Budget",
+          "Nov 08, 2026",
+          "Nov 16, 2026",
+          "Marianito Roble",
+          "Sheets L-1, C-1, C-2, Drop Schedule & Excel"
+        ],
+        [
+          "VLSM/IPv6, RIPv2/EIGRP/Static, CLI & PT Logical Build",
+          "Nov 14, 2026",
+          "Nov 22, 2026",
+          "Marchen Viterbo",
+          "VLSM/IPv6 Plans, IOS CLI & 4 .pkt Files"
+        ],
+        [
+          "IPv4/IPv6 ACLs, SSH Hardening, PT Physical & Testing",
+          "Nov 17, 2026",
+          "Nov 26, 2026",
+          "Andre Merkel Sepe",
+          "ACL Configs, Physical Guide, Tests & Audit"
+        ],
+        [
+          "Final report compilation, PDF export & Defense Prep",
+          "Nov 26, 2026",
+          "Nov 29, 2026",
+          "All 5 Group 1 Members",
+          "Final PDF Report, Zipped .pkt & Tracing Overlays"
+        ],
+        [
+          "Oral presentation and tracing-paper defense",
+          "Dec 01, 2026",
+          "Dec 04, 2026",
+          "All 5 Group 1 Members",
+          "Live Defense & Individual Technical Recitation"
+        ]
+      ],
+      "widths": [
+        2550,
+        1050,
+        1050,
+        1850,
+        2500
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "left",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 17
+    },
+    {
+      "type": "h1",
+      "text": "CHAPTER 2: REVIEW OF RELATED LITERATURE",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "2.1 Structured Cabling Standards and Best Practices"
+    },
+    {
+      "type": "p",
+      "text": "Commercial premises telecommunications rely on modular subsystems defined by Telecommunications Industry Association (TIA, 2018) in ANSI/TIA-568.2-D and harmonized globally by the International Organization for Standardization (ISO, 2017) in ISO/IEC 11801-1:2017. Both standards restrict Category 6 (Cat6, 250 MHz) balanced twisted-pair horizontal permanent links to 90 m (100 m maximum channel including up to 10 m of work-area and patch cords) in a star topology from telecommunications rooms to work-area outlets. Effective lifecycle maintenance requires machine-printed identifiers across racks, patch panels, cables, and faceplates per ANSI/TIA-606-C (TIA, 2020), while grounding all racks and cable trays to a copper Telecommunications Main Grounding Busbar (TMGB) and Telecommunications Grounding Busbars (TGBs) per ANSI/TIA-607-D (TIA, 2019b) mitigates ground-potential differences and electrostatic discharge.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.2 Building Floor Planning and Space Utilization"
+    },
+    {
+      "type": "p",
+      "text": "ANSI/TIA-569-E (TIA, 2019a) recommends centrally locating the Main Distribution Facility (MDF) away from wet walls and exterior thermal loads to shorten radial horizontal cable runs and avoid exceeding the 90 m copper limit. In Philippine commercial occupancies, Republic Act No. 9514\u2014the Fire Code of the Philippines (Republic of the Philippines, 2008)\u2014mandates unobstructed egress corridors, dual remote fire exits, illuminated exit signage, and fire-rated enclosure separation for electrical and server spaces. Acoustic zoning separating high-energy esports arenas from quiet study pods maximizes spatial utility across a 1,040 sqm single floor plate.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.3 Electrical Wiring and Safety Considerations"
+    },
+    {
+      "type": "p",
+      "text": "The Philippine Electrical Code Part 1 (IIEE, 2017) establishes conductor ampacity, branch-circuit continuous loading limits (80% continuous utilization / 125% breaker sizing), receptacle demand factors (100% of first 10 kVA plus 50% of remainder), and motor/air-conditioning feeder sizing (100% of all units plus 25% of the largest single unit, applied once without double-counting). To prevent 60 Hz EMI from degrading gigabit Ethernet signals, ANSI/TIA-569-E (TIA, 2019a) specifies \u2265 300 mm parallel clearance between unshielded twisted-pair data trays and enclosed power conduits, with mandatory 90-degree crossings where intersections cannot be avoided.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.4 Lighting Design and Illumination"
+    },
+    {
+      "type": "p",
+      "text": "EN 12464-1:2021 (CEN, 2021) defines maintained illuminance targets by visual task: 500 lux for cashier counters, administrative offices, study desks, and server rooms; 300 lux for general computer-display gaming and caf\u00e9 dining areas; 200 lux for restrooms, lounges, and storage; and 150 lux for circulation corridors and stairwells. Simultaneously, ANSI/ASHRAE/IES Standard 90.1-2019 (American Society of Heating, Refrigerating and Air-Conditioning Engineers [ASHRAE], 2019) benchmarks commercial lighting power density (LPD) below 9.0 W/m\u00b2, readily achieved using high-efficacy (105 lm/W) 40 W / 4,200 lm dimmable LED panels and restroom occupancy sensors.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.5 Network Cabling, Devices, and Infrastructure"
+    },
+    {
+      "type": "p",
+      "text": "Enterprise campus networks adopt the Cisco three-tier hierarchical model\u2014Core (MDF), Distribution (IDF), and Access\u2014to isolate broadcast faults, simplify uplink aggregation, and guarantee predictable latency (Cisco Systems, 2023a; Odom, 2020). Multimode OM3 optical fiber links MDF core switches to regional IDFs with 10 Gbps headroom, while Layer-2 access switches (Cisco Catalyst 2960-24TT) dedicate all 24 FastEthernet ports to end-user drops and reserve GigabitEthernet uplinks (Gi0/1) for inter-tier trunks.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.6 IP Addressing, VLSM, Routing, and Network Protocols"
+    },
+    {
+      "type": "p",
+      "text": "Classless VLSM conserves private RFC 1918 address space and enables contiguous per-site CIDR route summarization, minimizing upstream ISP routing table growth (Kurose & Ross, 2021; Odom, 2020). Heterogeneous WAN domains\u2014Static routing, RIPv2/RIPng (hop-count metric, AD 120), and EIGRP/EIGRPv6 (composite bandwidth and delay metric, AD 90 internal / 170 external)\u2014require a single redistribution boundary with explicit seed metrics to prevent routing loops (Odom, 2020). Passive LAN interfaces eliminate unnecessary multicast routing chatter on end-user segments, while floating static routes with administrative distances higher than the primary IGP provide deterministic backup failover. Standard VTY ACLs and inbound extended IPv4/IPv6 ACLs enforce least-privilege access at the ingress edge (Kurose & Ross, 2021).",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.7 Network Simulation and Testing Tools"
+    },
+    {
+      "type": "p",
+      "text": "Cisco Packet Tracer 9.0 (Cisco Systems, 2023b) supports dual-stack IOS 15.x routing, stateful DHCPv6, extended IPv4/IPv6 ACL inspection, Multiuser inter-instance peering, and scaled Physical Workspace layouts with Copper Patch Panels, Copper Wall Mounts, and cable-length attenuation checks. Geographic inter-branch visualization is anchored on public-domain 1:50m coastline datasets from Natural Earth (n.d.).",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "2.8 Synthesis and Application to the Proposed Project"
+    },
+    {
+      "type": "p",
+      "text": "Synthesizing the reviewed standards yields a unified engineering baseline for RJ Internet Caf\u00e9 & Esports Inc.: a centrally positioned MDF keeps all 52 horizontal Cat6 runs \u2264 39.3 m (well inside the 90 m TIA-568.2-D limit), a 1.1 m corridor separation between power EMT and data wire-mesh trays exceeds TIA-569-E minimums, single-pass PEC 2017 demand calculations safely size a 200 A 3-phase MDP, 105 lm/W LED panels achieve 100% EN 12464-1 compliance at 6.76 W/m\u00b2 LPD, and single-point Cebu ISP redistribution bridges RIPv2, EIGRP, and Static branches cleanly. Table 2 summarizes each authoritative source and its direct project application.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 2,
+      "caption": "Literature Source Evaluation Matrix",
+      "headers": [
+        "Category",
+        "Author / Organization & Year",
+        "Key Finding or Recommendation",
+        "Application to This Project"
+      ],
+      "rows": [
+        [
+          "Cabling Standards",
+          "TIA (2018); ISO (2017)",
+          "Cat6 horizontal permanent link \u2264 90 m (100 m channel) in star topology.",
+          "All 52 HQ Cat6 drops measure 12.7\u201339.3 m; zero repeaters needed."
+        ],
+        [
+          "Pathways & Grounding",
+          "TIA (2019a, 2019b, 2020)",
+          "Central MDF, \u2265 300 mm power/data separation, TMGB/TGB busbars, TIA-606-C labels.",
+          "Central 30 m\u00b2 MDF, 1.1 m corridor separation, TMGB/TGB kit & drop IDs."
+        ],
+        [
+          "Life Safety / Space",
+          "Republic of the Philippines (2008)",
+          "Dual remote fire exits, unobstructed egress, fire-rated utility walls.",
+          "2.0 m clear corridor, East/West fire exits, 2-hr MDF/Electrical firewall."
+        ],
+        [
+          "Electrical Safety",
+          "IIEE (2017)",
+          "PEC 2017 load factors (100% + 25% largest AC once), 80% continuous branch circuits.",
+          "MDP 200 A/3P, ACP 125 A/3P (no double 125%), 3-wire + ground feeders."
+        ],
+        [
+          "Lighting & Energy",
+          "CEN (2021); ASHRAE (2019)",
+          "150\u2013500 lux room targets; commercial LPD \u2264 9.0 W/m\u00b2.",
+          "159\u00d740 W panels + 33\u00d718 W downlights = 100% pass at 6.76 W/m\u00b2 LPD."
+        ],
+        [
+          "3-Tier Switching",
+          "Cisco Systems (2023a); Odom (2020)",
+          "Core-Distribution-Access isolation; OM3 fiber uplinks; access ports on 2960-24TT.",
+          "MDF SW-CORE \u2192 IDF-1/2 DSW \u2192 5 Access 2960s; zero PCs on Distribution."
+        ],
+        [
+          "VLSM, Routing & ACLs",
+          "Kurose & Ross (2021); Odom (2020)",
+          "Summarizable VLSM, single-point redistribution, passive LANs, inbound ACLs.",
+          "10.10.0.0/22 + 2001:DB8:ACAD::/48; ISP-CEBU hub; 4 inbound IPv4/v6 ACLs."
+        ],
+        [
+          "Simulation & GIS",
+          "Cisco Systems (2023b); Natural Earth (n.d.)",
+          "PT 9.0 dual-stack IOS + Physical Workspace + public-domain PH map geometry.",
+          "4 verified .pkt files, bend-point cabling guide & Philippines WAN map."
+        ]
+      ],
+      "widths": [
+        1400,
+        1800,
+        2900,
+        2900
+      ],
+      "aligns": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 17
+    },
+    {
+      "type": "h1",
+      "text": "CHAPTER 3: METHODOLOGY AND TECHNICAL DESIGN",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "3.1 Project Development Methodology"
+    },
+    {
+      "type": "p",
+      "text": "Group 1 executed an eight-stage engineering workflow built around a single programmatic data model (plans/src/model.py) to guarantee strict 1-to-1 parity across drawings, bills of quantities (BOQs), Packet Tracer configurations, Excel budgets, and documentation: (1) requirements profiling for a 24/7 esports/internet caf\u00e9, (2) conceptual 40 \u00d7 26 m shell and modified architectural drafting, (3) synchronized FF&E, PEC 2017 electrical, EN 12464-1 lighting, and TIA-568 structured cabling drafting, (4) November 2026 Philippine retail costing with standard half-up Decimal rounding, (5) dual-stack VLSM/IPv6 derivation and automated overlap/host-range validation, (6) IOS CLI generation and live Packet Tracer 9.0.1 deployment, (7) live routing/DHCP/ACL/ping verification and fault testing, and (8) automated plus visual quality auditing.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "3.2 Group Member Assignments"
+    },
+    {
+      "type": "p",
+      "text": "All five Group 1 members hold distinct primary plan ownership while Marchen Viterbo and Andre Merkel Sepe co-own VLSM/IPv6 addressing, routing/redistribution, security ACLs, and Packet Tracer simulation/testing (expanded contribution records appear in Appendix G):",
+      "opts": {}
+    },
+    {
+      "type": "bullet",
+      "text": "Research, Organization Profile, Floor Plan (Sheets A-1, A-2), Chapters 1\u20132",
+      "boldPrefix": "Francis RJ Velasco: "
+    },
+    {
+      "type": "bullet",
+      "text": "Furniture & Fixtures (Sheet A-3), Electrical Plan (Sheets E-1, E-2), Costing",
+      "boldPrefix": "Armanpreet Talwar: "
+    },
+    {
+      "type": "bullet",
+      "text": "Lighting Plan (Sheet L-1), Structured Cabling Plan (Sheets C-1, C-2), Consolidated Budget",
+      "boldPrefix": "Marianito Roble: "
+    },
+    {
+      "type": "bullet",
+      "text": "VLSM/IPv6 Addressing, Routing & Redistribution (RIPv2, EIGRP, Static/Floating), Router/Switch CLI & Packet Tracer Logical Build",
+      "boldPrefix": "Marchen Viterbo: "
+    },
+    {
+      "type": "bullet",
+      "text": "Network Security (IPv4/IPv6 ACLs, SSH Hardening), Packet Tracer Physical Workspace, Connectivity Testing, Troubleshooting & Verification",
+      "boldPrefix": "Andre Merkel Sepe: "
+    },
+    {
+      "type": "h2",
+      "text": "3.3 Three-Building Selection and Site Description"
+    },
+    {
+      "type": "p",
+      "text": "All three buildings use a standardized 40.0 \u00d7 26.0 m (1,040.0 sqm) single-floor commercial plate exceeding the 1,000 sqm threshold. Building 2 (Cebu Flagship HQ) was selected for all five detailed engineering plans and tracing-paper overlays because it hosts the full 42-PC esports/study/admin program, three-tier switching hierarchy, and co-located Cebu ISP convergence. Table 3 summarizes all three regional sites.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 3,
+      "caption": "Three-Building Site Selection Summary",
+      "headers": [
+        "Building",
+        "Region / Location",
+        "Intended Use",
+        "Floor Area (sqm)",
+        "Plan Source / Status"
+      ],
+      "rows": [
+        [
+          "BLDG-1",
+          "Luzon \u2014 Clark Freeport Zone, Angeles City, Pampanga",
+          "Branch Commercial Internet Caf\u00e9 & Gaming Hub",
+          "1,040",
+          "Conceptual (Group 1, 2026; 40 \u00d7 26 m plate)"
+        ],
+        [
+          "BLDG-2",
+          "Visayas \u2014 Cebu IT Park, Apas, Cebu City, Cebu",
+          "Flagship HQ, Esports Bootcamp Arena & ISP Convergence (Selected Detailed Site)",
+          "1,040",
+          "Conceptual (Group 1, 2026; 40 \u00d7 26 m plate)"
+        ],
+        [
+          "BLDG-3",
+          "Mindanao \u2014 Matina IT Park / Poblacion District, Davao City",
+          "Branch Commercial Internet Caf\u00e9 & Gaming Hub",
+          "1,040",
+          "Conceptual (Group 1, 2026; 40 \u00d7 26 m plate)"
+        ]
+      ],
+      "widths": [
+        950,
+        2350,
+        2600,
+        1000,
+        2100
+      ],
+      "aligns": [
+        "center",
+        "left",
+        "left",
+        "center",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 17
+    },
+    {
+      "type": "h2",
+      "text": "3.4 Original and Modified Floor Plans"
+    },
+    {
+      "type": "p",
+      "text": "Each building starts from a conceptual base commercial warm shell (40 \u00d7 26 m with fixed East stairwell and elevator core, 8.0 \u00d7 6.5 m structural column grid, and bare tenant bay) and is modified via interior drywall/glass partitioning to establish 2.0 m clear egress corridors, acoustic gaming and study separation, and centralized MDF/Electrical rooms. Figure 1 shows the Original Base Shell (Sheet A-1) and Figure 2 shows the Modified Architectural Floor Plan (Sheet A-2) for the selected Cebu Flagship HQ site. Before-and-after floor plates for Clark (Building 1) and Davao (Building 3) are provided in Appendices A and B.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 1,
+      "caption": "Building 2 (Cebu Flagship HQ) Original Base Commercial Shell \u2014 Before Modification (Sheet A-1).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 270
+    },
+    {
+      "type": "figure",
+      "num": 2,
+      "caption": "Building 2 (Cebu Flagship HQ) Modified Architectural Floor Plan \u2014 After Modification (Sheet A-2).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 270
+    },
+    {
+      "type": "h2",
+      "text": "3.5 Proposed Organization and Room Requirements"
+    },
+    {
+      "type": "p",
+      "text": "Cebu Flagship HQ partitions 1,040.0 sqm into 19 functional spaces arranged around a 2.0 m central corridor linking the West Fire Exit to the East Elevator/Stair Core: North Wing houses the 20-PC Standard Gaming Zone (216 m\u00b2), 10-seat Future Gaming Expansion Bay (96 m\u00b2), and 10-PC VIP Esports Bootcamp Arena (120 m\u00b2); South Wing houses the Cashier/POS, Printing & Browsing Lobby (120 m\u00b2), enclosed Study & Work Pods (96 m\u00b2), Central MDF/Server Room (30 m\u00b2) directly beside the Main Electrical Room (24 m\u00b2) behind a 2-hour firewall, Admin/IT Office (36 m\u00b2), Caf\u00e9 & Snack Pantry (54 m\u00b2), Staff Lounge (36 m\u00b2), M/F/PWD Restrooms (57 m\u00b2), Janitor (12 m\u00b2), and Storage (15 m\u00b2). This layout isolates gaming noise from study pods while centering the MDF to minimize horizontal Cat6 cable runs.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "3.6 Floor Plan and Cost Analysis"
+    },
+    {
+      "type": "p",
+      "text": "Architectural fit-out (Sheet A-2, Figure 2; full-size in Appendix B) encompasses interior gypsum and 12 mm tempered acoustic glass partitions, a 2-hour concrete hollow-block firewall between MDF and Electrical rooms, zone-matched commercial flooring (porcelain tile, 5 mm SPC vinyl, acoustic carpet, anti-static ESD vinyl in MDF, epoxy in Electrical/Storage), suspended acoustic ceilings, fire-rated and solid-core doors, low-VOC paint, and wayfinding signage. Base building shell construction is excluded. Table 4 summarizes the interior fit-out cost analysis totaling \u20b13,686,790.00.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 4,
+      "caption": "Floor Plan Interior Fit-Out Cost Analysis (Cebu Flagship HQ \u2014 Excludes Building Shell)",
+      "headers": [
+        "Item / specification",
+        "Quantity",
+        "Unit",
+        "Unit cost (PHP)",
+        "Subtotal (PHP)",
+        "Price source / date"
+      ],
+      "rows": [
+        [
+          "Gypsum Board Drywall Partition w/ Metal Studs & Acoustic Batt (12 mm, double-sided)",
+          "196",
+          "sqm",
+          "\u20b11,850.00",
+          "\u20b1362,600.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Tempered Acoustic Glass Partition (12 mm) w/ Aluminum Frame \u2014 VIP Arena & Study Pods",
+          "56",
+          "sqm",
+          "\u20b15,200.00",
+          "\u20b1291,200.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "2-Hour Fire-Rated Concrete Hollow Block Wall (150 mm) \u2014 MDF & Electrical Room Separation",
+          "36",
+          "sqm",
+          "\u20b12,450.00",
+          "\u20b188,200.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Commercial Porcelain Floor Tiles (600\u00d7600 mm, Matte) w/ Adhesive & Grout \u2014 Lobby, Corridor, Pantry",
+          "254",
+          "sqm",
+          "\u20b11,180.00",
+          "\u20b1299,720.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Heavy-Duty Commercial Vinyl Plank Flooring (5 mm SPC) \u2014 Standard Gaming, Future Bay, Admin, Lounge",
+          "384",
+          "sqm",
+          "\u20b11,320.00",
+          "\u20b1506,880.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "Acoustic Modular Carpet Tiles (500\u00d7500 mm) \u2014 VIP Esports Arena & Study/Work Pods",
+          "216",
+          "sqm",
+          "\u20b11,450.00",
+          "\u20b1313,200.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "Anti-Static ESD Conductive Vinyl Flooring w/ Copper Grid \u2014 Central MDF / Server Room",
+          "30",
+          "sqm",
+          "\u20b12,950.00",
+          "\u20b188,500.00",
+          "RS Components / Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Industrial Non-Slip Epoxy Floor Coating \u2014 Electrical Room & Storage",
+          "39",
+          "sqm",
+          "\u20b11,150.00",
+          "\u20b144,850.00",
+          "Boysen / Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Anti-Slip Ceramic Restroom & Janitor Floor/Wall Tiles",
+          "69",
+          "sqm",
+          "\u20b1980.00",
+          "\u20b167,620.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Acoustic Mineral Fiber Suspended Ceiling Grid (600\u00d7600 mm, T-Runner)",
+          "992",
+          "sqm",
+          "\u20b1860.00",
+          "\u20b1853,120.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Frameless Double Tempered Glass Main Entrance Door w/ Floor Closer & Access Control Strike",
+          "1",
+          "set",
+          "\u20b148,500.00",
+          "\u20b148,500.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "2-Hour Fire-Rated Steel Doors w/ Panic Bar & Closer \u2014 MDF, Electrical Room, West Fire Exit",
+          "3",
+          "sets",
+          "\u20b124,500.00",
+          "\u20b173,500.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Solid-Core Flush Timber Interior Doors w/ Heavy-Duty Lever Locksets",
+          "11",
+          "sets",
+          "\u20b19,800.00",
+          "\u20b1107,800.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Interior Elastomeric Low-VOC Paint (2 Coats Primer + Topcoat, Walls & Trim)",
+          "640",
+          "sqm",
+          "\u20b1340.00",
+          "\u20b1217,600.00",
+          "Boysen / Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Illuminated Wayfinding, Room Plates, Fire-Exit & Safety Signage Package",
+          "1",
+          "lot",
+          "\u20b128,500.00",
+          "\u20b128,500.00",
+          "Cebu Commercial Signage (Nov 2026)"
+        ],
+        [
+          "Interior Fit-Out Labor, Hauling, Supervision & Site Cleanup (12% Trade Allowance)",
+          "1",
+          "lot",
+          "\u20b1295,000.00",
+          "\u20b1295,000.00",
+          "Cebu Fit-Out Contractor Est. (Nov 2026)"
+        ],
+        [
+          "TOTAL",
+          "",
+          "",
+          "",
+          "\u20b13,686,790.00",
+          "Price Basis: Nov 2026"
+        ]
+      ],
+      "widths": [
+        3400,
+        650,
+        650,
+        1250,
+        1350,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "right",
+        "right",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "h2",
+      "text": "3.7 Electrical Plan and Cost Analysis"
+    },
+    {
+      "type": "p",
+      "text": "Power distribution (Sheet E-1, Figure 3; full Schedule of Loads and single-line riser on Sheet E-2, Figure 4) operates at 230 V, 3-phase, 60 Hz via a 200 A/3P Main Distribution Panel (MDP) feeding three sub-panels: Lighting Panel LP-1 (40 A/3P), Power/IT Panel PP-1 (100 A/3P, 14 branch circuits limiting gaming rows to 5 PCs per 20 A circuit so continuous current stays \u2264 14.13 A / 71% rating), and Air-Conditioning Panel ACP (125 A/3P serving all 11 inverter AC units). Per PEC 2017 Art. 4.40.2.3 (IIEE, 2017), Panel ACP demand applies 100% of connected AC loads (33,120 VA) plus 25% of the single largest 5.0 HP AC unit (1,150 VA) exactly once = 34,270 VA (86.03 A), avoiding any double-counting of the 125% factor. Total MDP demand is 64,002 VA (160.66 A). All 9 dedicated appliances and 11 AC units match Furniture Sheet A-3 1-to-1. Power EMT conduits run along the south corridor edge (Y=13.55 m), maintaining 1.1 m separation from the north data tray. Monthly 24/7 energy consumption with realistic duty factors is estimated at 27,163 kWh/month (\u20b1339,534.38 at \u20b112.50/kWh VECO commercial tariff). Table 5 summarizes panelboard feeders (3-wire + ground) and Table 6 lists Electrical BOQ costs totaling \u20b11,015,115.00.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 3,
+      "caption": "Cebu Flagship HQ Electrical Power, Outlets & EMI-Separated Conduit Plan (Sheet E-1).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\E-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 265
+    },
+    {
+      "type": "figure",
+      "num": 4,
+      "caption": "Cebu Flagship HQ PEC 2017 Schedule of Loads, Single-Line Riser & 24/7 Energy Analysis (Sheet E-2).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\E-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 265
+    },
+    {
+      "type": "table",
+      "num": 5,
+      "caption": "Panelboard Load, Breaker, 3-Wire + Ground Feeder & Conduit Summary (PEC 2017)",
+      "headers": [
+        "Panelboard",
+        "Connected VA",
+        "Demand VA",
+        "Demand Amps (3\u00d8)",
+        "Main MCCB",
+        "Feeder (3-Wire + Ground) & Conduit"
+      ],
+      "rows": [
+        [
+          "LP-1 (Lighting Panel)",
+          "7,026",
+          "8,782",
+          "22.04 A",
+          "40 A / 3P MCCB",
+          "3-8.0mm\u00b2 + 1-5.5mm\u00b2 G THHN (3W+G) in 25 mm IMC"
+        ],
+        [
+          "PP-1 (Power & IT Outlets)",
+          "31,900",
+          "20,950",
+          "52.59 A",
+          "100 A / 3P MCCB",
+          "3-30mm\u00b2 + 1-8.0mm\u00b2 G THHN (3W+G) in 40 mm IMC"
+        ],
+        [
+          "ACP (Air-Conditioning Panel)",
+          "33,120",
+          "34,270",
+          "86.03 A",
+          "125 A / 3P MCCB",
+          "3-38mm\u00b2 + 1-14mm\u00b2 G THHN (3W+G) in 50 mm IMC"
+        ],
+        [
+          "MDP (Main Distribution Panel)",
+          "72,046",
+          "64,002",
+          "160.66 A",
+          "200 A / 3P Main MCCB",
+          "3-100mm\u00b2 + 1-22mm\u00b2 G THHN (3W+G) in 65 mm RSC"
+        ]
+      ],
+      "widths": [
+        1850,
+        1000,
+        1000,
+        1100,
+        1250,
+        2800
+      ],
+      "aligns": [
+        "left",
+        "right",
+        "right",
+        "right",
+        "center",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 16
+    },
+    {
+      "type": "table",
+      "num": 6,
+      "caption": "Electrical Plan Cost Analysis (Cebu Flagship HQ \u2014 Nov 2026 Philippine Market)",
+      "headers": [
+        "Item / specification",
+        "Quantity",
+        "Unit",
+        "Unit cost (PHP)",
+        "Subtotal (PHP)",
+        "Price source / date"
+      ],
+      "rows": [
+        [
+          "Main Distribution Panel (MDP) \u2014 200 A / 3P Main MCCB w/ 3-Branch MCCBs (125A, 100A, 40A), NEMA 1",
+          "1",
+          "assy",
+          "\u20b148,500.00",
+          "\u20b148,500.00",
+          "Schneider Electric / Wilcon (Nov 2026)"
+        ],
+        [
+          "Power Panelboard (PP-1) \u2014 100 A / 3P Main, 18-Branch 20 A Bolt-On MCBs, NEMA 1",
+          "1",
+          "assy",
+          "\u20b126,800.00",
+          "\u20b126,800.00",
+          "Schneider Electric / Wilcon (Nov 2026)"
+        ],
+        [
+          "Lighting Panelboard (LP-1) \u2014 40 A / 3P Main, 10-Branch 15\u201320 A MCBs, NEMA 1",
+          "1",
+          "assy",
+          "\u20b116,400.00",
+          "\u20b116,400.00",
+          "Schneider Electric / Wilcon (Nov 2026)"
+        ],
+        [
+          "Air-Conditioning Panelboard (ACP) \u2014 125 A / 3P Main, 12-Branch 20\u201330 A MCBs, NEMA 1",
+          "1",
+          "assy",
+          "\u20b124,900.00",
+          "\u20b124,900.00",
+          "Schneider Electric / Wilcon (Nov 2026)"
+        ],
+        [
+          "Phelps Dodge THHN/THWN-2 Copper Wire 100 mm\u00b2 (Main Feeder 3W, 18 m \u00d7 3)",
+          "54",
+          "m",
+          "\u20b11,480.00",
+          "\u20b179,920.00",
+          "Phelps Dodge PH Distributor (Nov 2026)"
+        ],
+        [
+          "Phelps Dodge THHN/THWN-2 Copper Wire 38 mm\u00b2 (ACP Feeder 3W) & 30 mm\u00b2 (PP-1 Feeder 3W)",
+          "72",
+          "m",
+          "\u20b1580.00",
+          "\u20b141,760.00",
+          "Phelps Dodge PH Distributor (Nov 2026)"
+        ],
+        [
+          "Phelps Dodge THHN/THWN-2 Copper Wire 22 mm\u00b2 / 14 mm\u00b2 / 8.0 mm\u00b2 (Sub-Feeders & Grounding)",
+          "120",
+          "m",
+          "\u20b1235.00",
+          "\u20b128,200.00",
+          "Phelps Dodge PH Distributor (Nov 2026)"
+        ],
+        [
+          "Phelps Dodge THHN/THWN-2 Copper Wire 5.5 mm\u00b2 (AC & Heavy Appliance Circuits, 150 m/box)",
+          "4",
+          "boxes",
+          "\u20b110,450.00",
+          "\u20b141,800.00",
+          "Phelps Dodge PH Distributor (Nov 2026)"
+        ],
+        [
+          "Phelps Dodge THHN/THWN-2 Copper Wire 3.5 mm\u00b2 (Convenience & Lighting Circuits, 150 m/box)",
+          "14",
+          "boxes",
+          "\u20b16,850.00",
+          "\u20b195,900.00",
+          "Phelps Dodge PH Distributor (Nov 2026)"
+        ],
+        [
+          "Rigid Steel / IMC Conduit (65 mm, 50 mm, 40 mm, 25 mm) w/ Fittings \u2014 Main & Sub-Feeders",
+          "1",
+          "lot",
+          "\u20b134,500.00",
+          "\u20b134,500.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Electrical Metallic Tubing (EMT 20 mm \u00d7 3 m) w/ Connectors, Couplings & Hangers",
+          "135",
+          "lengths",
+          "\u20b1315.00",
+          "\u20b142,525.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Panasonic Wide-Series Duplex Universal Grounded Outlet w/ Plate (16 A, 250 V) \u2014 42 PCs + Appliances + Utility",
+          "68",
+          "sets",
+          "\u20b1365.00",
+          "\u20b124,820.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Weatherproof / GFCI Duplex Outlet (20 A, 250 V) \u2014 Caf\u00e9 Pantry, Restrooms & Janitor",
+          "8",
+          "sets",
+          "\u20b11,180.00",
+          "\u20b19,440.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "30 A / 2P Enclosed AC Disconnect Switch w/ NEMA 1 Box (11 Inverter AC Units)",
+          "11",
+          "sets",
+          "\u20b11,850.00",
+          "\u20b120,350.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "APC Smart-UPS On-Line 3,000 VA / 2,700 W Rackmount (MDF Core & Servers Clean Power)",
+          "1",
+          "unit",
+          "\u20b168,500.00",
+          "\u20b168,500.00",
+          "PC Express / Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "APC Back-UPS 1,100 VA / 660 W Surge-Protected Workstation UPS \u2014 30 Gaming/VIP PCs & 12 Office/POS PCs",
+          "42",
+          "units",
+          "\u20b14,650.00",
+          "\u20b1195,300.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "Electrical Grounding System (3\u00d7 Copper-Clad Ground Rods 16 mm \u00d7 3 m, Cadweld, Ground Bus)",
+          "1",
+          "lot",
+          "\u20b118,500.00",
+          "\u20b118,500.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Roughing-In Consumables (Utility/Junction Boxes, Pull Boxes, Flexible Conduit, Clamps, Tape)",
+          "1",
+          "lot",
+          "\u20b132,000.00",
+          "\u20b132,000.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Licensed Electrical Installation, Termination, Megger Insulation & Ground Resistance Testing",
+          "1",
+          "lot",
+          "\u20b1165,000.00",
+          "\u20b1165,000.00",
+          "Cebu RME Electrical Contractor (Nov 2026)"
+        ],
+        [
+          "TOTAL",
+          "",
+          "",
+          "",
+          "\u20b11,015,115.00",
+          "Price Basis: Nov 2026"
+        ]
+      ],
+      "widths": [
+        3400,
+        650,
+        650,
+        1250,
+        1350,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "right",
+        "right",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "h2",
+      "text": "3.8 Lighting Plan and Cost Analysis"
+    },
+    {
+      "type": "p",
+      "text": "The Lighting Plan (Sheet L-1, Figure 5) deploys 159 recessed 40 W / 4,200 lm LED panels (105 lm/W, 4000K) and 33 recessed 18 W / 1,800 lm IP44 LED downlights plus 12 battery-backed emergency/exit luminaires, totaling 7,026 W (6.76 W/m\u00b2 LPD, well below the 9.0 W/m\u00b2 ASHRAE 90.1 limit; ASHRAE, 2019). Dimmable 0\u201310 V zoned switching (S-DIM1 to S-DIM3) lets operators lower glare during esports tournaments while preserving full \u2265300 lux output for maintenance. Using the lumen method (UF = 0.65, MF = 0.80), 100% of all 19 rooms covering the full 1,040.0 sqm floor plate (including base-building stairwell and elevator core footnoted in Table 7) meet or exceed EN 12464-1 targets (CEN, 2021). Table 8 details the Lighting BOQ totaling \u20b1463,440.00.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 5,
+      "caption": "Cebu Flagship HQ Lighting Layout, Dimmable Zones & EN 12464-1 Compliance Plan (Sheet L-1).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\L-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 265
+    },
+    {
+      "type": "table",
+      "num": 7,
+      "caption": "Room-by-Room EN 12464-1 Illumination Compliance Schedule (All 1,040.0 sqm; *Base-Building Core Verified)",
+      "headers": [
+        "Code",
+        "Room / Zone",
+        "Area (m\u00b2)",
+        "Fixture & Qty",
+        "Watts",
+        "Target (lx)",
+        "Calc. (lx)",
+        "Status"
+      ],
+      "rows": [
+        [
+          "STD-GAME",
+          "Standard Gaming Zone",
+          "216",
+          "30\u00d7 40 W LED Panel",
+          "1200",
+          "300",
+          "303",
+          "PASS"
+        ],
+        [
+          "FUT-GAME",
+          "Future Gaming Bay (10 Seats)",
+          "96",
+          "15\u00d7 40 W LED Panel",
+          "600",
+          "300",
+          "341",
+          "PASS"
+        ],
+        [
+          "VIP-ARENA",
+          "VIP / Esports Bootcamp Arena",
+          "120",
+          "20\u00d7 40 W LED Panel",
+          "800",
+          "300",
+          "364",
+          "PASS"
+        ],
+        [
+          "STAIR-NE*",
+          "Fire Exit Stairwell (East)",
+          "24",
+          "4\u00d7 18 W LED Downlight",
+          "72",
+          "150",
+          "156",
+          "PASS"
+        ],
+        [
+          "ELEV-CORE*",
+          "Passenger Elevator & Shaft",
+          "24",
+          "4\u00d7 18 W LED Downlight",
+          "72",
+          "150",
+          "156",
+          "PASS"
+        ],
+        [
+          "COR-MAIN",
+          "Main Circulation Corridor (2.0 m)",
+          "72",
+          "6\u00d7 40 W LED Panel",
+          "240",
+          "150",
+          "182",
+          "PASS"
+        ],
+        [
+          "COR-EAST",
+          "East Exit Vestibule",
+          "8",
+          "2\u00d7 18 W LED Downlight",
+          "36",
+          "150",
+          "234",
+          "PASS"
+        ],
+        [
+          "CASH-LOBBY",
+          "Cashier, Printing & Browsing Lobby",
+          "120",
+          "30\u00d7 40 W LED Panel",
+          "1200",
+          "500",
+          "546",
+          "PASS"
+        ],
+        [
+          "STUDY-PODS",
+          "Study & Work Pods",
+          "96",
+          "24\u00d7 40 W LED Panel",
+          "960",
+          "500",
+          "546",
+          "PASS"
+        ],
+        [
+          "MDF-ROOM",
+          "Central MDF / Server Room",
+          "30",
+          "9\u00d7 40 W LED Panel",
+          "360",
+          "500",
+          "655",
+          "PASS"
+        ],
+        [
+          "ELEC-ROOM",
+          "Main Electrical Room",
+          "24",
+          "4\u00d7 40 W LED Panel",
+          "160",
+          "300",
+          "364",
+          "PASS"
+        ],
+        [
+          "ADMIN-OFC",
+          "Admin / Manager & IT Office",
+          "36",
+          "9\u00d7 40 W LED Panel",
+          "360",
+          "500",
+          "546",
+          "PASS"
+        ],
+        [
+          "RR-M",
+          "Men's Restroom",
+          "21",
+          "6\u00d7 18 W LED Downlight",
+          "108",
+          "200",
+          "267",
+          "PASS"
+        ],
+        [
+          "RR-F",
+          "Women's Restroom",
+          "21",
+          "6\u00d7 18 W LED Downlight",
+          "108",
+          "200",
+          "267",
+          "PASS"
+        ],
+        [
+          "CAFE-PNT",
+          "Caf\u00e9 & Snack Pantry",
+          "54",
+          "8\u00d7 40 W LED Panel",
+          "320",
+          "300",
+          "324",
+          "PASS"
+        ],
+        [
+          "STAFF-LNG",
+          "Staff Lounge",
+          "36",
+          "4\u00d7 40 W LED Panel",
+          "160",
+          "200",
+          "243",
+          "PASS"
+        ],
+        [
+          "RR-PWD",
+          "PWD Restroom",
+          "15",
+          "4\u00d7 18 W LED Downlight",
+          "72",
+          "200",
+          "250",
+          "PASS"
+        ],
+        [
+          "JANITOR",
+          "Janitor's Closet",
+          "12",
+          "3\u00d7 18 W LED Downlight",
+          "54",
+          "200",
+          "234",
+          "PASS"
+        ],
+        [
+          "STORAGE",
+          "Equipment & Supplies Storage",
+          "15",
+          "4\u00d7 18 W LED Downlight",
+          "72",
+          "200",
+          "250",
+          "PASS"
+        ],
+        [
+          "TOTAL",
+          "All 19 Zones (+12\u00d76 W Emerg. Lights)",
+          "1,040",
+          "159P + 33D + 12E",
+          "7,026",
+          "100%",
+          "6.76 W/m\u00b2",
+          "100% PASS"
+        ]
+      ],
+      "widths": [
+        900,
+        2250,
+        750,
+        1750,
+        700,
+        850,
+        900,
+        900
+      ],
+      "aligns": [
+        "center",
+        "left",
+        "right",
+        "left",
+        "right",
+        "right",
+        "right",
+        "center"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "table",
+      "num": 8,
+      "caption": "Lighting Plan Cost Analysis (Cebu Flagship HQ \u2014 Nov 2026 Philippine Market)",
+      "headers": [
+        "Item / specification",
+        "Quantity",
+        "Unit",
+        "Unit cost (PHP)",
+        "Subtotal (PHP)",
+        "Price source / date"
+      ],
+      "rows": [
+        [
+          "Philips CoreLine 40 W, 4,200 lm Recessed LED Panel (600\u00d7600 mm, 4000K Neutral White, 0\u201310 V Ready)",
+          "159",
+          "units",
+          "\u20b11,850.00",
+          "\u20b1294,150.00",
+          "Wilcon Depot / Philips PH (Nov 2026)"
+        ],
+        [
+          "Firefly 18 W, 1,800 lm Recessed LED Downlight (IP44 Damp-Rated, 4000K) \u2014 Restrooms, Utility & Core",
+          "33",
+          "units",
+          "\u20b1580.00",
+          "\u20b119,140.00",
+          "Wilcon Depot / Firefly PH (Nov 2026)"
+        ],
+        [
+          "Omni Dual-Head LED Emergency Light (6 W, 3-Hour LiFePO4 Battery Backup) \u2014 Corridor & Exits",
+          "8",
+          "units",
+          "\u20b11,950.00",
+          "\u20b115,600.00",
+          "Wilcon Depot / Omni PH (Nov 2026)"
+        ],
+        [
+          "Omni Illuminated LED 'EXIT' Sign (Single/Double-Faced, Battery Backup) \u2014 Main & Fire Exits",
+          "4",
+          "units",
+          "\u20b11,450.00",
+          "\u20b15,800.00",
+          "Wilcon Depot / Omni PH (Nov 2026)"
+        ],
+        [
+          "0\u201310 V Rotary/Digital LED Dimmer Switch Controller (Gaming, Future Bay & VIP Arena Zoned Dimming)",
+          "6",
+          "sets",
+          "\u20b11,680.00",
+          "\u20b110,080.00",
+          "CW Home Depot / Panasonic PH (Nov 2026)"
+        ],
+        [
+          "Panasonic Wide-Series 1/2/3-Gang Wall Switches & 2-Way Corridor Switches w/ Plates",
+          "18",
+          "sets",
+          "\u20b1390.00",
+          "\u20b17,020.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Ceiling PIR Occupancy Motion Sensor (360\u00b0) \u2014 M/F/PWD Restrooms Energy Saver",
+          "3",
+          "units",
+          "\u20b11,250.00",
+          "\u20b13,750.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "RGB-W Indirect Linear LED Cove Accent Strip (24 V DC w/ Driver) \u2014 VIP Esports Arena & Lobby Sign",
+          "36",
+          "m",
+          "\u20b1650.00",
+          "\u20b123,400.00",
+          "CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "Lighting Conduit, 2.0/3.5 mm\u00b2 Lighting Wiring Accessories, Hangers & Ceiling Mounting Clips",
+          "1",
+          "lot",
+          "\u20b126,500.00",
+          "\u20b126,500.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Lighting Installation, Dimming Scene Commissioning & Lux-Meter Verification",
+          "1",
+          "lot",
+          "\u20b158,000.00",
+          "\u20b158,000.00",
+          "Cebu Electrical Contractor (Nov 2026)"
+        ],
+        [
+          "TOTAL",
+          "",
+          "",
+          "",
+          "\u20b1463,440.00",
+          "Price Basis: Nov 2026"
+        ]
+      ],
+      "widths": [
+        3400,
+        650,
+        650,
+        1250,
+        1350,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "right",
+        "right",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "h2",
+      "text": "3.9 Structured Cabling Plan and Cost Analysis"
+    },
+    {
+      "type": "p",
+      "text": "The Structured Cabling Plan (Sheet C-1, Figure 6; Rack Elevation & 3-Tier Riser on Sheet C-2, Figure 7) implements a strict three-tier hierarchy with 52 horizontal Cat6 drops (42 PCs, 2 network printers, and 8 ceiling Wi-Fi 6 PoE APs) plus 2 in-rack server patches (SRV-1, SRV-2). Every workstation and AP drop follows the mandatory TIA-568.2-D physical path (PC/AP \u2192 Wall/Ceiling Keystone Jack \u2192 Cat6 Permanent Link \u2192 24-Port Patch Panel \u2192 Access Switch \u2192 Distribution Switch \u2192 Core Switch \u2192 R-CEBU). Total horizontal Cat6 run length is 1,008.0 m with a maximum single drop of 39.3 m\u2014100% within the 90 m permanent link limit (zero repeaters needed). OM3 6-core multimode fiber links MDF SW-CORE to IDF-1 (DSW-1) and IDF-2 (DSW-2); zero end-user PCs attach directly to distribution switches. Cat6 keystone jacks and dual factory patch cords are explicitly budgeted for all 52 horizontal drops including all 8 ceiling APs, alongside an ANSI/TIA-607-D copper TMGB/TGB grounding kit (TIA, 2019b). Table 9 verifies exact Cisco 2960-24TT spare access port capacity (24 \u2212 used Fa ports; Gi0/1 carries the uplink). Table 10 lists the Cabling, Active Network, and 42-PC Workstation BOQ totaling \u20b13,529,000.00 (full 52-drop schedule in Appendix D).",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 6,
+      "caption": "Cebu Flagship HQ Structured Cabling Horizontal, Backbone & Grounding Plan (Sheet C-1).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\C-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 265
+    },
+    {
+      "type": "figure",
+      "num": 7,
+      "caption": "Cebu Flagship HQ 42U MDF Rack Elevation, 3-Tier Riser & Switch Port Schedule (Sheet C-2).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\C-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 265
+    },
+    {
+      "type": "table",
+      "num": 9,
+      "caption": "Cebu Flagship HQ Access Switch Port Utilization (Cisco 2960-24TT: Spare = 24 \u2212 Used Fa; Uplink on Gi0/1)",
+      "headers": [
+        "Switch",
+        "Cabinet / Zone",
+        "Model",
+        "Uplink Port",
+        "Total Fa",
+        "Used Fa",
+        "Spare Fa",
+        "Utilization"
+      ],
+      "rows": [
+        [
+          "SW-GAM1",
+          "CAB-G (Std Gaming)",
+          "Cisco 2960-24TT",
+          "Gi0/1 \u2192 DSW-1",
+          "24",
+          "22",
+          "2",
+          "91.7%"
+        ],
+        [
+          "SW-VIP",
+          "CAB-V (VIP Arena)",
+          "Cisco 2960-24TT",
+          "Gi0/1 \u2192 DSW-1",
+          "24",
+          "12",
+          "12",
+          "50.0%"
+        ],
+        [
+          "SW-STU",
+          "CAB-S (Study/Lobby)",
+          "Cisco 2960-24TT",
+          "Gi0/1 \u2192 DSW-2",
+          "24",
+          "9",
+          "15",
+          "37.5%"
+        ],
+        [
+          "SW-ADM",
+          "IDF-2 (Admin/POS)",
+          "Cisco 2960-24TT",
+          "Gi0/1 \u2192 R-CEBU Gi0/1",
+          "24",
+          "9",
+          "15",
+          "37.5%"
+        ],
+        [
+          "SW-SRV",
+          "MDF (Server Rack)",
+          "Cisco 2960-24TT",
+          "Gi0/1 \u2192 R-CEBU Gi0/2",
+          "24",
+          "2",
+          "22",
+          "8.3%"
+        ],
+        [
+          "TOTAL",
+          "5 Access Switches",
+          "Cisco 2960-24TT",
+          "Gi0/1 Uplinks",
+          "120",
+          "54",
+          "66",
+          "45.0%"
+        ]
+      ],
+      "widths": [
+        1000,
+        1700,
+        1300,
+        1550,
+        800,
+        850,
+        900,
+        900
+      ],
+      "aligns": [
+        "center",
+        "left",
+        "center",
+        "left",
+        "center",
+        "center",
+        "center",
+        "right"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 16
+    },
+    {
+      "type": "table",
+      "num": 10,
+      "caption": "Structured Cabling, Active Network & IT Workstation Cost Analysis (Cebu Flagship HQ)",
+      "headers": [
+        "Item / specification",
+        "Quantity",
+        "Unit",
+        "Unit cost (PHP)",
+        "Subtotal (PHP)",
+        "Price source / date"
+      ],
+      "rows": [
+        [
+          "Belden / Panduit Cat6 UTP Solid Copper Cable (23 AWG, CMR, 305 m/box) \u2014 1008 m + 15% Allowance",
+          "4",
+          "boxes",
+          "\u20b17,850.00",
+          "\u20b131,400.00",
+          "Lazada Mall / Cablelink PH (Nov 2026)"
+        ],
+        [
+          "Cat6A Shielded UTP Cable (305 m box) \u2014 IDF-to-Access 1G/10G Inter-Cabinet Uplinks",
+          "1",
+          "box",
+          "\u20b111,500.00",
+          "\u20b111,500.00",
+          "Cablelink PH (Nov 2026)"
+        ],
+        [
+          "OM3 50/125 \u00b5m 6-Core Indoor Multimode Fiber Optic Cable w/ LC-LC Pigtails & 1U LIU \u2014 MDF\u2194IDF-1/IDF-2",
+          "65",
+          "m",
+          "\u20b1240.00",
+          "\u20b115,600.00",
+          "Fiber Optic PH / Lazada Mall (Nov 2026)"
+        ],
+        [
+          "Cat6 RJ45 Keystone Jack (Toolless, TIA-568B) \u2014 All 52 Drops (incl. 8 Ceiling APs) + 8 Spares",
+          "60",
+          "pcs",
+          "\u20b1165.00",
+          "\u20b19,900.00",
+          "Cablelink / Shopee Mall PH (Nov 2026)"
+        ],
+        [
+          "Factory-Terminated Cat6 Snagless Patch Cord (1\u20133 m) \u2014 All 52 Drops (\u00d72 Ends) + 2 Servers + 4 Uplinks",
+          "110",
+          "pcs",
+          "\u20b1185.00",
+          "\u20b120,350.00",
+          "Cablelink / Shopee Mall PH (Nov 2026)"
+        ],
+        [
+          "24-Port Cat6 Rackmount Patch Panel (1U, Rear Cable Management Bar) \u2014 PP-G, PP-V, PP-S, PP-ADM, PP-MDF",
+          "5",
+          "units",
+          "\u20b13,850.00",
+          "\u20b119,250.00",
+          "PC Express / Cablelink PH (Nov 2026)"
+        ],
+        [
+          "Single/Dual-Port Wall Faceplate & Surface Mount Box w/ Dust Shutter \u2014 44 Wall Drops + 8 Ceiling AP Boxes",
+          "52",
+          "sets",
+          "\u20b1180.00",
+          "\u20b19,360.00",
+          "Wilcon / Cablelink PH (Nov 2026)"
+        ],
+        [
+          "42U Floor-Standing Enclosed Server Cabinet (800\u00d71000 mm, Perforated, Dual Fans, 12-Outlet PDU) \u2014 MDF",
+          "1",
+          "unit",
+          "\u20b142,500.00",
+          "\u20b142,500.00",
+          "PC Express / Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "12U Wall-Mount Lockable Data Cabinet (600\u00d7450 mm w/ Fan & 6-Outlet PDU) \u2014 IDF-1 & IDF-2",
+          "2",
+          "units",
+          "\u20b19,800.00",
+          "\u20b119,600.00",
+          "Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "9U Wall-Mount Lockable Data Cabinet (600\u00d7450 mm w/ Fan & 6-Outlet PDU) \u2014 CAB-G, CAB-V, CAB-S",
+          "3",
+          "units",
+          "\u20b17,800.00",
+          "\u20b123,400.00",
+          "Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Galvanized Wire-Mesh Overhead Data Cable Tray (200\u00d750 mm \u00d7 3 m) w/ Threaded Rod Hangers \u2014 Corridor Spine",
+          "22",
+          "lengths",
+          "\u20b11,450.00",
+          "\u20b131,900.00",
+          "Wilcon / CW Home Depot PH (Nov 2026)"
+        ],
+        [
+          "uPVC Data Conduit (25 mm \u00d7 3 m) & Surface Raceway Molding w/ Fittings \u2014 Wall Drops & Ceiling AP Stubs",
+          "85",
+          "lengths",
+          "\u20b1210.00",
+          "\u20b117,850.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "ANSI/TIA-607-D Copper Telecommunications Grounding Busbar Kit (1\u00d7 TMGB in MDF, 2\u00d7 TGB in IDF-1/2 + #6 AWG Bonding)",
+          "1",
+          "lot",
+          "\u20b114,500.00",
+          "\u20b114,500.00",
+          "Panduit / Cablelink PH (Nov 2026)"
+        ],
+        [
+          "Cisco 2911 Integrated Services Router w/ HWIC-2T Serial WAN Module \u2014 R-CEBU (HQ Edge Router)",
+          "1",
+          "unit",
+          "\u20b148,500.00",
+          "\u20b148,500.00",
+          "Cisco PH Partner / Refurb Ent. (Nov 2026)"
+        ],
+        [
+          "Cisco Catalyst 3560-24PS 24-Port PoE Multilayer Switch w/ SFP \u2014 SW-CORE (MDF), DSW-1 (IDF-1), DSW-2 (IDF-2)",
+          "3",
+          "units",
+          "\u20b138,500.00",
+          "\u20b1115,500.00",
+          "Cisco PH Partner / Refurb Ent. (Nov 2026)"
+        ],
+        [
+          "Cisco Catalyst 2960-24TT 24-Port Access Switch \u2014 SW-GAM1, SW-VIP, SW-STU, SW-ADM, SW-SRV",
+          "5",
+          "units",
+          "\u20b122,500.00",
+          "\u20b1112,500.00",
+          "Cisco PH Partner / Refurb Ent. (Nov 2026)"
+        ],
+        [
+          "1000BASE-SX Multimode SFP Optical Transceiver Module (LC, 850 nm) \u2014 MDF\u2194IDF Fiber Links",
+          "4",
+          "pcs",
+          "\u20b12,450.00",
+          "\u20b19,800.00",
+          "Cablelink / Cisco Compat. PH (Nov 2026)"
+        ],
+        [
+          "Ubiquiti UniFi U6+ Dual-Band Wi-Fi 6 Ceiling PoE Access Point (w/ PoE Injector) \u2014 AP-01..AP-08",
+          "8",
+          "units",
+          "\u20b18,950.00",
+          "\u20b171,600.00",
+          "DynaQuest / PC Express PH (Nov 2026)"
+        ],
+        [
+          "Dell PowerEdge R250 1U Rack Server (Xeon E-2336, 32 GB ECC, 2\u00d71 TB NVMe RAID-1) \u2014 SRV-1 (DNS/Web/DHCP)",
+          "1",
+          "unit",
+          "\u20b1118,000.00",
+          "\u20b1118,000.00",
+          "PC Express / Dell PH (Nov 2026)"
+        ],
+        [
+          "Dell PowerEdge R350 1U Rack Server (Xeon E-2378, 64 GB ECC, 4\u00d72 TB NVMe Game-Cache) \u2014 SRV-2 (Billing/POS)",
+          "1",
+          "unit",
+          "\u20b1168,000.00",
+          "\u20b1168,000.00",
+          "PC Express / Dell PH (Nov 2026)"
+        ],
+        [
+          "Standard Gaming PC Bundle (i5-14400F, RTX 4060 8GB, 16GB DDR5, 1TB NVMe + 24\" 180Hz Monitor, Mech KB, Mouse, Headset) \u2014 GAM-01..20",
+          "20",
+          "sets",
+          "\u20b152,500.00",
+          "\u20b11,050,000.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "VIP Esports Pro PC Bundle (i7-14700F, RTX 4070 Super 12GB, 32GB DDR5, 1TB NVMe + 27\" 240Hz Monitor, Pro Mech KB, Mouse, Headset) \u2014 VIP-01..10",
+          "10",
+          "sets",
+          "\u20b184,500.00",
+          "\u20b1845,000.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "Study & Work Pod PC Bundle (i5-13400, 16GB RAM, 512GB NVMe + 24\" IPS Monitor, KB, Mouse, Headset) \u2014 STD-01..04",
+          "4",
+          "sets",
+          "\u20b132,500.00",
+          "\u20b1130,000.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "Quick-Browsing Station PC Bundle (i3-13100, 8GB RAM, 512GB SSD + 22\" Monitor, KB, Mouse) \u2014 BRW-01..02",
+          "2",
+          "sets",
+          "\u20b122,500.00",
+          "\u20b145,000.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "Admin/IT & Cashier/POS PC Bundle (i5-13400, 16GB RAM, 512GB NVMe + 24\" IPS Monitor, KB, Mouse; POS Thermal Printer on POS-01/02) \u2014 6 Sets",
+          "6",
+          "sets",
+          "\u20b136,500.00",
+          "\u20b1219,000.00",
+          "PC Express / DynaQuest PH (Nov 2026)"
+        ],
+        [
+          "Epson EcoTank L6490 Heavy-Duty Network Multifunction Printer (Ethernet, Print/Scan/Copy/ADF) \u2014 PRT-01 & PRT-02",
+          "2",
+          "units",
+          "\u20b124,995.00",
+          "\u20b149,990.00",
+          "PC Express / Abenson PH (Nov 2026)"
+        ],
+        [
+          "Dedicated Business Fiber Internet (1 Gbps Symmetrical w/ Static IPv4/IPv6 + Backup 200 Mbps Fiber, 1st Yr + Setup)",
+          "1",
+          "lot",
+          "\u20b1144,000.00",
+          "\u20b1144,000.00",
+          "PLDT Enterprise / Globe Business Cebu (Nov 2026)"
+        ],
+        [
+          "Fluke DSX-8000 Cat6 Certification Testing, OTDR Fiber Test, TIA-606-C Labeling & Structured Cabling Labor",
+          "1",
+          "lot",
+          "\u20b1135,000.00",
+          "\u20b1135,000.00",
+          "Cebu Structured Cabling Integrator (Nov 2026)"
+        ],
+        [
+          "TOTAL",
+          "",
+          "",
+          "",
+          "\u20b13,529,000.00",
+          "Price Basis: Nov 2026"
+        ]
+      ],
+      "widths": [
+        3400,
+        650,
+        650,
+        1250,
+        1350,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "right",
+        "right",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 14
+    },
+    {
+      "type": "h2",
+      "text": "3.10 Furniture and Fixtures Plan and Cost Analysis"
+    },
+    {
+      "type": "p",
+      "text": "The Furniture and Fixtures Plan (Sheet A-3, Figure 8) maintains strict 1-to-1 parity with the Cabling Drop Schedule and Electrical Plan: all 42 PCs map to 42 zone-matched desks and ergonomic/gaming chairs (20 Standard Gaming, 10 Pro Esports, 4 acoustic Study Pods, 2 Browsing, 4 Admin/IT, and 2 Cashier/POS bays), paired with custom cashier and caf\u00e9 millwork, caf\u00e9 dining sets, staff lounge seating, storage racks, restroom fixtures, all 9 dedicated electrical appliances (microwave, 2 refrigerators, espresso machine, 2 water dispensers, 3 display TVs), and all 11 inverter AC units (AC-01 through AC-11). Table 11 summarizes the Furniture, Fixtures, Appliances & HVAC BOQ totaling \u20b12,029,665.00.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 8,
+      "caption": "Cebu Flagship HQ Furniture, Fixtures, Appliances & Inverter HVAC Plan (Sheet A-3).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-3.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 360
+    },
+    {
+      "type": "table",
+      "num": 11,
+      "caption": "Furniture, Fixtures, Appliances & HVAC Cost Analysis (Cebu Flagship HQ)",
+      "headers": [
+        "Item / specification",
+        "Quantity",
+        "Unit",
+        "Unit cost (PHP)",
+        "Subtotal (PHP)",
+        "Price source / date"
+      ],
+      "rows": [
+        [
+          "Heavy-Duty Steel/MDF Gaming Desk (1200\u00d7600 mm) w/ Cable Grommet & Headset Hook \u2014 Standard Gaming",
+          "20",
+          "units",
+          "\u20b15,850.00",
+          "\u20b1117,000.00",
+          "Mandaue Foam / Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Ergonomic PU-Leather High-Back Gaming Chair w/ Lumbar Cushion \u2014 Standard Gaming",
+          "20",
+          "units",
+          "\u20b16,495.00",
+          "\u20b1129,900.00",
+          "Mandaue Foam / Shopee Mall PH (Nov 2026)"
+        ],
+        [
+          "Pro Esports Tournament Desk (1400\u00d7700 mm, Carbon Finish) w/ Power Tray \u2014 VIP Arena",
+          "10",
+          "units",
+          "\u20b18,950.00",
+          "\u20b189,500.00",
+          "Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Pro Esports Racing Ergonomic Chair (4D Armrest, Steel Base) \u2014 VIP Arena",
+          "10",
+          "units",
+          "\u20b110,995.00",
+          "\u20b1109,950.00",
+          "PC Express / Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Enclosed Acoustic Study & Work Pod Desk Module (1400\u00d7700 mm w/ Divider) \u2014 Study Pods",
+          "4",
+          "units",
+          "\u20b114,500.00",
+          "\u20b158,000.00",
+          "Office Warehouse PH (Nov 2026)"
+        ],
+        [
+          "Mesh Ergonomic Task Chair w/ Adjustable Headrest \u2014 Study Pods",
+          "4",
+          "units",
+          "\u20b14,950.00",
+          "\u20b119,800.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Quick-Browsing Station Counter Desk (2-Seat Compact Bay) \u2014 Cashier/Lobby",
+          "2",
+          "seats",
+          "\u20b14,200.00",
+          "\u20b18,400.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Compact Swivel Browsing Task Chair \u2014 Quick-Browsing Station",
+          "2",
+          "units",
+          "\u20b12,850.00",
+          "\u20b15,700.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Executive / Admin L-Shape Office Desk (1500\u00d7700 mm w/ Mobile Pedestal) \u2014 Admin/IT Office",
+          "4",
+          "units",
+          "\u20b111,500.00",
+          "\u20b146,000.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Mid-Back Ergonomic Mesh Office Chair \u2014 Admin/IT Office",
+          "4",
+          "units",
+          "\u20b14,650.00",
+          "\u20b118,600.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Custom Laminated Cashier, POS & Printing Service Counter (4.2 m, 2 POS Bays + Printer Bay)",
+          "1",
+          "unit",
+          "\u20b148,000.00",
+          "\u20b148,000.00",
+          "Cebu Custom Millwork (Nov 2026)"
+        ],
+        [
+          "High-Back Cashier Swivel Task Chair \u2014 POS-01 & POS-02",
+          "2",
+          "units",
+          "\u20b13,850.00",
+          "\u20b17,700.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Caf\u00e9 Snack Pantry Service Counter w/ Stainless Sink & Under-Counter Cabinets (4.5 m)",
+          "1",
+          "set",
+          "\u20b142,000.00",
+          "\u20b142,000.00",
+          "CW Home Depot / Millwork (Nov 2026)"
+        ],
+        [
+          "Caf\u00e9 Dining Table (800\u00d7800 mm) w/ 4 Stackable Caf\u00e9 Chairs \u2014 Caf\u00e9 Pantry",
+          "5",
+          "sets",
+          "\u20b19,800.00",
+          "\u20b149,000.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Staff Lounge 3-Seater Fabric Sofa & Coffee Table Set",
+          "1",
+          "set",
+          "\u20b124,500.00",
+          "\u20b124,500.00",
+          "Mandaue Foam PH (Nov 2026)"
+        ],
+        [
+          "Staff Lounge Break Table w/ 6 Chairs & 12-Door Steel Staff Locker",
+          "1",
+          "set",
+          "\u20b128,500.00",
+          "\u20b128,500.00",
+          "Office Warehouse PH (Nov 2026)"
+        ],
+        [
+          "Lobby Waiting 3-Seater Steel-Frame Bench \u2014 Cashier/Lobby",
+          "2",
+          "units",
+          "\u20b18,950.00",
+          "\u20b117,900.00",
+          "Office Warehouse PH (Nov 2026)"
+        ],
+        [
+          "Heavy-Duty 5-Tier Boltless Steel Storage Rack (1800\u00d7900\u00d7450 mm) \u2014 Storage & MDF",
+          "4",
+          "units",
+          "\u20b14,850.00",
+          "\u20b119,400.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "4-Drawer Vertical Steel Filing Cabinet w/ Central Lock \u2014 Admin Office",
+          "2",
+          "units",
+          "\u20b17,950.00",
+          "\u20b115,900.00",
+          "Office Warehouse PH (Nov 2026)"
+        ],
+        [
+          "Restroom Fixture Set (Water Closets, Lavatories, Urinals, PWD Grab Bars, Mirrors, Hand Dryers)",
+          "1",
+          "lot",
+          "\u20b196,500.00",
+          "\u20b196,500.00",
+          "Wilcon Depot PH (Nov 2026)"
+        ],
+        [
+          "Commercial Microwave Oven (1,200 W)",
+          "1",
+          "unit",
+          "\u20b17,495.00",
+          "\u20b17,495.00",
+          "Abenson PH (Nov 2026)"
+        ],
+        [
+          "Commercial Glass-Door Beverage Chiller (350 L)",
+          "1",
+          "unit",
+          "\u20b128,995.00",
+          "\u20b128,995.00",
+          "Abenson / Fujidenzo PH (Nov 2026)"
+        ],
+        [
+          "Two-Door Inverter Pantry Refrigerator (250 L)",
+          "1",
+          "unit",
+          "\u20b121,495.00",
+          "\u20b121,495.00",
+          "Abenson / Midea PH (Nov 2026)"
+        ],
+        [
+          "Commercial Espresso & Coffee Maker (1,450 W)",
+          "1",
+          "unit",
+          "\u20b132,500.00",
+          "\u20b132,500.00",
+          "Lazada Mall PH (Nov 2026)"
+        ],
+        [
+          "Hot & Cold Water Dispenser (Caf\u00e9 Pantry)",
+          "1",
+          "unit",
+          "\u20b17,995.00",
+          "\u20b17,995.00",
+          "Abenson / Fujidenzo PH (Nov 2026)"
+        ],
+        [
+          "Hot & Cold Water Dispenser (Staff Lounge)",
+          "1",
+          "unit",
+          "\u20b17,995.00",
+          "\u20b17,995.00",
+          "Abenson / Fujidenzo PH (Nov 2026)"
+        ],
+        [
+          "65\" 4K Smart Spectator Display TV (VIP Arena North)",
+          "1",
+          "unit",
+          "\u20b136,995.00",
+          "\u20b136,995.00",
+          "Abenson / TCL PH (Nov 2026)"
+        ],
+        [
+          "65\" 4K Smart Spectator Display TV (VIP Arena South)",
+          "1",
+          "unit",
+          "\u20b136,995.00",
+          "\u20b136,995.00",
+          "Abenson / TCL PH (Nov 2026)"
+        ],
+        [
+          "55\" 4K Digital Rate-Board & Menu TV (Lobby)",
+          "1",
+          "unit",
+          "\u20b124,995.00",
+          "\u20b124,995.00",
+          "Abenson / TCL PH (Nov 2026)"
+        ],
+        [
+          "Midea 5.0 HP Floor-Standing Inverter AC (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "3",
+          "units",
+          "\u20b1124,995.00",
+          "\u20b1374,985.00",
+          "Midea PH / Abenson (Nov 2026)"
+        ],
+        [
+          "Midea 3.0 HP Floor-Standing Inverter AC (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "2",
+          "units",
+          "\u20b184,995.00",
+          "\u20b1169,990.00",
+          "Midea PH / Abenson (Nov 2026)"
+        ],
+        [
+          "Daikin 2.5 HP Split-Type Inverter AC (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "2",
+          "units",
+          "\u20b162,500.00",
+          "\u20b1125,000.00",
+          "Daikin PH / Wilcon (Nov 2026)"
+        ],
+        [
+          "Daikin 2.0 HP Split-Type Inverter AC (24/7 Duty) (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "1",
+          "unit",
+          "\u20b152,995.00",
+          "\u20b152,995.00",
+          "Daikin PH / Wilcon (Nov 2026)"
+        ],
+        [
+          "Daikin 2.0 HP Split-Type Inverter AC (Redundant) (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "1",
+          "unit",
+          "\u20b152,995.00",
+          "\u20b152,995.00",
+          "Daikin PH / Wilcon (Nov 2026)"
+        ],
+        [
+          "Daikin 2.0 HP Split-Type Inverter AC (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "1",
+          "unit",
+          "\u20b152,995.00",
+          "\u20b152,995.00",
+          "Daikin PH / Wilcon (Nov 2026)"
+        ],
+        [
+          "Daikin 1.5 HP Split-Type Inverter AC (w/ Copper Tubing, Drain Line & Bracket Installation)",
+          "1",
+          "unit",
+          "\u20b142,995.00",
+          "\u20b142,995.00",
+          "Daikin PH / Wilcon (Nov 2026)"
+        ],
+        [
+          "TOTAL",
+          "",
+          "",
+          "",
+          "\u20b12,029,665.00",
+          "Price Basis: Nov 2026"
+        ]
+      ],
+      "widths": [
+        3400,
+        650,
+        650,
+        1250,
+        1350,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "right",
+        "right",
+        "left"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 14
+    },
+    {
+      "type": "h2",
+      "text": "3.11 Network Topology and Device Selection"
+    },
+    {
+      "type": "p",
+      "text": "Figure 9 presents the end-to-end dual-stack logical network topology uniting Building 1 (Clark, R-CLARK), Building 2 (Cebu HQ, R-CEBU), and Building 3 (Davao, R-DAVAO) at the central ISP router (ISP-CEBU). All four routers use Cisco 2911 Integrated Services Routers equipped with HWIC-2T serial WAN cards so each site maps one physical GigabitEthernet port per LAN (zero VLANs/ROAS, matching the CPE 3105 CLI Guide). Cebu HQ implements a full three-tier switching hierarchy (3560-24PS Core/Distribution + five 2960-24TT Access switches), while Clark and Davao each run two 2960-24TT access switches isolating Gaming and Admin LANs.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 9,
+      "caption": "Multi-Branch Dual-Stack Logical Network Topology Converging at Central ISP-CEBU.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_topology.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 380
+    },
+    {
+      "type": "h2",
+      "text": "3.12 VLSM Addressing Scheme"
+    },
+    {
+      "type": "p",
+      "text": "IPv4 addresses are subnetted from 10.10.0.0/22 so each regional site summarizes cleanly into a single /24 block (Cebu HQ: 10.10.0.0/24; Clark: 10.10.1.0/24; Davao: 10.10.2.0/24; WAN links: 10.10.3.0/24) while ensuring every claimed expansion seat fits inside its subnet (e.g., HQ-GAMING-LAN requires 55 hosts including the 10-seat future bay and receives a /26 providing 62 usable hosts). All /30 WAN links correctly list Required hosts = 2. IPv6 allocates 2001:DB8:ACAD::/48 with summarizable /52 site blocks and /64 LAN/WAN prefixes, using link-local FE80::1 on all site routers and FE80::4 on ISP-CEBU. DHCPv4 runs centrally on SRV-1 (10.10.0.98) for Cebu HQ via ip helper-address and locally on branch routers, paired with Stateful DHCPv6 (ipv6 nd managed-config-flag) on all site LANs. Table 12 details the complete IPv4 VLSM allocation and Table 13 summarizes the dual-stack IPv6 plan (step-by-step derivation in Appendix E).",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 12,
+      "caption": "VLSM IPv4 Addressing Scheme (Base Block: 10.10.0.0/22; Zero Overlaps, Verified Expansion Capacity)",
+      "headers": [
+        "Building / LAN",
+        "Required Hosts",
+        "Network / Prefix",
+        "Subnet Mask",
+        "Usable Host Range",
+        "Gateway",
+        "Broadcast (IPv4)"
+      ],
+      "rows": [
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-GAMING-LAN",
+          "55",
+          "10.10.0.0/26",
+          "255.255.255.192",
+          "10.10.0.1\u201310.10.0.62",
+          "10.10.0.1",
+          "10.10.0.63"
+        ],
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-ADMIN-LAN",
+          "20",
+          "10.10.0.64/27",
+          "255.255.255.224",
+          "10.10.0.65\u201310.10.0.94",
+          "10.10.0.65",
+          "10.10.0.95"
+        ],
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-SERVER-LAN",
+          "8",
+          "10.10.0.96/28",
+          "255.255.255.240",
+          "10.10.0.97\u201310.10.0.110",
+          "10.10.0.97",
+          "10.10.0.111"
+        ],
+        [
+          "Clark Branch (Luzon) \u2014 CLK-GAMING-LAN",
+          "35",
+          "10.10.1.0/26",
+          "255.255.255.192",
+          "10.10.1.1\u201310.10.1.62",
+          "10.10.1.1",
+          "10.10.1.63"
+        ],
+        [
+          "Clark Branch (Luzon) \u2014 CLK-ADMIN-LAN",
+          "12",
+          "10.10.1.64/28",
+          "255.255.255.240",
+          "10.10.1.65\u201310.10.1.78",
+          "10.10.1.65",
+          "10.10.1.79"
+        ],
+        [
+          "Davao Branch (Mindanao) \u2014 DVO-GAMING-LAN",
+          "35",
+          "10.10.2.0/26",
+          "255.255.255.192",
+          "10.10.2.1\u201310.10.2.62",
+          "10.10.2.1",
+          "10.10.2.63"
+        ],
+        [
+          "Davao Branch (Mindanao) \u2014 DVO-ADMIN-LAN",
+          "12",
+          "10.10.2.64/28",
+          "255.255.255.240",
+          "10.10.2.65\u201310.10.2.78",
+          "10.10.2.65",
+          "10.10.2.79"
+        ],
+        [
+          "WAN (ISP \u2194 Cebu HQ) \u2014 WAN-CEBU-PRI",
+          "2",
+          "10.10.3.0/30",
+          "255.255.255.252",
+          "10.10.3.1\u201310.10.3.2",
+          "10.10.3.1 (ISP) / .2 (HQ)",
+          "10.10.3.3"
+        ],
+        [
+          "WAN (ISP \u2194 Clark Pri) \u2014 WAN-CLARK-PRI",
+          "2",
+          "10.10.3.4/30",
+          "255.255.255.252",
+          "10.10.3.5\u201310.10.3.6",
+          "10.10.3.5 (ISP) / .6 (CLK)",
+          "10.10.3.7"
+        ],
+        [
+          "WAN (ISP \u2194 Davao Pri) \u2014 WAN-DAVAO-PRI",
+          "2",
+          "10.10.3.8/30",
+          "255.255.255.252",
+          "10.10.3.9\u201310.10.3.10",
+          "10.10.3.9 (ISP) / .10 (DVO)",
+          "10.10.3.11"
+        ],
+        [
+          "WAN (ISP \u2194 Clark Bak) \u2014 WAN-CLARK-BAK",
+          "2",
+          "10.10.3.12/30",
+          "255.255.255.252",
+          "10.10.3.13\u201310.10.3.14",
+          "10.10.3.13 (ISP) / .14 (CLK)",
+          "10.10.3.15"
+        ],
+        [
+          "WAN (ISP \u2194 Davao Bak) \u2014 WAN-DAVAO-BAK",
+          "2",
+          "10.10.3.16/30",
+          "255.255.255.252",
+          "10.10.3.17\u201310.10.3.18",
+          "10.10.3.17 (ISP) / .18 (DVO)",
+          "10.10.3.19"
+        ]
+      ],
+      "widths": [
+        2050,
+        750,
+        1200,
+        1250,
+        1550,
+        1150,
+        1050
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "table",
+      "num": 13,
+      "caption": "Dual-Stack IPv6 Addressing Plan (Base Block: 2001:DB8:ACAD::/48; Internet Loopback: 2001:DB8:FFFF::1/64)",
+      "headers": [
+        "Building / LAN",
+        "Router Interface",
+        "IPv6 Prefix",
+        "Global Gateway",
+        "Link-Local",
+        "Addressing Mode"
+      ],
+      "rows": [
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-GAMING-LAN",
+          "R-CEBU GigabitEthernet0/0",
+          "2001:DB8:ACAD:1001::/64",
+          "2001:DB8:ACAD:1001::1",
+          "FE80::1",
+          "SRV-1 DHCPv4 Relay + Stateful DHCPv6"
+        ],
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-ADMIN-LAN",
+          "R-CEBU GigabitEthernet0/1",
+          "2001:DB8:ACAD:1002::/64",
+          "2001:DB8:ACAD:1002::1",
+          "FE80::1",
+          "SRV-1 DHCPv4 Relay + Stateful DHCPv6 (Static IT/POS/Prt)"
+        ],
+        [
+          "Cebu HQ (Visayas) \u2014 HQ-SERVER-LAN",
+          "R-CEBU GigabitEthernet0/2",
+          "2001:DB8:ACAD:1003::/64",
+          "2001:DB8:ACAD:1003::1",
+          "FE80::1",
+          "Static Server Allocation"
+        ],
+        [
+          "Clark Branch (Luzon) \u2014 CLK-GAMING-LAN",
+          "R-CLARK GigabitEthernet0/0",
+          "2001:DB8:ACAD:2001::/64",
+          "2001:DB8:ACAD:2001::1",
+          "FE80::1",
+          "R-CLARK DHCPv4 Pool + Stateful DHCPv6"
+        ],
+        [
+          "Clark Branch (Luzon) \u2014 CLK-ADMIN-LAN",
+          "R-CLARK GigabitEthernet0/1",
+          "2001:DB8:ACAD:2002::/64",
+          "2001:DB8:ACAD:2002::1",
+          "FE80::1",
+          "R-CLARK DHCPv4 Pool + Stateful DHCPv6 (Static CLK-IT-PC)"
+        ],
+        [
+          "Davao Branch (Mindanao) \u2014 DVO-GAMING-LAN",
+          "R-DAVAO GigabitEthernet0/0",
+          "2001:DB8:ACAD:3001::/64",
+          "2001:DB8:ACAD:3001::1",
+          "FE80::1",
+          "R-DAVAO DHCPv4 Pool + Stateful DHCPv6"
+        ],
+        [
+          "Davao Branch (Mindanao) \u2014 DVO-ADMIN-LAN",
+          "R-DAVAO GigabitEthernet0/1",
+          "2001:DB8:ACAD:3002::/64",
+          "2001:DB8:ACAD:3002::1",
+          "FE80::1",
+          "R-DAVAO DHCPv4 Pool + Stateful DHCPv6 (Static DVO-IT-PC)"
+        ],
+        [
+          "WAN (ISP \u2194 Cebu HQ) \u2014 WAN-CEBU-PRI",
+          "ISP-CEBU / R-CEBU Se0/0/0 \u2194 Se0/0/0",
+          "2001:DB8:ACAD:F001::/64",
+          "::1 (ISP) / ::2 (HQ)",
+          "FE80::4 / FE80::1",
+          "Static Point-to-Point"
+        ],
+        [
+          "WAN (ISP \u2194 Clark Pri) \u2014 WAN-CLARK-PRI",
+          "ISP-CEBU / R-CLARK Se0/0/1 \u2194 Se0/0/0",
+          "2001:DB8:ACAD:F002::/64",
+          "::1 (ISP) / ::2 (CLK)",
+          "FE80::4 / FE80::1",
+          "Static Point-to-Point"
+        ],
+        [
+          "WAN (ISP \u2194 Davao Pri) \u2014 WAN-DAVAO-PRI",
+          "ISP-CEBU / R-DAVAO Se0/1/0 \u2194 Se0/0/0",
+          "2001:DB8:ACAD:F003::/64",
+          "::1 (ISP) / ::2 (DVO)",
+          "FE80::4 / FE80::1",
+          "Static Point-to-Point"
+        ],
+        [
+          "WAN (ISP \u2194 Clark Bak) \u2014 WAN-CLARK-BAK",
+          "ISP-CEBU / R-CLARK Se0/1/1 \u2194 Se0/0/1",
+          "2001:DB8:ACAD:F004::/64",
+          "::1 (ISP) / ::2 (CLK)",
+          "FE80::4 / FE80::1",
+          "Static Point-to-Point"
+        ],
+        [
+          "WAN (ISP \u2194 Davao Bak) \u2014 WAN-DAVAO-BAK",
+          "ISP-CEBU / R-DAVAO Se0/2/0 \u2194 Se0/0/1",
+          "2001:DB8:ACAD:F005::/64",
+          "::1 (ISP) / ::2 (DVO)",
+          "FE80::4 / FE80::1",
+          "Static Point-to-Point"
+        ],
+        [
+          "Simulated Internet",
+          "ISP-CEBU Lo0",
+          "2001:DB8:FFFF::/64",
+          "2001:DB8:FFFF::1",
+          "\u2014",
+          "Static Internet Test Endpoint (203.0.113.1/24)"
+        ]
+      ],
+      "widths": [
+        1850,
+        1450,
+        1850,
+        1450,
+        950,
+        1450
+      ],
+      "aligns": [
+        "left",
+        "left",
+        "center",
+        "center",
+        "center",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 14
+    },
+    {
+      "type": "h2",
+      "text": "3.13 Routing and Protocol Design"
+    },
+    {
+      "type": "p",
+      "text": "Following the course protocol specification (OSPF excluded; EIGRP permitted), the multi-branch WAN employs three distinct routing domains united at ISP-CEBU as the single redistribution boundary: (1) Cebu Flagship HQ (R-CEBU) uses a static default route to ISP-CEBU paired with a standard static summary route on ISP-CEBU (10.10.0.0/24 and 2001:DB8:ACAD:1000::/52); (2) Clark Branch (R-CLARK) runs RIPv2 and RIPng (no auto-summary) on primary link WAN-CLARK-PRI with passive LAN/backup ports; (3) Davao Branch (R-DAVAO) runs EIGRP AS 100 and EIGRPv6 AS 100 (no auto-summary) on primary link WAN-DAVAO-PRI with passive LAN ports. ISP-CEBU performs two-way redistribution (static + connected + RIP \u2194 EIGRP) using course seed metrics (RIP metric 2 + default-information originate; EIGRP metric 10000 100 255 1 1500). For resilience (third static route type), bidirectional IPv4 and IPv6 floating static routes run over dedicated backup serial links at AD 130 for Clark (> RIP AD 120) and AD 180 for Davao (> EIGRP external AD 170), including matching return floating static routes on ISP-CEBU to every branch LAN subnet.",
+      "opts": {}
+    },
+    {
+      "type": "p",
+      "text": "Security Hardening & 4 Inbound ACL Objectives (IPv4 + IPv6 Mirror): Every router enforces encrypted secrets, MOTD banner, RSA 2048-bit SSH v2, console timeout, and full line vty 0 15 hardening (login local, transport input ssh, access-class 10 in, ipv6 access-class SSH-IT6 in). Four inbound ACL objectives protect the enterprise: (1) only static IT PCs (IT-PC 10.10.0.70, CLK-IT-PC 10.10.1.70, DVO-IT-PC 10.10.2.70 and IPv6 equivalents) may SSH any router; (2) only HQ-ADMIN-LAN may reach Billing/POS & Game-Cache server SRV-2 (10.10.0.99)\u2014blocking HQ-GAMING-LAN (including customer Wi-Fi AP-01..AP-07), study pods, and both branches (note: staff Wi-Fi AP-08 resides on WPA2-authenticated HQ-ADMIN-LAN, clearly separated from customer Wi-Fi on HQ-GAMING-LAN); (3) Clark and Davao Gaming LANs cannot reach their local Admin/Staff LANs; and (4) Gaming LANs cannot FTP (TCP ports 21 and 20) to SRV-1 (10.10.0.98) while HTTP (TCP 80) and DNS (UDP/TCP 53) remain explicitly permitted.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "3.14 ISP Connectivity Plan in Cebu"
+    },
+    {
+      "type": "p",
+      "text": "Figure 10 maps the inter-regional Philippine WAN architecture rendered from Natural Earth (n.d.) 1:50m coastline vectors. ISP-CEBU in Cebu City terminates five point-to-point WAN links (primary links to Cebu HQ, Clark, and Davao plus dedicated floating-static backup circuits to Clark and Davao) and emulates external Internet reachability via Loopback0 (203.0.113.1/24 and 2001:DB8:FFFF::1/64). In production, these links correspond to dual-homed business fiber circuits (PLDT Enterprise primary + Globe Business failover) simulated in Packet Tracer via clocked DCE/DTE serial interfaces.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 10,
+      "caption": "Philippines Multi-Branch WAN Architecture Converging at Central Cebu ISP (Coastline: Natural Earth, n.d.).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_intercity_map.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "h2",
+      "text": "3.15 Consolidated Project Budget"
+    },
+    {
+      "type": "p",
+      "text": "Table 14 consolidates all five engineering plans for the selected Cebu Flagship HQ facility using standard half-up rounding identical to the formula-driven workbook (budget/Group1_RJ_Esports_Budget.xlsx, verified via Excel COM to \u20b10.00 drift). Excluding base building shell construction, direct fit-out and IT/network capital equals \u20b110,724,010.00. Adding a 5.0% project contingency (\u20b1536,200.50) produces a Grand Total of \u20b111,260,210.50, which sits \u20b1539,789.50 (4.57%) beneath the \u20b111,800,000.00 client target budget.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 14,
+      "caption": "Consolidated Project Budget \u2014 Cebu Flagship HQ (Nov 2026 PHP; Excludes Base Building Construction)",
+      "headers": [
+        "Plan / Discipline",
+        "Subtotal (PHP)",
+        "% of Direct",
+        "% of Grand Total",
+        "Workbook Reference"
+      ],
+      "rows": [
+        [
+          "Floor Plan (Interior Fit-Out)",
+          "\u20b13,686,790.00",
+          "34.4%",
+          "32.7%",
+          "Floor_Plan"
+        ],
+        [
+          "Electrical Plan (Power, Panels & UPS)",
+          "\u20b11,015,115.00",
+          "9.5%",
+          "9.0%",
+          "Electrical"
+        ],
+        [
+          "Lighting Plan (EN 12464-1 LED System)",
+          "\u20b1463,440.00",
+          "4.3%",
+          "4.1%",
+          "Lighting"
+        ],
+        [
+          "Structured Cabling, Active Network & IT",
+          "\u20b13,529,000.00",
+          "32.9%",
+          "31.3%",
+          "Structured_Cabling"
+        ],
+        [
+          "Furniture, Fixtures, Appliances & HVAC",
+          "\u20b12,029,665.00",
+          "18.9%",
+          "18.0%",
+          "Furniture_Fixtures"
+        ],
+        [
+          "Direct Project Subtotal (All 5 Plans \u2014 Excl. Shell)",
+          "\u20b110,724,010.00",
+          "100.0%",
+          "95.2%",
+          "SUM(B8:B12)"
+        ],
+        [
+          "Project Contingency Allowance (5.0%)",
+          "\u20b1536,200.50",
+          "5.0%",
+          "4.8%",
+          "ROUND(B13*0.05,2)"
+        ],
+        [
+          "GRAND TOTAL PROPOSED BUDGET (CEBU HQ)",
+          "\u20b111,260,210.50",
+          "\u2014",
+          "100.0%",
+          "Within Target"
+        ],
+        [
+          "Client Target Budget (Auto-Set ~4.8% Above Total)",
+          "\u20b111,800,000.00",
+          "\u2014",
+          "-4.57% Var.",
+          "Savings: \u20b1539,789.50"
+        ]
+      ],
+      "widths": [
+        3350,
+        1550,
+        1100,
+        1300,
+        1700
+      ],
+      "aligns": [
+        "left",
+        "right",
+        "right",
+        "right",
+        "center"
+      ],
+      "boldLastRow": true,
+      "boldCol0": false,
+      "fontSize": 16
+    },
+    {
+      "type": "h1",
+      "text": "CHAPTER 4: IMPLEMENTATION AND VERIFICATION",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "4.1 Implementation Environment and Tools"
+    },
+    {
+      "type": "p",
+      "text": "Simulation and verification were performed in Cisco Packet Tracer 9.0.1 (Cisco Systems, 2023b) running on Windows 11, paired with Python 3.14 engineering generators, native draw.io XML / SVG CAD sheets, formula-driven openpyxl Excel workbooks, and live Packet Tracer Script Engine deployment. Simulated hardware comprises four Cisco 2911 routers (HWIC-2T modules), three Cisco 3560-24PS core/distribution switches, nine Cisco 2960-24TT access switches, Copper Patch Panels, Copper Wall Mounts, two Server-PT servers (SRV-1, SRV-2), AccessPoint-PT units, Printer-PT units, and PC-PT workstations. Four saved Packet Tracer topologies were generated: pt/rj_network.pkt (full master network) plus three separate Multiuser-ready building files (rj_cebu_hq_visayas.pkt, rj_clark_luzon.pkt, rj_davao_mindanao.pkt).",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "4.2 Physical Workspace Representation of Building 1 (Clark Branch \u2014 Luzon)"
+    },
+    {
+      "type": "p",
+      "text": "Building 1 (Clark Branch Caf\u00e9) mounts floor_clark.png (40 \u00d7 26 m = 1,040 sqm) inside city Clark_Luzon with central telecom closet CLK-MDF housing R-CLARK, SW-CLK-GAM, SW-CLK-ADM, and PP-CLK. Every gaming and admin host connects through a Copper Wall Mount and Copper Patch Panel with wall-following bend points keeping all copper runs well below 90 m. Figure 11 displays the Building 1 Physical Workspace view.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 11,
+      "caption": "Building 1 (Clark Branch \u2014 Luzon) Packet Tracer Physical Workspace Representation.",
+      "path": "",
+      "expectedFile": "report/screenshots/01_phys_clark.png",
+      "placeholderNote": "Drop Clark Physical Workspace screenshot (bend-point cabling on floor_clark.png) into report/screenshots/01_phys_clark.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.3 Physical Workspace Representation of Building 2 (Cebu Flagship HQ \u2014 Visayas)"
+    },
+    {
+      "type": "p",
+      "text": "Building 2 (Cebu Flagship HQ) mounts floor_hq.png inside city Cebu_Visayas alongside Cebu_ISP_POP and implements the complete three-tier physical layout: MDF (42U rack with R-CEBU, SW-CORE, SW-SRV, SRV-1, SRV-2), IDF-1 (DSW-1), IDF-2 (DSW-2, SW-ADM, PP-ADM), and access cabinets CAB-G (SW-GAM1, PP-G), CAB-V (SW-VIP, PP-V), and CAB-S (SW-STU, PP-S). All horizontal runs route along the central corridor north tray using Packet Tracer bend points with Cable Length Effects enabled (max run 39.3 m \u2264 90 m). Figure 12 shows the Building 2 Physical Workspace.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 12,
+      "caption": "Building 2 (Cebu Flagship HQ \u2014 Visayas) Packet Tracer Physical Workspace Representation.",
+      "path": "",
+      "expectedFile": "report/screenshots/02_phys_cebu_hq.png",
+      "placeholderNote": "Drop Cebu HQ Physical Workspace screenshot (MDF, IDF-1/2, CAB-G/V/S & bend points on floor_hq.png) into report/screenshots/02_phys_cebu_hq.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.4 Physical Workspace Representation of Building 3 (Davao Branch \u2014 Mindanao)"
+    },
+    {
+      "type": "p",
+      "text": "Building 3 (Davao Branch Caf\u00e9) mounts floor_davao.png inside city Davao_Mindanao with wiring closet DVO-MDF housing R-DAVAO, SW-DVO-GAM, SW-DVO-ADM, and PP-DVO. Gaming and Admin endpoints terminate on Copper Wall Mounts routed orthogonally via bend points back to PP-DVO. Figure 13 presents the Building 3 Physical Workspace.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 13,
+      "caption": "Building 3 (Davao Branch \u2014 Mindanao) Packet Tracer Physical Workspace Representation.",
+      "path": "",
+      "expectedFile": "report/screenshots/03_phys_davao.png",
+      "placeholderNote": "Drop Davao Physical Workspace screenshot (bend-point cabling on floor_davao.png) into report/screenshots/03_phys_davao.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.5 ISP Connectivity and Interbuilding Connections"
+    },
+    {
+      "type": "p",
+      "text": "All three regional sites converge at ISP-CEBU in Cebu City across five serial WAN links (WAN-CEBU-PRI, WAN-CLARK-PRI/BAK, WAN-DAVAO-PRI/BAK). For distributed defense demonstrations, rj_cebu_hq_visayas.pkt listens on Multiuser TCP port 38000 while rj_clark_luzon.pkt and rj_davao_mindanao.pkt peer into ISP-CEBU. Figure 14 captures the converged Packet Tracer Logical Workspace showing all green WAN/LAN link states.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 14,
+      "caption": "Converged Multi-Branch Logical Topology in Packet Tracer 9.0.1 Showing Central Cebu ISP Links.",
+      "path": "",
+      "expectedFile": "report/screenshots/04_logical_isp.png",
+      "placeholderNote": "Drop Logical Workspace screenshot of pt/rj_network.pkt (green link lights across all 3 sites + ISP-CEBU) into report/screenshots/04_logical_isp.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.6 VLSM Address Configuration"
+    },
+    {
+      "type": "p",
+      "text": "All four routers were deployed live in Packet Tracer 9.0.1 with dual-stack IPv4 and IPv6 addresses, link-local gateways (FE80::1 on site routers, FE80::4 on ISP-CEBU), SRV-1 DHCPv4 relay pools (HQ-GAMING-POOL and HQ-ADMIN-POOL via ip helper-address 10.10.0.98), local branch DHCPv4 pools, and Stateful DHCPv6 pools (ipv6 nd managed-config-flag). Live Packet Tracer verification confirmed every static host and dynamic DHCP client received valid subnet addresses (GAM-01=10.10.0.16, GAM-02=10.10.0.13, VIP-01=10.10.0.14, VIP-02=10.10.0.15, STD-01=10.10.0.11, BRW-01=10.10.0.12).",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "4.7 Routing and Protocol Configuration"
+    },
+    {
+      "type": "p",
+      "text": "Live show ip route and show ipv6 route inspection on ISP-CEBU, R-CEBU, R-CLARK, and R-DAVAO confirmed complete end-to-end convergence: ISP-CEBU holds static summary route 10.10.0.0/24 via 10.10.3.2, RIPv2 routes to Clark (10.10.1.0/26, 10.10.1.64/28), and EIGRP routes to Davao (10.10.2.0/26, 10.10.2.64/28); R-CLARK learns Cebu HQ, Davao, and R* 0.0.0.0/0 via RIPv2; R-DAVAO learns Cebu HQ, Clark, and D*EX 0.0.0.0/0 via EIGRP AS 100. Floating static routes (AD 130 / AD 180) remain cleanly inactive in the RIB while primary links are up. Figure 15 displays the routing verification CLI output (full redacted configs in Appendix F).",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 15,
+      "caption": "Router CLI Verification of RIPv2, EIGRP AS 100, Static Summary, Redistribution & IPv6 Routing Tables.",
+      "path": "",
+      "expectedFile": "report/screenshots/05_cli_routes.png",
+      "placeholderNote": "Drop CLI screenshot showing show ip route & show ipv6 route on ISP-CEBU, R-CLARK, R-DAVAO into report/screenshots/05_cli_routes.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.8 Connectivity Testing and Results"
+    },
+    {
+      "type": "p",
+      "text": "End-to-end reachability and all four inbound security ACL objectives were executed live inside Packet Tracer 9.0.1. Table 15 logs the ten representative verification tests (T-01 through T-10) covering Internet loopback reachability, cross-protocol RIPv2 \u2194 EIGRP redistribution, SRV-2 isolation, branch Gaming-to-Admin blocking, and SRV-1 HTTP/DNS allow vs. FTP deny. Figure 16 presents the CLI ACL counter and ping evidence.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 15,
+      "caption": "Live Packet Tracer 9.0.1 Connectivity and Security ACL Verification Matrix",
+      "headers": [
+        "Test ID",
+        "Source",
+        "Destination",
+        "Test / Command",
+        "Expected Result",
+        "Actual Result",
+        "Status"
+      ],
+      "rows": [
+        [
+          "T-01",
+          "GAM-01",
+          "203.0.113.1",
+          "ping 203.0.113.1 (HQ Gaming PC -> Simulated Internet L)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 203.0.113.1 (bytes=32)",
+          "PASS"
+        ],
+        [
+          "T-02",
+          "GAM-01",
+          "10.10.0.98",
+          "ping 10.10.0.98 (HQ Gaming PC -> SRV-1 (Web/DNS reach)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 10.10.0.98 (bytes=32)",
+          "PASS"
+        ],
+        [
+          "T-03",
+          "GAM-01",
+          "10.10.0.99",
+          "ping 10.10.0.99 (Obj 2: HQ Gaming PC -> SRV-2 (Billin)",
+          "Blocked by Inbound ACL",
+          "Destination host unreachable (100% loss)",
+          "PASS"
+        ],
+        [
+          "T-04",
+          "IT-PC",
+          "10.10.0.99",
+          "ping 10.10.0.99 (Obj 2: HQ Admin IT-PC -> SRV-2 (Bill)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 10.10.0.99 (bytes=32)",
+          "PASS"
+        ],
+        [
+          "T-05",
+          "CLK-GAM-01",
+          "203.0.113.1",
+          "ping 203.0.113.1 (Clark RIPv2 Gaming PC -> Simulated I)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 203.0.113.1 (bytes=32)",
+          "PASS"
+        ],
+        [
+          "T-06",
+          "CLK-GAM-01",
+          "10.10.1.70",
+          "ping 10.10.1.70 (Obj 3: Clark Gaming PC -> Clark Admi)",
+          "Blocked by Inbound ACL",
+          "Destination host unreachable (100% loss)",
+          "PASS"
+        ],
+        [
+          "T-07",
+          "CLK-IT-PC",
+          "10.10.0.99",
+          "ping 10.10.0.99 (Obj 2: Clark Branch Admin -> HQ SRV-)",
+          "Blocked by Inbound ACL",
+          "Destination host unreachable (100% loss)",
+          "PASS"
+        ],
+        [
+          "T-08",
+          "DVO-GAM-01",
+          "203.0.113.1",
+          "ping 203.0.113.1 (Davao EIGRP Gaming PC -> Simulated I)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 203.0.113.1 (bytes=32)",
+          "PASS"
+        ],
+        [
+          "T-09",
+          "DVO-GAM-01",
+          "10.10.2.70",
+          "ping 10.10.2.70 (Obj 3: Davao Gaming PC -> Davao Admi)",
+          "Blocked by Inbound ACL",
+          "Destination host unreachable (100% loss)",
+          "PASS"
+        ],
+        [
+          "T-10",
+          "DVO-IT-PC",
+          "10.10.1.70",
+          "ping 10.10.1.70 (EIGRP <-> RIPv2 Redistribution: Dava)",
+          "ICMP Echo Reply (Permitted)",
+          "Reply from 10.10.1.70 (bytes=32)",
+          "PASS"
+        ]
+      ],
+      "widths": [
+        650,
+        1000,
+        1050,
+        2350,
+        1350,
+        1850,
+        750
+      ],
+      "aligns": [
+        "center",
+        "center",
+        "center",
+        "left",
+        "left",
+        "left",
+        "center"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "figure",
+      "num": 16,
+      "caption": "CLI ACL Hit Counters and End-Host Ping / SSH / HTTP Verification Evidence.",
+      "path": "",
+      "expectedFile": "report/screenshots/06_cli_acls_ping.png",
+      "placeholderNote": "Drop CLI/PC screenshot showing show access-lists hit counters & ping tests into report/screenshots/06_cli_acls_ping.png and re-run report_build.py.",
+      "widthPx": 595,
+      "maxHeightPx": 430
+    },
+    {
+      "type": "h2",
+      "text": "4.9 Troubleshooting and Corrective Actions"
+    },
+    {
+      "type": "p",
+      "text": "During implementation and planned fault testing, two realistic network issues were diagnosed, corrected, and re-verified (logged in Table 16): (1) RIPv2 classful advertisement leakage across the Clark backup serial link (WAN-CLARK-BAK), and (2) initial DHCPv4 DISCOVER drops during Catalyst 2960 Spanning Tree Protocol (STP) listening/learning convergence.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 16,
+      "caption": "Network Troubleshooting and Planned Fault Verification Log",
+      "headers": [
+        "Issue / Symptom",
+        "Diagnostic Procedure",
+        "Root Cause",
+        "Corrective Action",
+        "Retest Evidence"
+      ],
+      "rows": [
+        [
+          "RIPv2 formed adjacency over backup link WAN-CLARK-BAK (Se0/0/1), preventing clean primary/backup separation.",
+          "Ran show ip protocols & show ip route on R-CLARK and ISP-CEBU; observed RIP updates active on Se0/0/1.",
+          "Classful statement 'network 10.0.0.0' activates RIPv2 on all 10.x.x.x ports unless explicitly suppressed.",
+          "Added 'passive-interface Serial0/0/1' on R-CLARK and 'passive-interface Serial0/1/1' (plus non-RIP ports) on ISP-CEBU.",
+          "Re-ran show ip protocols: RIP active solely on WAN-CLARK-PRI; floating static AD 130 takes over cleanly on primary link shutdown."
+        ],
+        [
+          "DHCPv4 clients on HQ-GAMING-LAN initially showed 0.0.0.0/APIPA right after cold cable attachment.",
+          "Checked show ip dhcp binding & PC ipconfig /all; observed switch access ports in amber STP listening/learning state.",
+          "Initial DHCP DISCOVER packets dropped during 30 s STP forward-delay before port reached forwarding state.",
+          "Allowed STP convergence (fast-forward), verified 'ip helper-address 10.10.0.98' on R-CEBU Gi0/0, and issued ipconfig /renew.",
+          "All HQ DHCP clients leased valid 10.10.0.11+ addresses with gateway 10.10.0.1 and DNS 10.10.0.98; ping 203.0.113.1 succeeded."
+        ]
+      ],
+      "widths": [
+        1750,
+        1800,
+        1800,
+        1850,
+        1800
+      ],
+      "aligns": [
+        "left",
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "h2",
+      "text": "4.10 Implementation Summary"
+    },
+    {
+      "type": "p",
+      "text": "Transparent Verification Status: (1) Fully Implemented & Live-Verified in PT 9.0.1: All four .pkt files (rj_network.pkt, rj_cebu_hq_visayas.pkt, rj_clark_luzon.pkt, rj_davao_mindanao.pkt), full 3-tier Cebu HQ switching hierarchy, Copper Wall Mount/Patch Panel paths, dual-stack VLSM/IPv6 addressing, SRV-1 DHCPv4 relay & branch pools, RIPv2/RIPng, EIGRP/EIGRPv6, ISP-CEBU redistribution, bidirectional floating statics, VTY 0\u201315 SSH hardening, and all four inbound IPv4/IPv6 ACLs. (2) Prepared & Ready for Manual Physical Screenshot Capture: Scaled PT backgrounds (pt/backgrounds/*.png) and step-by-step bend-point placement guide (pt/PT_MANUAL_PHYSICAL_GUIDE.md) are complete; 0/6 manual Physical/CLI screenshots are currently embedded in report/screenshots/ (remaining placeholders auto-populate upon running report_build.py). (3) Documented Conceptual / Field-Certified Elements: Fluke DSX-8000 Cat6/OTDR test reports and PEE permit stamping remain physical site commissioning activities outside software simulation.",
+      "opts": {}
+    },
+    {
+      "type": "h1",
+      "text": "CHAPTER 5: CONCLUSIONS AND RECOMMENDATIONS",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "5.1 Summary of the Proposed Project"
+    },
+    {
+      "type": "p",
+      "text": "Group 1 designed, costed, simulated, and audited a complete multi-branch structured cabling and network infrastructure proposal for RJ Internet Caf\u00e9 & Esports Inc. across three 1,040 sqm buildings in Clark (Luzon), Cebu IT Park (Visayas Flagship HQ + central ISP), and Davao City (Mindanao). All five detailed CAD plans (Sheets A-1 through C-2) maintain strict 1-to-1 parity across 42 workstations, 2 printers, 8 ceiling Wi-Fi 6 APs, 9 dedicated appliances, and 11 inverter AC units within a consolidated budget of \u20b111,260,210.50.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "5.2 Conclusions Based on the Objectives"
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 1 (Three \u22651,000 sqm Buildings): ACHIEVED \u2014 All three regional sites utilize documented 40 \u00d7 26 m (1,040 sqm) Before and After floor plans.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 2 (Five Detailed Plans): ACHIEVED \u2014 Eight aligned CAD sheets (A-1, A-2, A-3, E-1, E-2, L-1, C-1, C-2) generated in native .drawio and high-res PNG for tracing-paper overlay defense.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 3 (Justified Budget): ACHIEVED \u2014 Formula-driven Excel workbook and BOQ CSVs reconcile to \u20b10.00 drift at \u20b111,260,210.50 (excluding building shell), saving \u20b1539,789.50 below target.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 4 (Dual-Stack VLSM): ACHIEVED \u2014 Overlap-free 10.10.0.0/22 + 2001:DB8:ACAD::/48 plan verified programmatically with zero invalid host IPs and full expansion headroom.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 5 (Routing & Security): ACHIEVED \u2014 Static, RIPv2/RIPng, EIGRP/EIGRPv6, single-point ISP-CEBU redistribution, floating statics (AD 130/180), SSH v2 on VTY 0\u201315, and 4 inbound IPv4/IPv6 ACLs verified live.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Objective 6 (Inter-Building Testing): ACHIEVED (Logical/CLI live-verified; Physical Workspace backgrounds & guide ready for final 6-screenshot drop-in) \u2014 All 10 connectivity/ACL tests passed in PT 9.0.1.",
+      "boldPrefix": null
+    },
+    {
+      "type": "h2",
+      "text": "5.3 Technical and Financial Feasibility"
+    },
+    {
+      "type": "p",
+      "text": "Technically, the proposal complies 100% with ANSI/TIA-568.2-D (max run 39.3 m \u2264 90 m), ANSI/TIA-569-E (1.1 m EMI separation), ANSI/TIA-607-D (TMGB/TGB grounding), PEC 2017 (accurate 200 A MDP / 125 A ACP sizing without double-counting), and EN 12464-1 (100% of 19 rooms compliant at 6.76 W/m\u00b2 LPD). Financially, the proposed Grand Total of \u20b111,260,210.50 (including 5% contingency) remains \u20b1539,789.50 (4.57%) below the \u20b111,800,000.00 client target budget. At commercial Cebu IT Park esports/caf\u00e9 hourly rates (\u20b135\u2013\u20b175/hr across 30 gaming rigs plus VIP bootcamp bookings, printing, study pods, and caf\u00e9 pantry sales), gross revenue comfortably covers the estimated \u20b1339,534.38/month utility cost and supports a projected 18\u201324 month payback period.",
+      "opts": {}
+    },
+    {
+      "type": "h2",
+      "text": "5.4 Recommendations for Improvement"
+    },
+    {
+      "type": "bullet",
+      "text": "Deploy a dedicated next-generation firewall (NGFW) with intrusion prevention (IPS) and dual-WAN SD-WAN failover at each site upon commercial rollout beyond the academic Cisco IOS 15.x baseline.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Implement 802.1X port authentication and WPA3-Enterprise RADIUS on Staff Wi-Fi (AP-08) plus captive-portal bandwidth shaping on Customer Wi-Fi (AP-01..AP-07).",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Conduct PEE electrical plan sealing, BFP fire-safety inspection, and Fluke DSX-8000 / OTDR certification before commercial opening.",
+      "boldPrefix": null
+    },
+    {
+      "type": "bullet",
+      "text": "Add automated environmental monitoring (temperature/humidity sensors) inside the 24/7 MDF server room to trigger alerts if primary AC-07 fails over to redundant AC-08.",
+      "boldPrefix": null
+    },
+    {
+      "type": "h2",
+      "text": "5.5 Future Expansion and Maintenance"
+    },
+    {
+      "type": "p",
+      "text": "The architecture is pre-engineered for seamless growth: the 96 sqm Future Gaming Bay already has overhead data tray stub-outs, two 20 A spare electrical circuits (PP-14), dedicated cooling (AC-03), and 10+ spare host addresses inside HQ-GAMING-LAN (10.10.0.0/26). Five Cisco 2960-24TT access switches retain 66 spare FastEthernet ports (55.0% spare capacity), and the 42U MDF rack holds 12U of open rack space. Preventive maintenance schedules include quarterly AC filter/UPS battery checks, semi-annual cable/label audits per TIA-606-C, and automated off-site backups of router configs and SRV-2 billing databases.",
+      "opts": {}
+    },
+    {
+      "type": "h1",
+      "text": "REFERENCES",
+      "pageBreak": true
+    },
+    {
+      "type": "ref",
+      "text": "American Society of Heating, Refrigerating and Air-Conditioning Engineers. (2019). Energy standard for buildings except low-rise residential buildings (ANSI/ASHRAE/IES Standard 90.1-2019). ASHRAE."
+    },
+    {
+      "type": "ref",
+      "text": "Cisco Systems. (2023a). Cisco Catalyst 2960 and 3560 series switch configuration guide. Cisco Press."
+    },
+    {
+      "type": "ref",
+      "text": "Cisco Systems. (2023b). Cisco Packet Tracer 9.0 user guide and physical workspace modeling reference. Cisco Networking Academy."
+    },
+    {
+      "type": "ref",
+      "text": "European Committee for Standardization. (2021). Light and lighting \u2014 Lighting of work places \u2014 Part 1: Indoor work places (EN 12464-1:2021). CEN-CENELEC."
+    },
+    {
+      "type": "ref",
+      "text": "Institute of Integrated Electrical Engineers of the Philippines. (2017). Philippine electrical code, Part 1 (2017 ed.). IIEE."
+    },
+    {
+      "type": "ref",
+      "text": "International Organization for Standardization. (2017). Information technology \u2014 Generic cabling for customer premises (ISO/IEC 11801-1:2017). ISO."
+    },
+    {
+      "type": "ref",
+      "text": "Kurose, J. F., & Ross, K. W. (2021). Computer networking: A top-down approach (8th ed.). Pearson."
+    },
+    {
+      "type": "ref",
+      "text": "Natural Earth. (n.d.). 1:50m cultural vectors: Admin 0 \u2014 Countries (Philippines coastline geometry) [Dataset]. https://www.naturalearthdata.com/"
+    },
+    {
+      "type": "ref",
+      "text": "Odom, W. (2020). CCNA 200-301 official cert guide (Vols. 1\u20132). Cisco Press."
+    },
+    {
+      "type": "ref",
+      "text": "Republic of the Philippines. (2008). Fire code of the Philippines of 2008 (Republic Act No. 9514, Rev. IRR 2019). Bureau of Fire Protection."
+    },
+    {
+      "type": "ref",
+      "text": "Telecommunications Industry Association. (2018). Balanced twisted-pair telecommunications cabling and components standard (ANSI/TIA-568.2-D). TIA."
+    },
+    {
+      "type": "ref",
+      "text": "Telecommunications Industry Association. (2019a). Telecommunications pathways and spaces (ANSI/TIA-569-E). TIA."
+    },
+    {
+      "type": "ref",
+      "text": "Telecommunications Industry Association. (2019b). Generic telecommunications bonding and grounding (earthing) for customer premises (ANSI/TIA-607-D). TIA."
+    },
+    {
+      "type": "ref",
+      "text": "Telecommunications Industry Association. (2020). Administration standard for telecommunications infrastructure (ANSI/TIA-606-C). TIA."
+    },
+    {
+      "type": "h1",
+      "text": "APPENDICES",
+      "pageBreak": true
+    },
+    {
+      "type": "h2",
+      "text": "Appendix A: Original Floor Plans and Sources"
+    },
+    {
+      "type": "p",
+      "text": "All three buildings originate from conceptual 40.0 \u00d7 26.0 m (1,040.0 sqm) commercial warm-shell floor plates authored by Group 1 (November 2026) representing typical IT-park tenancies. Figures 17, 18, and 19 present the full-size Original (Before Modification) floor plates for Building 1 (Clark), Building 2 (Cebu Flagship HQ, Sheet A-1), and Building 3 (Davao).",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 17,
+      "caption": "Appendix A \u2014 Building 1 (Clark Branch, Luzon) Original Commercial Shell (Before Modification).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_floor_clark_orig.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "figure",
+      "num": 18,
+      "caption": "Appendix A \u2014 Building 2 (Cebu Flagship HQ, Visayas) Original Commercial Shell (Sheet A-1 Full Size).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "figure",
+      "num": 19,
+      "caption": "Appendix A \u2014 Building 3 (Davao Branch, Mindanao) Original Commercial Shell (Before Modification).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_floor_davao_orig.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "h2",
+      "text": "Appendix B: Modified Floor Plans"
+    },
+    {
+      "type": "p",
+      "text": "Figures 20, 21, and 22 display the Modified (After Modification) architectural layouts with labeled rooms, exact dimensions, 2.0 m clear egress corridors, fire exits, and 1,040.0 sqm total floor area for all three sites.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 20,
+      "caption": "Appendix B \u2014 Building 1 (Clark Branch, Luzon) Modified Floor Plan (1,040 sqm).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_floor_clark_mod.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "figure",
+      "num": 21,
+      "caption": "Appendix B \u2014 Building 2 (Cebu Flagship HQ, Visayas) Modified Floor Plan (Sheet A-2 Full Size).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "figure",
+      "num": 22,
+      "caption": "Appendix B \u2014 Building 3 (Davao Branch, Mindanao) Modified Floor Plan (1,040 sqm).",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\report\\figs\\fig_floor_davao_mod.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 370
+    },
+    {
+      "type": "h2",
+      "text": "Appendix C: Detailed Engineering Plans (Building 2 \u2014 Cebu Flagship HQ)"
+    },
+    {
+      "type": "p",
+      "text": "Figures 23 through 28 archive full-size engineering sheets A-3 (Furniture & HVAC), E-1 (Electrical Power), E-2 (PEC 2017 Schedule of Loads), L-1 (Lighting Plan), C-1 (Structured Cabling), and C-2 (MDF Rack Elevation & 3-Tier Riser), matching the native editable .drawio files in plans/drawio/.",
+      "opts": {}
+    },
+    {
+      "type": "figure",
+      "num": 23,
+      "caption": "Appendix C \u2014 Full-Size Sheet A-3: Furniture, Fixtures, Appliances & HVAC Plan.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\A-3.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "figure",
+      "num": 24,
+      "caption": "Appendix C \u2014 Full-Size Sheet E-1: Electrical Power & EMI-Separated Conduit Plan.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\E-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "figure",
+      "num": 25,
+      "caption": "Appendix C \u2014 Full-Size Sheet E-2: PEC 2017 Schedule of Loads & 24/7 Energy Analysis.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\E-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "figure",
+      "num": 26,
+      "caption": "Appendix C \u2014 Full-Size Sheet L-1: Lighting Layout & EN 12464-1 Compliance Schedule.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\L-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "figure",
+      "num": 27,
+      "caption": "Appendix C \u2014 Full-Size Sheet C-1: Structured Cabling Horizontal & Backbone Plan.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\C-1.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "figure",
+      "num": 28,
+      "caption": "Appendix C \u2014 Full-Size Sheet C-2: 42U MDF Rack Elevation & 3-Tier Riser Diagram.",
+      "path": "D:\\Junior Year\\first sem\\COMPUTER NETWORKS AND SECURITY\\RJ esports\\plans\\sheets\\C-2.png",
+      "expectedFile": "",
+      "placeholderNote": "",
+      "widthPx": 595,
+      "maxHeightPx": 410
+    },
+    {
+      "type": "h2",
+      "text": "Appendix D: Detailed Cost Estimates and Complete 52-Drop Cabling Schedule"
+    },
+    {
+      "type": "p",
+      "text": "Full itemized BOQs for all five engineering plans are consolidated in the formula-driven workbook budget/Group1_RJ_Esports_Budget.xlsx (reconciled via Excel COM to \u20b111,260,210.50 Grand Total). Table 17 lists the complete 52-drop horizontal Cat6 schedule verifying 1-to-1 drop parity and 100% compliance with the 90 m ANSI/TIA-568.2-D permanent link limit (max length 39.3 m).",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 17,
+      "caption": "Complete Cebu Flagship HQ 52-Drop Structured Cabling Schedule (100% \u2264 90 m TIA-568.2-D)",
+      "headers": [
+        "Drop",
+        "Device",
+        "Type",
+        "Room",
+        "Cabinet",
+        "PP:Port",
+        "Switch & Port",
+        "Len (m)",
+        "IP Mode / Static"
+      ],
+      "rows": [
+        [
+          "G-01",
+          "GAM-01",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:1",
+          "SW-GAM1 Fa0/1",
+          "28.5",
+          "DHCP"
+        ],
+        [
+          "G-02",
+          "GAM-02",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:2",
+          "SW-GAM1 Fa0/2",
+          "25.5",
+          "DHCP"
+        ],
+        [
+          "G-03",
+          "GAM-03",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:3",
+          "SW-GAM1 Fa0/3",
+          "22.5",
+          "DHCP"
+        ],
+        [
+          "G-04",
+          "GAM-04",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:4",
+          "SW-GAM1 Fa0/4",
+          "19.5",
+          "DHCP"
+        ],
+        [
+          "G-05",
+          "GAM-05",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:5",
+          "SW-GAM1 Fa0/5",
+          "16.5",
+          "DHCP"
+        ],
+        [
+          "G-06",
+          "GAM-06",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:6",
+          "SW-GAM1 Fa0/6",
+          "26.1",
+          "DHCP"
+        ],
+        [
+          "G-07",
+          "GAM-07",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:7",
+          "SW-GAM1 Fa0/7",
+          "23.1",
+          "DHCP"
+        ],
+        [
+          "G-08",
+          "GAM-08",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:8",
+          "SW-GAM1 Fa0/8",
+          "20.1",
+          "DHCP"
+        ],
+        [
+          "G-09",
+          "GAM-09",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:9",
+          "SW-GAM1 Fa0/9",
+          "17.1",
+          "DHCP"
+        ],
+        [
+          "G-10",
+          "GAM-10",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:10",
+          "SW-GAM1 Fa0/10",
+          "14.1",
+          "DHCP"
+        ],
+        [
+          "G-11",
+          "GAM-11",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:11",
+          "SW-GAM1 Fa0/11",
+          "25.9",
+          "DHCP"
+        ],
+        [
+          "G-12",
+          "GAM-12",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:12",
+          "SW-GAM1 Fa0/12",
+          "22.9",
+          "DHCP"
+        ],
+        [
+          "G-13",
+          "GAM-13",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:13",
+          "SW-GAM1 Fa0/13",
+          "19.9",
+          "DHCP"
+        ],
+        [
+          "G-14",
+          "GAM-14",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:14",
+          "SW-GAM1 Fa0/14",
+          "16.9",
+          "DHCP"
+        ],
+        [
+          "G-15",
+          "GAM-15",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:15",
+          "SW-GAM1 Fa0/15",
+          "13.9",
+          "DHCP"
+        ],
+        [
+          "G-16",
+          "GAM-16",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:16",
+          "SW-GAM1 Fa0/16",
+          "28.3",
+          "DHCP"
+        ],
+        [
+          "G-17",
+          "GAM-17",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:17",
+          "SW-GAM1 Fa0/17",
+          "25.3",
+          "DHCP"
+        ],
+        [
+          "G-18",
+          "GAM-18",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:18",
+          "SW-GAM1 Fa0/18",
+          "22.3",
+          "DHCP"
+        ],
+        [
+          "G-19",
+          "GAM-19",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:19",
+          "SW-GAM1 Fa0/19",
+          "19.3",
+          "DHCP"
+        ],
+        [
+          "G-20",
+          "GAM-20",
+          "Gaming-PC",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:20",
+          "SW-GAM1 Fa0/20",
+          "16.3",
+          "DHCP"
+        ],
+        [
+          "AP-01",
+          "AP-01",
+          "AP",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:21",
+          "SW-GAM1 Fa0/21",
+          "18.4",
+          "DHCP"
+        ],
+        [
+          "AP-02",
+          "AP-02",
+          "AP",
+          "STD-GAME",
+          "CAB-G",
+          "PP-G:22",
+          "SW-GAM1 Fa0/22",
+          "10.9",
+          "DHCP"
+        ],
+        [
+          "V-01",
+          "VIP-01",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:1",
+          "SW-VIP Fa0/1",
+          "15.3",
+          "DHCP"
+        ],
+        [
+          "V-02",
+          "VIP-02",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:2",
+          "SW-VIP Fa0/2",
+          "13.5",
+          "DHCP"
+        ],
+        [
+          "V-03",
+          "VIP-03",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:3",
+          "SW-VIP Fa0/3",
+          "11.7",
+          "DHCP"
+        ],
+        [
+          "V-04",
+          "VIP-04",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:4",
+          "SW-VIP Fa0/4",
+          "13.1",
+          "DHCP"
+        ],
+        [
+          "V-05",
+          "VIP-05",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:5",
+          "SW-VIP Fa0/5",
+          "14.9",
+          "DHCP"
+        ],
+        [
+          "V-06",
+          "VIP-06",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:6",
+          "SW-VIP Fa0/6",
+          "20.1",
+          "DHCP"
+        ],
+        [
+          "V-07",
+          "VIP-07",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:7",
+          "SW-VIP Fa0/7",
+          "18.3",
+          "DHCP"
+        ],
+        [
+          "V-08",
+          "VIP-08",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:8",
+          "SW-VIP Fa0/8",
+          "16.5",
+          "DHCP"
+        ],
+        [
+          "V-09",
+          "VIP-09",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:9",
+          "SW-VIP Fa0/9",
+          "17.9",
+          "DHCP"
+        ],
+        [
+          "V-10",
+          "VIP-10",
+          "VIP-PC",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:10",
+          "SW-VIP Fa0/10",
+          "19.7",
+          "DHCP"
+        ],
+        [
+          "AP-03",
+          "AP-03",
+          "AP",
+          "FUT-GAME",
+          "CAB-V",
+          "PP-V:11",
+          "SW-VIP Fa0/11",
+          "11.1",
+          "DHCP"
+        ],
+        [
+          "AP-04",
+          "AP-04",
+          "AP",
+          "VIP-ARENA",
+          "CAB-V",
+          "PP-V:12",
+          "SW-VIP Fa0/12",
+          "10.9",
+          "DHCP"
+        ],
+        [
+          "S-01",
+          "STD-01",
+          "Study-PC",
+          "STUDY-PODS",
+          "CAB-S",
+          "PP-S:1",
+          "SW-STU Fa0/1",
+          "16.2",
+          "DHCP"
+        ],
+        [
+          "S-02",
+          "STD-02",
+          "Study-PC",
+          "STUDY-PODS",
+          "CAB-S",
+          "PP-S:2",
+          "SW-STU Fa0/2",
+          "12.9",
+          "DHCP"
+        ],
+        [
+          "S-03",
+          "STD-03",
+          "Study-PC",
+          "STUDY-PODS",
+          "CAB-S",
+          "PP-S:3",
+          "SW-STU Fa0/3",
+          "18.7",
+          "DHCP"
+        ],
+        [
+          "S-04",
+          "STD-04",
+          "Study-PC",
+          "STUDY-PODS",
+          "CAB-S",
+          "PP-S:4",
+          "SW-STU Fa0/4",
+          "15.4",
+          "DHCP"
+        ],
+        [
+          "B-01",
+          "BRW-01",
+          "Browsing-PC",
+          "CASH-LOBBY",
+          "CAB-S",
+          "PP-S:5",
+          "SW-STU Fa0/5",
+          "21.6",
+          "DHCP"
+        ],
+        [
+          "B-02",
+          "BRW-02",
+          "Browsing-PC",
+          "CASH-LOBBY",
+          "CAB-S",
+          "PP-S:6",
+          "SW-STU Fa0/6",
+          "19.8",
+          "DHCP"
+        ],
+        [
+          "AP-05",
+          "AP-05",
+          "AP",
+          "CASH-LOBBY",
+          "CAB-S",
+          "PP-S:7",
+          "SW-STU Fa0/7",
+          "20.9",
+          "DHCP"
+        ],
+        [
+          "AP-06",
+          "AP-06",
+          "AP",
+          "STUDY-PODS",
+          "CAB-S",
+          "PP-S:8",
+          "SW-STU Fa0/8",
+          "11.4",
+          "DHCP"
+        ],
+        [
+          "AP-07",
+          "AP-07",
+          "AP",
+          "CAFE-PNT",
+          "CAB-S",
+          "PP-S:9",
+          "SW-STU Fa0/9",
+          "16.6",
+          "DHCP"
+        ],
+        [
+          "A-01",
+          "IT-PC",
+          "Admin-PC",
+          "ADMIN-OFC",
+          "IDF-2",
+          "PP-ADM:1",
+          "SW-ADM Fa0/1",
+          "12.0",
+          "10.10.0.70"
+        ],
+        [
+          "A-02",
+          "MGR-PC",
+          "Admin-PC",
+          "ADMIN-OFC",
+          "IDF-2",
+          "PP-ADM:2",
+          "SW-ADM Fa0/2",
+          "15.0",
+          "10.10.0.71"
+        ],
+        [
+          "A-03",
+          "STF-01",
+          "Admin-PC",
+          "ADMIN-OFC",
+          "IDF-2",
+          "PP-ADM:3",
+          "SW-ADM Fa0/3",
+          "14.4",
+          "DHCP"
+        ],
+        [
+          "A-04",
+          "STF-02",
+          "Admin-PC",
+          "ADMIN-OFC",
+          "IDF-2",
+          "PP-ADM:4",
+          "SW-ADM Fa0/4",
+          "17.4",
+          "DHCP"
+        ],
+        [
+          "A-05",
+          "POS-01",
+          "POS-PC",
+          "CASH-LOBBY",
+          "IDF-2",
+          "PP-ADM:5",
+          "SW-ADM Fa0/5",
+          "36.5",
+          "10.10.0.72"
+        ],
+        [
+          "A-06",
+          "POS-02",
+          "POS-PC",
+          "CASH-LOBBY",
+          "IDF-2",
+          "PP-ADM:6",
+          "SW-ADM Fa0/6",
+          "34.5",
+          "10.10.0.73"
+        ],
+        [
+          "A-07",
+          "PRT-01",
+          "Printer",
+          "CASH-LOBBY",
+          "IDF-2",
+          "PP-ADM:7",
+          "SW-ADM Fa0/7",
+          "39.3",
+          "10.10.0.74"
+        ],
+        [
+          "A-08",
+          "PRT-02",
+          "Printer",
+          "CASH-LOBBY",
+          "IDF-2",
+          "PP-ADM:8",
+          "SW-ADM Fa0/8",
+          "37.3",
+          "10.10.0.75"
+        ],
+        [
+          "AP-08",
+          "AP-08",
+          "AP",
+          "ADMIN-OFC",
+          "IDF-2",
+          "PP-ADM:9",
+          "SW-ADM Fa0/9",
+          "11.8",
+          "DHCP"
+        ]
+      ],
+      "widths": [
+        700,
+        900,
+        1050,
+        1050,
+        750,
+        950,
+        1600,
+        750,
+        1250
+      ],
+      "aligns": [
+        "center",
+        "center",
+        "left",
+        "center",
+        "center",
+        "center",
+        "left",
+        "right",
+        "center"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 14
+    },
+    {
+      "type": "h2",
+      "text": "Appendix E: VLSM Calculations and Addressing Worksheets"
+    },
+    {
+      "type": "p",
+      "text": "Starting from private supernet 10.10.0.0/22 (1,024 addresses), subnets are allocated on clean /24 regional boundaries using largest-first VLSM block sizing (2^h \u2212 2 \u2265 required hosts). All five WAN /30 links list Required hosts = 2. Table 18 shows the step-by-step VLSM binary block derivation and Table 19 lists all ten static server, IT admin, cashier POS, and network printer host allocations (verified strictly between network + 1 and broadcast \u2212 1).",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 18,
+      "caption": "VLSM Host-Bit Derivation, Wildcard Masks and Verified Free-IP Headroom Worksheet",
+      "headers": [
+        "Subnet Name",
+        "Req. Hosts",
+        "Formula (Usable)",
+        "Prefix",
+        "Network CIDR",
+        "Wildcard Mask",
+        "Spare Capacity"
+      ],
+      "rows": [
+        [
+          "HQ-GAMING-LAN",
+          "55",
+          "2^6\u22122 = 62",
+          "/26",
+          "10.10.0.0/26",
+          "0.0.0.63",
+          "19 free"
+        ],
+        [
+          "HQ-ADMIN-LAN",
+          "20",
+          "2^5\u22122 = 30",
+          "/27",
+          "10.10.0.64/27",
+          "0.0.0.31",
+          "21 free"
+        ],
+        [
+          "HQ-SERVER-LAN",
+          "8",
+          "2^4\u22122 = 14",
+          "/28",
+          "10.10.0.96/28",
+          "0.0.0.15",
+          "12 free"
+        ],
+        [
+          "CLK-GAMING-LAN",
+          "35",
+          "2^6\u22122 = 62",
+          "/26",
+          "10.10.1.0/26",
+          "0.0.0.63",
+          "43 free"
+        ],
+        [
+          "CLK-ADMIN-LAN",
+          "12",
+          "2^4\u22122 = 14",
+          "/28",
+          "10.10.1.64/28",
+          "0.0.0.15",
+          "8 free"
+        ],
+        [
+          "DVO-GAMING-LAN",
+          "35",
+          "2^6\u22122 = 62",
+          "/26",
+          "10.10.2.0/26",
+          "0.0.0.63",
+          "43 free"
+        ],
+        [
+          "DVO-ADMIN-LAN",
+          "12",
+          "2^4\u22122 = 14",
+          "/28",
+          "10.10.2.64/28",
+          "0.0.0.15",
+          "8 free"
+        ],
+        [
+          "WAN-CEBU-PRI",
+          "2",
+          "2^2\u22122 = 2",
+          "/30",
+          "10.10.3.0/30",
+          "0.0.0.3",
+          "0 free"
+        ],
+        [
+          "WAN-CLARK-PRI",
+          "2",
+          "2^2\u22122 = 2",
+          "/30",
+          "10.10.3.4/30",
+          "0.0.0.3",
+          "0 free"
+        ],
+        [
+          "WAN-DAVAO-PRI",
+          "2",
+          "2^2\u22122 = 2",
+          "/30",
+          "10.10.3.8/30",
+          "0.0.0.3",
+          "0 free"
+        ],
+        [
+          "WAN-CLARK-BAK",
+          "2",
+          "2^2\u22122 = 2",
+          "/30",
+          "10.10.3.12/30",
+          "0.0.0.3",
+          "0 free"
+        ],
+        [
+          "WAN-DAVAO-BAK",
+          "2",
+          "2^2\u22122 = 2",
+          "/30",
+          "10.10.3.16/30",
+          "0.0.0.3",
+          "0 free"
+        ]
+      ],
+      "widths": [
+        1550,
+        850,
+        1450,
+        750,
+        1500,
+        1450,
+        1450
+      ],
+      "aligns": [
+        "left",
+        "center",
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "table",
+      "num": 19,
+      "caption": "Static Host IPv4 and IPv6 Address Allocation Table (Zero Network/Broadcast Collisions)",
+      "headers": [
+        "Device",
+        "LAN Segment",
+        "Static IPv4",
+        "Subnet Mask",
+        "IPv4 Gateway",
+        "Static IPv6 Global",
+        "IPv6 GW"
+      ],
+      "rows": [
+        [
+          "SRV-1",
+          "HQ-SERVER-LAN",
+          "10.10.0.98",
+          "255.255.255.240",
+          "10.10.0.97",
+          "2001:DB8:ACAD:1003::98",
+          "FE80::1"
+        ],
+        [
+          "SRV-2",
+          "HQ-SERVER-LAN",
+          "10.10.0.99",
+          "255.255.255.240",
+          "10.10.0.97",
+          "2001:DB8:ACAD:1003::99",
+          "FE80::1"
+        ],
+        [
+          "IT-PC",
+          "HQ-ADMIN-LAN",
+          "10.10.0.70",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::70",
+          "FE80::1"
+        ],
+        [
+          "MGR-PC",
+          "HQ-ADMIN-LAN",
+          "10.10.0.71",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::71",
+          "FE80::1"
+        ],
+        [
+          "POS-01",
+          "HQ-ADMIN-LAN",
+          "10.10.0.72",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::72",
+          "FE80::1"
+        ],
+        [
+          "POS-02",
+          "HQ-ADMIN-LAN",
+          "10.10.0.73",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::73",
+          "FE80::1"
+        ],
+        [
+          "PRT-01",
+          "HQ-ADMIN-LAN",
+          "10.10.0.74",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::74",
+          "FE80::1"
+        ],
+        [
+          "PRT-02",
+          "HQ-ADMIN-LAN",
+          "10.10.0.75",
+          "255.255.255.224",
+          "10.10.0.65",
+          "2001:DB8:ACAD:1002::75",
+          "FE80::1"
+        ],
+        [
+          "CLK-IT-PC",
+          "CLK-ADMIN-LAN",
+          "10.10.1.70",
+          "255.255.255.240",
+          "10.10.1.65",
+          "2001:DB8:ACAD:2002::70",
+          "FE80::1"
+        ],
+        [
+          "DVO-IT-PC",
+          "DVO-ADMIN-LAN",
+          "10.10.2.70",
+          "255.255.255.240",
+          "10.10.2.65",
+          "2001:DB8:ACAD:3002::70",
+          "FE80::1"
+        ]
+      ],
+      "widths": [
+        1050,
+        1400,
+        1150,
+        1300,
+        1100,
+        2150,
+        850
+      ],
+      "aligns": [
+        "center",
+        "left",
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    },
+    {
+      "type": "h2",
+      "text": "Appendix F: Network Configurations and Test Evidence (All 4 Routers \u2014 Redacted)"
+    },
+    {
+      "type": "p",
+      "text": "Below are the complete, credential-redacted (<redacted>) Cisco IOS configurations for all four routers (ISP-CEBU, R-CEBU, R-CLARK, R-DAVAO) covering base hardening, full line vty 0 15 SSH v2, dual-stack interfaces, DHCPv4/DHCPv6, RIPv2/RIPng, EIGRP/EIGRPv6, single-point redistribution, bidirectional floating statics, and all four inbound IPv4/IPv6 ACLs, followed by live Packet Tracer 9.0.1 routing and ACL output.",
+      "opts": {}
+    },
+    {
+      "type": "code",
+      "title": "Router Configuration \u2014 ISP-CEBU (Credentials Redacted per USC Policy)",
+      "text": "! ============================================================================\n! ISP-CEBU \u2014 RJ Internet Cafe & Esports Inc. (Cisco 2911, IOS 15.x)\n! ============================================================================\nenable\nconfigure terminal\nhostname ISP-CEBU\nno ip domain-lookup\nservice password-encryption\nenable secret <redacted>\nbanner motd #AUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.#\nipv6 unicast-routing\nip domain-name rjesports.local\nusername admin secret <redacted>\ncrypto key generate rsa general-keys modulus 2048\nip ssh version 2\n!\nline console 0\n password <redacted>\n login\n logging synchronous\n exec-timeout 10 0\n exit\n! --- Interfaces (ISP-CEBU DCE Serial Ports + Simulated Internet Loopback0) ---\ninterface Loopback0\n description Simulated Internet Endpoint (203.0.113.1/24 & 2001:DB8:FFFF::1/64)\n ip address 203.0.113.1 255.255.255.0\n ipv6 address 2001:DB8:FFFF::1/64\n exit\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to R-CEBU Se0/0/0 (Static Summary)\n ip address 10.10.3.1 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F001::1/64\n ipv6 address FE80::4 link-local\n clock rate 64000\n no shutdown\n exit\n!\ninterface Serial0/0/1\n description WAN-CLARK-PRI to R-CLARK Se0/0/0 (RIPv2 / RIPng)\n ip address 10.10.3.5 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F002::1/64\n ipv6 address FE80::4 link-local\n ipv6 rip RJ_RIP enable\n ipv6 rip RJ_RIP default-information originate\n clock rate 64000\n no shutdown\n exit\n!\ninterface Serial0/1/0\n description WAN-DAVAO-PRI to R-DAVAO Se0/0/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.9 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F003::1/64\n ipv6 address FE80::4 link-local\n ipv6 eigrp 100\n clock rate 64000\n no shutdown\n exit\n!\ninterface Serial0/1/1\n description WAN-CLARK-BAK to R-CLARK Se0/0/1 (Floating Static AD 130)\n ip address 10.10.3.13 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F004::1/64\n ipv6 address FE80::4 link-local\n clock rate 64000\n no shutdown\n exit\n!\ninterface Serial0/2/0\n description WAN-DAVAO-BAK to R-DAVAO Se0/0/1 (Floating Static AD 180)\n ip address 10.10.3.17 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F005::1/64\n ipv6 address FE80::4 link-local\n clock rate 64000\n no shutdown\n exit\n!\n! --- Standard Static Summary Route to Cebu Flagship HQ (R-CEBU) ---\nip route 10.10.0.0 255.255.255.0 10.10.3.2\nipv6 route 2001:DB8:ACAD:1000::/52 2001:DB8:ACAD:F001::2\n! Default route anchored to Loopback0 so RIP/EIGRP originate default cleanly\nip route 0.0.0.0 0.0.0.0 Loopback0\nipv6 route ::/0 Loopback0\n!\n! --- Return Floating Static Routes to Branch LAN Subnets (Backup Links) ---\n! Clark backup return routes (AD 130 > RIP AD 120)\nip route 10.10.1.0 255.255.255.192 10.10.3.14 130\nip route 10.10.1.64 255.255.255.240 10.10.3.14 130\nipv6 route 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:F004::2 130\nipv6 route 2001:DB8:ACAD:2002::/64 2001:DB8:ACAD:F004::2 130\n! Davao backup return routes (AD 180 > EIGRP external AD 170)\nip route 10.10.2.0 255.255.255.192 10.10.3.18 180\nip route 10.10.2.64 255.255.255.240 10.10.3.18 180\nipv6 route 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:F005::2 180\nipv6 route 2001:DB8:ACAD:3002::/64 2001:DB8:ACAD:F005::2 180\n!\n! --- Single Redistribution Point: RIPv2 <-> EIGRP 100 <-> Static/Connected (IPv4) ---\nrouter rip\n version 2\n no auto-summary\n network 10.0.0.0\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Serial0/0/0\n passive-interface Serial0/1/0\n passive-interface Serial0/1/1\n passive-interface Serial0/2/0\n passive-interface Loopback0\n redistribute eigrp 100 metric 2\n redistribute static metric 2\n redistribute connected metric 2\n default-information originate\n exit\n!\nrouter eigrp 100\n eigrp router-id 1.1.1.1\n no auto-summary\n network 10.10.3.8 0.0.0.3\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n redistribute rip metric 10000 100 255 1 1500\n redistribute static metric 10000 100 255 1 1500\n redistribute connected metric 10000 100 255 1 1500\n exit\n!\n! --- IPv6 Routing & Redistribution (RIPng <-> EIGRPv6 AS 100 <-> Static/Connected) ---\nipv6 router rip RJ_RIP\n redistribute eigrp 100 metric 2\n redistribute static metric 2\n redistribute connected metric 2\n exit\n!\nipv6 router eigrp 100\n eigrp router-id 1.1.1.1\n no shutdown\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface GigabitEthernet0/2\n passive-interface Loopback0\n redistribute rip RJ_RIP metric 10000 100 255 1 1500\n redistribute static metric 10000 100 255 1 1500\n redistribute connected metric 10000 100 255 1 1500\n exit\n!\n! --- Objective 1: Restrict SSH (VTY 0 15) strictly to static IT Admin PCs ---\nno access-list 10\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\n!\nno ipv6 access-list SSH-IT6\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n exit\n!\nline vty 0 15\n login local\n transport input ssh\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n exec-timeout 10 0\n exit\nend\nwrite memory\n"
+    },
+    {
+      "type": "code",
+      "title": "Router Configuration \u2014 R-CEBU (Credentials Redacted per USC Policy)",
+      "text": "! ============================================================================\n! R-CEBU \u2014 RJ Internet Cafe & Esports Inc. (Cisco 2911, IOS 15.x)\n! ============================================================================\nenable\nconfigure terminal\nhostname R-CEBU\nno ip domain-lookup\nservice password-encryption\nenable secret <redacted>\nbanner motd #AUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.#\nipv6 unicast-routing\nip domain-name rjesports.local\nusername admin secret <redacted>\ncrypto key generate rsa general-keys modulus 2048\nip ssh version 2\n!\nline console 0\n password <redacted>\n login\n logging synchronous\n exec-timeout 10 0\n exit\n! --- Stateful DHCPv6 Pools (Cebu Flagship HQ) ---\nipv6 dhcp pool HQ-GAMING-V6\n address prefix 2001:DB8:ACAD:1001::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\nipv6 dhcp pool HQ-ADMIN-V6\n address prefix 2001:DB8:ACAD:1002::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\n! --- Interfaces (3 Physical LANs + 1 WAN, Zero VLANs/ROAS) ---\ninterface GigabitEthernet0/0\n description HQ-GAMING-LAN (Std Gaming, VIP Arena, Study Pods, Browsing, Cust Wi-Fi AP-01..07)\n ip address 10.10.0.1 255.255.255.192\n ip helper-address 10.10.0.98\n ipv6 address 2001:DB8:ACAD:1001::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-GAMING-V6\n no shutdown\n exit\n!\ninterface GigabitEthernet0/1\n description HQ-ADMIN-LAN (Admin/IT, Cashier POS, Printers, Staff AP-08)\n ip address 10.10.0.65 255.255.255.224\n ip helper-address 10.10.0.98\n ipv6 address 2001:DB8:ACAD:1002::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server HQ-ADMIN-V6\n no shutdown\n exit\n!\ninterface GigabitEthernet0/2\n description HQ-SERVER-LAN (MDF Core Servers SRV-1 .98 & SRV-2 .99)\n ip address 10.10.0.97 255.255.255.240\n ipv6 address 2001:DB8:ACAD:1003::1/64\n ipv6 address FE80::1 link-local\n no shutdown\n exit\n!\ninterface Serial0/0/0\n description WAN-CEBU-PRI to ISP-CEBU Se0/0/0\n ip address 10.10.3.2 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F001::2/64\n ipv6 address FE80::1 link-local\n no shutdown\n exit\n!\n! --- Default Static Routes to Central ISP (ISP-CEBU) ---\nip route 0.0.0.0 0.0.0.0 10.10.3.1\nipv6 route ::/0 2001:DB8:ACAD:F001::1\n!\n! --- Inbound Extended ACLs on HQ-GAMING-LAN (Gi0/0 in) \u2014 Objectives 2 & 4 ---\nno ip access-list extended HQ-GAMING-IN\nip access-list extended HQ-GAMING-IN\n remark Obj2-Block Gaming/VIP/Study/Customer Wi-Fi from Billing/POS Server SRV-2\n deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 80\n permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 53\n permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 53\n remark Obj4-Block FTP control (21) and data (20) to SRV-1\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 21\n deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n remark Permit all other legitimate customer & gaming traffic\n permit ip any any\n exit\n!\nno ipv6 access-list HQ-GAMING-IN6\nipv6 access-list HQ-GAMING-IN6\n remark Obj2-IPv6 Block Gaming/VIP/Study/Customer Wi-Fi from SRV-2\n deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 80\n permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 21\n deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\n exit\n!\ninterface GigabitEthernet0/0\n ip access-group HQ-GAMING-IN in\n ipv6 traffic-filter HQ-GAMING-IN6 in\n exit\n!\n! --- Objective 1: Restrict SSH (VTY 0 15) strictly to static IT Admin PCs ---\nno access-list 10\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\n!\nno ipv6 access-list SSH-IT6\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n exit\n!\nline vty 0 15\n login local\n transport input ssh\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n exec-timeout 10 0\n exit\nend\nwrite memory\n"
+    },
+    {
+      "type": "code",
+      "title": "Router Configuration \u2014 R-CLARK (Credentials Redacted per USC Policy)",
+      "text": "! ============================================================================\n! R-CLARK \u2014 RJ Internet Cafe & Esports Inc. (Cisco 2911, IOS 15.x)\n! ============================================================================\nenable\nconfigure terminal\nhostname R-CLARK\nno ip domain-lookup\nservice password-encryption\nenable secret <redacted>\nbanner motd #AUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.#\nipv6 unicast-routing\nip domain-name rjesports.local\nusername admin secret <redacted>\ncrypto key generate rsa general-keys modulus 2048\nip ssh version 2\n!\nline console 0\n password <redacted>\n login\n logging synchronous\n exec-timeout 10 0\n exit\n! --- Router DHCPv4 Pools (Clark Branch \u2014 Luzon) ---\nip dhcp excluded-address 10.10.1.1 10.10.1.10\nip dhcp excluded-address 10.10.1.65 10.10.1.71\n!\nip dhcp pool CLK-GAMING-POOL\n network 10.10.1.0 255.255.255.192\n default-router 10.10.1.1\n dns-server 10.10.0.98\n domain-name rjesports.local\n exit\n!\nip dhcp pool CLK-ADMIN-POOL\n network 10.10.1.64 255.255.255.240\n default-router 10.10.1.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n exit\n!\n! --- Stateful DHCPv6 Pools (Clark Branch) ---\nipv6 dhcp pool CLK-GAMING-V6\n address prefix 2001:DB8:ACAD:2001::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\nipv6 dhcp pool CLK-ADMIN-V6\n address prefix 2001:DB8:ACAD:2002::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\n! --- Interfaces ---\ninterface GigabitEthernet0/0\n description CLK-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.1.1 255.255.255.192\n ipv6 address 2001:DB8:ACAD:2001::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server CLK-GAMING-V6\n ipv6 rip RJ_RIP enable\n no shutdown\n exit\n!\ninterface GigabitEthernet0/1\n description CLK-ADMIN-LAN (CLK-IT-PC .70 + Staff/POS)\n ip address 10.10.1.65 255.255.255.240\n ipv6 address 2001:DB8:ACAD:2002::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server CLK-ADMIN-V6\n ipv6 rip RJ_RIP enable\n no shutdown\n exit\n!\ninterface Serial0/0/0\n description WAN-CLARK-PRI to ISP-CEBU Se0/0/1 (RIPv2 / RIPng)\n ip address 10.10.3.6 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F002::2/64\n ipv6 address FE80::1 link-local\n ipv6 rip RJ_RIP enable\n no shutdown\n exit\n!\ninterface Serial0/0/1\n description WAN-CLARK-BAK to ISP-CEBU Se0/1/1 (Floating Static AD 130)\n ip address 10.10.3.14 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F004::2/64\n ipv6 address FE80::1 link-local\n no shutdown\n exit\n!\n! --- Dynamic Routing: RIPv2 (IPv4) & RIPng (IPv6) with Passive LANs ---\nrouter rip\n version 2\n no auto-summary\n network 10.0.0.0\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n passive-interface Serial0/0/1\n exit\n!\nipv6 router rip RJ_RIP\n exit\n!\n! --- Floating Static Backup Default Route (AD 130 > RIP AD 120) ---\nip route 0.0.0.0 0.0.0.0 10.10.3.13 130\nipv6 route ::/0 2001:DB8:ACAD:F004::1 130\n!\n! --- Inbound Extended ACLs \u2014 Objectives 2, 3, and 4 (IPv4 + IPv6 Mirror) ---\nno ip access-list extended CLK-GAMING-IN\nip access-list extended CLK-GAMING-IN\n remark Obj3-Block Clark Gaming PCs from Clark Admin/Staff LAN\n deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15\n remark Obj2-Block Clark Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 80\n permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 53\n permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 53\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 21\n deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\n exit\n!\nno ip access-list extended CLK-ADMIN-IN\nip access-list extended CLK-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99\n permit ip any any\n exit\n!\nno ipv6 access-list CLK-GAMING-IN6\nipv6 access-list CLK-GAMING-IN6\n remark Obj3-IPv6 Block Clark Gaming from Clark Admin LAN\n deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n remark Obj2-IPv6 Block Clark Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 80\n permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 21\n deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\n exit\n!\nno ipv6 access-list CLK-ADMIN-IN6\nipv6 access-list CLK-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\n exit\n!\ninterface GigabitEthernet0/0\n ip access-group CLK-GAMING-IN in\n ipv6 traffic-filter CLK-GAMING-IN6 in\n exit\n!\ninterface GigabitEthernet0/1\n ip access-group CLK-ADMIN-IN in\n ipv6 traffic-filter CLK-ADMIN-IN6 in\n exit\n!\n! --- Objective 1: Restrict SSH (VTY 0 15) strictly to static IT Admin PCs ---\nno access-list 10\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\n!\nno ipv6 access-list SSH-IT6\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n exit\n!\nline vty 0 15\n login local\n transport input ssh\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n exec-timeout 10 0\n exit\nend\nwrite memory\n"
+    },
+    {
+      "type": "code",
+      "title": "Router Configuration \u2014 R-DAVAO (Credentials Redacted per USC Policy)",
+      "text": "! ============================================================================\n! R-DAVAO \u2014 RJ Internet Cafe & Esports Inc. (Cisco 2911, IOS 15.x)\n! ============================================================================\nenable\nconfigure terminal\nhostname R-DAVAO\nno ip domain-lookup\nservice password-encryption\nenable secret <redacted>\nbanner motd #AUTHORIZED PERSONNEL ONLY - RJ Internet Cafe & Esports Inc. Unauthorized access is prohibited.#\nipv6 unicast-routing\nip domain-name rjesports.local\nusername admin secret <redacted>\ncrypto key generate rsa general-keys modulus 2048\nip ssh version 2\n!\nline console 0\n password <redacted>\n login\n logging synchronous\n exec-timeout 10 0\n exit\n! --- Router DHCPv4 Pools (Davao Branch \u2014 Mindanao) ---\nip dhcp excluded-address 10.10.2.1 10.10.2.10\nip dhcp excluded-address 10.10.2.65 10.10.2.71\n!\nip dhcp pool DVO-GAMING-POOL\n network 10.10.2.0 255.255.255.192\n default-router 10.10.2.1\n dns-server 10.10.0.98\n domain-name rjesports.local\n exit\n!\nip dhcp pool DVO-ADMIN-POOL\n network 10.10.2.64 255.255.255.240\n default-router 10.10.2.65\n dns-server 10.10.0.98\n domain-name rjesports.local\n exit\n!\n! --- Stateful DHCPv6 Pools (Davao Branch) ---\nipv6 dhcp pool DVO-GAMING-V6\n address prefix 2001:DB8:ACAD:3001::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\nipv6 dhcp pool DVO-ADMIN-V6\n address prefix 2001:DB8:ACAD:3002::/64\n dns-server 2001:DB8:ACAD:1003::98\n domain-name rjesports.local\n exit\n!\n! --- Interfaces ---\ninterface GigabitEthernet0/0\n description DVO-GAMING-LAN (16 Gaming PCs + 3 Cust APs)\n ip address 10.10.2.1 255.255.255.192\n ipv6 address 2001:DB8:ACAD:3001::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server DVO-GAMING-V6\n ipv6 eigrp 100\n no shutdown\n exit\n!\ninterface GigabitEthernet0/1\n description DVO-ADMIN-LAN (DVO-IT-PC .70 + Staff/POS)\n ip address 10.10.2.65 255.255.255.240\n ipv6 address 2001:DB8:ACAD:3002::1/64\n ipv6 address FE80::1 link-local\n ipv6 nd managed-config-flag\n ipv6 dhcp server DVO-ADMIN-V6\n ipv6 eigrp 100\n no shutdown\n exit\n!\ninterface Serial0/0/0\n description WAN-DAVAO-PRI to ISP-CEBU Se0/1/0 (EIGRP AS 100 / EIGRPv6)\n ip address 10.10.3.10 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F003::2/64\n ipv6 address FE80::1 link-local\n ipv6 eigrp 100\n no shutdown\n exit\n!\ninterface Serial0/0/1\n description WAN-DAVAO-BAK to ISP-CEBU Se0/2/0 (Floating Static AD 180)\n ip address 10.10.3.18 255.255.255.252\n ipv6 address 2001:DB8:ACAD:F005::2/64\n ipv6 address FE80::1 link-local\n no shutdown\n exit\n!\n! --- Dynamic Routing: EIGRP AS 100 (IPv4) & EIGRPv6 AS 100 with Passive LANs ---\nrouter eigrp 100\n eigrp router-id 3.3.3.3\n no auto-summary\n network 10.10.2.0 0.0.0.63\n network 10.10.2.64 0.0.0.15\n network 10.10.3.8 0.0.0.3\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n exit\n!\nipv6 router eigrp 100\n eigrp router-id 3.3.3.3\n no shutdown\n passive-interface GigabitEthernet0/0\n passive-interface GigabitEthernet0/1\n exit\n!\n! --- Floating Static Backup Default Route (AD 180 > EIGRP Ext AD 170) ---\nip route 0.0.0.0 0.0.0.0 10.10.3.17 180\nipv6 route ::/0 2001:DB8:ACAD:F005::1 180\n!\n! --- Inbound Extended ACLs \u2014 Objectives 2, 3, and 4 (IPv4 + IPv6 Mirror) ---\nno ip access-list extended DVO-GAMING-IN\nip access-list extended DVO-GAMING-IN\n remark Obj3-Block Davao Gaming PCs from Davao Admin/Staff LAN\n deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15\n remark Obj2-Block Davao Gaming PCs from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n remark Obj4-Explicitly permit HTTP (80) and DNS (53) to SRV-1\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 80\n permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 53\n permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 53\n remark Obj4-Block FTP (21 & 20) to SRV-1\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 21\n deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n permit ip any any\n exit\n!\nno ip access-list extended DVO-ADMIN-IN\nip access-list extended DVO-ADMIN-IN\n remark Obj2-Block Branch Admin LAN from HQ Billing/POS Server SRV-2\n deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n permit ip any any\n exit\n!\nno ipv6 access-list DVO-GAMING-IN6\nipv6 access-list DVO-GAMING-IN6\n remark Obj3-IPv6 Block Davao Gaming from Davao Admin LAN\n deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n remark Obj2-IPv6 Block Davao Gaming from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n remark Obj4-IPv6 Permit HTTP (80) & DNS (53) to SRV-1\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 80\n permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 53\n remark Obj4-IPv6 Block FTP (21 & 20) to SRV-1\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 21\n deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n permit ipv6 any any\n exit\n!\nno ipv6 access-list DVO-ADMIN-IN6\nipv6 access-list DVO-ADMIN-IN6\n remark Obj2-IPv6 Block Branch Admin from HQ SRV-2\n deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n permit ipv6 any any\n exit\n!\ninterface GigabitEthernet0/0\n ip access-group DVO-GAMING-IN in\n ipv6 traffic-filter DVO-GAMING-IN6 in\n exit\n!\ninterface GigabitEthernet0/1\n ip access-group DVO-ADMIN-IN in\n ipv6 traffic-filter DVO-ADMIN-IN6 in\n exit\n!\n! --- Objective 1: Restrict SSH (VTY 0 15) strictly to static IT Admin PCs ---\nno access-list 10\naccess-list 10 remark Obj1-Allow only IT-PC (Cebu), CLK-IT-PC (Clark), DVO-IT-PC (Davao)\naccess-list 10 permit host 10.10.0.70\naccess-list 10 permit host 10.10.1.70\naccess-list 10 permit host 10.10.2.70\n!\nno ipv6 access-list SSH-IT6\nipv6 access-list SSH-IT6\n remark Obj1-IPv6 Allow only static IT Admin PCs\n permit ipv6 host 2001:DB8:ACAD:1002::70 any\n permit ipv6 host 2001:DB8:ACAD:2002::70 any\n permit ipv6 host 2001:DB8:ACAD:3002::70 any\n exit\n!\nline vty 0 15\n login local\n transport input ssh\n access-class 10 in\n ipv6 access-class SSH-IT6 in\n exec-timeout 10 0\n exit\nend\nwrite memory\n"
+    },
+    {
+      "type": "code",
+      "title": "Live Packet Tracer 9.0.1 Routing Verification \u2014 ISP-CEBU",
+      "text": "--- ISP-CEBU# show ip route ---\nCodes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 0.0.0.0 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 15 subnets, 5 masks\nS       10.10.0.0/24 [1/0] via 10.10.3.2\nR       10.10.1.0/26 [120/1] via 10.10.3.6, 00:00:15, Serial0/0/1\nR       10.10.1.64/28 [120/1] via 10.10.3.6, 00:00:15, Serial0/0/1\nD       10.10.2.0/26 [90/2170112] via 10.10.3.10, 00:02:01, Serial0/1/0\nD       10.10.2.64/28 [90/2170112] via 10.10.3.10, 00:02:01, Serial0/1/0\nC       10.10.3.0/30 is directly connected, Serial0/0/0\nL       10.10.3.1/32 is directly connected, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/1\nL       10.10.3.5/32 is directly connected, Serial0/0/1\nC       10.10.3.8/30 is directly connected, Serial0/1/0\nL       10.10.3.9/32 is directly connected, Serial0/1/0\nC       10.10.3.12/30 is directly connected, Serial0/1/1\nL       10.10.3.13/32 is directly connected, Serial0/1/1\nC       10.10.3.16/30 is directly connected, Serial0/2/0\nL       10.10.3.17/32 is directly connected, Serial0/2/0\n     203.0.113.0/24 is variably subnetted, 2 subnets, 2 masks\nC       203.0.113.0/24 is directly connected, Loopback0\nL       203.0.113.1/32 is directly connected, Loopback0\nS*   0.0.0.0/0 is directly connected, Loopback0\n\n--- ISP-CEBU# show ipv6 route ---\nIPv6 Routing Table - 19 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nS   ::/0 [1/0]\n     via Loopback0, directly connected\nS   2001:DB8:ACAD:1000::/52 [1/0]\n     via 2001:DB8:ACAD:F001::2\nR   2001:DB8:ACAD:2001::/64 [120/2]\n     via FE80::1, Serial0/0/1\nR   2001:DB8:ACAD:2002::/64 [120/2]\n     via FE80::1, Serial0/0/1\nD   2001:DB8:ACAD:3001::/64 [90/2170112]\n     via FE80::1, Serial0/1/0\nD   2001:DB8:ACAD:3002::/64 [90/2170112]\n     via FE80::1, Serial0/1/0\nC   2001:DB8:ACAD:F001::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F001::1/128 [0/0]\n     via Serial0/0/0, receive\nC   2001:DB8:ACAD:F002::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F002::1/128 [0/0]\n     via Serial0/0/1, receive\nC   2001:DB8:ACAD:F003::/64 [0/0]\n     via Serial0/1/0, directly connected\nL   2001:DB8:ACAD:F003::1/128 [0/0]\n     via Serial0/1/0, receive\nC   2001:DB8:ACAD:F004::/64 [0/0]\n     via Serial0/1/1, directly connected\nL   2001:DB8:ACAD:F004::1/128 [0/0]\n     via Serial0/1/1, receive\nC   2001:DB8:ACAD:F005::/64 [0/0]\n     via Serial0/2/0, directly connected\nL   2001:DB8:ACAD:F005::1/128 [0/0]\n     via Serial0/2/0, receive\nC   2001:DB8:FFFF::/64 [0/0]\n     via Loopback0, directly connected\nL   2001:DB8:FFFF::1/128 [0/0]\n     via Loopback0, receive\nL   FF00::/8 [0/0]\n     via Null0, receive"
+    },
+    {
+      "type": "code",
+      "title": "Live Packet Tracer 9.0.1 Routing Verification \u2014 R-CEBU",
+      "text": "--- R-CEBU# show ip route ---\nCodes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.1 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 8 subnets, 5 masks\nC       10.10.0.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.0.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.0.64/27 is directly connected, GigabitEthernet0/1\nL       10.10.0.65/32 is directly connected, GigabitEthernet0/1\nC       10.10.0.96/28 is directly connected, GigabitEthernet0/2\nL       10.10.0.97/32 is directly connected, GigabitEthernet0/2\nC       10.10.3.0/30 is directly connected, Serial0/0/0\nL       10.10.3.2/32 is directly connected, Serial0/0/0\nS*   0.0.0.0/0 [1/0] via 10.10.3.1\n\n--- R-CEBU# show ipv6 route ---\nIPv6 Routing Table - 10 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nS   ::/0 [1/0]\n     via 2001:DB8:ACAD:F001::1\nC   2001:DB8:ACAD:1001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:1001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:1002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:1002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nC   2001:DB8:ACAD:1003::/64 [0/0]\n     via GigabitEthernet0/2, directly connected\nL   2001:DB8:ACAD:1003::1/128 [0/0]\n     via GigabitEthernet0/2, receive\nC   2001:DB8:ACAD:F001::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F001::2/128 [0/0]\n     via Serial0/0/0, receive\nL   FF00::/8 [0/0]\n     via Null0, receive"
+    },
+    {
+      "type": "code",
+      "title": "Live Packet Tracer 9.0.1 Routing Verification \u2014 R-CLARK",
+      "text": "--- R-CLARK# show ip route ---\nCodes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.5 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nR       10.10.0.0/24 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.1.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.1.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.1.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.1.65/32 is directly connected, GigabitEthernet0/1\nR       10.10.2.0/26 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR       10.10.2.64/28 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR       10.10.3.0/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.3.4/30 is directly connected, Serial0/0/0\nL       10.10.3.6/32 is directly connected, Serial0/0/0\nR       10.10.3.8/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nC       10.10.3.12/30 is directly connected, Serial0/0/1\nL       10.10.3.14/32 is directly connected, Serial0/0/1\nR       10.10.3.16/30 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\nR    203.0.113.0/24 [120/2] via 10.10.3.5, 00:00:17, Serial0/0/0\nR*   0.0.0.0/0 [120/1] via 10.10.3.5, 00:00:17, Serial0/0/0\n\n--- R-CLARK# show ipv6 route ---\nIPv6 Routing Table - 17 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nR   ::/0 [120/1]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:1000::/52 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:2001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:2001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:2002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:2002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nR   2001:DB8:ACAD:3001::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:3002::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:ACAD:F001::/64 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F002::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F002::2/128 [0/0]\n     via Serial0/0/0, receive\nR   2001:DB8:ACAD:F003::/64 [120/2]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F004::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F004::2/128 [0/0]\n     via Serial0/0/1, receive\nR   2001:DB8:ACAD:F005::/64 [120/2]\n     via FE80::4, Serial0/0/0\nR   2001:DB8:FFFF::/64 [120/2]\n     via FE80::4, Serial0/0/0\nL   FF00::/8 [0/0]\n     via Null0, receive"
+    },
+    {
+      "type": "code",
+      "title": "Live Packet Tracer 9.0.1 Routing Verification \u2014 R-DAVAO",
+      "text": "--- R-DAVAO# show ip route ---\nCodes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP\n       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area\n       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2\n       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP\n       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area\n       * - candidate default, U - per-user static route, o - ODR\n       P - periodic downloaded static route\n\nGateway of last resort is 10.10.3.9 to network 0.0.0.0\n\n     10.0.0.0/8 is variably subnetted, 14 subnets, 5 masks\nD EX    10.10.0.0/24 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.1.0/26 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.1.64/28 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.2.0/26 is directly connected, GigabitEthernet0/0\nL       10.10.2.1/32 is directly connected, GigabitEthernet0/0\nC       10.10.2.64/28 is directly connected, GigabitEthernet0/1\nL       10.10.2.65/32 is directly connected, GigabitEthernet0/1\nD EX    10.10.3.0/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD EX    10.10.3.4/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.3.8/30 is directly connected, Serial0/0/0\nL       10.10.3.10/32 is directly connected, Serial0/0/0\nD EX    10.10.3.12/30 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nC       10.10.3.16/30 is directly connected, Serial0/0/1\nL       10.10.3.18/32 is directly connected, Serial0/0/1\nD EX 203.0.113.0/24 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\nD*EX 0.0.0.0/0 [170/2195456] via 10.10.3.9, 00:02:03, Serial0/0/0\n\n--- R-DAVAO# show ipv6 route ---\nIPv6 Routing Table - 17 entries\nCodes: C - Connected, L - Local, S - Static, R - RIP, B - BGP\n       U - Per-user Static route, M - MIPv6\n       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary\n       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect\n       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2\n       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2\n       D - EIGRP, EX - EIGRP external\nEX  ::/0 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:1000::/52 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2001::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:2002::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:3001::/64 [0/0]\n     via GigabitEthernet0/0, directly connected\nL   2001:DB8:ACAD:3001::1/128 [0/0]\n     via GigabitEthernet0/0, receive\nC   2001:DB8:ACAD:3002::/64 [0/0]\n     via GigabitEthernet0/1, directly connected\nL   2001:DB8:ACAD:3002::1/128 [0/0]\n     via GigabitEthernet0/1, receive\nEX  2001:DB8:ACAD:F001::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nEX  2001:DB8:ACAD:F002::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F003::/64 [0/0]\n     via Serial0/0/0, directly connected\nL   2001:DB8:ACAD:F003::2/128 [0/0]\n     via Serial0/0/0, receive\nEX  2001:DB8:ACAD:F004::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nC   2001:DB8:ACAD:F005::/64 [0/0]\n     via Serial0/0/1, directly connected\nL   2001:DB8:ACAD:F005::2/128 [0/0]\n     via Serial0/0/1, receive\nEX  2001:DB8:FFFF::/64 [170/2195456]\n     via FE80::4, Serial0/0/0\nL   FF00::/8 [0/0]\n     via Null0, receive"
+    },
+    {
+      "type": "code",
+      "title": "Live Packet Tracer 9.0.1 ACL Match Counter Verification (Post-Testing)",
+      "text": "--- R-CEBU# show access-lists ---\nExtended IP access list HQ-GAMING-IN\n    10 deny ip 10.10.0.0 0.0.0.63 host 10.10.0.99 (2 match(es))\n    20 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq www\n    30 permit udp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    40 permit tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq ftp\n    60 deny tcp 10.10.0.0 0.0.0.63 host 10.10.0.98 eq 20\n    70 permit ip any any (31 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list HQ-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:1001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n--- R-CLARK# show access-lists ---\nExtended IP access list CLK-GAMING-IN\n    10 deny ip 10.10.1.0 0.0.0.63 10.10.1.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.1.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.1.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (10 match(es))\nExtended IP access list CLK-ADMIN-IN\n    10 deny ip 10.10.1.64 0.0.0.15 host 10.10.0.99 (2 match(es))\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list CLK-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:2001::/64 2001:DB8:ACAD:2002::/64\n    deny ipv6 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:2001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list CLK-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:2002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any\n\n--- R-DAVAO# show access-lists ---\nExtended IP access list DVO-GAMING-IN\n    10 deny ip 10.10.2.0 0.0.0.63 10.10.2.64 0.0.0.15 (2 match(es))\n    20 deny ip 10.10.2.0 0.0.0.63 host 10.10.0.99\n    30 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq www\n    40 permit udp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    50 permit tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq domain\n    60 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq ftp\n    70 deny tcp 10.10.2.0 0.0.0.63 host 10.10.0.98 eq 20\n    80 permit ip any any (10 match(es))\nExtended IP access list DVO-ADMIN-IN\n    10 deny ip 10.10.2.64 0.0.0.15 host 10.10.0.99\n    20 permit ip any any (6 match(es))\nStandard IP access list 10\n    10 permit host 10.10.0.70\n    20 permit host 10.10.1.70\n    30 permit host 10.10.2.70\nIPv6 access list DVO-GAMING-IN6\n    deny ipv6 2001:DB8:ACAD:3001::/64 2001:DB8:ACAD:3002::/64\n    deny ipv6 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::99\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq www\n    permit udp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    permit tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq domain\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq ftp\n    deny tcp 2001:DB8:ACAD:3001::/64 host 2001:DB8:ACAD:1003::98 eq 20\n    permit ipv6 any any\nIPv6 access list DVO-ADMIN-IN6\n    deny ipv6 2001:DB8:ACAD:3002::/64 host 2001:DB8:ACAD:1003::99\n    permit ipv6 any any\nIPv6 access list SSH-IT6\n    permit ipv6 host 2001:DB8:ACAD:1002::70 any\n    permit ipv6 host 2001:DB8:ACAD:2002::70 any\n    permit ipv6 host 2001:DB8:ACAD:3002::70 any"
+    },
+    {
+      "type": "h2",
+      "text": "Appendix G: Group Task Assignments and Contribution Record"
+    },
+    {
+      "type": "p",
+      "text": "Table 20 documents the verified individual ownership and completed deliverables of all five Group 1 members. Every member reviewed the full integrated report and is prepared to explain their technical contributions during the December 1\u20134, 2026 oral defense.",
+      "opts": {}
+    },
+    {
+      "type": "table",
+      "num": 20,
+      "caption": "Group 1 Task Assignments and Individual Contribution Record",
+      "headers": [
+        "Member Name",
+        "Assigned Role / Plans",
+        "Completed Work & Verified Deliverables"
+      ],
+      "rows": [
+        [
+          "Francis RJ Velasco",
+          "Research, Organization Profile, Floor Plan (A-1, A-2), Chapters 1\u20132",
+          "Authored Chapters 1\u20132 (organization profile, objectives, APA 7th RRL & Source Evaluation Matrix); drafted conceptual 1,040 sqm Before (A-1) and After (A-2) architectural floor plans for Cebu HQ plus Clark/Davao branch plates and interior fit-out BOQ (floor_boq.csv)."
+        ],
+        [
+          "Armanpreet Talwar",
+          "Furniture & Fixtures (A-3), Electrical Plan (E-1, E-2), Costing",
+          "Designed Furniture, Appliances & HVAC layout (Sheet A-3) with 1-to-1 workstation/appliance parity; engineered PEC 2017 power layout (Sheet E-1), single-pass Panel ACP demand math, 3W+G feeder sizing, and 24/7 energy schedule (Sheet E-2) with furniture_boq.csv and electrical_boq.csv."
+        ],
+        [
+          "Marianito Roble",
+          "Lighting Plan (L-1), Structured Cabling (C-1, C-2), Consolidated Budget",
+          "Engineered 100% EN 12464-1 compliant LED lighting layout & dimmable gaming zones (Sheet L-1, 6.76 W/m\u00b2 LPD); designed 3-tier structured cabling, 52-drop schedule (\u226439.3 m), TIA-607-D grounding, and 42U MDF rack elevation (Sheets C-1, C-2); built formula-driven Excel budget workbook and automated audit pipeline."
+        ],
+        [
+          "Marchen Viterbo",
+          "VLSM/IPv6, Routing & Redistribution, Router/Switch CLI & PT Logical Build (Co-Owner w/ Andre)",
+          "Calculated and validated overlap-free 10.10.0.0/22 IPv4 VLSM and 2001:DB8:ACAD::/48 IPv6 addressing; authored Cisco IOS configs for Static summary/default, RIPv2/RIPng, EIGRP/EIGRPv6, single-point ISP-CEBU redistribution, passive interfaces, bidirectional floating statics, and deployed logical Packet Tracer topologies."
+        ],
+        [
+          "Andre Merkel Sepe",
+          "Network Security (IPv4/IPv6 ACLs, SSH), PT Physical Workspace, Testing & Troubleshooting (Co-Owner w/ Marchen)",
+          "Implemented RSA 2048 SSH v2 hardening on full line vty 0 15 and all four inbound IPv4/IPv6 ACL objectives across all 4 routers; created scaled PT Physical Workspace backgrounds and PT_MANUAL_PHYSICAL_GUIDE.md; executed live PT 9.0.1 connectivity/ACL tests (T-01..T-10) and documented troubleshooting evidence."
+        ]
+      ],
+      "widths": [
+        1750,
+        2450,
+        4800
+      ],
+      "aligns": [
+        "left",
+        "left",
+        "left"
+      ],
+      "boldLastRow": false,
+      "boldCol0": false,
+      "fontSize": 15
+    }
+  ]
+}

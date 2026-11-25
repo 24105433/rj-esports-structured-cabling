@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1120" viewBox="0 0 1680 1120">
+<defs></defs>
+<rect x="0.0" y="0.0" width="1680.0" height="1120.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<rect x="22.0" y="22.0" width="1636.0" height="1076.0" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="2.4"/>
+<rect x="27.0" y="27.0" width="1626.0" height="1066.0" fill="none" stroke="#1B2A4A" stroke-width="0.8"/>
+<line x1="92.0" y1="82.0" x2="92.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="92.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="72.0">A</tspan></text>
+<line x1="308.0" y1="82.0" x2="308.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="308.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="72.0">B</tspan></text>
+<line x1="524.0" y1="82.0" x2="524.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="524.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="524.0" y="72.0">C</tspan></text>
+<line x1="740.0" y1="82.0" x2="740.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="740.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="740.0" y="72.0">D</tspan></text>
+<line x1="956.0" y1="82.0" x2="956.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="956.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="956.0" y="72.0">E</tspan></text>
+<line x1="1172.0" y1="82.0" x2="1172.0" y2="92.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="1172.0" cy="72.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1172.0" y="72.0">F</tspan></text>
+<line x1="78.0" y1="96.0" x2="88.0" y2="96.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="96.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="96.0">1</tspan></text>
+<line x1="78.0" y1="271.5" x2="88.0" y2="271.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="271.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="271.5">2</tspan></text>
+<line x1="78.0" y1="447.0" x2="88.0" y2="447.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="447.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="447.0">3</tspan></text>
+<line x1="78.0" y1="622.5" x2="88.0" y2="622.5" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="622.5" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="622.5">4</tspan></text>
+<line x1="78.0" y1="798.0" x2="88.0" y2="798.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="68.0" cy="798.0" r="9.5" fill="#F8FAFC" stroke="#64748B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="68.0" y="798.0">5</tspan></text>
+<line x1="92.0" y1="50.0" x2="1172.0" y2="50.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="92.0" y1="44.0" x2="92.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="1172.0" y1="44.0" x2="1172.0" y2="56.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="574.0" y="41.0" width="116.0" height="18.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="632.0" y="50.0">40.00 m (1,040.0 sqm)</tspan></text>
+<line x1="44.0" y1="96.0" x2="44.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="96.0" x2="50.0" y2="96.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.0" y1="798.0" x2="50.0" y2="798.0" stroke="#0F172A" stroke-width="1.1" stroke-linecap="round"/>
+<rect x="28.0" y="433.0" width="32.0" height="28.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="44.0" y="441.2">26.0</tspan><tspan x="44.0" y="452.8">m</tspan></text>
+<line x1="92.0" y1="824.0" x2="1172.0" y2="824.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="92.0" y1="819.0" x2="92.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="227.0" y="837.0">10.0 m</tspan></text>
+<line x1="362.0" y1="819.0" x2="362.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="470.0" y="837.0">8.0 m</tspan></text>
+<line x1="578.0" y1="819.0" x2="578.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="837.0">5.0 m</tspan></text>
+<line x1="713.0" y1="819.0" x2="713.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="767.0" y="837.0">4.0 m</tspan></text>
+<line x1="821.0" y1="819.0" x2="821.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="837.0">6.0 m</tspan></text>
+<line x1="983.0" y1="819.0" x2="983.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="1172.0" y1="819.0" x2="1172.0" y2="829.0" stroke="#475569" stroke-width="0.9" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1077.5" y="837.0">7.0 m</tspan></text>
+<rect x="159.5" y="795.0" width="108.0" height="7.0" fill="#0EA5E9" stroke="#0369A1" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#0369A1" text-anchor="middle" dominant-baseline="central"><tspan x="213.5" y="850.0">MAIN GLASS ENTRANCE (SOUTH)</tspan></text>
+<rect x="88.0" y="425.4" width="7.0" height="43.2" fill="#EF4444" stroke="#991B1B" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="154.0" y="447.0">FIRE EXIT W</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="92.0" y="864.0">GRAPHIC SCALE (METERS)</tspan></text>
+<rect x="92.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="92.0" y="894.0">0</tspan></text>
+<rect x="146.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="146.0" y="894.0">2</tspan></text>
+<rect x="200.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="200.0" y="894.0">4</tspan></text>
+<rect x="254.0" y="876.0" width="54.0" height="8.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="254.0" y="894.0">6</tspan></text>
+<rect x="308.0" y="876.0" width="54.0" height="8.0" fill="#1E293B" stroke="#1E293B" stroke-width="0.9"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="308.0" y="894.0">8</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="362.0" y="894.0">10 m</tspan></text>
+<circle cx="1127.0" cy="870.0" r="22.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.2"/>
+<polygon points="1127.0,852.0 1120.0,874.0 1127.0,868.0 1134.0,874.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="middle" dominant-baseline="central"><tspan x="1127.0" y="882.0">N</tspan></text>
+<rect x="92.0" y="96.0" width="486.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="96.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="794.0" y="96.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="96.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="258.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="420.0" width="972.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1064.0" y="420.0" width="108.0" height="54.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="474.0" width="270.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="362.0" y="474.0" width="216.0" height="324.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="474.0" width="135.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="713.0" y="474.0" width="108.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="474.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1077.5" y="474.0" width="94.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="578.0" y="636.0" width="243.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="821.0" y="636.0" width="162.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="983.0" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1050.5" y="636.0" width="54.0" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="1104.5" y="636.0" width="67.5" height="162.0" fill="#FAFAFA" stroke="#334155" stroke-width="1.1"/>
+<rect x="92.0" y="96.0" width="1080.0" height="702.0" fill="none" stroke="#0F172A" stroke-width="3.2"/>
+<line x1="303.9" y1="420.0" x2="339.1" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="303.9" y1="420.0" x2="303.9" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="690.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="655.0" y1="420.0" x2="655.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="933.0" y2="420.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="898.0" y1="420.0" x2="898.0" y2="395.7" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="244.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="209.4" y1="474.0" x2="209.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="487.6" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="452.4" y1="474.0" x2="452.4" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="649.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="614.5" y1="474.0" x2="614.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="779.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="744.1" y1="474.0" x2="744.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="914.1" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="879.1" y1="474.0" x2="879.1" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1041.0" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1006.0" y1="474.0" x2="1006.0" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1135.5" y2="474.0" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="1100.5" y1="474.0" x2="1100.5" y2="498.3" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="770.6" y="497.4" width="36.0" height="18.0" fill="#DC2626" stroke="#7F1D1D" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="788.6" y="506.4">MDP</tspan></text>
+<rect x="770.6" y="535.2" width="36.0" height="18.0" fill="#DC2626" stroke="#7F1D1D" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="788.6" y="544.2">PP-1</tspan></text>
+<rect x="770.6" y="573.0" width="36.0" height="18.0" fill="#DC2626" stroke="#7F1D1D" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="788.6" y="582.0">LP-1</tspan></text>
+<rect x="722.0" y="497.4" width="36.0" height="18.0" fill="#DC2626" stroke="#7F1D1D" stroke-width="1.3" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="740.0" y="506.4">ACP</tspan></text>
+<polyline points="788.6,506.4 788.6,461.9 132.5,461.9" fill="none" stroke="#DC2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788.6,461.9 1050.5,461.9" fill="none" stroke="#DC2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="221.6" y="429.4" width="320.0" height="16.0" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="0.8" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.2" font-weight="700" font-style="normal" fill="#B91C1C" text-anchor="middle" dominant-baseline="central"><tspan x="381.6" y="437.4">POWER CONDUIT SPINE (Y=13.55m — ≥1.1m FROM DATA TRAY)</tspan></text>
+<line x1="151.4" y1="461.9" x2="151.4" y2="155.4" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="313.4" y1="461.9" x2="313.4" y2="155.4" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="475.4" y1="461.9" x2="475.4" y2="155.4" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="864.2" y1="461.9" x2="864.2" y2="155.4" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="993.8" y1="461.9" x2="993.8" y2="155.4" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="205.4" y1="461.9" x2="205.4" y2="609.0" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="470.0" y1="461.9" x2="470.0" y2="690.0" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="645.5" y1="461.9" x2="645.5" y2="514.5" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="699.5" y1="461.9" x2="699.5" y2="676.5" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="902.0" y1="461.9" x2="902.0" y2="676.5" stroke="#EF4444" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<circle cx="151.4" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="153.4" x2="156.9" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="157.4" x2="156.9" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="232.4" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="226.9" y1="153.4" x2="237.9" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="226.9" y1="157.4" x2="237.9" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="313.4" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="307.9" y1="153.4" x2="318.9" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="307.9" y1="157.4" x2="318.9" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="394.4" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="388.9" y1="153.4" x2="399.9" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="388.9" y1="157.4" x2="399.9" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="475.4" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="469.9" y1="153.4" x2="480.9" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="469.9" y1="157.4" x2="480.9" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="151.4" cy="220.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="218.2" x2="156.9" y2="218.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="222.2" x2="156.9" y2="222.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="232.4" cy="220.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="226.9" y1="218.2" x2="237.9" y2="218.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="226.9" y1="222.2" x2="237.9" y2="222.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="313.4" cy="220.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="307.9" y1="218.2" x2="318.9" y2="218.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="307.9" y1="222.2" x2="318.9" y2="222.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="394.4" cy="220.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="388.9" y1="218.2" x2="399.9" y2="218.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="388.9" y1="222.2" x2="399.9" y2="222.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="475.4" cy="220.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="469.9" y1="218.2" x2="480.9" y2="218.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="469.9" y1="222.2" x2="480.9" y2="222.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="151.4" cy="290.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="288.4" x2="156.9" y2="288.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="292.4" x2="156.9" y2="292.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="232.4" cy="290.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="226.9" y1="288.4" x2="237.9" y2="288.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="226.9" y1="292.4" x2="237.9" y2="292.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="313.4" cy="290.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="307.9" y1="288.4" x2="318.9" y2="288.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="307.9" y1="292.4" x2="318.9" y2="292.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="394.4" cy="290.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="388.9" y1="288.4" x2="399.9" y2="288.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="388.9" y1="292.4" x2="399.9" y2="292.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="475.4" cy="290.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="469.9" y1="288.4" x2="480.9" y2="288.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="469.9" y1="292.4" x2="480.9" y2="292.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="151.4" cy="355.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="353.2" x2="156.9" y2="353.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="357.2" x2="156.9" y2="357.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="232.4" cy="355.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="226.9" y1="353.2" x2="237.9" y2="353.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="226.9" y1="357.2" x2="237.9" y2="357.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="313.4" cy="355.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="307.9" y1="353.2" x2="318.9" y2="353.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="307.9" y1="357.2" x2="318.9" y2="357.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="394.4" cy="355.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="388.9" y1="353.2" x2="399.9" y2="353.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="388.9" y1="357.2" x2="399.9" y2="357.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="475.4" cy="355.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="469.9" y1="353.2" x2="480.9" y2="353.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="469.9" y1="357.2" x2="480.9" y2="357.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="864.2" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="858.7" y1="153.4" x2="869.7" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="858.7" y1="157.4" x2="869.7" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="864.2" cy="204.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="858.7" y1="202.0" x2="869.7" y2="202.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="858.7" y1="206.0" x2="869.7" y2="206.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="864.2" cy="252.6" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="858.7" y1="250.6" x2="869.7" y2="250.6" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="858.7" y1="254.6" x2="869.7" y2="254.6" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="864.2" cy="301.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="858.7" y1="299.2" x2="869.7" y2="299.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="858.7" y1="303.2" x2="869.7" y2="303.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="864.2" cy="349.8" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="858.7" y1="347.8" x2="869.7" y2="347.8" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="858.7" y1="351.8" x2="869.7" y2="351.8" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="993.8" cy="155.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="988.3" y1="153.4" x2="999.3" y2="153.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="988.3" y1="157.4" x2="999.3" y2="157.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="993.8" cy="204.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="988.3" y1="202.0" x2="999.3" y2="202.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="988.3" y1="206.0" x2="999.3" y2="206.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="993.8" cy="252.6" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="988.3" y1="250.6" x2="999.3" y2="250.6" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="988.3" y1="254.6" x2="999.3" y2="254.6" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="993.8" cy="301.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="988.3" y1="299.2" x2="999.3" y2="299.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="988.3" y1="303.2" x2="999.3" y2="303.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="993.8" cy="349.8" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="988.3" y1="347.8" x2="999.3" y2="347.8" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="988.3" y1="351.8" x2="999.3" y2="351.8" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="421.4" cy="541.5" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="415.9" y1="539.5" x2="426.9" y2="539.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="415.9" y1="543.5" x2="426.9" y2="543.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="510.5" cy="541.5" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="505.0" y1="539.5" x2="516.0" y2="539.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="505.0" y1="543.5" x2="516.0" y2="543.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="421.4" cy="690.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="415.9" y1="688.0" x2="426.9" y2="688.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="415.9" y1="692.0" x2="426.9" y2="692.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="510.5" cy="690.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="505.0" y1="688.0" x2="516.0" y2="688.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="505.0" y1="692.0" x2="516.0" y2="692.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="275.6" cy="541.5" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="270.1" y1="539.5" x2="281.1" y2="539.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="270.1" y1="543.5" x2="281.1" y2="543.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="324.2" cy="541.5" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="318.7" y1="539.5" x2="329.7" y2="539.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="318.7" y1="543.5" x2="329.7" y2="543.5" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="861.5" cy="533.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="856.0" y1="531.4" x2="867.0" y2="531.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="856.0" y1="535.4" x2="867.0" y2="535.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="942.5" cy="533.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="937.0" y1="531.4" x2="948.0" y2="531.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="937.0" y1="535.4" x2="948.0" y2="535.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="861.5" cy="598.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="856.0" y1="596.2" x2="867.0" y2="596.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="856.0" y1="600.2" x2="867.0" y2="600.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="942.5" cy="598.2" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="937.0" y1="596.2" x2="948.0" y2="596.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="937.0" y1="600.2" x2="948.0" y2="600.2" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="151.4" cy="533.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="531.4" x2="156.9" y2="531.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="535.4" x2="156.9" y2="535.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="205.4" cy="533.4" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="199.9" y1="531.4" x2="210.9" y2="531.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="199.9" y1="535.4" x2="210.9" y2="535.4" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="151.4" cy="609.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="145.9" y1="607.0" x2="156.9" y2="607.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="145.9" y1="611.0" x2="156.9" y2="611.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<circle cx="205.4" cy="609.0" r="5.5" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+<line x1="199.9" y1="607.0" x2="210.9" y2="607.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="199.9" y1="611.0" x2="210.9" y2="611.0" stroke="#B91C1C" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="611.5" y="661.4" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="618.5" y="655.4">MW1</tspan></text>
+<rect x="673.6" y="661.4" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="680.6" y="655.4">RF1</tspan></text>
+<rect x="722.2" y="661.4" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="729.2" y="655.4">RF2</tspan></text>
+<rect x="770.8" y="661.4" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="777.8" y="655.4">ESP</tspan></text>
+<rect x="792.4" y="750.5" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="799.4" y="744.5">WTR1</tspan></text>
+<rect x="949.0" y="661.4" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="956.0" y="655.4">WTR2</tspan></text>
+<rect x="922.0" y="105.2" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="929.0" y="126.2">TV1</tspan></text>
+<rect x="922.0" y="396.8" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="929.0" y="390.8">TV2</tspan></text>
+<rect x="220.0" y="480.5" width="14.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="227.0" y="474.5">TV3</tspan></text>
+<rect x="107.0" y="110.6" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="119.0" y="117.6">AC-01</tspan></text>
+<rect x="525.5" y="110.6" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="537.5" y="117.6">AC-02</tspan></text>
+<rect x="674.0" y="110.6" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="686.0" y="117.6">AC-03</tspan></text>
+<rect x="1025.0" y="110.6" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="1037.0" y="117.6">AC-04</tspan></text>
+<rect x="101.6" y="758.6" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="113.6" y="765.6">AC-05</tspan></text>
+<rect x="458.0" y="769.4" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="470.0" y="776.4">AC-06</tspan></text>
+<rect x="633.5" y="612.8" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="619.8">AC-07</tspan></text>
+<rect x="674.0" y="612.8" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="686.0" y="619.8">AC-08</tspan></text>
+<rect x="890.0" y="612.8" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="619.8">AC-09</tspan></text>
+<rect x="687.5" y="769.4" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="699.5" y="776.4">AC-10</tspan></text>
+<rect x="890.0" y="769.4" width="24.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="700" font-style="normal" fill="#581C87" text-anchor="middle" dominant-baseline="central"><tspan x="902.0" y="776.4">AC-11</tspan></text>
+<rect x="621.5" y="539.6" width="48.0" height="20.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="6.8" font-weight="700" font-style="normal" fill="#78350F" text-anchor="middle" dominant-baseline="central"><tspan x="645.5" y="549.6">3kVA UPS</tspan></text>
+<rect x="1208.0" y="38.0" width="434.0" height="898.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.4"/>
+<rect x="1208.0" y="38.0" width="434.0" height="34.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1425.0" y="55.0">ELECTRICAL LEGEND &amp; EMI SEPARATION</tspan></text>
+<rect x="1224.0" y="83.0" width="20.0" height="14.0" fill="#DC2626" stroke="#7F1D1D" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1252.0" y="90.0">Panelboards: MDP (200A), PP-1 (100A), LP-1 (40A), ACP (125A)</tspan></text>
+<rect x="1224.0" y="107.0" width="20.0" height="14.0" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1252.0" y="114.0">Duplex Grounded Outlet 16A (42 PCs + 2 Printers + Utility)</tspan></text>
+<rect x="1224.0" y="131.0" width="20.0" height="14.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1252.0" y="138.0">Dedicated 20A Appliance / GFCI Outlet (9 Appliances)</tspan></text>
+<rect x="1224.0" y="155.0" width="20.0" height="14.0" fill="#F3E8FF" stroke="#6B21A8" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1252.0" y="162.0">30A/2P AC Disconnect Switch (11 Inverter Units: AC-01..11)</tspan></text>
+<rect x="1224.0" y="179.0" width="20.0" height="14.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.1" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1252.0" y="186.0">MDF 3 kVA Online UPS Clean-Power Circuit (PP-10)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.6" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="1224.0" y="222.0">PANELBOARD SUMMARY (230 V, 3Ø, 60 HZ)</tspan></text>
+<rect x="1224.0" y="234.0" width="402.0" height="48.0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.9" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="246.0">LP-1 (Lighting Panel) — 40 A / 3P MCCB</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="261.0">Conn: 7,026 VA | Demand: 8,782 VA (22.0 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="275.0">Feeder: 3-8.0mm² + 1-5.5mm² G THHN (3W+G) in 25 mm IMC</tspan></text>
+<rect x="1224.0" y="289.0" width="402.0" height="48.0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.9" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="301.0">PP-1 (Power &amp; IT Outlets) — 100 A / 3P MCCB</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="316.0">Conn: 31,900 VA | Demand: 20,950 VA (52.6 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="330.0">Feeder: 3-30mm² + 1-8.0mm² G THHN (3W+G) in 40 mm IMC</tspan></text>
+<rect x="1224.0" y="344.0" width="402.0" height="48.0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.9" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="356.0">ACP (Air-Conditioning Panel) — 125 A / 3P MCCB</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="371.0">Conn: 33,120 VA | Demand: 34,270 VA (86.0 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="385.0">Feeder: 3-38mm² + 1-14mm² G THHN (3W+G) in 50 mm IMC</tspan></text>
+<rect x="1224.0" y="399.0" width="402.0" height="48.0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.9" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="411.0">MDP (Main Distribution Panel) — 200 A / 3P Main MCCB</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="426.0">Conn: 72,046 VA | Demand: 64,002 VA (160.7 A)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="1232.0" y="440.0">Feeder: 3-100mm² + 1-22mm² G THHN (3W+G) in 65 mm RSC</tspan></text>
+<rect x="1224.0" y="468.0" width="402.0" height="175.0" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.1" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="700" font-style="normal" fill="#991B1B" text-anchor="middle" dominant-baseline="central"><tspan x="1425.0" y="486.0">PEC 2017 &amp; ANSI/TIA-569 EMI RULES</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="506.0">• Power EMT conduits run along South corridor (Y=13.55 m);</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="522.5">  Data wire-mesh tray runs along North corridor (Y=12.45 m)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="539.0">  maintaining ≥1,100 mm separation (exceeds 300 mm min).</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="555.5">• All power-data crossings strictly at 90° angles.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="572.0">• Panel ACP demand = 100% sum (33,120 VA) + 25% of largest</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="588.5">  AC (1,150 VA) = 34,270 VA (NO double-counting of 125%).</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="605.0">• Dedicated copper ground bus bonded to MDF TMGB.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.1" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1234.0" y="621.5">• See Sheet E-2 for complete Schedule of Loads &amp; Energy.</tspan></text>
+<rect x="22.0" y="954.0" width="1636.0" height="144.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.8"/>
+<line x1="500.0" y1="954.0" x2="500.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1020.0" y1="954.0" x2="1020.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1340.0" y1="954.0" x2="1340.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1510.0" y1="954.0" x2="1510.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="500.0" y1="1026.0" x2="1510.0" y2="1026.0" stroke="#94A3B8" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="22.0" y="954.0" width="478.0" height="32.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="261.0" y="970.0">PROPOSED STRUCTURED CABLING &amp; NETWORK INFRASTRUCTURE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1010.0">RJ Internet Café &amp; Esports Inc.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1038.0">Building 2 (Visayas — Flagship HQ): Cebu IT Park, Cebu City</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1060.0">Floor Plate: 40.0 m × 26.0 m = 1,040.0 sqm (Single Floor, 24/7 Operations)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="400" font-style="italic" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1081.0">University of San Carlos — Dept. of Computer Engineering (CPE 3105)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="972.0">SHEET TITLE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.8" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1000.0">ELECTRICAL POWER &amp; CONVENIENCE OUTLET PLAN (EMI-SEPARATED)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1044.0">DISCIPLINE / STANDARD COMPLIANCE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1071.0">Electrical Power | PEC 2017 (230 V, 3Ø, 60 Hz, ≥300 mm Data Separation)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="972.0">DESIGN TEAM / GROUP</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1000.0">Group1  (CPE 3105 — Dr. G. S. Monserate)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1044.0">RESPONSIBLE MEMBER</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1071.0">Armanpreet Talwar</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="972.0">SCALE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="999.0">1:100 (A3) / 1:150 (1/8 Board)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1044.0">DATE / REV</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1071.0">Nov 2026 | Rev 1.0</tspan></text>
+<rect x="1510.0" y="954.0" width="148.0" height="144.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#CBD5E1" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="988.0">SHEET NO.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="32.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="1040.0">E-1</tspan></text>
+</svg>

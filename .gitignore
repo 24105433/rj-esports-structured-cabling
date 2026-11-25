@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Office temporary lock files
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Temporary rendering HTML
+*.render.html
+
+# OS metadata
+.DS_Store
+Thumbs.db

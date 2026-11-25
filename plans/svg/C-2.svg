@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1120" viewBox="0 0 1680 1120">
+<defs></defs>
+<rect x="0.0" y="0.0" width="1680.0" height="1120.0" fill="#FFFFFF" stroke="none" stroke-width="1.0"/>
+<rect x="22.0" y="22.0" width="1636.0" height="1076.0" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="2.4"/>
+<rect x="27.0" y="27.0" width="1626.0" height="1066.0" fill="none" stroke="#1B2A4A" stroke-width="0.8"/>
+<rect x="44.0" y="44.0" width="396.0" height="28.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="242.0" y="58.0">MDF 42U RACK ELEVATION (MDF-ROOM)</tspan></text>
+<rect x="44.0" y="72.0" width="396.0" height="860.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.6"/>
+<rect x="58.0" y="86.0" width="62.0" height="32.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="102.0">U41–42</tspan></text>
+<rect x="122.0" y="86.0" width="304.0" height="32.0" fill="#E2E8F0" stroke="#334155" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="102.0">Top Exhaust Fan Tray &amp; Cable Entry</tspan></text>
+<rect x="58.0" y="122.0" width="62.0" height="38.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="141.0">U39–40</tspan></text>
+<rect x="122.0" y="122.0" width="304.0" height="38.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="141.0">1U Fiber LIU (OM3 LC — IDF-1 &amp; IDF-2) + 1U Mgr</tspan></text>
+<rect x="58.0" y="164.0" width="62.0" height="38.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="183.0">U37–38</tspan></text>
+<rect x="122.0" y="164.0" width="304.0" height="38.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="183.0">PP-MDF: 24-Port Cat6 Patch Panel + 1U Mgr</tspan></text>
+<rect x="58.0" y="206.0" width="62.0" height="50.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="231.0">U35–36</tspan></text>
+<rect x="122.0" y="206.0" width="304.0" height="50.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="231.0">R-CEBU: Cisco 2911 HQ Router (HWIC-2T WAN)</tspan></text>
+<rect x="58.0" y="260.0" width="62.0" height="46.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="283.0">U33–34</tspan></text>
+<rect x="122.0" y="260.0" width="304.0" height="46.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="283.0">SW-CORE: Cisco 3560-24PS Core Switch (Gi0/0)</tspan></text>
+<rect x="58.0" y="310.0" width="62.0" height="26.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="323.0">U31–32</tspan></text>
+<rect x="122.0" y="310.0" width="304.0" height="26.0" fill="#F1F5F9" stroke="#64748B" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="323.0">1U Horizontal Cable Management Brush Panel</tspan></text>
+<rect x="58.0" y="340.0" width="62.0" height="42.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="361.0">U29–30</tspan></text>
+<rect x="122.0" y="340.0" width="304.0" height="42.0" fill="#E0F2FE" stroke="#0369A1" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="361.0">SW-SRV: Cisco 2960-24TT Server Switch (Gi0/2)</tspan></text>
+<rect x="58.0" y="386.0" width="62.0" height="48.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="410.0">U26–28</tspan></text>
+<rect x="122.0" y="386.0" width="304.0" height="48.0" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="410.0">Blanking / Airflow Panels (Reserved Growth)</tspan></text>
+<rect x="58.0" y="438.0" width="62.0" height="50.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="463.0">U24–25</tspan></text>
+<rect x="122.0" y="438.0" width="304.0" height="50.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="463.0">SRV-1: Dell R250 (DNS / Web / DHCPv4 — .98)</tspan></text>
+<rect x="58.0" y="492.0" width="62.0" height="50.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="517.0">U22–23</tspan></text>
+<rect x="122.0" y="492.0" width="304.0" height="50.0" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="517.0">SRV-2: Dell R350 (Billing / POS / Cache — .99)</tspan></text>
+<rect x="58.0" y="546.0" width="62.0" height="88.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="590.0">U16–21</tspan></text>
+<rect x="122.0" y="546.0" width="304.0" height="88.0" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="590.0">Reserved 6U Expansion Bay (Future Servers/NVR)</tspan></text>
+<rect x="58.0" y="638.0" width="62.0" height="44.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="660.0">U14–15</tspan></text>
+<rect x="122.0" y="638.0" width="304.0" height="44.0" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="660.0">ISP Fiber ONT / Media Converter Shelf (1 Gbps)</tspan></text>
+<rect x="58.0" y="686.0" width="62.0" height="50.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="711.0">U11–13</tspan></text>
+<rect x="122.0" y="686.0" width="304.0" height="50.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="711.0">1U Rack PDU (12-Outlet Surge) + TMGB Ground Bar</tspan></text>
+<rect x="58.0" y="740.0" width="62.0" height="72.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="776.0">U05–10</tspan></text>
+<rect x="122.0" y="740.0" width="304.0" height="72.0" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="776.0">Reserved Battery / Expansion Space</tspan></text>
+<rect x="58.0" y="816.0" width="62.0" height="68.0" fill="#1E293B" stroke="#0F172A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="89.0" y="850.0">U01–04</tspan></text>
+<rect x="122.0" y="816.0" width="304.0" height="68.0" fill="#FEF08A" stroke="#A16207" stroke-width="1.2" rx="2" ry="2"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="274.0" y="850.0">APC Smart-UPS 3,000 VA Online (2U + Ext Batt)</tspan></text>
+<rect x="464.0" y="44.0" width="1174.0" height="28.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1051.0" y="58.0">CEBU FLAGSHIP HQ — 3-TIER HIERARCHICAL NETWORK RISER (ZERO PCS ON DISTRIBUTION SWITCHES)</tspan></text>
+<rect x="464.0" y="72.0" width="1174.0" height="384.0" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.2"/>
+<rect x="472.0" y="80.0" width="1158.0" height="72.0" fill="#FEF2F2" stroke="#CBD5E1" stroke-width="0.8" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#991B1B" text-anchor="middle" dominant-baseline="central"><tspan x="532.0" y="110.8">WAN / CORE</tspan><tspan x="532.0" y="121.2">(MDF)</tspan></text>
+<rect x="472.0" y="162.0" width="1158.0" height="80.0" fill="#FFF7ED" stroke="#CBD5E1" stroke-width="0.8" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#9A3412" text-anchor="middle" dominant-baseline="central"><tspan x="532.0" y="196.8">CORE LAYER</tspan><tspan x="532.0" y="207.2">(MDF)</tspan></text>
+<rect x="472.0" y="252.0" width="1158.0" height="80.0" fill="#EFF6FF" stroke="#CBD5E1" stroke-width="0.8" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#1E40AF" text-anchor="middle" dominant-baseline="central"><tspan x="532.0" y="286.8">DIST. LAYER</tspan><tspan x="532.0" y="297.2">(IDF-1 / IDF-2)</tspan></text>
+<rect x="472.0" y="342.0" width="1158.0" height="102.0" fill="#F0FDF4" stroke="#CBD5E1" stroke-width="0.8" rx="3" ry="3"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="700" font-style="normal" fill="#166534" text-anchor="middle" dominant-baseline="central"><tspan x="532.0" y="387.8">ACCESS LAYER</tspan><tspan x="532.0" y="398.2">(2960-24TT)</tspan></text>
+<rect x="930.0" y="93.0" width="240.0" height="46.0" fill="#DCFCE7" stroke="#15803D" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1050.0" y="108.0">R-CEBU (Cisco 2911)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1050.0" y="124.0">Se0/0/0→ISP-CEBU | Gi0/0, Gi0/1, Gi0/2</tspan></text>
+<rect x="730.0" y="178.0" width="220.0" height="48.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="840.0" y="194.0">SW-CORE (3560-24PS)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="840.0" y="210.0">MDF Core — HQ-GAMING-LAN (Gi0/0)</tspan></text>
+<rect x="1355.0" y="178.0" width="210.0" height="48.0" fill="#FEF3C7" stroke="#B45309" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1460.0" y="194.0">SW-SRV (2960-24TT)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1460.0" y="210.0">MDF Server LAN (Gi0/2): SRV-1 &amp; SRV-2</tspan></text>
+<rect x="615.0" y="268.0" width="210.0" height="48.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="720.0" y="284.0">DSW-1 (3560-24PS)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="720.0" y="300.0">IDF-1 (North) — OM3 Fiber to MDF</tspan></text>
+<rect x="955.0" y="268.0" width="210.0" height="48.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1060.0" y="284.0">DSW-2 (3560-24PS)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1060.0" y="300.0">IDF-2 (South) — OM3 Fiber to MDF</tspan></text>
+<rect x="603.0" y="361.0" width="174.0" height="62.0" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="690.0" y="384.0">SW-GAM1 (CAB-G)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="690.0" y="395.5">2960-24TT: 20 PCs + 2 APs</tspan><tspan x="690.0" y="404.5">22 Used Fa | 2 Spare Fa</tspan></text>
+<rect x="793.0" y="361.0" width="174.0" height="62.0" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="880.0" y="384.0">SW-VIP (CAB-V)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="880.0" y="395.5">2960-24TT: 10 VIP + 2 APs</tspan><tspan x="880.0" y="404.5">12 Used Fa | 12 Spare Fa</tspan></text>
+<rect x="983.0" y="361.0" width="174.0" height="62.0" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1070.0" y="384.0">SW-STU (CAB-S)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1070.0" y="395.5">2960-24TT: 6 PCs + 3 APs</tspan><tspan x="1070.0" y="404.5">9 Used Fa | 15 Spare Fa</tspan></text>
+<rect x="1178.0" y="361.0" width="194.0" height="62.0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1275.0" y="384.0">SW-ADM (IDF-2)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1275.0" y="395.5">2960-24TT: 6 Admin/POS +</tspan><tspan x="1275.0" y="404.5">2 Prt + 1 AP | 15 Spare Fa</tspan></text>
+<rect x="1405.0" y="361.0" width="180.0" height="62.0" fill="#FEF9C3" stroke="#B45309" stroke-width="1.5" rx="4" ry="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1495.0" y="384.0">SRV-1 &amp; SRV-2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="7.4" font-weight="400" font-style="normal" fill="#334155" text-anchor="middle" dominant-baseline="central"><tspan x="1495.0" y="395.5">10.10.0.98 (DNS/DHCP)</tspan><tspan x="1495.0" y="404.5">10.10.0.99 (Billing/POS)</tspan></text>
+<line x1="1050.0" y1="139.0" x2="840.0" y2="178.0" stroke="#15803D" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="1050.0" y1="139.0" x2="1275.0" y2="361.0" stroke="#059669" stroke-width="1.8" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="1050.0" y1="139.0" x2="1460.0" y2="178.0" stroke="#B45309" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="840.0" y1="226.0" x2="720.0" y2="268.0" stroke="#EA580C" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="840.0" y1="226.0" x2="1060.0" y2="268.0" stroke="#EA580C" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="720.0" y1="316.0" x2="690.0" y2="361.0" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="720.0" y1="316.0" x2="880.0" y2="361.0" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="1060.0" y1="316.0" x2="1070.0" y2="361.0" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="1460.0" y1="226.0" x2="1495.0" y2="361.0" stroke="#B45309" stroke-width="1.8" stroke-linecap="round"/>
+<rect x="464.0" y="474.0" width="1174.0" height="28.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1051.0" y="488.0">ACCESS SWITCH PORT UTILIZATION (2960-24TT: SPARE = 24 - USED Fa; UPLINK ON Gi0/1)</tspan></text>
+<rect x="464.0" y="502.0" width="1174.0" height="24.0" fill="#E2E8F0" stroke="#94A3B8" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="514.0">Switch</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="514.0">Cabinet / Room</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="514.0">Model</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="514.0">Uplink (Gi0/1)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="514.0">Total Fa</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="514.0">Used Fa</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="514.0">Spare Fa</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="514.0">Utilization</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="514.0">Status</tspan></text>
+<line x1="464.0" y1="552.0" x2="1638.0" y2="552.0" stroke="#CBD5E1" stroke-width="0.7" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="539.0">SW-GAM1</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="539.0">CAB-G (Std Gaming)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="539.0">Cisco 2960-24TT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="539.0">Gi0/1 → DSW-1</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="539.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="539.0">22</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="539.0">2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="539.0">91.7%</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#15803D" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="539.0">OK (Spare Ready)</tspan></text>
+<rect x="464.0" y="552.0" width="1174.0" height="26.0" fill="#F8FAFC" stroke="none" stroke-width="1.0"/>
+<line x1="464.0" y1="578.0" x2="1638.0" y2="578.0" stroke="#CBD5E1" stroke-width="0.7" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="565.0">SW-VIP</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="565.0">CAB-V (VIP Arena)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="565.0">Cisco 2960-24TT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="565.0">Gi0/1 → DSW-1</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="565.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="565.0">12</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="565.0">12</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="565.0">50.0%</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#15803D" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="565.0">OK (Spare Ready)</tspan></text>
+<line x1="464.0" y1="604.0" x2="1638.0" y2="604.0" stroke="#CBD5E1" stroke-width="0.7" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="591.0">SW-STU</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="591.0">CAB-S (Study/Lobby)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="591.0">Cisco 2960-24TT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="591.0">Gi0/1 → DSW-2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="591.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="591.0">9</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="591.0">15</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="591.0">37.5%</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#15803D" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="591.0">OK (Spare Ready)</tspan></text>
+<rect x="464.0" y="604.0" width="1174.0" height="26.0" fill="#F8FAFC" stroke="none" stroke-width="1.0"/>
+<line x1="464.0" y1="630.0" x2="1638.0" y2="630.0" stroke="#CBD5E1" stroke-width="0.7" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="617.0">SW-ADM</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="617.0">IDF-2 (Admin/POS)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="617.0">Cisco 2960-24TT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="617.0">Gi0/1 → R-CEBU Gi0/1</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="617.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="617.0">9</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="617.0">15</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="617.0">37.5%</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#15803D" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="617.0">OK (Spare Ready)</tspan></text>
+<line x1="464.0" y1="656.0" x2="1638.0" y2="656.0" stroke="#CBD5E1" stroke-width="0.7" stroke-linecap="round"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="519.0" y="643.0">SW-SRV</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="669.0" y="643.0">MDF (Server Rack)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="836.5" y="643.0">Cisco 2960-24TT</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1009.0" y="643.0">Gi0/1 → R-CEBU Gi0/2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="643.0">24</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="643.0">2</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="643.0">22</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="1444.0" y="643.0">8.3%</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="400" font-style="normal" fill="#15803D" text-anchor="middle" dominant-baseline="central"><tspan x="1568.5" y="643.0">OK (Spare Ready)</tspan></text>
+<rect x="464.0" y="656.0" width="1174.0" height="26.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="669.0">TOTAL ACCESS SWITCH CAPACITY (5× Cisco 2960-24TT)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1154.0" y="669.0">120 Fa</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#FDE047" text-anchor="middle" dominant-baseline="central"><tspan x="1244.0" y="669.0">54 Used</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#86EFAC" text-anchor="middle" dominant-baseline="central"><tspan x="1339.0" y="669.0">66 Spare</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1554.0" y="669.0">45.0% Overall</tspan></text>
+<rect x="464.0" y="700.0" width="575.0" height="224.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.1" rx="4" ry="4"/>
+<rect x="464.0" y="700.0" width="575.0" height="24.0" fill="#E2E8F0" stroke="#94A3B8" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="middle" dominant-baseline="central"><tspan x="751.5" y="712.0">DROP SCHEDULE SUMMARY BY ZONE (52 HORIZONTAL + 2 RACK)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="744.0">• Standard Gaming Zone (CAB-G / SW-GAM1): 20 Gaming PCs + 2 Ceiling APs = 22 drops</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="768.0">• VIP Esports Arena &amp; Future Bay (CAB-V / SW-VIP): 10 VIP PCs + 2 Ceiling APs = 12 drops</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="792.0">• Study Pods, Browsing &amp; Café (CAB-S / SW-STU): 4 Study + 2 Browsing + 3 APs = 9 drops</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="816.0">• Admin Office &amp; Cashier/POS (IDF-2 / SW-ADM): 6 Admin/POS + 2 Printers + 1 AP = 9 drops</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="840.0">• Central MDF Server Rack (MDF / SW-SRV): 2 Rack Servers (SRV-1, SRV-2) in-rack patch</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="864.0">• Maximum Permanent Link Length: 39.3 m (100% ≤ 90 m TIA-568.2-D)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="476.0" y="888.0">• Future Gaming Bay (10 Seats): Pre-provisioned in /26 subnet &amp; dedicated CAB-F stub-out.</tspan></text>
+<rect x="1059.0" y="700.0" width="579.0" height="224.0" fill="#F0FDF4" stroke="#15803D" stroke-width="1.1" rx="4" ry="4"/>
+<rect x="1059.0" y="700.0" width="579.0" height="24.0" fill="#DCFCE7" stroke="#15803D" stroke-width="0.8"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.8" font-weight="700" font-style="normal" fill="#14532D" text-anchor="middle" dominant-baseline="central"><tspan x="1348.5" y="712.0">CERTIFICATION, GROUNDING &amp; ADMINISTRATION STANDARDS</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="744.0">• ANSI/TIA-568.2-D: Cat6 250 MHz channel tested via Fluke DSX-8000 (NEXT, PSNEXT, RL).</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="768.0">• ANSI/TIA-569-E: 200 mm overhead data tray ≥1.1 m from electrical EMT spine.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="792.0">• ANSI/TIA-606-C: Machine-printed wrap labels at both cable ends, faceplate &amp; patch panel.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="816.0">• ANSI/TIA-607-D: Copper TMGB in MDF bonded to main electrical ground + TGB in IDF-1/2.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="840.0">• Wall/Ceiling Hardware: 100% of 52 drops (including all 8 PoE APs) include keystone jacks,</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="864.0">  surface/ceiling biscuit boxes, and dual factory-terminated Cat6 patch cords.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1071.0" y="888.0">• Complete drop-by-drop table exported to budget/drop_schedule.csv &amp; Appendix D.</tspan></text>
+<rect x="22.0" y="954.0" width="1636.0" height="144.0" fill="#F8FAFC" stroke="#1B2A4A" stroke-width="1.8"/>
+<line x1="500.0" y1="954.0" x2="500.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1020.0" y1="954.0" x2="1020.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1340.0" y1="954.0" x2="1340.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1510.0" y1="954.0" x2="1510.0" y2="1098.0" stroke="#1B2A4A" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="500.0" y1="1026.0" x2="1510.0" y2="1026.0" stroke="#94A3B8" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="22.0" y="954.0" width="478.0" height="32.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="261.0" y="970.0">PROPOSED STRUCTURED CABLING &amp; NETWORK INFRASTRUCTURE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1010.0">RJ Internet Café &amp; Esports Inc.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#334155" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1038.0">Building 2 (Visayas — Flagship HQ): Cebu IT Park, Cebu City</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.8" font-weight="400" font-style="normal" fill="#475569" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1060.0">Floor Plate: 40.0 m × 26.0 m = 1,040.0 sqm (Single Floor, 24/7 Operations)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="400" font-style="italic" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="38.0" y="1081.0">University of San Carlos — Dept. of Computer Engineering (CPE 3105)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="972.0">SHEET TITLE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.8" font-weight="700" font-style="normal" fill="#1B2A4A" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1000.0">42U MDF RACK ELEVATION, 3-TIER RISER &amp; SWITCH PORT UTILIZATION</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1044.0">DISCIPLINE / STANDARD COMPLIANCE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="400" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="516.0" y="1071.0">Structured Cabling Administration | ANSI/TIA-606-C &amp; 3-Tier Hierarchy</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="972.0">DESIGN TEAM / GROUP</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1000.0">Group1  (CPE 3105 — Dr. G. S. Monserate)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1044.0">RESPONSIBLE MEMBER</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="11.0" font-weight="700" font-style="normal" fill="#1E293B" text-anchor="start" dominant-baseline="central"><tspan x="1036.0" y="1071.0">Marianito Roble</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="972.0">SCALE</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.2" font-weight="700" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="999.0">NTS (Elevation &amp; Schematic)</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" font-style="normal" fill="#64748B" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1044.0">DATE / REV</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10.0" font-weight="400" font-style="normal" fill="#0F172A" text-anchor="start" dominant-baseline="central"><tspan x="1354.0" y="1071.0">Nov 2026 | Rev 1.0</tspan></text>
+<rect x="1510.0" y="954.0" width="148.0" height="144.0" fill="#1B2A4A" stroke="#1B2A4A" stroke-width="1.0"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" font-style="normal" fill="#CBD5E1" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="988.0">SHEET NO.</tspan></text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="32.0" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central"><tspan x="1584.0" y="1040.0">C-2</tspan></text>
+</svg>
